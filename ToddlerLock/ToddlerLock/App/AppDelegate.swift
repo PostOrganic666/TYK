@@ -157,6 +157,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.makeKeyAndOrderFront(nil)
         previewWindow = window
 
+        // `-snapshot <path>` (and optional `-snapshot-delay <seconds>`) writes
+        // one PNG of the preview window and quits. screencapture cannot see
+        // windows of background-launched processes here.
+        let args = ProcessInfo.processInfo.arguments
+        if let i = args.firstIndex(of: "-snapshot"), i + 1 < args.count {
+            let path = args[i + 1]
+            var delay = 1.5
+            if let d = args.firstIndex(of: "-snapshot-delay"), d + 1 < args.count, let v = Double(args[d + 1]) { delay = v }
+            DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+                if let view = window.contentView,
+                   let rep = view.bitmapImageRepForCachingDisplay(in: view.bounds) {
+                    view.cacheDisplay(in: view.bounds, to: rep)
+                    try? rep.representation(using: .png, properties: [:])?.write(to: URL(fileURLWithPath: path))
+                }
+                NSApp.terminate(nil)
+            }
+        }
+
         // In the preview the real cursor works, so route real events into
         // the same handlers the lock screen uses.
         SoundManager.shared.enabled = settings.soundEnabled

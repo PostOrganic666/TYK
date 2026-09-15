@@ -103,6 +103,52 @@ extension View {
     }
 }
 
+/// Detect a double click without relying on the system click count.
+extension View {
+    func onDoubleClick(single: @escaping () -> Void = {}, double: @escaping () -> Void) -> some View {
+        modifier(DoubleClickModifier(single: single, double: double))
+    }
+}
+
+private struct DoubleClickModifier: ViewModifier {
+    let single: () -> Void
+    let double: () -> Void
+    @State private var lastClick: Date = .distantPast
+
+    func body(content: Content) -> some View {
+        content.onTapGesture {
+            let now = Date()
+            if now.timeIntervalSince(lastClick) < 0.45 {
+                lastClick = .distantPast
+                double()
+            } else {
+                lastClick = now
+                single()
+            }
+        }
+    }
+}
+
+/// A big letter that rises from the bottom and fades (desktop mashing).
+struct RisingText: View {
+    let text: String
+    var color: Color = .white
+    var size: CGFloat = 120
+    var rise: CGFloat = 260
+    @State private var progress: CGFloat = 0
+
+    var body: some View {
+        Text(text)
+            .font(.system(size: size, weight: .heavy, design: .rounded))
+            .foregroundStyle(color)
+            .shadow(color: .black.opacity(0.25), radius: 6, y: 4)
+            .offset(y: -rise * progress)
+            .opacity(1 - Double(progress))
+            .scaleEffect(1 + progress * 0.3)
+            .onAppear { withAnimation(.easeOut(duration: 1.6)) { progress = 1 } }
+    }
+}
+
 /// Confetti burst for "you did it" moments.
 struct ConfettiBurst: View {
     let id: Int

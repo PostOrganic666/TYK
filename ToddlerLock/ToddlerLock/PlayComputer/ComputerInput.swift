@@ -28,10 +28,17 @@ final class ComputerInput: ObservableObject {
             default: return nil
             }
         }
+        var isTab: Bool { keyCode == 48 }
         /// A single printable character, uppercased, or nil.
         var letter: String? {
             guard let c = characters?.first, c.isLetter || c.isNumber else { return nil }
             return String(c).uppercased()
+        }
+        /// Any single printable character (letters, digits, space, punctuation).
+        var printable: Character? {
+            guard let c = characters?.first, !c.isNewline, c.asciiValue.map({ $0 >= 32 && $0 < 127 }) ?? true else { return nil }
+            if isReturn || isDelete || isEscape || isTab || arrow != nil { return nil }
+            return c
         }
     }
 
@@ -44,10 +51,19 @@ final class ComputerInput: ObservableObject {
     /// The app that should receive typed keys (set by the window manager).
     @Published var focusedAppID: String?
 
+    /// True on the lock screen (the shell draws nothing extra for the
+    /// pointer; LockViewController draws the arrow). False in the DEBUG
+    /// preview window, where the real cursor is visible.
+    @Published var drawsOwnPointer = false
+
     /// Every key down, for all subscribers. Apps check `focusedAppID`.
     let keyDown = PassthroughSubject<KeyPress, Never>()
 
     private init() {}
+
+    func send(keyCode: UInt16, characters: String?) {
+        keyDown.send(KeyPress(keyCode: keyCode, characters: characters))
+    }
 
     func reset() {
         pointer = .zero
@@ -55,3 +71,6 @@ final class ComputerInput: ObservableObject {
         focusedAppID = nil
     }
 }
+
+/// Shorthand used by the desktop shell and apps.
+typealias KeyPress = ComputerInput.KeyPress

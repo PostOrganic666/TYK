@@ -42,4 +42,14 @@ enum ComputerAppRegistry {
     static func app(id: String) -> ComputerApp? {
         all.first { $0.id == id }
     }
+
+    /// Dock order: Finder first, then everything in the dock, then Trash.
+    static var dockApps: [ComputerApp] {
+        let every = all
+        var tiles: [ComputerApp] = []
+        if let finder = every.first(where: { $0.id == "finder" }) { tiles.append(finder) }
+        tiles += every.filter { $0.inDock && $0.id != "finder" && $0.id != "trash" }
+        if let trash = every.first(where: { $0.id == "trash" }) { tiles.append(trash) }
+        return tiles
+    }
 }
