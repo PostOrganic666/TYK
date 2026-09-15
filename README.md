@@ -18,11 +18,16 @@ No subscription. No account. No data collection. Just a single app.
 ## Features
 
 - **Blocks all input** — Cmd-Tab, Mission Control, Ctrl-Space, volume/brightness keys, trackpad gestures, hot corners — nothing gets through
-- **Four play modes:**
+- **Eight play modes:**
   - **Free Play** — Keys spawn colorful bouncing letters, clicks create shapes and particle effects, mouse movement leaves a rainbow trail
+  - **Play Computer** — A pretend Mac: menu bar, wallpaper, desktop icons, a dock, and 23 little apps in real-looking windows (Finder, Safari, Terminal, Notes, Paint, Music, Weather, Maps, Photos, Messages, FaceTime, Games, Pets, Space, Garden, Mail, Treats, Calculator, Taxes, Laundry, Stickers, Clock, Trash). Every app is a toy; nothing reaches the outside world
+  - **Camera** — The real camera picture with silly live filters, a shutter, and a shot counter. The capture session has no output, so nothing is ever saved
   - **Game** — Tap floating bubbles to pop them with a running score counter
   - **Character** — A friendly creature follows the mouse, jumps and spins on key presses, and leaves rainbow paw prints
   - **Chill** — Low-stimulation mode with soft colors, gently drifting emoji (fruits, vegetables, animals), a warm cursor glow, and subtle expanding rings on click — perfect for winding down
+  - **Slideshow** and **Explore** — Family photos and videos from a parent-chosen source (Recents, Favorites, hand-picked photos, chosen albums, or everything except albums). Display-only: no share, edit, or delete anywhere
+- **Play style** — Infant (high-contrast black and white, slow, big, quiet), Toddler, or Lively
+- **Max volume cap and play timer** — Cap how loud the app can get; optionally end play with a calm break screen
 - **Multi-language support** — Choose from Arabic, Chinese, English, Hebrew, Japanese, or Korean character sets
 - **Musical key sounds** — Each key plays a pentatonic tone (always sounds pleasant)
 - **Customizable exit shortcut** — Set any key combination (requires 2+ modifiers) to exit lock mode
@@ -38,7 +43,7 @@ No subscription. No account. No data collection. Just a single app.
 
 1. **Download and install** Toddler Mode (see above)
 2. **Open the app** and grant Accessibility permission when prompted
-3. **Pick a play mode** (Free Play, Game, Character, or Chill)
+3. **Pick a play mode** (Free Play, Play Computer, Camera, Game, Character, Chill, Slideshow, or Explore)
 4. **Click "Lock Now"** — full-screen animations take over
 5. **Hand it to your kid** — they mash keys, move the mouse, everything stays safe
 6. **Press your exit shortcut** (default: **Cmd+Shift+Esc**) to unlock
@@ -57,6 +62,8 @@ No subscription. No account. No data collection. Just a single app.
 ## Permissions
 
 Toddler Mode needs **Accessibility** permission to intercept keyboard and mouse events and manage system presentation (hide Dock, menu bar, disable app switching).
+
+The photo modes need **Photos** access and Camera mode needs **Camera** access. Grant both from the Settings window before locking. The lock screen never shows a permission prompt.
 
 Grant it in **System Settings > Privacy & Security > Accessibility**. The app guides you through it on first launch.
 
@@ -78,6 +85,8 @@ Built with **Swift**, **AppKit**, and **SpriteKit**:
 - `NSApplication.PresentationOptions` hides the Dock, menu bar, and disables process switching
 - `AVAudioEngine` synthesizes pentatonic tones in real time
 - `CGAssociateMouseAndMouseCursorPosition` constrains the cursor to the lock screen
+- Play Computer, Camera, and the photo modes are SwiftUI views hosted on the lock screen. The lock screen draws its own arrow at a virtual pointer and feeds synthesized mouse events to those views, so buttons and drags work while the real pointer never moves
+- `PhotoKit` reads photos and videos for display only; `AVCaptureSession` runs with no capture output
 
 ## FAQ
 
