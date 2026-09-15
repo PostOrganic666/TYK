@@ -253,38 +253,65 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private func setupStatusItem() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         if let button = statusItem?.button {
-            // Use the app icon for the menu bar, scaled to 18x18
-            if let appIcon = NSImage(named: "AppIcon") {
-                let resized = NSImage(size: NSSize(width: 18, height: 18))
-                resized.lockFocus()
-                appIcon.draw(in: NSRect(x: 0, y: 0, width: 18, height: 18))
-                resized.unlockFocus()
-                resized.isTemplate = false
-                button.image = resized
-            } else {
-                button.image = NSImage(systemSymbolName: "lock.fill", accessibilityDescription: "Toddler Mode")
-            }
+            // A monochrome template icon, so macOS tints it like every other
+            // menu bar item in light, dark, and highlighted menu bars.
+            button.image = StatusItemIcon.templateImage()
+            button.imageScaling = .scaleProportionallyDown
+            button.setAccessibilityLabel("Toddler Mode")
         }
         updateStatusMenu()
     }
 
     private func updateStatusMenu() {
         let menu = NSMenu()
+        let mode = settings.selectedMode
+
         if isLocked {
-            let lockedItem = menu.addItem(withTitle: "Locked", action: nil, keyEquivalent: "")
+            let lockedItem = menu.addItem(withTitle: "Locked · \(mode.rawValue)", action: nil, keyEquivalent: "")
             lockedItem.isEnabled = false
+            statusItem?.button?.toolTip = "Toddler Mode is locked. \(mode.rawValue) is playing."
         } else {
-            menu.addItem(withTitle: "Lock Now", action: #selector(lockFromMenu), keyEquivalent: "l")
+            menu.addItem(withTitle: "Lock Now (\(mode.rawValue))", action: #selector(lockFromMenu), keyEquivalent: "")
+
+            let lockWithItem = menu.addItem(withTitle: "Lock With", action: nil, keyEquivalent: "")
+            let lockWithMenu = NSMenu(title: "Lock With")
+            for candidate in PlayModeType.allCases {
+                let item = lockWithMenu.addItem(
+                    withTitle: candidate.rawValue,
+                    action: #selector(lockWithModeFromMenu(_:)),
+                    keyEquivalent: ""
+                )
+                item.target = self
+                item.representedObject = candidate.rawValue
+                item.state = candidate == mode ? .on : .off
+            }
+            lockWithItem.submenu = lockWithMenu
+
             menu.addItem(.separator())
-            menu.addItem(withTitle: "Settings...", action: #selector(showSettingsAction), keyEquivalent: "")
+            menu.addItem(withTitle: "Settings…", action: #selector(showSettingsAction), keyEquivalent: ",")
             menu.addItem(withTitle: "Check for Updates…", action: #selector(checkForUpdatesAction), keyEquivalent: "")
+            menu.addItem(.separator())
+            menu.addItem(withTitle: "Quit Toddler Mode", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "")
+            statusItem?.button?.toolTip = "Toddler Mode. Ready to lock: \(mode.rawValue)."
         }
-        menu.addItem(.separator())
-        menu.addItem(withTitle: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "")
+
         statusItem?.menu = menu
     }
 
     @objc private func lockFromMenu() {
+        enterLockMode()
+    }
+
+    @objc private func lockWithModeFromMenu(_ sender: NSMenuItem) {
+        guard let raw = sender.representedObject as? String,
+              let mode = PlayModeType(rawValue: raw) else { return }
+        lockWithMode(mode)
+    }
+
+    /// Saves the chosen mode, then locks with it.
+    private func lockWithMode(_ mode: PlayModeType) {
+        settings.selectedMode = mode
+        updateStatusMenu()
         enterLockMode()
     }
 

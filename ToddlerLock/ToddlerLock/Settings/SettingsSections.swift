@@ -4,138 +4,223 @@ import CoreGraphics
 import Photos
 import AVFoundation
 
-// MARK: - Play
+// The Settings window is one scrolling page. The mode grid comes first and
+// decides which sections below it appear. Everything in this file is a
+// section (or a small part of one) used by SettingsView.
 
-/// The Play tab: mode grid, play style, letters, sound, volume, and timer.
-struct PlaySettingsSection: View {
-    @Binding var selectedMode: PlayModeType
-    @Binding var playIntensity: PlayIntensity
-    @Binding var characterSet: LetterCharacterSet
-    @Binding var soundEnabled: Bool
-    @Binding var musicEnabled: Bool
-    @Binding var maxVolume: Double
-    @Binding var sessionLimitMinutes: Int
+// MARK: - What each mode needs
 
-    private let modeColumns = Array(repeating: GridItem(.flexible(), spacing: 12), count: 4)
-    private let timerOptions = [5, 10, 15, 20, 30, 45, 60]
+extension PlayModeType {
+    /// Free Play and Character draw the letters the parent picks.
+    var usesLetters: Bool { self == .freePlay || self == .character }
+
+    /// Slideshow and Explore need a photo library to show.
+    var usesPhotoLibrary: Bool { isPhotoMode }
+
+    /// Play Computer has a photo app, so it also uses photo access.
+    var showsPhotosAccess: Bool { isPhotoMode || self == .playComputer }
+
+    /// Camera mode and the camera app inside Play Computer.
+    var showsCameraAccess: Bool { self == .camera || self == .playComputer }
+
+    /// The mode cannot show its main content without this access.
+    var requiresPhotosAccess: Bool { isPhotoMode }
+
+    var requiresCameraAccess: Bool { self == .camera }
+
+    /// One line under the mode grid. It says what the mode needs, so the
+    /// parent knows why the sections below change.
+    var setupHint: String {
+        switch self {
+        case .freePlay: return "Free Play shows letters. Pick the character set below."
+        case .playComputer: return "Play Computer has a photo app and a camera app. Turn on access below."
+        case .camera: return "Camera shows a live view with filters. It needs camera access."
+        case .game: return "Game needs no extra setup."
+        case .character: return "Character shows letters in speech bubbles. Pick the set below."
+        case .chill: return "Chill needs no extra setup."
+        case .slideshow: return "Slideshow needs your photos. Pick them below."
+        case .explore: return "Explore needs your photos. Pick them below."
+        }
+    }
+}
+
+/// Explanatory text under a group. Left-aligned, like System Settings.
+struct FooterText: View {
+    private let text: String
+
+    init(_ text: String) { self.text = text }
 
     var body: some View {
-        Form {
-            Section("Play Mode") {
-                LazyVGrid(columns: modeColumns, spacing: 12) {
-                    ForEach(PlayModeType.allCases, id: \.self) { mode in
-                        ModeCard(mode: mode, isSelected: selectedMode == mode) {
+        Text(text)
+            .font(.caption)
+            .foregroundColor(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+}
+
+// MARK: - Mode grid
+
+/// The eight mode cards. Picking one reveals the sections that mode uses.
+struct ModeGridSection: View {
+    @Binding var selectedMode: PlayModeType
+
+    private let columns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 4)
+
+    var body: some View {
+        Section {
+            LazyVGrid(columns: columns, spacing: 10) {
+                ForEach(PlayModeType.allCases, id: \.self) { mode in
+                    ModeCard(mode: mode, isSelected: selectedMode == mode) {
+                        withAnimation(.easeInOut(duration: 0.22)) {
                             selectedMode = mode
                         }
                     }
                 }
-                .padding(.vertical, 4)
             }
-
-            Section("Play Style") {
-                Picker("Style", selection: $playIntensity) {
-                    ForEach(PlayIntensity.allCases) { intensity in
-                        Text(intensity.rawValue).tag(intensity)
-                    }
-                }
-                .pickerStyle(.segmented)
-                .labelsHidden()
-                Text(playIntensity.blurb)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
-
-            Section("Letters & Sound") {
-                Picker("Letters", selection: $characterSet) {
-                    ForEach(LetterCharacterSet.allCases, id: \.self) { cs in
-                        Text(cs.rawValue).tag(cs)
-                    }
-                }
-                Text(characterSet.characters.prefix(6).joined(separator: " "))
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-                Toggle("Sound effects", isOn: $soundEnabled)
-                Toggle("Background music", isOn: $musicEnabled)
-            }
-
-            Section("Max Volume") {
-                HStack {
-                    Slider(value: $maxVolume, in: 0.1...1.0, step: 0.1) { editing in
-                        if !editing {
-                            SoundManager.shared.playTouchTone(normalizedX: 0.5)
-                        }
-                    }
-                    Text("\(Int((maxVolume * 100).rounded()))%")
-                        .font(.callout.monospacedDigit())
-                        .frame(width: 46, alignment: .trailing)
-                }
-            }
-
-            Section("Play Timer") {
-                Picker("Timer", selection: $sessionLimitMinutes) {
-                    Text("Off").tag(0)
-                    ForEach(timerOptions, id: \.self) { minutes in
-                        Text("\(minutes) min").tag(minutes)
-                    }
-                }
-                Text("When time ends, the screen changes to a calm break scene. The exit shortcut still works.")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
+            .padding(.vertical, 2)
+        } header: {
+            Text("Play mode")
+        } footer: {
+            FooterText(selectedMode.setupHint)
         }
-        .formStyle(.grouped)
     }
 }
 
-/// One selectable mode card in the Play grid.
+/// One selectable mode card.
 private struct ModeCard: View {
     let mode: PlayModeType
     let isSelected: Bool
     let action: () -> Void
 
+    @State private var isHovering = false
+
     var body: some View {
         Button(action: action) {
-            VStack(spacing: 6) {
+            VStack(spacing: 5) {
                 Text(mode.emoji)
-                    .font(.system(size: 26))
+                    .font(.system(size: 28))
                 Text(mode.rawValue)
                     .font(.system(size: 12, weight: .semibold))
+                    .foregroundColor(.primary)
                     .multilineTextAlignment(.center)
+                    .lineLimit(1)
                 Text(mode.blurb)
                     .font(.system(size: 10))
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
-                    .lineLimit(2)
+                    .lineLimit(3)
                     .fixedSize(horizontal: false, vertical: true)
             }
-            .padding(10)
-            .frame(maxWidth: .infinity, minHeight: 100)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 10)
+            .frame(maxWidth: .infinity, minHeight: 116, alignment: .top)
             .background(
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(isSelected ? Color.accentColor.opacity(0.15) : Color.gray.opacity(0.08))
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .fill(fillColor)
             )
             .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(isSelected ? Color.accentColor : .clear, lineWidth: 2)
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .strokeBorder(isSelected ? Color.accentColor : Color.clear, lineWidth: 2)
             )
+            .contentShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
         }
         .buttonStyle(.plain)
+        .onHover { isHovering = $0 }
+        .accessibilityLabel("\(mode.rawValue). \(mode.blurb)")
+        .accessibilityAddTraits(isSelected ? [.isButton, .isSelected] : [.isButton])
+        .help(mode.blurb)
+    }
+
+    private var fillColor: Color {
+        if isSelected { return Color.accentColor.opacity(0.14) }
+        return Color.primary.opacity(isHovering ? 0.09 : 0.05)
+    }
+}
+
+// MARK: - Letters
+
+/// Shown for Free Play and Character.
+struct LettersSection: View {
+    @Binding var characterSet: LetterCharacterSet
+
+    var body: some View {
+        Section {
+            Picker("Characters", selection: $characterSet) {
+                ForEach(LetterCharacterSet.allCases, id: \.self) { set in
+                    Text(set.rawValue).tag(set)
+                }
+            }
+            LabeledContent("Sample") {
+                Text(characterSet.characters.prefix(8).joined(separator: " "))
+                    .foregroundColor(.secondary)
+            }
+        } header: {
+            Text("Letters")
+        } footer: {
+            FooterText("Every key press draws one of these characters.")
+        }
+    }
+}
+
+// MARK: - Access rows
+
+/// One access row: a status line and, when access is off, the button that
+/// asks for it.
+struct AccessRow: View {
+    let granted: Bool
+    let title: String
+    let buttonTitle: String
+    /// False when the Lock Now bar already offers the same button.
+    var showsButton: Bool = true
+    let action: () -> Void
+
+    var body: some View {
+        HStack(spacing: 8) {
+            Image(systemName: granted ? "checkmark.circle.fill" : "exclamationmark.circle.fill")
+                .foregroundColor(granted ? .green : .orange)
+                .accessibilityHidden(true)
+            Text(granted ? "\(title) is on" : "\(title) is off")
+            Spacer(minLength: 8)
+            if !granted && showsButton {
+                Button(buttonTitle, action: action)
+            }
+        }
+    }
+}
+
+/// Asks for the two kinds of access. Settings is the only place that asks.
+enum AccessRequester {
+    static func requestPhotos(_ completion: @escaping (Bool) -> Void) {
+        Task {
+            _ = await PHPhotoLibrary.requestAuthorization(for: .readWrite)
+            let granted = PhotoLibraryService.accessAlreadyGranted
+            await MainActor.run { completion(granted) }
+        }
+    }
+
+    static func requestCamera(_ completion: @escaping (Bool) -> Void) {
+        AVCaptureDevice.requestAccess(for: .video) { _ in
+            DispatchQueue.main.async {
+                completion(PlayCameraController.accessAlreadyGranted)
+            }
+        }
     }
 }
 
 // MARK: - Photos
 
-/// The Photos tab: access status for Photos and Camera, source picker,
-/// and the video/slideshow options. Chosen-photo and album pickers are
-/// implemented by AlbumMultiSelectView / PhotoPickerButton and embedded
-/// here as-is.
-struct PhotosSettingsSection: View {
+/// Shown for Slideshow and Explore: access, source, videos, and speed.
+struct PhotosSection: View {
+    let selectedMode: PlayModeType
+    @Binding var photosAllowed: Bool
     @Binding var photoSource: PhotoSource
+    @Binding var selectedPhotoIDs: [String]
+    @Binding var includedAlbumIDs: [String]
+    @Binding var excludedAlbumIDs: [String]
     @Binding var showVideos: Bool
     @Binding var slideshowInterval: Double
 
-    @State private var photosAllowed = PhotoLibraryService.accessAlreadyGranted
-    @State private var cameraAllowed = PlayCameraController.accessAlreadyGranted
     @State private var albumSheetKind: AlbumSheetKind?
 
     private enum AlbumSheetKind: Identifiable {
@@ -144,126 +229,74 @@ struct PhotosSettingsSection: View {
         var id: Self { self }
     }
 
-    private var selectedPhotoIDsBinding: Binding<[String]> {
-        Binding(
-            get: { SettingsStore.shared.selectedPhotoIDs },
-            set: { SettingsStore.shared.selectedPhotoIDs = $0 }
-        )
-    }
-
-    private var includedAlbumIDsBinding: Binding<[String]> {
-        Binding(
-            get: { SettingsStore.shared.includedAlbumIDs },
-            set: { SettingsStore.shared.includedAlbumIDs = $0 }
-        )
-    }
-
-    private var excludedAlbumIDsBinding: Binding<[String]> {
-        Binding(
-            get: { SettingsStore.shared.excludedAlbumIDs },
-            set: { SettingsStore.shared.excludedAlbumIDs = $0 }
-        )
-    }
-
     var body: some View {
-        Form {
-            Section("Photos Access") {
-                HStack {
-                    statusIcon(photosAllowed)
-                    Text(photosAllowed ? "Photos access: allowed" : "Photos access: not allowed")
-                    Spacer()
-                    if !photosAllowed {
-                        Button("Allow Photos Access…") { requestPhotosAccess() }
-                    }
-                }
-                Text("The permission prompt appears only here, never during play.")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+        Section {
+            AccessRow(
+                granted: photosAllowed,
+                title: "Photos access",
+                buttonTitle: "Allow Photos…",
+                showsButton: !selectedMode.requiresPhotosAccess
+            ) {
+                AccessRequester.requestPhotos { photosAllowed = $0 }
             }
 
-            Section("Camera Access") {
-                HStack {
-                    statusIcon(cameraAllowed)
-                    Text(cameraAllowed ? "Camera access: allowed" : "Camera access: not allowed")
-                    Spacer()
-                    if !cameraAllowed {
-                        Button("Allow Camera Access…") { requestCameraAccess() }
-                    }
+            Picker("Show photos from", selection: $photoSource) {
+                ForEach(PhotoSource.allCases) { source in
+                    Text(source.rawValue).tag(source)
                 }
             }
+            FooterText(photoSource.blurb)
 
-            Section("Photo Source") {
-                Picker("Source", selection: $photoSource) {
-                    ForEach(PhotoSource.allCases) { source in
-                        Text(source.rawValue).tag(source)
+            sourceDetail
+
+            Toggle("Include videos", isOn: $showVideos)
+            if showVideos {
+                FooterText("Videos play with no controls. Slideshow plays each one for up to 30 seconds. Explore loops it until the kid moves on.")
+            }
+
+            if selectedMode == .slideshow {
+                LabeledContent("Slideshow speed") {
+                    HStack(spacing: 10) {
+                        Slider(value: $slideshowInterval, in: 3...15, step: 1)
+                            .frame(minWidth: 160)
+                        Text("\(Int(slideshowInterval))s")
+                            .font(.callout.monospacedDigit())
+                            .foregroundColor(.secondary)
+                            .frame(width: 32, alignment: .trailing)
                     }
                 }
-                Text(photoSource.blurb)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-
-                switch photoSource {
-                case .selectedPhotos:
-                    PhotoPickerButton(selectedIDs: selectedPhotoIDsBinding)
-                case .includedAlbums:
-                    Button("Select Albums… (\(SettingsStore.shared.includedAlbumIDs.count) chosen)") {
-                        albumSheetKind = .include
-                    }
-                case .allExceptAlbums:
-                    Button("Exclude Albums… (\(SettingsStore.shared.excludedAlbumIDs.count) chosen)") {
-                        albumSheetKind = .exclude
-                    }
-                case .recents, .favorites:
-                    EmptyView()
-                }
             }
-
-            Section("Videos") {
-                Toggle("Include videos", isOn: $showVideos)
-                Text("Videos play with no controls. Slideshow plays each one for up to 30 seconds. Explore loops it until the kid moves on.")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
-
-            Section("Slideshow Speed") {
-                HStack {
-                    Slider(value: $slideshowInterval, in: 3...15, step: 1)
-                    Text("\(Int(slideshowInterval))s")
-                        .font(.callout.monospacedDigit())
-                        .frame(width: 34, alignment: .trailing)
-                }
-            }
-
-            Section {
-                Text("Photo access is display-only. The app has no share, edit, or delete functions.")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
+        } header: {
+            Text("Photos")
+        } footer: {
+            FooterText("The app shows photos only. It has no share, edit, or delete controls.")
         }
-        .formStyle(.grouped)
         .sheet(item: $albumSheetKind) { kind in
             albumSheet(for: kind)
         }
     }
 
     @ViewBuilder
-    private func statusIcon(_ allowed: Bool) -> some View {
-        Image(systemName: allowed ? "checkmark.circle.fill" : "xmark.circle")
-            .foregroundColor(allowed ? .green : .secondary)
-    }
-
-    private func requestPhotosAccess() {
-        Task {
-            _ = await PHPhotoLibrary.requestAuthorization(for: .readWrite)
-            await MainActor.run { photosAllowed = PhotoLibraryService.accessAlreadyGranted }
-        }
-    }
-
-    private func requestCameraAccess() {
-        AVCaptureDevice.requestAccess(for: .video) { _ in
-            DispatchQueue.main.async {
-                cameraAllowed = PlayCameraController.accessAlreadyGranted
+    private var sourceDetail: some View {
+        switch photoSource {
+        case .selectedPhotos:
+            PhotoPickerButton(selectedIDs: $selectedPhotoIDs)
+        case .includedAlbums:
+            HStack(spacing: 8) {
+                Button("Select Albums…") { albumSheetKind = .include }
+                Text("\(includedAlbumIDs.count) chosen")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
+        case .allExceptAlbums:
+            HStack(spacing: 8) {
+                Button("Exclude Albums…") { albumSheetKind = .exclude }
+                Text("\(excludedAlbumIDs.count) excluded")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+        case .recents, .favorites:
+            EmptyView()
         }
     }
 
@@ -276,17 +309,19 @@ struct PhotosSettingsSection: View {
                     AlbumMultiSelectView(
                         title: "Chosen Albums",
                         explanation: "Kids see only photos from the checked albums.",
-                        selection: includedAlbumIDsBinding
+                        selection: $includedAlbumIDs
                     )
                 case .exclude:
                     AlbumMultiSelectView(
                         title: "Excluded Albums",
                         explanation: "Kids see the whole library except photos in the checked albums.",
-                        selection: excludedAlbumIDsBinding
+                        selection: $excludedAlbumIDs
                     )
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(.horizontal, 20)
+            .padding(.top, 20)
 
             Divider()
 
@@ -301,10 +336,145 @@ struct PhotosSettingsSection: View {
     }
 }
 
+/// Photos access on its own, for Play Computer.
+struct PhotosAccessOnlySection: View {
+    @Binding var photosAllowed: Bool
+
+    var body: some View {
+        Section {
+            AccessRow(
+                granted: photosAllowed,
+                title: "Photos access",
+                buttonTitle: "Allow Photos…"
+            ) {
+                AccessRequester.requestPhotos { photosAllowed = $0 }
+            }
+        } header: {
+            Text("Photos")
+        } footer: {
+            FooterText("The pretend Mac has a photo app. With access, it shows your own photos. Without access, it shows an emoji album.")
+        }
+    }
+}
+
+// MARK: - Camera
+
+/// Shown for Camera and for Play Computer.
+struct CameraSection: View {
+    let selectedMode: PlayModeType
+    @Binding var cameraAllowed: Bool
+
+    var body: some View {
+        Section {
+            AccessRow(
+                granted: cameraAllowed,
+                title: "Camera access",
+                buttonTitle: "Allow Camera…",
+                showsButton: !selectedMode.requiresCameraAccess
+            ) {
+                AccessRequester.requestCamera { cameraAllowed = $0 }
+            }
+        } header: {
+            Text("Camera")
+        } footer: {
+            FooterText(footerText)
+        }
+    }
+
+    private var footerText: String {
+        if selectedMode == .playComputer {
+            return "The pretend Mac has a camera app. It shows the live view and saves nothing."
+        }
+        return "The app saves no photos and no video."
+    }
+}
+
+// MARK: - Play style
+
+struct PlayStyleSection: View {
+    @Binding var playIntensity: PlayIntensity
+
+    var body: some View {
+        Section {
+            Picker("Style", selection: $playIntensity) {
+                ForEach(PlayIntensity.allCases) { intensity in
+                    Text(intensity.rawValue).tag(intensity)
+                }
+            }
+            .pickerStyle(.segmented)
+            .labelsHidden()
+        } header: {
+            Text("Play style")
+        } footer: {
+            FooterText(playIntensity.blurb)
+        }
+    }
+}
+
+// MARK: - Sound
+
+struct SoundSection: View {
+    @Binding var soundEnabled: Bool
+    @Binding var musicEnabled: Bool
+    @Binding var maxVolume: Double
+
+    var body: some View {
+        Section {
+            Toggle("Sound effects", isOn: $soundEnabled)
+            Toggle("Background music", isOn: $musicEnabled)
+            LabeledContent("Max volume") {
+                HStack(spacing: 10) {
+                    Slider(value: $maxVolume, in: 0.1...1.0, step: 0.1) { editing in
+                        if !editing { previewVolume() }
+                    }
+                    .frame(minWidth: 160)
+                    Text("\(Int((maxVolume * 100).rounded()))%")
+                        .font(.callout.monospacedDigit())
+                        .foregroundColor(.secondary)
+                        .frame(width: 40, alignment: .trailing)
+                }
+            }
+        } header: {
+            Text("Sound")
+        } footer: {
+            FooterText("Max volume caps every sound and video the app plays.")
+        }
+    }
+
+    private func previewVolume() {
+        guard soundEnabled else { return }
+        SoundManager.shared.maxVolume = Float(maxVolume)
+        SoundManager.shared.playTouchTone(normalizedX: 0.5)
+    }
+}
+
+// MARK: - Play timer
+
+struct PlayTimerSection: View {
+    @Binding var sessionLimitMinutes: Int
+
+    private let timerOptions = [5, 10, 15, 20, 30, 45, 60]
+
+    var body: some View {
+        Section {
+            Picker("Break after", selection: $sessionLimitMinutes) {
+                Text("Off").tag(0)
+                ForEach(timerOptions, id: \.self) { minutes in
+                    Text("\(minutes) min").tag(minutes)
+                }
+            }
+        } header: {
+            Text("Play timer")
+        } footer: {
+            FooterText("When the time ends, the screen changes to a calm break scene. The exit shortcut still works.")
+        }
+    }
+}
+
 // MARK: - Exit
 
-/// The Exit tab: exit shortcut recorder and password protection.
-struct ExitSettingsSection: View {
+/// Exit shortcut and password. Always shown: every mode ends the same way.
+struct ExitSection: View {
     @Binding var exitKeyCode: UInt16
     @Binding var exitModifiers: CGEventFlags
     @Binding var passwordEnabled: Bool
@@ -314,74 +484,65 @@ struct ExitSettingsSection: View {
     let passwordErrorMessage: String
 
     var body: some View {
-        Form {
-            Section("Exit Shortcut") {
+        Section {
+            LabeledContent("Exit shortcut") {
                 ShortcutRecorderView(keyCode: $exitKeyCode, modifiers: $exitModifiers)
-                    .frame(height: 30)
-                Text("Requires 2+ modifiers")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+                    .frame(width: 170, height: 30)
             }
+            FooterText("Hold two or more modifier keys, then press one key.")
 
-            Section("Password") {
-                Toggle("Require a password to unlock", isOn: $passwordEnabled)
-                if passwordEnabled {
-                    SecureField("Password", text: $password)
-                    SecureField("Confirm password", text: $confirmPassword)
-                    if showPasswordError {
-                        Text(passwordErrorMessage)
-                            .font(.caption)
-                            .foregroundColor(.red)
-                    }
+            Toggle("Ask for a password to unlock", isOn: $passwordEnabled)
+            if passwordEnabled {
+                SecureField("Password", text: $password)
+                    .textFieldStyle(.roundedBorder)
+                SecureField("Confirm password", text: $confirmPassword)
+                    .textFieldStyle(.roundedBorder)
+                if showPasswordError {
+                    Text(passwordErrorMessage)
+                        .font(.caption)
+                        .foregroundColor(.red)
                 }
             }
-
-            Section {
-                Text("Emergency unlock (\(BackdoorShortcut.displayShortcut)) always works, even if you forget your shortcut or password.")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
+        } header: {
+            Text("Exit")
+        } footer: {
+            FooterText("The emergency unlock \(BackdoorShortcut.displayShortcut) always works. Use it if you forget the shortcut or the password.")
         }
-        .formStyle(.grouped)
     }
 }
 
 // MARK: - About
 
-/// The About tab: version, companion-app note, and update check.
-struct AboutSettingsSection: View {
+struct AboutSection: View {
     private var version: String {
         Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
     }
 
     var body: some View {
-        Form {
-            Section {
-                HStack(spacing: 12) {
-                    if let appIcon = NSImage(named: "AppIcon") {
-                        Image(nsImage: appIcon)
-                            .resizable()
-                            .frame(width: 48, height: 48)
-                    }
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("Toddler Mode")
-                            .font(.title3.bold())
-                        Text("Version \(version)")
-                            .font(.callout)
-                            .foregroundColor(.secondary)
-                    }
+        Section {
+            HStack(spacing: 12) {
+                Image(nsImage: NSApplication.shared.applicationIconImage)
+                    .resizable()
+                    .frame(width: 44, height: 44)
+                    .accessibilityHidden(true)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Toddler Mode")
+                        .font(.headline)
+                    Text("Version \(version)")
+                        .font(.callout)
+                        .foregroundColor(.secondary)
+                    Text("Companion to Toddler Mode for iPhone.")
+                        .font(.callout)
+                        .foregroundColor(.secondary)
                 }
-                Text("Companion to Toddler Mode for iPhone.")
-                    .font(.callout)
-                    .foregroundColor(.secondary)
-            }
-
-            Section {
+                Spacer(minLength: 8)
                 Button("Check for Updates…") {
                     UpdateManager.shared.checkForUpdates()
                 }
             }
+            .padding(.vertical, 2)
+        } header: {
+            Text("About")
         }
-        .formStyle(.grouped)
     }
 }

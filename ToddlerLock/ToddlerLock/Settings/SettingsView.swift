@@ -1,30 +1,16 @@
 import SwiftUI
+import AppKit
+import Combine
 import CoreGraphics
 
-/// One section in the Settings sidebar.
-enum SettingsTab: String, CaseIterable, Identifiable, Hashable {
-    case play = "Play"
-    case photos = "Photos"
-    case exit = "Exit"
-    case about = "About"
-
-    var id: String { rawValue }
-
-    var icon: String {
-        switch self {
-        case .play: return "gamecontroller.fill"
-        case .photos: return "photo.on.rectangle"
-        case .exit: return "rectangle.portrait.and.arrow.right"
-        case .about: return "info.circle"
-        }
-    }
-}
-
-/// Settings window shown before locking. A sidebar layout like System
-/// Settings, with Lock Now always visible at the bottom.
+/// The Settings window the parent uses before locking.
+///
+/// One scrolling page. The mode grid sits at the top and decides what
+/// appears below it: letters for Free Play and Character, photo settings
+/// for Slideshow and Explore, access rows for the modes that use the
+/// photo library or the camera. Settings that apply to every mode (play
+/// style, sound, timer, exit) stay in place.
 struct SettingsView: View {
-    @State private var selectedTab: SettingsTab = .play
-
     // Play
     @State private var selectedMode: PlayModeType = SettingsStore.shared.selectedMode
     @State private var playIntensity: PlayIntensity = SettingsStore.shared.playIntensity
@@ -36,6 +22,9 @@ struct SettingsView: View {
 
     // Photos
     @State private var photoSource: PhotoSource = SettingsStore.shared.photoSource
+    @State private var selectedPhotoIDs: [String] = SettingsStore.shared.selectedPhotoIDs
+    @State private var includedAlbumIDs: [String] = SettingsStore.shared.includedAlbumIDs
+    @State private var excludedAlbumIDs: [String] = SettingsStore.shared.excludedAlbumIDs
     @State private var showVideos: Bool = SettingsStore.shared.showVideos
     @State private var slideshowInterval: Double = SettingsStore.shared.slideshowInterval
 
@@ -48,91 +37,168 @@ struct SettingsView: View {
     @State private var showPasswordError: Bool = false
     @State private var passwordErrorMessage: String = ""
 
+    // Access
+    @State private var photosAllowed: Bool = PhotoLibraryService.accessAlreadyGranted
+    @State private var cameraAllowed: Bool = PlayCameraController.accessAlreadyGranted
+
     var onLockNow: (() -> Void)?
+
+    private let exitSectionID = "exit"
 
     var body: some View {
         VStack(spacing: 0) {
-            HStack(spacing: 0) {
-                sidebar
-                Divider()
-                content
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            ScrollViewReader { proxy in
+                Form {
+                    ModeGridSection(selectedMode: $selectedMode)
+
+                    if selectedMode.usesLetters {
+                        LettersSection(characterSet: $characterSet)
+                    }
+
+                    if selectedMode.usesPhotoLibrary {
+                        PhotosSection(
+                            selectedMode: selectedMode,
+                            photosAllowed: $photosAllowed,
+                            photoSource: $photoSource,
+                            selectedPhotoIDs: $selectedPhotoIDs,
+                            includedAlbumIDs: $includedAlbumIDs,
+                            excludedAlbumIDs: $excludedAlbumIDs,
+                            showVideos: $showVideos,
+                            slideshowInterval: $slideshowInterval
+                        )
+                    } else if selectedMode.showsPhotosAccess {
+                        PhotosAccessOnlySection(photosAllowed: $photosAllowed)
+                    }
+
+                    if selectedMode.showsCameraAccess {
+                        CameraSection(selectedMode: selectedMode, cameraAllowed: $cameraAllowed)
+                    }
+
+                    PlayStyleSection(playIntensity: $playIntensity)
+
+                    SoundSection(
+                        soundEnabled: $soundEnabled,
+                        musicEnabled: $musicEnabled,
+                        maxVolume: $maxVolume
+                    )
+
+                    PlayTimerSection(sessionLimitMinutes: $sessionLimitMinutes)
+
+                    ExitSection(
+                        exitKeyCode: $exitKeyCode,
+                        exitModifiers: $exitModifiers,
+                        passwordEnabled: $passwordEnabled,
+                        password: $password,
+                        confirmPassword: $confirmPassword,
+                        showPasswordError: showPasswordError,
+                        passwordErrorMessage: passwordErrorMessage
+                    )
+                    .id(exitSectionID)
+
+                    AboutSection()
+                }
+                .formStyle(.grouped)
+                .onReceive(scrollToExit) { _ in
+                    withAnimation { proxy.scrollTo(exitSectionID, anchor: .center) }
+                }
             }
+
             Divider()
             bottomBar
         }
-        .frame(width: 720, height: 720)
-    }
-
-    private var sidebar: some View {
-        List(selection: $selectedTab) {
-            ForEach(SettingsTab.allCases) { tab in
-                Label(tab.rawValue, systemImage: tab.icon).tag(tab)
-            }
-        }
-        .listStyle(.sidebar)
-        .frame(width: 170)
-    }
-
-    @ViewBuilder
-    private var content: some View {
-        switch selectedTab {
-        case .play:
-            PlaySettingsSection(
-                selectedMode: $selectedMode,
-                playIntensity: $playIntensity,
-                characterSet: $characterSet,
-                soundEnabled: $soundEnabled,
-                musicEnabled: $musicEnabled,
-                maxVolume: $maxVolume,
-                sessionLimitMinutes: $sessionLimitMinutes
-            )
-        case .photos:
-            PhotosSettingsSection(
-                photoSource: $photoSource,
-                showVideos: $showVideos,
-                slideshowInterval: $slideshowInterval
-            )
-        case .exit:
-            ExitSettingsSection(
-                exitKeyCode: $exitKeyCode,
-                exitModifiers: $exitModifiers,
-                passwordEnabled: $passwordEnabled,
-                password: $password,
-                confirmPassword: $confirmPassword,
-                showPasswordError: showPasswordError,
-                passwordErrorMessage: passwordErrorMessage
-            )
-        case .about:
-            AboutSettingsSection()
+        .frame(minWidth: 680, minHeight: 560)
+        .background(WindowConfigurator(contentSize: NSSize(width: 780, height: 800),
+                                       minSize: NSSize(width: 680, height: 560)))
+        .onReceive(NotificationCenter.default.publisher(for: NSApplication.didBecomeActiveNotification)) { _ in
+            refreshAccess()
         }
     }
+
+    // MARK: - Bottom bar
 
     private var bottomBar: some View {
-        VStack(spacing: 6) {
+        VStack(spacing: 10) {
+            if let need = pendingAccess {
+                HStack(spacing: 8) {
+                    Image(systemName: "exclamationmark.circle.fill")
+                        .foregroundColor(.orange)
+                        .accessibilityHidden(true)
+                    Text(need.message)
+                        .font(.callout)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Spacer(minLength: 8)
+                    Button(need.buttonTitle, action: need.action)
+                }
+                .padding(.horizontal, 24)
+                .transition(.opacity)
+            }
+
             Button(action: lockNow) {
                 HStack(spacing: 8) {
                     Image(systemName: "lock.fill")
-                    Text("Lock Now")
+                    Text("Lock Now: \(selectedMode.rawValue)")
                 }
                 .font(.system(size: 16, weight: .bold, design: .rounded))
                 .frame(maxWidth: .infinity)
-                .padding(.vertical, 10)
+                .padding(.vertical, 8)
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .padding(.horizontal, 24)
+            .help("Start \(selectedMode.rawValue) and lock the screen.")
 
             #if DEBUG
-            Text("DEBUG: Auto-unlock after 60 seconds")
+            Text("Debug build. The lock opens on its own after 60 seconds.")
                 .font(.caption2)
-                .foregroundColor(.orange)
+                .foregroundColor(.secondary)
             #endif
         }
         .padding(.vertical, 14)
         .frame(maxWidth: .infinity)
         .background(Color(nsColor: .windowBackgroundColor))
     }
+
+    /// The access the selected mode needs and does not have yet. Locking is
+    /// never blocked: each mode has its own parent-facing screen.
+    private struct PendingAccess {
+        let message: String
+        let buttonTitle: String
+        let action: () -> Void
+    }
+
+    private var pendingAccess: PendingAccess? {
+        if selectedMode.requiresPhotosAccess && !photosAllowed {
+            return PendingAccess(
+                message: "\(selectedMode.rawValue) shows your photos. Photos access is off.",
+                buttonTitle: "Allow Photos…"
+            ) {
+                AccessRequester.requestPhotos { photosAllowed = $0 }
+            }
+        }
+        if selectedMode.requiresCameraAccess && !cameraAllowed {
+            return PendingAccess(
+                message: "Camera shows the live camera view. Camera access is off.",
+                buttonTitle: "Allow Camera…"
+            ) {
+                AccessRequester.requestCamera { cameraAllowed = $0 }
+            }
+        }
+        return nil
+    }
+
+    // MARK: - Access refresh
+
+    private func refreshAccess() {
+        photosAllowed = PhotoLibraryService.accessAlreadyGranted
+        cameraAllowed = PlayCameraController.accessAlreadyGranted
+    }
+
+    /// Fires when the password check fails, so the page scrolls to Exit.
+    private var scrollToExit: AnyPublisher<Void, Never> {
+        SettingsScrollSignal.shared.toExit.eraseToAnyPublisher()
+    }
+
+    // MARK: - Lock
 
     private func lockNow() {
         // Play
@@ -146,6 +212,9 @@ struct SettingsView: View {
 
         // Photos
         SettingsStore.shared.photoSource = photoSource
+        SettingsStore.shared.selectedPhotoIDs = selectedPhotoIDs
+        SettingsStore.shared.includedAlbumIDs = includedAlbumIDs
+        SettingsStore.shared.excludedAlbumIDs = excludedAlbumIDs
         SettingsStore.shared.showVideos = showVideos
         SettingsStore.shared.slideshowInterval = slideshowInterval
 
@@ -156,15 +225,11 @@ struct SettingsView: View {
 
         if passwordEnabled {
             guard !password.isEmpty else {
-                showPasswordError = true
-                passwordErrorMessage = "Password cannot be empty"
-                selectedTab = .exit
+                failPassword("Enter a password.")
                 return
             }
             guard password == confirmPassword else {
-                showPasswordError = true
-                passwordErrorMessage = "Passwords don't match"
-                selectedTab = .exit
+                failPassword("The two passwords do not match.")
                 return
             }
             KeychainManager.savePassword(password)
@@ -172,5 +237,51 @@ struct SettingsView: View {
 
         showPasswordError = false
         onLockNow?()
+    }
+
+    private func failPassword(_ message: String) {
+        passwordErrorMessage = message
+        showPasswordError = true
+        SettingsScrollSignal.shared.toExit.send(())
+    }
+}
+
+/// Carries the one scroll request the page needs.
+final class SettingsScrollSignal {
+    static let shared = SettingsScrollSignal()
+    let toExit = PassthroughSubject<Void, Never>()
+    private init() {}
+}
+
+/// Sizes the Settings window from inside SwiftUI: an ideal content size on
+/// first appearance, a minimum below which the page would clip, and a
+/// resizable frame.
+struct WindowConfigurator: NSViewRepresentable {
+    let contentSize: NSSize
+    let minSize: NSSize
+
+    func makeNSView(context: Context) -> NSView {
+        let view = NSView(frame: .zero)
+        DispatchQueue.main.async { apply(to: view, context: context) }
+        return view
+    }
+
+    func updateNSView(_ nsView: NSView, context: Context) {
+        DispatchQueue.main.async { apply(to: nsView, context: context) }
+    }
+
+    func makeCoordinator() -> Coordinator { Coordinator() }
+
+    final class Coordinator {
+        var configured = false
+    }
+
+    private func apply(to view: NSView, context: Context) {
+        guard !context.coordinator.configured, let window = view.window else { return }
+        context.coordinator.configured = true
+        window.styleMask.insert(.resizable)
+        window.contentMinSize = minSize
+        window.setContentSize(contentSize)
+        window.center()
     }
 }

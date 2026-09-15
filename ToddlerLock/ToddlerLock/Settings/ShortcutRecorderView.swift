@@ -86,7 +86,7 @@ class ShortcutRecorderNSView: NSView {
     private func startRecording() {
         isRecording = true
         recordButton.title = "Stop"
-        label.stringValue = "Press shortcut..."
+        label.stringValue = "Press the keys"
         label.textColor = .systemOrange
         window?.makeFirstResponder(self)
     }
@@ -112,7 +112,7 @@ class ShortcutRecorderNSView: NSView {
         if event.modifierFlags.contains(.control) { newModifiers.insert(.maskControl) }
         if event.modifierFlags.contains(.option) { newModifiers.insert(.maskAlternate) }
 
-        // Require at least 2 modifiers to prevent accidental exit by toddler
+        // Require at least 2 modifiers, so a toddler cannot exit by accident
         let modCount = [
             newModifiers.contains(.maskCommand),
             newModifiers.contains(.maskShift),
@@ -121,7 +121,7 @@ class ShortcutRecorderNSView: NSView {
         ].filter { $0 }.count
 
         guard modCount >= 2 else {
-            label.stringValue = "Need 2+ modifiers!"
+            label.stringValue = "Hold two modifiers"
             label.textColor = .systemRed
             return
         }
