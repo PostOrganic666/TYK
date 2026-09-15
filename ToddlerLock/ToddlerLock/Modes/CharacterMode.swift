@@ -6,9 +6,11 @@ import AppKit
 /// Leaves a trail of colorful paw prints.
 final class CharacterMode: PlayMode {
     let scene: SKScene
-    var spriteScene: SKScene? { scene }
     private let soundManager = SoundManager.shared
     private let characterSet: LetterCharacterSet
+
+    /// Infant / Toddler / Lively knobs, fixed for the life of the mode.
+    private let style = PlayStyle.current
 
     private var character: SKNode!
     private var body: SKShapeNode!
@@ -28,12 +30,16 @@ final class CharacterMode: PlayMode {
         .systemGreen, .systemYellow, .systemOrange,
     ]
 
+    /// Colors after the play style is applied (white on black for Infant).
+    private lazy var palette: [NSColor] = style.palette(colors)
+    private lazy var pawPalette: [NSColor] = style.palette(pawColors)
+
     private var pawColorIndex = 0
 
     init(size: CGSize, characterSet: LetterCharacterSet = .english) {
         self.characterSet = characterSet
         let s = SKScene(size: size)
-        s.backgroundColor = NSColor(red: 0.1, green: 0.6, blue: 0.3, alpha: 1.0) // Grassy green
+        s.backgroundColor = style.background(NSColor(red: 0.1, green: 0.6, blue: 0.3, alpha: 1.0)) // Grassy green
         s.scaleMode = .resizeFill
         self.scene = s
 
@@ -92,27 +98,32 @@ final class CharacterMode: PlayMode {
         character.position = CGPoint(x: scene.size.width / 2, y: scene.size.height / 2)
         character.zPosition = 50
 
+        // Infant style: a black pet with a thick white outline reads as a
+        // clean high-contrast silhouette on the black background.
+        let furColor: NSColor = style.highContrast ? .black : .systemOrange
+        let outlineWidth: CGFloat = style.highContrast ? 5 : 3
+
         // Body - round friendly shape
         body = SKShapeNode(circleOfRadius: 40)
-        body.fillColor = .systemOrange
+        body.fillColor = furColor
         body.strokeColor = .white
-        body.lineWidth = 3
+        body.lineWidth = outlineWidth
         character.addChild(body)
 
         // Left ear
         let leftEar = SKShapeNode(ellipseOf: CGSize(width: 20, height: 30))
-        leftEar.fillColor = .systemOrange
+        leftEar.fillColor = furColor
         leftEar.strokeColor = .white
-        leftEar.lineWidth = 2
+        leftEar.lineWidth = outlineWidth - 1
         leftEar.position = CGPoint(x: -25, y: 35)
         leftEar.zRotation = 0.3
         character.addChild(leftEar)
 
         // Right ear
         let rightEar = SKShapeNode(ellipseOf: CGSize(width: 20, height: 30))
-        rightEar.fillColor = .systemOrange
+        rightEar.fillColor = furColor
         rightEar.strokeColor = .white
-        rightEar.lineWidth = 2
+        rightEar.lineWidth = outlineWidth - 1
         rightEar.position = CGPoint(x: 25, y: 35)
         rightEar.zRotation = -0.3
         character.addChild(rightEar)
@@ -142,34 +153,37 @@ final class CharacterMode: PlayMode {
         rightPupil.name = "rightPupil"
         rightEye.addChild(rightPupil)
 
-        // Mouth - happy smile
+        // Mouth - happy smile. White in Infant so it reads against black fur.
         let mouthPath = CGMutablePath()
         mouthPath.addArc(center: .zero, radius: 12, startAngle: -.pi * 0.2, endAngle: -.pi * 0.8, clockwise: true)
         mouth = SKShapeNode(path: mouthPath)
-        mouth.strokeColor = .black
+        mouth.strokeColor = style.highContrast ? .white : .black
         mouth.lineWidth = 3
         mouth.fillColor = .clear
         mouth.position = CGPoint(x: 0, y: -8)
         character.addChild(mouth)
 
-        // Nose
+        // Nose. White in Infant.
         let nose = SKShapeNode(circleOfRadius: 5)
-        nose.fillColor = .brown
+        nose.fillColor = style.highContrast ? .white : .brown
         nose.strokeColor = .clear
         nose.position = CGPoint(x: 0, y: 0)
         character.addChild(nose)
 
+        character.setScale(style.sizeScale)
         scene.addChild(character)
         lastPawPrintPos = character.position
     }
 
     private func setupBackground() {
-        // Sky gradient at top
-        let sky = SKSpriteNode(color: NSColor(red: 0.4, green: 0.7, blue: 1.0, alpha: 1.0),
-                               size: CGSize(width: scene.size.width, height: scene.size.height * 0.4))
-        sky.position = CGPoint(x: scene.size.width / 2, y: scene.size.height * 0.8)
-        sky.zPosition = -10
-        scene.addChild(sky)
+        // Sky gradient at top — skipped in Infant to keep the black backdrop.
+        if !style.highContrast {
+            let sky = SKSpriteNode(color: NSColor(red: 0.4, green: 0.7, blue: 1.0, alpha: 1.0),
+                                   size: CGSize(width: scene.size.width, height: scene.size.height * 0.4))
+            sky.position = CGPoint(x: scene.size.width / 2, y: scene.size.height * 0.8)
+            sky.zPosition = -10
+            scene.addChild(sky)
+        }
 
         // Clouds
         for _ in 0..<5 {
@@ -181,7 +195,7 @@ final class CharacterMode: PlayMode {
             cloud.zPosition = -5
 
             // Drift animation
-            let drift = SKAction.moveBy(x: CGFloat.random(in: 30...80), y: 0, duration: Double.random(in: 8...15))
+            let drift = SKAction.moveBy(x: CGFloat.random(in: 30...80), y: 0, duration: style.duration(Double.random(in: 8...15)))
             let driftBack = drift.reversed()
             cloud.run(SKAction.repeatForever(SKAction.sequence([drift, driftBack])))
 
@@ -218,7 +232,7 @@ final class CharacterMode: PlayMode {
 
     private func createFlower() -> SKNode {
         let flower = SKNode()
-        let petalColor = colors.randomElement()!
+        let petalColor = palette.randomElement()!
 
         // Petals
         for i in 0..<5 {
@@ -231,9 +245,9 @@ final class CharacterMode: PlayMode {
             flower.addChild(petal)
         }
 
-        // Center
+        // Center. White in Infant.
         let center = SKShapeNode(circleOfRadius: 4)
-        center.fillColor = .systemYellow
+        center.fillColor = style.highContrast ? .white : .systemYellow
         center.strokeColor = .clear
         flower.addChild(center)
 
@@ -248,7 +262,7 @@ final class CharacterMode: PlayMode {
         // Smooth interpolation toward target
         let dx = targetPosition.x - character.position.x
         let dy = targetPosition.y - character.position.y
-        let lerp: CGFloat = 0.08
+        let lerp: CGFloat = 0.08 * style.speedScale
 
         character.position.x += dx * lerp
         character.position.y += dy * lerp
@@ -300,8 +314,11 @@ final class CharacterMode: PlayMode {
     }
 
     private func doColorChange() {
-        let newColor = colors.randomElement()!
-        body.fillColor = newColor
+        // Infant style keeps the fur black; flash the outline instead.
+        if !style.highContrast {
+            let newColor = palette.randomElement()!
+            body.fillColor = newColor
+        }
 
         // Flash effect
         let flash = SKAction.sequence([
@@ -315,7 +332,7 @@ final class CharacterMode: PlayMode {
     // MARK: - Effects
 
     private func spawnPawPrint(at position: CGPoint) {
-        let pawColor = pawColors[pawColorIndex % pawColors.count]
+        let pawColor = pawPalette[pawColorIndex % pawPalette.count]
         pawColorIndex += 1
 
         let paw = SKNode()
@@ -355,8 +372,8 @@ final class CharacterMode: PlayMode {
     private func spawnSpeechBubble(_ text: String) {
         let label = SKLabelNode(text: text)
         label.fontName = "AvenirNext-Bold"
-        label.fontSize = 40
-        label.fontColor = colors.randomElement()!
+        label.fontSize = 40 * style.sizeScale
+        label.fontColor = palette.randomElement()!
         label.position = CGPoint(
             x: character.position.x + CGFloat.random(in: -30...30),
             y: character.position.y + 60
@@ -377,7 +394,7 @@ final class CharacterMode: PlayMode {
     private func spawnStarBurst(at position: CGPoint) {
         for _ in 0..<5 {
             let star = SKShapeNode(path: starPath(points: 5, outerRadius: 12, innerRadius: 5))
-            star.fillColor = colors.randomElement()!
+            star.fillColor = palette.randomElement()!
             star.strokeColor = .clear
             star.position = position
             star.zPosition = 60

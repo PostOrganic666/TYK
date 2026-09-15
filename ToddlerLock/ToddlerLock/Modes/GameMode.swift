@@ -6,21 +6,26 @@ import AppKit
 /// Score counter tracks pops.
 final class GameMode: PlayMode {
     let scene: SKScene
-    var spriteScene: SKScene? { scene }
     private let soundManager = SoundManager.shared
     private var score = 0
     private var scoreLabel: SKLabelNode!
     private var spawnTimer: Timer?
     private var cursorFollower: SKShapeNode?
 
+    /// Infant / Toddler / Lively knobs, fixed for the life of the mode.
+    private let style = PlayStyle.current
+
     private let colors: [NSColor] = [
         .systemRed, .systemOrange, .systemYellow, .systemGreen,
         .systemBlue, .systemPurple, .systemPink, .systemTeal,
     ]
 
+    /// Colors after the play style is applied (white on black for Infant).
+    private lazy var palette: [NSColor] = style.palette(colors)
+
     init(size: CGSize) {
         let s = SKScene(size: size)
-        s.backgroundColor = NSColor(red: 0.05, green: 0.05, blue: 0.15, alpha: 1.0)
+        s.backgroundColor = style.background(NSColor(red: 0.05, green: 0.05, blue: 0.15, alpha: 1.0))
         s.scaleMode = .resizeFill
         s.physicsWorld.gravity = CGVector(dx: 0, dy: 0.3) // Gentle upward float
         self.scene = s
@@ -30,7 +35,8 @@ final class GameMode: PlayMode {
         startSpawning()
 
         // Spawn initial batch
-        for _ in 0..<8 {
+        let initialCount = max(4, Int(8 * style.speedScale))
+        for _ in 0..<initialCount {
             spawnBubble()
         }
     }
@@ -93,26 +99,26 @@ final class GameMode: PlayMode {
     // MARK: - Bubbles
 
     private func spawnBubble() {
-        let radius = CGFloat.random(in: 25...60)
-        let color = colors.randomElement()!
+        let radius = CGFloat.random(in: 25...60) * style.sizeScale
+        let color = palette.randomElement()!
 
         let bubble = SKShapeNode(circleOfRadius: radius)
-        bubble.fillColor = color.withAlphaComponent(0.7)
+        bubble.fillColor = color.withAlphaComponent(style.highContrast ? 0.9 : 0.7)
         bubble.strokeColor = color.withAlphaComponent(0.9)
         bubble.lineWidth = 2
         bubble.name = "bubble"
         bubble.zPosition = 10
 
         // Random position
-        let x = CGFloat.random(in: radius...(scene.size.width - radius))
-        let y = CGFloat.random(in: radius...(scene.size.height * 0.6))
+        let x = CGFloat.random(in: radius...(max(radius + 1, scene.size.width - radius)))
+        let y = CGFloat.random(in: radius...(max(radius + 1, scene.size.height * 0.6)))
         bubble.position = CGPoint(x: x, y: y)
 
-        // Shine highlight
+        // Shine highlight. Infant bubbles get a dark shine against the white fill.
         let shine = SKShapeNode(circleOfRadius: radius * 0.3)
-        shine.fillColor = .white
+        shine.fillColor = style.highContrast ? .black : .white
         shine.strokeColor = .clear
-        shine.alpha = 0.3
+        shine.alpha = style.highContrast ? 0.2 : 0.3
         shine.position = CGPoint(x: -radius * 0.2, y: radius * 0.25)
         bubble.addChild(shine)
 
@@ -127,8 +133,8 @@ final class GameMode: PlayMode {
 
         // Gentle wobble
         let wobble = SKAction.sequence([
-            SKAction.moveBy(x: CGFloat.random(in: -20...20), y: CGFloat.random(in: -15...15), duration: Double.random(in: 1.5...3.0)),
-            SKAction.moveBy(x: CGFloat.random(in: -20...20), y: CGFloat.random(in: -15...15), duration: Double.random(in: 1.5...3.0)),
+            SKAction.moveBy(x: CGFloat.random(in: -20...20), y: CGFloat.random(in: -15...15), duration: style.duration(Double.random(in: 1.5...3.0))),
+            SKAction.moveBy(x: CGFloat.random(in: -20...20), y: CGFloat.random(in: -15...15), duration: style.duration(Double.random(in: 1.5...3.0))),
         ])
         bubble.run(SKAction.repeatForever(wobble))
 
@@ -164,7 +170,7 @@ final class GameMode: PlayMode {
         let popup = SKLabelNode(text: "+1")
         popup.fontName = "AvenirNext-Bold"
         popup.fontSize = 32
-        popup.fontColor = .systemYellow
+        popup.fontColor = style.highContrast ? .white : .systemYellow
         popup.position = pos
         popup.zPosition = 50
         scene.addChild(popup)
@@ -174,7 +180,7 @@ final class GameMode: PlayMode {
         popup.run(SKAction.sequence([SKAction.group([rise, fade]), SKAction.removeFromParent()]))
 
         // Spawn replacement after a delay
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + style.duration(1.0)) { [weak self] in
             self?.spawnBubble()
         }
     }
@@ -182,7 +188,7 @@ final class GameMode: PlayMode {
     private func spawnPopParticles(at position: CGPoint, color: NSColor) {
         let emitter = SKEmitterNode()
         emitter.particleBirthRate = 100
-        emitter.numParticlesToEmit = 20
+        emitter.numParticlesToEmit = style.count(20)
         emitter.particleLifetime = 0.5
         emitter.particleSpeed = 200
         emitter.particleSpeedRange = 100
@@ -214,7 +220,7 @@ final class GameMode: PlayMode {
     private func spawnClickBurst(at position: CGPoint) {
         let emitter = SKEmitterNode()
         emitter.particleBirthRate = 50
-        emitter.numParticlesToEmit = 10
+        emitter.numParticlesToEmit = style.count(10)
         emitter.particleLifetime = 0.3
         emitter.particleSpeed = 80
         emitter.emissionAngleRange = .pi * 2
@@ -264,15 +270,15 @@ final class GameMode: PlayMode {
     private func setupCursorFollower() {
         let follower = SKShapeNode(circleOfRadius: 15)
         follower.fillColor = .white
-        follower.strokeColor = .systemYellow
+        follower.strokeColor = style.highContrast ? .white : .systemYellow
         follower.lineWidth = 2
         follower.alpha = 0.8
         follower.zPosition = 100
         follower.position = CGPoint(x: scene.size.width / 2, y: scene.size.height / 2)
 
         let pulse = SKAction.repeatForever(SKAction.sequence([
-            SKAction.scale(to: 1.15, duration: 0.4),
-            SKAction.scale(to: 1.0, duration: 0.4),
+            SKAction.scale(to: 1.15, duration: style.duration(0.4)),
+            SKAction.scale(to: 1.0, duration: style.duration(0.4)),
         ]))
         follower.run(pulse)
 
@@ -281,7 +287,7 @@ final class GameMode: PlayMode {
     }
 
     private func startSpawning() {
-        spawnTimer = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: true) { [weak self] _ in
+        spawnTimer = Timer.scheduledTimer(withTimeInterval: style.duration(3.0), repeats: true) { [weak self] _ in
             self?.spawnBubble()
         }
     }

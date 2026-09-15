@@ -9,10 +9,14 @@ import SpriteKit
 ///     just a subtle soft glow that trails behind.
 ///   - No particle explosions, no rainbows, no rapid color cycling.
 ///   - Sound effects are quieter if enabled; background music still follows the user's setting.
+///   - Infant style trades emoji for plain white shapes on black and adds a
+///     gentle auto-spawn so the scene stays alive on its own.
 final class ChillMode: PlayMode {
     let scene: SKScene
-    var spriteScene: SKScene? { scene }
     private let soundManager = SoundManager.shared
+
+    /// Infant / Toddler / Lively knobs, fixed for the life of the mode.
+    private let style = PlayStyle.current
 
     // Friendly emoji set: fruits, vegetables, and calm animals.
     // Rendered via SKLabelNode so we don't need image assets.
@@ -34,12 +38,14 @@ final class ChillMode: PlayMode {
     init(size: CGSize) {
         let s = SKScene(size: size)
         s.scaleMode = .resizeFill
-        // Soft mint-cream background — easy on the eyes.
-        s.backgroundColor = NSColor(calibratedRed: 0.93, green: 0.96, blue: 0.92, alpha: 1.0)
+        // Soft mint-cream background — easy on the eyes. Infant swaps to black.
+        s.backgroundColor = style.background(NSColor(calibratedRed: 0.93, green: 0.96, blue: 0.92, alpha: 1.0))
         self.scene = s
 
         let glow = SKShapeNode(circleOfRadius: 40)
-        glow.fillColor = NSColor(calibratedRed: 1.0, green: 0.98, blue: 0.85, alpha: 0.55)
+        glow.fillColor = style.highContrast
+            ? NSColor(calibratedWhite: 1.0, alpha: 0.35)
+            : NSColor(calibratedRed: 1.0, green: 0.98, blue: 0.85, alpha: 0.55)
         glow.strokeColor = .clear
         glow.blendMode = .alpha
         glow.zPosition = 10
@@ -51,6 +57,14 @@ final class ChillMode: PlayMode {
         // Add a very faint vignette of soft dots floating ambiently so the
         // scene isn't static when idle, without being stimulating.
         addAmbientDots()
+
+        // The scene drifts on its own, so a toddler who only watches still
+        // sees something. Keys and clicks add more on top of this.
+        s.run(SKAction.repeatForever(SKAction.sequence([
+            SKAction.wait(forDuration: style.duration(3.5)),
+            SKAction.run { [weak self] in self?.spawnFloatingItem() },
+        ])))
+        spawnFloatingItem()
     }
 
     // MARK: - Ambient background
@@ -58,7 +72,7 @@ final class ChillMode: PlayMode {
     private func addAmbientDots() {
         for _ in 0..<6 {
             let dot = SKShapeNode(circleOfRadius: CGFloat.random(in: 30...60))
-            dot.fillColor = NSColor(calibratedWhite: 1.0, alpha: 0.35)
+            dot.fillColor = NSColor(calibratedWhite: 1.0, alpha: style.highContrast ? 0.12 : 0.35)
             dot.strokeColor = .clear
             dot.position = CGPoint(
                 x: CGFloat.random(in: 0...scene.size.width),
@@ -70,7 +84,7 @@ final class ChillMode: PlayMode {
             let drift = SKAction.moveBy(
                 x: CGFloat.random(in: -30...30),
                 y: CGFloat.random(in: -30...30),
-                duration: TimeInterval.random(in: 8.0...14.0)
+                duration: style.duration(TimeInterval.random(in: 8.0...14.0))
             )
             dot.run(SKAction.repeatForever(SKAction.sequence([drift, drift.reversed()])))
         }
@@ -109,16 +123,18 @@ final class ChillMode: PlayMode {
     func handleMouseDown(position: CGPoint) {
         // Gentle ripple — one soft expanding ring, no color explosion.
         let ring = SKShapeNode(circleOfRadius: 20)
-        ring.strokeColor = NSColor(calibratedRed: 0.85, green: 0.78, blue: 0.95, alpha: 0.7)
+        ring.strokeColor = style.highContrast
+            ? NSColor(calibratedWhite: 1.0, alpha: 0.8)
+            : NSColor(calibratedRed: 0.85, green: 0.78, blue: 0.95, alpha: 0.7)
         ring.lineWidth = 4
         ring.fillColor = .clear
         ring.position = position
         ring.zPosition = 5
         scene.addChild(ring)
 
-        let expand = SKAction.scale(to: 4.0, duration: 1.2)
+        let expand = SKAction.scale(to: 4.0, duration: style.duration(1.2))
         expand.timingMode = .easeOut
-        let fade = SKAction.fadeOut(withDuration: 1.2)
+        let fade = SKAction.fadeOut(withDuration: style.duration(1.2))
         ring.run(SKAction.group([expand, fade])) { [weak ring] in
             ring?.removeFromParent()
         }
@@ -145,11 +161,7 @@ final class ChillMode: PlayMode {
             }
         }
 
-        let symbol = items.randomElement() ?? "🍎"
-        let label = SKLabelNode(text: symbol)
-        label.fontSize = CGFloat.random(in: 70...110)
-        label.verticalAlignmentMode = .center
-        label.horizontalAlignmentMode = .center
+        let label = makeItemNode()
         label.name = "chillItem"
         label.zPosition = 3
         label.alpha = 0.0
@@ -167,15 +179,15 @@ final class ChillMode: PlayMode {
         scene.addChild(label)
 
         // Very slow gentle drift, slight rotation, long fade-in and fade-out.
-        let fadeIn = SKAction.fadeAlpha(to: 1.0, duration: 1.4)
+        let fadeIn = SKAction.fadeAlpha(to: 1.0, duration: style.duration(1.4))
         let drift = SKAction.moveBy(
             x: CGFloat.random(in: -120...120),
             y: CGFloat.random(in: 60...180),
-            duration: TimeInterval.random(in: 10.0...16.0)
+            duration: style.duration(TimeInterval.random(in: 10.0...16.0))
         )
         drift.timingMode = .easeInEaseOut
         let rotate = SKAction.rotate(byAngle: CGFloat.random(in: -0.6...0.6), duration: drift.duration)
-        let fadeOut = SKAction.fadeOut(withDuration: 2.0)
+        let fadeOut = SKAction.fadeOut(withDuration: style.duration(2.0))
         let remove = SKAction.removeFromParent()
 
         label.run(SKAction.sequence([
@@ -184,5 +196,55 @@ final class ChillMode: PlayMode {
             fadeOut,
             remove
         ]))
+    }
+
+    /// An emoji for the normal styles; a plain white shape for Infant,
+    /// since emoji cannot be high-contrast.
+    private func makeItemNode() -> SKNode {
+        let itemSize = CGFloat.random(in: 70...110) * style.sizeScale
+
+        guard style.highContrast else {
+            let symbol = items.randomElement() ?? "🍎"
+            let label = SKLabelNode(text: symbol)
+            label.fontSize = itemSize
+            label.verticalAlignmentMode = .center
+            label.horizontalAlignmentMode = .center
+            return label
+        }
+
+        let radius = itemSize * 0.4
+        let shape: SKShapeNode
+        switch Int.random(in: 0...3) {
+        case 0:
+            shape = SKShapeNode(circleOfRadius: radius)
+            shape.fillColor = .white
+        case 1:
+            shape = SKShapeNode(circleOfRadius: radius)
+            shape.fillColor = .clear
+            shape.lineWidth = radius * 0.3
+        case 2:
+            shape = SKShapeNode(rectOf: CGSize(width: radius * 1.7, height: radius * 1.7), cornerRadius: radius * 0.3)
+            shape.fillColor = .white
+        default:
+            shape = SKShapeNode(path: starPath(points: 5, outerRadius: radius, innerRadius: radius * 0.45))
+            shape.fillColor = .white
+        }
+        shape.strokeColor = .white
+        return shape
+    }
+
+    private func starPath(points: Int, outerRadius: CGFloat, innerRadius: CGFloat) -> CGPath {
+        let path = CGMutablePath()
+        let angleIncrement = .pi * 2 / CGFloat(points)
+        for i in 0..<points {
+            let outerAngle = CGFloat(i) * angleIncrement - .pi / 2
+            let innerAngle = outerAngle + angleIncrement / 2
+            let outerPoint = CGPoint(x: cos(outerAngle) * outerRadius, y: sin(outerAngle) * outerRadius)
+            let innerPoint = CGPoint(x: cos(innerAngle) * innerRadius, y: sin(innerAngle) * innerRadius)
+            if i == 0 { path.move(to: outerPoint) } else { path.addLine(to: outerPoint) }
+            path.addLine(to: innerPoint)
+        }
+        path.closeSubpath()
+        return path
     }
 }

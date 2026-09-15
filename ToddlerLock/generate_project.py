@@ -58,6 +58,10 @@ sources = [
     ("PlayComputer/MoreToyApps.swift", "MoreToyApps.swift"),
     ("PlayComputer/MoreToyAppViews.swift", "MoreToyAppViews.swift"),
     ("PlayComputer/MiniAppKit.swift", "MiniAppKit.swift"),
+    ("PlayComputer/MoreToyAppGagViews.swift", "MoreToyAppGagViews.swift"),
+    ("PlayComputer/ToyAppFaceTime.swift", "ToyAppFaceTime.swift"),
+    ("PlayComputer/ToyAppMessages.swift", "ToyAppMessages.swift"),
+    ("PlayComputer/ToyAppWorld.swift", "ToyAppWorld.swift"),
 ]
 
 # Groups
@@ -86,7 +90,7 @@ groups = {
     "PlayComputer": ["PlayComputer/ComputerInput.swift", "PlayComputer/ComputerApps.swift", "PlayComputer/DesktopView.swift",
                      "PlayComputer/DesktopChrome.swift", "PlayComputer/FakeWindow.swift", "PlayComputer/SystemApps.swift",
                      "PlayComputer/SystemAppViews.swift", "PlayComputer/ToyApps.swift", "PlayComputer/ToyAppViews.swift",
-                     "PlayComputer/MoreToyApps.swift", "PlayComputer/MoreToyAppViews.swift", "PlayComputer/MiniAppKit.swift"],
+                     "PlayComputer/MoreToyApps.swift", "PlayComputer/MoreToyAppViews.swift", "PlayComputer/MiniAppKit.swift", "PlayComputer/ToyAppWorld.swift", "PlayComputer/ToyAppMessages.swift", "PlayComputer/ToyAppFaceTime.swift", "PlayComputer/MoreToyAppGagViews.swift"],
     "Permissions": ["Permissions/PermissionChecker.swift"],
     "Settings": ["Settings/CharacterSet.swift", "Settings/KeychainManager.swift", "Settings/ShortcutRecorderView.swift", "Settings/SettingsStore.swift", "Settings/SettingsView.swift"],
 }

@@ -5,10 +5,12 @@ import AppKit
 /// cursor follower with rainbow trail. The core toddler experience.
 final class FreePlayMode: PlayMode {
     let scene: SKScene
-    var spriteScene: SKScene? { scene }
     private var cursorFollower: SKShapeNode?
     private var trailEmitter: SKEmitterNode?
     private let soundManager = SoundManager.shared
+
+    /// Infant / Toddler / Lively knobs, fixed for the life of the mode.
+    private let style = PlayStyle.current
 
     /// Bright colors that look great on a dark background
     private let colors: [NSColor] = [
@@ -17,12 +19,15 @@ final class FreePlayMode: PlayMode {
         .cyan, .magenta,
     ]
 
+    /// Colors after the play style is applied (white on black for Infant).
+    private lazy var palette: [NSColor] = style.palette(colors)
+
     /// Fun rounded fonts
     private let fontNames = ["Futura-Bold", "AvenirNext-Bold", "Helvetica-Bold"]
 
     init(size: CGSize) {
         let s = SKScene(size: size)
-        s.backgroundColor = .black
+        s.backgroundColor = style.background(.black)
         s.scaleMode = .resizeFill
         self.scene = s
 
@@ -35,6 +40,14 @@ final class FreePlayMode: PlayMode {
         let charSet = SettingsStore.shared.characterSet
         let displayChar = charSet.randomCharacter()
         spawnLetter(displayChar)
+
+        // Lively spawns a few extra shapes on top of the letter.
+        if style.spawnMultiplier > 1 {
+            for _ in 1..<style.spawnMultiplier {
+                spawnShape(at: randomPosition())
+            }
+        }
+
         soundManager.playKeyTone(keyCode: keyCode)
     }
 
@@ -50,7 +63,9 @@ final class FreePlayMode: PlayMode {
 
     func handleMouseDown(position: CGPoint) {
         let scenePos = CGPoint(x: position.x, y: position.y)
-        spawnShape(at: scenePos)
+        for _ in 0..<style.spawnMultiplier {
+            spawnShape(at: scenePos)
+        }
         spawnParticleBurst(at: scenePos)
         soundManager.playPop()
     }
@@ -64,19 +79,21 @@ final class FreePlayMode: PlayMode {
     private func spawnLetter(_ text: String) {
         let label = SKLabelNode(text: text)
         label.fontName = fontNames.randomElement()!
-        label.fontSize = CGFloat.random(in: 80...160)
-        label.fontColor = colors.randomElement()!
+        label.fontSize = CGFloat.random(in: 80...160) * style.sizeScale
+        label.fontColor = palette.randomElement()!
         label.position = randomPosition()
         label.setScale(0)
         label.zPosition = 10
 
-        // Add glow effect
+        // Add glow effect. Infant style stays crisp: no blur.
         let glow = SKEffectNode()
-        glow.shouldRasterize = true
-        glow.filter = CIFilter(name: "CIGaussianBlur", parameters: ["inputRadius": 10.0])
-        let glowLabel = label.copy() as! SKLabelNode
-        glowLabel.fontColor = label.fontColor?.withAlphaComponent(0.5)
-        glow.addChild(glowLabel)
+        if !style.highContrast {
+            glow.shouldRasterize = true
+            glow.filter = CIFilter(name: "CIGaussianBlur", parameters: ["inputRadius": 10.0])
+            let glowLabel = label.copy() as! SKLabelNode
+            glowLabel.fontColor = label.fontColor?.withAlphaComponent(0.5)
+            glow.addChild(glowLabel)
+        }
         glow.zPosition = 9
         glow.position = label.position
         glow.setScale(0)
@@ -90,9 +107,9 @@ final class FreePlayMode: PlayMode {
         let entrance = SKAction.sequence([scaleUp, scaleDown])
 
         // Gentle float and fade
-        let wait = SKAction.wait(forDuration: 1.5)
-        let floatUp = SKAction.moveBy(x: CGFloat.random(in: -30...30), y: 80, duration: 1.0)
-        let fadeOut = SKAction.fadeOut(withDuration: 1.0)
+        let wait = SKAction.wait(forDuration: style.duration(1.5))
+        let floatUp = SKAction.moveBy(x: CGFloat.random(in: -30...30), y: 80, duration: style.duration(1.0))
+        let fadeOut = SKAction.fadeOut(withDuration: style.duration(1.0))
         let exit = SKAction.group([floatUp, fadeOut])
         let remove = SKAction.removeFromParent()
 
@@ -106,11 +123,11 @@ final class FreePlayMode: PlayMode {
     // MARK: - Shape Spawning
 
     private func spawnShape(at position: CGPoint) {
-        let color = colors.randomElement()!
+        let color = palette.randomElement()!
         let shape: SKShapeNode
 
         let shapeType = Int.random(in: 0...3)
-        let size = CGFloat.random(in: 30...70)
+        let size = CGFloat.random(in: 30...70) * style.sizeScale
 
         switch shapeType {
         case 0: // Circle
@@ -145,19 +162,19 @@ final class FreePlayMode: PlayMode {
 
         // Apply a random impulse
         let impulse = CGVector(
-            dx: CGFloat.random(in: -200...200),
-            dy: CGFloat.random(in: 100...400)
+            dx: CGFloat.random(in: -200...200) * style.speedScale,
+            dy: CGFloat.random(in: 100...400) * style.speedScale
         )
 
         scene.addChild(shape)
 
         let scaleIn = SKAction.scale(to: 1.0, duration: 0.15)
-        let applyImpulse = SKAction.run {
+        let applyImpulse = SKAction.run { [style] in
             shape.physicsBody?.applyImpulse(impulse)
-            shape.physicsBody?.applyAngularImpulse(CGFloat.random(in: -5...5))
+            shape.physicsBody?.applyAngularImpulse(CGFloat.random(in: -5...5) * style.speedScale)
         }
-        let wait = SKAction.wait(forDuration: 3.0)
-        let fadeOut = SKAction.fadeOut(withDuration: 1.0)
+        let wait = SKAction.wait(forDuration: style.duration(3.0))
+        let fadeOut = SKAction.fadeOut(withDuration: style.duration(1.0))
         let remove = SKAction.removeFromParent()
 
         shape.run(SKAction.sequence([scaleIn, applyImpulse, wait, fadeOut, remove]))
@@ -168,7 +185,7 @@ final class FreePlayMode: PlayMode {
     private func spawnSparkle(at position: CGPoint, color: NSColor) {
         let emitter = SKEmitterNode()
         emitter.particleBirthRate = 80
-        emitter.numParticlesToEmit = 30
+        emitter.numParticlesToEmit = style.count(30)
         emitter.particleLifetime = 0.6
         emitter.particleLifetimeRange = 0.2
         emitter.particleSpeed = 150
@@ -197,15 +214,15 @@ final class FreePlayMode: PlayMode {
     }
 
     private func spawnParticleBurst(at position: CGPoint) {
-        let color = colors.randomElement()!
+        let color = palette.randomElement()!
         spawnSparkle(at: position, color: color)
     }
 
     // MARK: - Cursor Follower
 
     private func setupCursorFollower() {
-        let follower = SKShapeNode(circleOfRadius: 20)
-        follower.fillColor = .systemYellow
+        let follower = SKShapeNode(circleOfRadius: 20 * style.sizeScale)
+        follower.fillColor = style.highContrast ? .white : .systemYellow
         follower.strokeColor = .white
         follower.lineWidth = 2
         follower.position = CGPoint(x: scene.size.width / 2, y: scene.size.height / 2)
@@ -214,19 +231,21 @@ final class FreePlayMode: PlayMode {
 
         // Gentle pulsing animation
         let pulse = SKAction.sequence([
-            SKAction.scale(to: 1.2, duration: 0.5),
-            SKAction.scale(to: 1.0, duration: 0.5),
+            SKAction.scale(to: 1.2, duration: style.duration(0.5)),
+            SKAction.scale(to: 1.0, duration: style.duration(0.5)),
         ])
         follower.run(SKAction.repeatForever(pulse))
 
-        // Rainbow color cycling
-        let colorCycle = SKAction.sequence(colors.map { color in
-            SKAction.sequence([
-                SKAction.run { follower.fillColor = color },
-                SKAction.wait(forDuration: 0.3),
-            ])
-        })
-        follower.run(SKAction.repeatForever(colorCycle))
+        // Rainbow color cycling. Infant stays a fixed white/gray, no cycling.
+        if !style.highContrast {
+            let colorCycle = SKAction.sequence(palette.map { color in
+                SKAction.sequence([
+                    SKAction.run { follower.fillColor = color },
+                    SKAction.wait(forDuration: 0.3),
+                ])
+            })
+            follower.run(SKAction.repeatForever(colorCycle))
+        }
 
         cursorFollower = follower
         scene.addChild(follower)
@@ -245,10 +264,12 @@ final class FreePlayMode: PlayMode {
         trail.particleColorBlendFactor = 1.0
         trail.particleBlendMode = .add
         trail.particleTexture = createCircleTexture(radius: 6)
-        trail.particleColorSequence = SKKeyframeSequence(
-            keyframeValues: [NSColor.red, .orange, .yellow, .green, .cyan, .blue, .purple],
-            times: [0, 0.15, 0.3, 0.45, 0.6, 0.75, 1.0]
-        )
+        trail.particleColorSequence = style.highContrast
+            ? SKKeyframeSequence(keyframeValues: [NSColor.white, NSColor.lightGray], times: [0, 1.0])
+            : SKKeyframeSequence(
+                keyframeValues: [NSColor.red, .orange, .yellow, .green, .cyan, .blue, .purple],
+                times: [0, 0.15, 0.3, 0.45, 0.6, 0.75, 1.0]
+            )
         trail.targetNode = scene // Particles stay in world space, not follower space
         trail.zPosition = 99
 
