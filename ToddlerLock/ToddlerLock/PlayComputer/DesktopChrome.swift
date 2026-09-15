@@ -404,10 +404,16 @@ struct DockView: View {
     @State private var bounceID: String?
     @State private var bounceUp = false
 
-    private let base: CGFloat = 58
     private let spacing: CGFloat = 7
     private let hPad: CGFloat = 11
     private let maxScale: CGFloat = 1.42
+
+    /// Tile size: 58 pt, shrinking like macOS when the dock would not fit.
+    private var base: CGFloat {
+        let count = CGFloat(max(apps.count, 1))
+        let available = desktopSize.width - 48 - hPad * 2 - spacing * (count - 1) - dividerWidth
+        return min(58, max(30, available / count))
+    }
 
     /// Extra width taken by the divider that sits in front of Trash.
     private var dividerWidth: CGFloat {

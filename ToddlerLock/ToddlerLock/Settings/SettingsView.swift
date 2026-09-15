@@ -130,6 +130,8 @@ struct SettingsView: View {
             #endif
         }
         .padding(.vertical, 14)
+        .frame(maxWidth: .infinity)
+        .background(Color(nsColor: .windowBackgroundColor))
     }
 
     private func lockNow() {

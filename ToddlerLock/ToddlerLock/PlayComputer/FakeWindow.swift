@@ -304,6 +304,8 @@ struct FakeWindowView: View {
                 .background(Color.white)
                 .clipped()
         }
+        // Fake windows are always light, whatever the Mac's appearance.
+        .environment(\.colorScheme, .light)
         .frame(width: window.frame.width, height: window.frame.height)
         .background(Color.white)
         .clipShape(RoundedRectangle(cornerRadius: 11, style: .continuous))

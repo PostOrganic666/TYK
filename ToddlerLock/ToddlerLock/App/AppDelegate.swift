@@ -50,6 +50,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             showPreviewWindow(mode: mode)
         }
         if args.contains("-input-spike") { runInputSpike() }
+        // `-snapshot-settings <path>` writes a PNG of the Settings window and quits.
+        if let i = args.firstIndex(of: "-snapshot-settings"), i + 1 < args.count {
+            let path = args[i + 1]
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { [weak self] in
+                if let view = self?.settingsWindow?.contentView,
+                   let rep = view.bitmapImageRepForCachingDisplay(in: view.bounds) {
+                    view.cacheDisplay(in: view.bounds, to: rep)
+                    try? rep.representation(using: .png, properties: [:])?.write(to: URL(fileURLWithPath: path))
+                }
+                NSApp.terminate(nil)
+            }
+        }
         #endif
     }
 
