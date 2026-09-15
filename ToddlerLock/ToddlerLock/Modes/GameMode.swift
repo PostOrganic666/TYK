@@ -6,6 +6,7 @@ import AppKit
 /// Score counter tracks pops.
 final class GameMode: PlayMode {
     let scene: SKScene
+    var spriteScene: SKScene? { scene }
     private let soundManager = SoundManager.shared
     private var score = 0
     private var scoreLabel: SKLabelNode!

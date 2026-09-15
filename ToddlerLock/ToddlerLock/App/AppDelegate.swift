@@ -41,6 +41,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupStatusItem()
 
         showSettingsWindow()
+
+        SoundManager.shared.maxVolume = Float(settings.maxVolume)
+
+        #if DEBUG
+        let args = ProcessInfo.processInfo.arguments
+        if let i = args.firstIndex(of: "-preview"), i + 1 < args.count, let mode = PlayModeType(rawValue: args[i + 1]) {
+            showPreviewWindow(mode: mode)
+        }
+        if args.contains("-input-spike") { runInputSpike() }
+        #endif
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
@@ -67,6 +77,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         appMenu.addItem(.separator())
         appMenu.addItem(withTitle: "Settings...", action: #selector(showSettingsAction), keyEquivalent: ",")
         appMenu.addItem(.separator())
+        #if DEBUG
+        // Preview any mode in a normal window: no lock, no event tap, real
+        // cursor. For building and screenshots.
+        let previewMenu = NSMenu(title: "Preview")
+        for mode in PlayModeType.allCases {
+            let item = previewMenu.addItem(withTitle: mode.rawValue, action: #selector(previewModeAction(_:)), keyEquivalent: "")
+            item.representedObject = mode.rawValue
+        }
+        let previewItem = appMenu.addItem(withTitle: "Preview Mode in Window", action: nil, keyEquivalent: "")
+        previewItem.submenu = previewMenu
+        appMenu.addItem(.separator())
+        #endif
         appMenu.addItem(withTitle: "Hide Toddler Mode", action: #selector(NSApplication.hide(_:)), keyEquivalent: "h")
         let hideOthers = appMenu.addItem(withTitle: "Hide Others", action: #selector(NSApplication.hideOtherApplications(_:)), keyEquivalent: "h")
         hideOthers.keyEquivalentModifierMask = [.command, .option]
@@ -94,6 +116,107 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @objc private func checkForUpdatesAction() {
         UpdateManager.shared.checkForUpdates()
     }
+
+    #if DEBUG
+    private var previewWindow: NSWindow?
+
+    /// Proves synthesized NSEvents reach SwiftUI and AppKit: probes at
+    /// three levels (NSView.mouseDown, NSButton action, SwiftUI Button).
+    private final class SpikeProbeView: NSView {
+        override func mouseDown(with event: NSEvent) {
+            print("SPIKE VIEW MOUSEDOWN at \(event.locationInWindow)")
+            super.mouseDown(with: event)
+        }
+        override var acceptsFirstResponder: Bool { true }
+    }
+
+    @objc private func spikeButtonFired() { print("SPIKE NSBUTTON FIRED") }
+
+
+    @objc private func previewModeAction(_ sender: NSMenuItem) {
+        guard let raw = sender.representedObject as? String, let mode = PlayModeType(rawValue: raw) else { return }
+        showPreviewWindow(mode: mode)
+    }
+
+    /// `-preview "Play Computer"` on the command line opens this at launch.
+    func showPreviewWindow(mode: PlayModeType) {
+        previewWindow?.close()
+        let vc = LockViewController()
+        vc.currentMode = mode
+        vc.isPreview = true
+        let window = NSWindow(
+            contentRect: NSRect(x: 0, y: 0, width: 1280, height: 800),
+            styleMask: [.titled, .closable, .resizable],
+            backing: .buffered, defer: false
+        )
+        window.title = "Preview: \(mode.rawValue)"
+        window.contentViewController = vc
+        window.setContentSize(NSSize(width: 1280, height: 800))
+        window.center()
+        window.isReleasedWhenClosed = false
+        window.makeKeyAndOrderFront(nil)
+        previewWindow = window
+
+        // In the preview the real cursor works, so route real events into
+        // the same handlers the lock screen uses.
+        SoundManager.shared.enabled = settings.soundEnabled
+        SoundManager.shared.maxVolume = Float(settings.maxVolume)
+        NSEvent.addLocalMonitorForEvents(matching: [.keyDown]) { [weak vc] event in
+            guard let vc, event.window === vc.view.window, let mode = vc.previewMode else { return event }
+            mode.handleKeyDown(keyCode: event.keyCode, characters: event.characters)
+            return nil
+        }
+    }
+
+    private func runInputSpike() {
+        struct SpikeView: View {
+            var body: some View {
+                ZStack {
+                    Color.gray
+                    Button("Spike") { print("SPIKE SWIFTUI BUTTON FIRED") }
+                        .buttonStyle(.borderedProminent)
+                        .frame(width: 200, height: 60)
+                }
+            }
+        }
+        let vc = LockViewController()
+        vc.currentMode = .playComputer
+        vc.isPreview = true
+        let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 600, height: 400),
+                              styleMask: [.titled], backing: .buffered, defer: false)
+        window.contentViewController = vc
+        window.setContentSize(NSSize(width: 600, height: 400))
+        window.center()
+        window.makeKeyAndOrderFront(nil)
+        NSApp.activate(ignoringOtherApps: true)
+        previewWindow = window
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+            for sub in vc.view.subviews where sub is NSHostingView<DesktopView> { sub.removeFromSuperview() }
+            let probe = SpikeProbeView(frame: vc.view.bounds)
+            probe.autoresizingMask = [.width, .height]
+            // Top half: SwiftUI. Bottom-left: an AppKit button.
+            let host = NSHostingView(rootView: SpikeView())
+            host.frame = CGRect(x: 0, y: 200, width: 600, height: 200)
+            probe.addSubview(host)
+            let button = NSButton(title: "AppKit", target: self, action: #selector(self.spikeButtonFired))
+            button.frame = CGRect(x: 50, y: 50, width: 120, height: 40)
+            probe.addSubview(button)
+            vc.view.addSubview(probe)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                print("SPIKE clicking swiftui")
+                vc.debugSynthesizeClick(topLeft: CGPoint(x: 300, y: 100))
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                    print("SPIKE clicking appkit")
+                    vc.debugSynthesizeClick(topLeft: CGPoint(x: 110, y: 330))
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                        print("SPIKE DONE")
+                        NSApp.terminate(nil)
+                    }
+                }
+            }
+        }
+    }
+    #endif
 
     // MARK: - Status Item (Menu Bar Icon)
 
@@ -193,6 +316,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Apply sound settings
         SoundManager.shared.enabled = settings.soundEnabled
         SoundManager.shared.musicEnabled = settings.musicEnabled
+        SoundManager.shared.maxVolume = Float(settings.maxVolume)
+        SoundManager.shared.styleVolume = PlayStyle.current.volumeScale
 
         // Hide settings window
         settingsWindow?.orderOut(nil)

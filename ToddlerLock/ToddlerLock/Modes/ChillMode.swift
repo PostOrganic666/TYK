@@ -11,6 +11,7 @@ import SpriteKit
 ///   - Sound effects are quieter if enabled; background music still follows the user's setting.
 final class ChillMode: PlayMode {
     let scene: SKScene
+    var spriteScene: SKScene? { scene }
     private let soundManager = SoundManager.shared
 
     // Friendly emoji set: fruits, vegetables, and calm animals.

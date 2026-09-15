@@ -26,6 +26,10 @@
 	<string>13.0</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera mode shows a live camera view for pretend photo play. The app never captures or saves any image.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Toddler Mode shows photos and videos from your library in a kid-safe, display-only slideshow. It cannot share, edit, or delete anything.</string>
 	<key>NSAppleEventsUsageDescription</key>
 	<string>Toddler Mode needs this permission to function properly.</string>
 </dict>

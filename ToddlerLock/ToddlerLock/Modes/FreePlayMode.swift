@@ -5,6 +5,7 @@ import AppKit
 /// cursor follower with rainbow trail. The core toddler experience.
 final class FreePlayMode: PlayMode {
     let scene: SKScene
+    var spriteScene: SKScene? { scene }
     private var cursorFollower: SKShapeNode?
     private var trailEmitter: SKEmitterNode?
     private let soundManager = SoundManager.shared

@@ -14,6 +14,20 @@ final class SoundManager {
     /// Whether sounds are enabled
     var enabled: Bool = true
 
+    /// Parent-set ceiling (Settings → Max volume), 0.1...1.0.
+    var maxVolume: Float = 1.0 {
+        didSet { applyVolume() }
+    }
+
+    /// Play-style multiplier (Infant plays at half volume).
+    var styleVolume: Float = 1.0 {
+        didSet { applyVolume() }
+    }
+
+    private func applyVolume() {
+        engine?.mainMixerNode.outputVolume = min(1, max(0, maxVolume * styleVolume))
+    }
+
     /// Pentatonic scale frequencies (C major pentatonic across 2 octaves)
     /// These always sound pleasant together no matter the order.
     private let frequencies: [Float] = [
@@ -68,6 +82,7 @@ final class SoundManager {
             isRunning = true
             // Detach the bootstrap node now that the engine is running
             eng.detach(silentNode)
+            applyVolume()
             print("[SoundManager] Audio engine started successfully")
         } catch {
             print("[SoundManager] Failed to start audio engine: \(error)")
@@ -103,6 +118,60 @@ final class SoundManager {
         guard isRunning else { return }
 
         playTone(frequency: 600, duration: 0.15, volume: 0.15, decay: true)
+    }
+
+    /// Tone by horizontal position (0...1): left-to-right rises like a piano.
+    func playTouchTone(normalizedX: CGFloat) {
+        guard enabled else { return }
+        ensureEngine()
+        guard isRunning else { return }
+        let clamped = min(max(normalizedX, 0), 0.999)
+        let index = Int(clamped * CGFloat(frequencies.count))
+        playTone(frequency: frequencies[index], duration: 0.2, volume: 0.3)
+    }
+
+    /// Keypad beep, one note per digit (or any small integer).
+    func playKeypadTone(digit: Int) {
+        guard enabled else { return }
+        ensureEngine()
+        guard isRunning else { return }
+        let index = abs(digit) % frequencies.count
+        playTone(frequency: frequencies[index], duration: 0.15, volume: 0.3)
+    }
+
+    /// Cheerful two-tone "brrring" for pretend phones and bells.
+    func playRing() {
+        guard enabled else { return }
+        ensureEngine()
+        guard isRunning else { return }
+        playTone(frequency: 740, duration: 0.3, volume: 0.3)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) { [weak self] in
+            self?.playTone(frequency: 590, duration: 0.3, volume: 0.3)
+        }
+    }
+
+    /// A little burst of happy gibberish: a pretend friend "talking".
+    func playBabble() {
+        guard enabled else { return }
+        ensureEngine()
+        guard isRunning else { return }
+        for i in 0..<5 {
+            let freq = frequencies.randomElement() ?? 440
+            DispatchQueue.main.asyncAfter(deadline: .now() + Double(i) * 0.14) { [weak self] in
+                self?.playTone(frequency: freq * 1.5, duration: 0.11, volume: 0.25, decay: true)
+            }
+        }
+    }
+
+    /// Camera-click for the pretend shutter: two quick high ticks.
+    func playShutter() {
+        guard enabled else { return }
+        ensureEngine()
+        guard isRunning else { return }
+        playTone(frequency: 1900, duration: 0.05, volume: 0.35, decay: true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.07) { [weak self] in
+            self?.playTone(frequency: 1400, duration: 0.06, volume: 0.3, decay: true)
+        }
     }
 
     // MARK: - Background Music
