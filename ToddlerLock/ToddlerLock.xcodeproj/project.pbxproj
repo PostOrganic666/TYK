@@ -33,6 +33,7 @@
 		CD636EF4624F19B1591E8636 /* ShortcutRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE3562D36E27F345CE5BEF /* ShortcutRecorderView.swift */; };
 		EB25FDB9C2F5AB47208EE997 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E6AA312DF00479DCCE4016 /* SettingsStore.swift */; };
 		15E21D8EE2EECED1C3E1D14A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429065E5634357490A421ABD /* SettingsView.swift */; };
+		0E62F3EB4B9925758CF6A922 /* SettingsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA372F3A33309A7A1FFB1D /* SettingsSections.swift */; };
 		9C458943FE987F3A92B02430 /* PlayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9773993C584B050E5961BB /* PlayStyle.swift */; };
 		EBFA032E06F5254BC53F071D /* PlayComputerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADB1E34AB8C28EE95ECF6B /* PlayComputerMode.swift */; };
 		41B2AF077337E09A5D7A39C1 /* CameraMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71F4B517D7A002ABFFB193 /* CameraMode.swift */; };
@@ -92,6 +93,7 @@
 		50CE3562D36E27F345CE5BEF /* ShortcutRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/ShortcutRecorderView.swift"; sourceTree = "<group>"; };
 		07E6AA312DF00479DCCE4016 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/SettingsStore.swift"; sourceTree = "<group>"; };
 		429065E5634357490A421ABD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/SettingsView.swift"; sourceTree = "<group>"; };
+		22FA372F3A33309A7A1FFB1D /* SettingsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/SettingsSections.swift"; sourceTree = "<group>"; };
 		3F9773993C584B050E5961BB /* PlayStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effects/PlayStyle.swift"; sourceTree = "<group>"; };
 		EDADB1E34AB8C28EE95ECF6B /* PlayComputerMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/PlayComputerMode.swift"; sourceTree = "<group>"; };
 		8A71F4B517D7A002ABFFB193 /* CameraMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/CameraMode.swift"; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 				50CE3562D36E27F345CE5BEF /* ShortcutRecorderView.swift */,
 				07E6AA312DF00479DCCE4016 /* SettingsStore.swift */,
 				429065E5634357490A421ABD /* SettingsView.swift */,
+				22FA372F3A33309A7A1FFB1D /* SettingsSections.swift */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				CD636EF4624F19B1591E8636 /* ShortcutRecorderView.swift in Sources */,
 				EB25FDB9C2F5AB47208EE997 /* SettingsStore.swift in Sources */,
 				15E21D8EE2EECED1C3E1D14A /* SettingsView.swift in Sources */,
+				0E62F3EB4B9925758CF6A922 /* SettingsSections.swift in Sources */,
 				9C458943FE987F3A92B02430 /* PlayStyle.swift in Sources */,
 				EBFA032E06F5254BC53F071D /* PlayComputerMode.swift in Sources */,
 				41B2AF077337E09A5D7A39C1 /* CameraMode.swift in Sources */,

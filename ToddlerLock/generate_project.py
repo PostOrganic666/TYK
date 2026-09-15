@@ -37,6 +37,7 @@ sources = [
     ("Settings/ShortcutRecorderView.swift", "ShortcutRecorderView.swift"),
     ("Settings/SettingsStore.swift", "SettingsStore.swift"),
     ("Settings/SettingsView.swift", "SettingsView.swift"),
+    ("Settings/SettingsSections.swift", "SettingsSections.swift"),
     ("Effects/PlayStyle.swift", "PlayStyle.swift"),
     ("Modes/PlayComputerMode.swift", "PlayComputerMode.swift"),
     ("Modes/CameraMode.swift", "CameraMode.swift"),
@@ -92,7 +93,7 @@ groups = {
                      "PlayComputer/SystemAppViews.swift", "PlayComputer/ToyApps.swift", "PlayComputer/ToyAppViews.swift",
                      "PlayComputer/MoreToyApps.swift", "PlayComputer/MoreToyAppViews.swift", "PlayComputer/MiniAppKit.swift", "PlayComputer/ToyAppWorld.swift", "PlayComputer/ToyAppMessages.swift", "PlayComputer/ToyAppFaceTime.swift", "PlayComputer/MoreToyAppGagViews.swift"],
     "Permissions": ["Permissions/PermissionChecker.swift"],
-    "Settings": ["Settings/CharacterSet.swift", "Settings/KeychainManager.swift", "Settings/ShortcutRecorderView.swift", "Settings/SettingsStore.swift", "Settings/SettingsView.swift"],
+    "Settings": ["Settings/CharacterSet.swift", "Settings/KeychainManager.swift", "Settings/ShortcutRecorderView.swift", "Settings/SettingsStore.swift", "Settings/SettingsView.swift", "Settings/SettingsSections.swift"],
 }
 
 # IDs
