@@ -443,9 +443,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         Toddler Mode needs Accessibility permission to block keyboard and mouse input.
 
         In System Settings → Privacy & Security → Accessibility:
-        1. Find Toddler Mode in the list
-        2. Toggle it ON
-        3. Quit and relaunch Toddler Mode
+        1. Find Toddler Mode in the list and turn it on.
+        2. If it already shows as on, turn it off and on again. macOS keeps the old grant after an update.
+        3. Quit and relaunch Toddler Mode.
         """
         alert.addButton(withTitle: "Open Settings")
         alert.addButton(withTitle: "Cancel")

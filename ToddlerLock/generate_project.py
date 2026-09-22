@@ -358,7 +358,10 @@ def gen():
     a('\t\t\tisa = XCBuildConfiguration;')
     a('\t\t\tbuildSettings = {')
     a('\t\t\t\tCODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;')
-    a('\t\t\t\tCODE_SIGN_STYLE = Automatic;')
+    # Developer ID even for Debug: macOS keys the Accessibility grant to the
+    # signing certificate, so Debug and Release builds must share one.
+    a('\t\t\t\tCODE_SIGN_IDENTITY = "Developer ID Application";')
+    a('\t\t\t\tCODE_SIGN_STYLE = Manual;')
     a('\t\t\t\tCOMBINE_HIDPI_IMAGES = YES;')
     a('\t\t\t\tDEVELOPMENT_TEAM = 44CHGH7YRS;')
     a('\t\t\t\tENABLE_HARDENED_RUNTIME = YES;')
@@ -381,7 +384,8 @@ def gen():
     a('\t\t\tisa = XCBuildConfiguration;')
     a('\t\t\tbuildSettings = {')
     a('\t\t\t\tCODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;')
-    a('\t\t\t\tCODE_SIGN_STYLE = Automatic;')
+    a('\t\t\t\tCODE_SIGN_IDENTITY = "Developer ID Application";')
+    a('\t\t\t\tCODE_SIGN_STYLE = Manual;')
     a('\t\t\t\tCOMBINE_HIDPI_IMAGES = YES;')
     a('\t\t\t\tDEVELOPMENT_TEAM = 44CHGH7YRS;')
     a('\t\t\t\tENABLE_HARDENED_RUNTIME = YES;')
