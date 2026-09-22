@@ -1,6 +1,6 @@
 # Toddler Mode for Mac
 
-> **Kid-proof your MacBook in one click.** A free, open-source macOS app that locks the screen with fun animations so babies and toddlers can safely bang on the keyboard.
+> **Kid-proof your MacBook in one click.** A free, open-source macOS app that locks the screen into toddler-safe play: a pretend Mac with toy apps, camera play, kid-safe family photos, and colorful keyboard-mashing. Companion to [Toddler Mode for iPhone](https://happyduckling.app/toddlerapp/).
 
 [![Latest Release](https://img.shields.io/github/v/release/js1664/Toddler-Mode-for-Mac)](https://github.com/js1664/Toddler-Mode-for-Mac/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -11,9 +11,25 @@
 
 ## Why Toddler Mode?
 
-Every parent with a MacBook knows the moment: your toddler lunges for the keyboard, mashes keys, and suddenly you've sent a half-written email, opened 14 browser tabs, and enabled VoiceOver. **Toddler Mode locks your entire Mac** — keyboard shortcuts, trackpad gestures, Mission Control, Dock, menu bar, Cmd-Tab, volume keys, brightness keys — **everything**. Your kid sees colorful letters, shapes, sounds, and animations. Your Mac stays safe.
+Every parent with a MacBook knows the moment: your toddler lunges for the keyboard, mashes keys, and suddenly you've sent a half-written email, opened 14 browser tabs, and enabled VoiceOver. **Toddler Mode locks your entire Mac** — keyboard shortcuts, trackpad gestures, Mission Control, Dock, menu bar, Cmd-Tab, volume keys, brightness keys — **everything**. Your kid gets a pretend Mac of their own, a camera to play with, the family photos, or colorful letters and sounds. Your real Mac stays safe.
 
 No subscription. No account. No data collection. Just a single app.
+
+## Screenshots
+
+![Settings: eight play modes, play style, sound, and the exit check on one page](screenshots/settings.png)
+
+**Play Computer**: a pretend Mac with a dock of 23 toy apps. Every app is harmless and nothing reaches the outside world.
+
+![Play Computer desktop with Finder open](screenshots/playcomputer-desktop.png)
+
+| Terminal answers back | Messages with animal friends |
+|---|---|
+| ![Terminal](screenshots/playcomputer-terminal.png) | ![Messages](screenshots/playcomputer-messages.png) |
+
+| Paint | Pets | Taxes (the jokes are for you) |
+|---|---|---|
+| ![Paint](screenshots/playcomputer-paint.png) | ![Pets](screenshots/playcomputer-pets.png) | ![Taxes](screenshots/playcomputer-taxes.png) |
 
 ## Features
 
@@ -30,8 +46,9 @@ No subscription. No account. No data collection. Just a single app.
 - **Max volume cap and play timer** — Cap how loud the app can get; optionally end play with a calm break screen
 - **Multi-language support** — Choose from Arabic, Chinese, English, Hebrew, Japanese, or Korean character sets
 - **Musical key sounds** — Each key plays a pentatonic tone (always sounds pleasant)
-- **Customizable exit shortcut** — Set any key combination (requires 2+ modifiers) to exit lock mode
-- **Optional password protection** — Require a password to unlock (stored in macOS Keychain)
+- **Customizable exit shortcut** — Set any key combination (requires 2+ modifiers) to exit lock mode, then ask for nothing, a math question, or a password
+- **Optional password protection** — Stored in the macOS Keychain
+- **Menu bar control** — Lock with any mode from the menu bar icon
 - **Notarized and signed** — Downloads are Apple-notarized so macOS won't block the app
 - **100% free and open source** — MIT licensed, no ads, no tracking
 
@@ -56,7 +73,7 @@ No subscription. No account. No data collection. Just a single app.
 ## How to Exit
 
 - Press your configured shortcut (default: **Cmd+Shift+Esc**)
-- If password protection is on, enter your password
+- If you chose a check, answer the math question or enter your password
 - Or restart the computer as a failsafe
 
 ## Permissions
