@@ -476,6 +476,7 @@
 		4DEB3661A38156DF250681D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 44CHGH7YRS;
@@ -496,6 +497,7 @@
 		34B30D8D79C98DB375308719 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 44CHGH7YRS;

@@ -1,15 +1,14 @@
 import SwiftUI
 import AppKit
-import Combine
 import CoreGraphics
 
-/// The Settings window the parent uses before locking.
+/// The Settings window the parent uses before locking. One page, no
+/// scrolling at the default size.
 ///
-/// One scrolling page. The mode grid sits at the top and decides what
-/// appears below it: letters for Free Play and Character, photo settings
-/// for Slideshow and Explore, access rows for the modes that use the
-/// photo library or the camera. Settings that apply to every mode (play
-/// style, sound, timer, exit) stay in place.
+/// The mode grid on top decides the "For this mode" panel on the right:
+/// letters for Free Play and Character, photos for Slideshow and Explore,
+/// camera for Camera, both access rows for Play Computer. Play, Sound,
+/// and Exit apply to every mode and stay put.
 struct SettingsView: View {
     // Play
     @State private var selectedMode: PlayModeType = SettingsStore.shared.selectedMode
@@ -34,8 +33,7 @@ struct SettingsView: View {
     @State private var passwordEnabled: Bool = SettingsStore.shared.passwordEnabled
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
-    @State private var showPasswordError: Bool = false
-    @State private var passwordErrorMessage: String = ""
+    @State private var passwordError: String?
 
     // Access
     @State private var photosAllowed: Bool = PhotoLibraryService.accessAlreadyGranted
@@ -43,22 +41,29 @@ struct SettingsView: View {
 
     var onLockNow: (() -> Void)?
 
-    private let exitSectionID = "exit"
+    static let contentSize = NSSize(width: 760, height: 600)
 
     var body: some View {
         VStack(spacing: 0) {
-            ScrollViewReader { proxy in
-                Form {
-                    ModeGridSection(selectedMode: $selectedMode)
+            VStack(spacing: 14) {
+                ModeGrid(selectedMode: $selectedMode)
 
-                    if selectedMode.usesLetters {
-                        LettersSection(characterSet: $characterSet)
+                HStack(alignment: .top, spacing: 14) {
+                    SettingsPanel(title: "Play") {
+                        PlayPanel(
+                            playIntensity: $playIntensity,
+                            soundEnabled: $soundEnabled,
+                            musicEnabled: $musicEnabled,
+                            maxVolume: $maxVolume,
+                            sessionLimitMinutes: $sessionLimitMinutes
+                        )
                     }
-
-                    if selectedMode.usesPhotoLibrary {
-                        PhotosSection(
+                    SettingsPanel(title: "For \(selectedMode.rawValue)") {
+                        ModePanel(
                             selectedMode: selectedMode,
+                            characterSet: $characterSet,
                             photosAllowed: $photosAllowed,
+                            cameraAllowed: $cameraAllowed,
                             photoSource: $photoSource,
                             selectedPhotoIDs: $selectedPhotoIDs,
                             includedAlbumIDs: $includedAlbumIDs,
@@ -66,94 +71,82 @@ struct SettingsView: View {
                             showVideos: $showVideos,
                             slideshowInterval: $slideshowInterval
                         )
-                    } else if selectedMode.showsPhotosAccess {
-                        PhotosAccessOnlySection(photosAllowed: $photosAllowed)
+                        .id(selectedMode)
+                        .transition(.opacity)
                     }
+                }
+                .frame(maxHeight: .infinity, alignment: .top)
 
-                    if selectedMode.showsCameraAccess {
-                        CameraSection(selectedMode: selectedMode, cameraAllowed: $cameraAllowed)
-                    }
-
-                    PlayStyleSection(playIntensity: $playIntensity)
-
-                    SoundSection(
-                        soundEnabled: $soundEnabled,
-                        musicEnabled: $musicEnabled,
-                        maxVolume: $maxVolume
-                    )
-
-                    PlayTimerSection(sessionLimitMinutes: $sessionLimitMinutes)
-
-                    ExitSection(
+                SettingsPanel(title: "Exit") {
+                    ExitPanel(
                         exitKeyCode: $exitKeyCode,
                         exitModifiers: $exitModifiers,
                         passwordEnabled: $passwordEnabled,
                         password: $password,
                         confirmPassword: $confirmPassword,
-                        showPasswordError: showPasswordError,
-                        passwordErrorMessage: passwordErrorMessage
+                        passwordError: passwordError
                     )
-                    .id(exitSectionID)
-
-                    AboutSection()
-                }
-                .formStyle(.grouped)
-                .onReceive(scrollToExit) { _ in
-                    withAnimation { proxy.scrollTo(exitSectionID, anchor: .center) }
                 }
             }
+            .padding(16)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
 
             Divider()
             bottomBar
         }
-        .frame(minWidth: 680, minHeight: 560)
-        .background(WindowConfigurator(contentSize: NSSize(width: 780, height: 800),
-                                       minSize: NSSize(width: 680, height: 560)))
+        .controlSize(.small)
+        .frame(minWidth: 720, minHeight: 560)
+        .background(WindowConfigurator(contentSize: Self.contentSize,
+                                       minSize: NSSize(width: 720, height: 560)))
         .onReceive(NotificationCenter.default.publisher(for: NSApplication.didBecomeActiveNotification)) { _ in
             refreshAccess()
         }
+        .onChange(of: passwordEnabled) { _ in passwordError = nil }
     }
 
     // MARK: - Bottom bar
 
     private var bottomBar: some View {
-        VStack(spacing: 10) {
+        HStack(spacing: 12) {
             if let need = pendingAccess {
-                HStack(spacing: 8) {
-                    Image(systemName: "exclamationmark.circle.fill")
-                        .foregroundColor(.orange)
-                        .accessibilityHidden(true)
-                    Text(need.message)
-                        .font(.callout)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Spacer(minLength: 8)
-                    Button(need.buttonTitle, action: need.action)
-                }
-                .padding(.horizontal, 24)
-                .transition(.opacity)
+                Image(systemName: "exclamationmark.circle.fill")
+                    .foregroundColor(.orange)
+                    .accessibilityHidden(true)
+                Text(need.message)
+                    .font(.callout)
+                    .lineLimit(2)
+                    .fixedSize(horizontal: false, vertical: true)
+                Button(need.buttonTitle, action: need.action)
+            } else {
+                #if DEBUG
+                Text("Debug build. The lock opens on its own after 60 seconds.")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                #else
+                Text("Grown-ups leave with the exit shortcut.")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                #endif
             }
+
+            Spacer(minLength: 12)
 
             Button(action: lockNow) {
                 HStack(spacing: 8) {
                     Image(systemName: "lock.fill")
                     Text("Lock Now: \(selectedMode.rawValue)")
                 }
-                .font(.system(size: 16, weight: .bold, design: .rounded))
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 8)
+                .font(.system(size: 15, weight: .bold, design: .rounded))
+                .padding(.horizontal, 18)
+                .padding(.vertical, 6)
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
-            .padding(.horizontal, 24)
+            .keyboardShortcut(.defaultAction)
             .help("Start \(selectedMode.rawValue) and lock the screen.")
-
-            #if DEBUG
-            Text("Debug build. The lock opens on its own after 60 seconds.")
-                .font(.caption2)
-                .foregroundColor(.secondary)
-            #endif
         }
-        .padding(.vertical, 14)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 12)
         .frame(maxWidth: .infinity)
         .background(Color(nsColor: .windowBackgroundColor))
     }
@@ -186,71 +179,81 @@ struct SettingsView: View {
         return nil
     }
 
-    // MARK: - Access refresh
-
     private func refreshAccess() {
         photosAllowed = PhotoLibraryService.accessAlreadyGranted
         cameraAllowed = PlayCameraController.accessAlreadyGranted
     }
 
-    /// Fires when the password check fails, so the page scrolls to Exit.
-    private var scrollToExit: AnyPublisher<Void, Never> {
-        SettingsScrollSignal.shared.toExit.eraseToAnyPublisher()
-    }
-
     // MARK: - Lock
 
     private func lockNow() {
-        // Play
-        SettingsStore.shared.selectedMode = selectedMode
-        SettingsStore.shared.playIntensity = playIntensity
-        SettingsStore.shared.characterSet = characterSet
-        SettingsStore.shared.soundEnabled = soundEnabled
-        SettingsStore.shared.musicEnabled = musicEnabled
-        SettingsStore.shared.maxVolume = maxVolume
-        SettingsStore.shared.sessionLimitMinutes = sessionLimitMinutes
+        let store = SettingsStore.shared
+        store.selectedMode = selectedMode
+        store.playIntensity = playIntensity
+        store.characterSet = characterSet
+        store.soundEnabled = soundEnabled
+        store.musicEnabled = musicEnabled
+        store.maxVolume = maxVolume
+        store.sessionLimitMinutes = sessionLimitMinutes
 
-        // Photos
-        SettingsStore.shared.photoSource = photoSource
-        SettingsStore.shared.selectedPhotoIDs = selectedPhotoIDs
-        SettingsStore.shared.includedAlbumIDs = includedAlbumIDs
-        SettingsStore.shared.excludedAlbumIDs = excludedAlbumIDs
-        SettingsStore.shared.showVideos = showVideos
-        SettingsStore.shared.slideshowInterval = slideshowInterval
+        store.photoSource = photoSource
+        store.selectedPhotoIDs = selectedPhotoIDs
+        store.includedAlbumIDs = includedAlbumIDs
+        store.excludedAlbumIDs = excludedAlbumIDs
+        store.showVideos = showVideos
+        store.slideshowInterval = slideshowInterval
 
-        // Exit
-        SettingsStore.shared.exitKeyCode = exitKeyCode
-        SettingsStore.shared.exitModifiers = exitModifiers
-        SettingsStore.shared.passwordEnabled = passwordEnabled
+        store.exitKeyCode = exitKeyCode
+        store.exitModifiers = exitModifiers
+        store.passwordEnabled = passwordEnabled
 
         if passwordEnabled {
+            // A saved password stays valid when the fields are left empty.
+            if password.isEmpty && confirmPassword.isEmpty && KeychainManager.hasPassword {
+                passwordError = nil
+                onLockNow?()
+                return
+            }
             guard !password.isEmpty else {
-                failPassword("Enter a password.")
+                passwordError = "Enter a password."
                 return
             }
             guard password == confirmPassword else {
-                failPassword("The two passwords do not match.")
+                passwordError = "The two passwords do not match."
                 return
             }
             KeychainManager.savePassword(password)
         }
 
-        showPasswordError = false
+        passwordError = nil
         onLockNow?()
-    }
-
-    private func failPassword(_ message: String) {
-        passwordErrorMessage = message
-        showPasswordError = true
-        SettingsScrollSignal.shared.toExit.send(())
     }
 }
 
-/// Carries the one scroll request the page needs.
-final class SettingsScrollSignal {
-    static let shared = SettingsScrollSignal()
-    let toExit = PassthroughSubject<Void, Never>()
-    private init() {}
+/// A titled, bordered group with tight padding.
+struct SettingsPanel<Content: View>: View {
+    let title: String
+    @ViewBuilder let content: () -> Content
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(title)
+                .font(.system(size: 12, weight: .semibold))
+                .foregroundColor(.secondary)
+                .textCase(.uppercase)
+            content()
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .topLeading)
+        .background(
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                .fill(Color.primary.opacity(0.04))
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                .strokeBorder(Color.primary.opacity(0.08))
+        )
+    }
 }
 
 /// Sizes the Settings window from inside SwiftUI: an ideal content size on
