@@ -4,7 +4,14 @@ import AppKit
 /// Receives key events from InputEventBus in .password routing mode —
 /// the event tap stays active the entire time.
 final class PasswordOverlayView: NSView {
-    private var passwordField: NSSecureTextField!
+    /// What the overlay asks for.
+    enum Mode {
+        case password
+        case math
+        case backdoor
+    }
+
+    private var passwordField: NSTextField!
     private var titleLabel: NSTextField!
     private var messageLabel: NSTextField!
     private var unlockButton: NSButton!
@@ -25,9 +32,11 @@ final class PasswordOverlayView: NSView {
     /// Timeout timer
     private var timeoutTimer: Timer?
 
-    /// Whether the overlay was triggered by the backdoor shortcut (vs the user's exit shortcut).
-    /// In backdoor mode the message tells the user to enter the PIN from the website.
-    private var isBackdoorMode: Bool = false
+    private var mode: Mode = .password
+    private var isBackdoorMode: Bool { mode == .backdoor }
+
+    /// The current multiplication question in math mode.
+    private var mathAnswer = 0
 
     override init(frame: NSRect) {
         super.init(frame: frame)
@@ -65,7 +74,7 @@ final class PasswordOverlayView: NSView {
         containerView.addSubview(messageLabel)
 
         // Password dots display (we show dots since we handle input manually)
-        passwordField = NSSecureTextField()
+        passwordField = NSTextField()
         passwordField.font = .systemFont(ofSize: 20)
         passwordField.alignment = .center
         passwordField.placeholderString = "Password"
@@ -126,21 +135,40 @@ final class PasswordOverlayView: NSView {
         )
     }
 
-    /// Show the overlay and start accepting password input.
-    /// - Parameter backdoor: when true, shows the backdoor PIN messaging.
-    func show(backdoor: Bool = false) {
+    /// Show the overlay and start accepting input for the given check.
+    func show(mode: Mode) {
+        self.mode = mode
         isHidden = false
         passwordBuffer = ""
-        isBackdoorMode = backdoor
-        if backdoor {
-            messageLabel.stringValue = "Enter backdoor PIN to unlock"
-            messageLabel.textColor = .lightGray
-        } else {
-            messageLabel.stringValue = "Enter password to unlock"
-            messageLabel.textColor = .lightGray
+        messageLabel.textColor = .lightGray
+        messageLabel.font = .systemFont(ofSize: 16)
+        switch mode {
+        case .backdoor:
+            messageLabel.stringValue = "Enter the emergency PIN to unlock"
+            passwordField.placeholderString = "PIN"
+        case .password:
+            messageLabel.stringValue = "Enter your password to unlock"
+            passwordField.placeholderString = "Password"
+        case .math:
+            newQuestion()
+            passwordField.placeholderString = "Answer"
         }
         updatePasswordDisplay()
         startTimeout()
+    }
+
+    /// Compatibility with the older call sites.
+    func show(backdoor: Bool = false) {
+        show(mode: backdoor ? .backdoor : .password)
+    }
+
+    private func newQuestion() {
+        let a = Int.random(in: 6...9)
+        let b = Int.random(in: 3...9)
+        mathAnswer = a * b
+        messageLabel.stringValue = "Grown-ups: what is \(a) × \(b)?"
+        messageLabel.font = .systemFont(ofSize: 22, weight: .semibold)
+        messageLabel.textColor = .white
     }
 
     /// Hide the overlay.
@@ -188,28 +216,42 @@ final class PasswordOverlayView: NSView {
     }
 
     private func updatePasswordDisplay() {
-        // Show dots for password length
-        passwordField.stringValue = String(repeating: "\u{2022}", count: passwordBuffer.count)
+        if mode == .math {
+            passwordField.stringValue = passwordBuffer
+        } else {
+            passwordField.stringValue = String(repeating: "\u{2022}", count: passwordBuffer.count)
+        }
     }
 
     private func attemptUnlock() {
-        // Always accept the backdoor PIN as an emergency unlock,
-        // in addition to the user's password (if set).
+        // The emergency PIN always works, whatever the check.
         let isBackdoorPIN = (passwordBuffer == BackdoorShortcut.pin)
-        let isUserPassword = KeychainManager.verifyPassword(passwordBuffer)
+        let passes: Bool
+        switch mode {
+        case .math:
+            passes = Int(passwordBuffer.trimmingCharacters(in: .whitespaces)) == mathAnswer
+        case .password, .backdoor:
+            passes = KeychainManager.verifyPassword(passwordBuffer)
+        }
 
-        if isBackdoorPIN || isUserPassword {
+        if isBackdoorPIN || passes {
             hide()
             onUnlock?()
         } else {
-            // Shake animation
             shakeContainer()
             passwordBuffer = ""
             updatePasswordDisplay()
-            messageLabel.stringValue = isBackdoorMode
-                ? "Incorrect PIN. Try again."
-                : "Incorrect password. Try again."
-            messageLabel.textColor = .systemRed
+            switch mode {
+            case .math:
+                newQuestion()
+                messageLabel.stringValue = "Not quite. " + messageLabel.stringValue
+            case .backdoor:
+                messageLabel.stringValue = "Wrong PIN. Try again."
+                messageLabel.textColor = .systemRed
+            case .password:
+                messageLabel.stringValue = "Wrong password. Try again."
+                messageLabel.textColor = .systemRed
+            }
         }
     }
 

@@ -531,22 +531,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - Exit Shortcut Handling
 
     private func handleExitShortcut() {
-        if settings.passwordEnabled && !settings.password.isEmpty {
-            showPasswordOverlay(backdoor: false)
-        } else {
+        switch settings.unlockGate {
+        case .password where KeychainManager.hasPassword:
+            showPasswordOverlay(mode: .password)
+        case .math:
+            showPasswordOverlay(mode: .math)
+        default:
             exitLockMode()
         }
     }
 
-    /// Always-available emergency unlock — shows the password overlay regardless of
-    /// whether the user has set a password. The overlay accepts the backdoor PIN.
+    /// Always-available emergency unlock: shows the overlay in PIN mode
+    /// whatever the parent chose. The overlay accepts the emergency PIN.
     private func handleBackdoorShortcut() {
-        showPasswordOverlay(backdoor: true)
+        showPasswordOverlay(mode: .backdoor)
     }
 
-    private func showPasswordOverlay(backdoor: Bool = false) {
+    private func showPasswordOverlay(mode: PasswordOverlayView.Mode) {
         eventBus.routingMode = .password
-        passwordOverlay?.show(backdoor: backdoor)
+        passwordOverlay?.show(mode: mode)
     }
 
     private func dismissPasswordOverlay() {

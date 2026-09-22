@@ -30,7 +30,7 @@ struct SettingsView: View {
     // Exit
     @State private var exitKeyCode: UInt16 = SettingsStore.shared.exitKeyCode
     @State private var exitModifiers: CGEventFlags = SettingsStore.shared.exitModifiers
-    @State private var passwordEnabled: Bool = SettingsStore.shared.passwordEnabled
+    @State private var unlockGate: UnlockGate = SettingsStore.shared.unlockGate
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
     @State private var passwordError: String?
@@ -49,7 +49,7 @@ struct SettingsView: View {
                 ModeGrid(selectedMode: $selectedMode)
 
                 HStack(alignment: .top, spacing: 14) {
-                    SettingsPanel(title: "Play") {
+                    SettingsPanel(title: "Play", fills: true) {
                         PlayPanel(
                             playIntensity: $playIntensity,
                             soundEnabled: $soundEnabled,
@@ -58,7 +58,7 @@ struct SettingsView: View {
                             sessionLimitMinutes: $sessionLimitMinutes
                         )
                     }
-                    SettingsPanel(title: "For \(selectedMode.rawValue)") {
+                    SettingsPanel(title: "For \(selectedMode.rawValue)", fills: true) {
                         ModePanel(
                             selectedMode: selectedMode,
                             characterSet: $characterSet,
@@ -75,13 +75,14 @@ struct SettingsView: View {
                         .transition(.opacity)
                     }
                 }
-                .frame(maxHeight: .infinity, alignment: .top)
+                // Both panels take the height of the taller one.
+                .fixedSize(horizontal: false, vertical: true)
 
                 SettingsPanel(title: "Exit") {
                     ExitPanel(
                         exitKeyCode: $exitKeyCode,
                         exitModifiers: $exitModifiers,
-                        passwordEnabled: $passwordEnabled,
+                        unlockGate: $unlockGate,
                         password: $password,
                         confirmPassword: $confirmPassword,
                         passwordError: passwordError
@@ -95,13 +96,13 @@ struct SettingsView: View {
             bottomBar
         }
         .controlSize(.small)
-        .frame(minWidth: 720, minHeight: 560)
+        .frame(minWidth: 720, minHeight: 600)
         .background(WindowConfigurator(contentSize: Self.contentSize,
-                                       minSize: NSSize(width: 720, height: 560)))
+                                       minSize: NSSize(width: 720, height: 600)))
         .onReceive(NotificationCenter.default.publisher(for: NSApplication.didBecomeActiveNotification)) { _ in
             refreshAccess()
         }
-        .onChange(of: passwordEnabled) { _ in passwordError = nil }
+        .onChange(of: unlockGate) { _ in passwordError = nil }
     }
 
     // MARK: - Bottom bar
@@ -205,9 +206,9 @@ struct SettingsView: View {
 
         store.exitKeyCode = exitKeyCode
         store.exitModifiers = exitModifiers
-        store.passwordEnabled = passwordEnabled
+        store.unlockGate = unlockGate
 
-        if passwordEnabled {
+        if unlockGate == .password {
             // A saved password stays valid when the fields are left empty.
             if password.isEmpty && confirmPassword.isEmpty && KeychainManager.hasPassword {
                 passwordError = nil
@@ -233,6 +234,8 @@ struct SettingsView: View {
 /// A titled, bordered group with tight padding.
 struct SettingsPanel<Content: View>: View {
     let title: String
+    /// Stretch to the height of a sibling panel (the two middle panels).
+    var fills = false
     @ViewBuilder let content: () -> Content
 
     var body: some View {
@@ -244,7 +247,7 @@ struct SettingsPanel<Content: View>: View {
             content()
         }
         .padding(12)
-        .frame(maxWidth: .infinity, alignment: .topLeading)
+        .frame(maxWidth: .infinity, maxHeight: fills ? .infinity : nil, alignment: .topLeading)
         .background(
             RoundedRectangle(cornerRadius: 10, style: .continuous)
                 .fill(Color.primary.opacity(0.04))

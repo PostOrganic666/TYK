@@ -31,6 +31,23 @@ final class SettingsStore {
         set { exitModifierFlags = newValue.rawValue }
     }
 
+    // MARK: - Unlock check
+
+    /// What the exit shortcut asks for before the lock ends.
+    var unlockGate: UnlockGate {
+        get {
+            if let raw = defaults.string(forKey: "unlockGate"), let gate = UnlockGate(rawValue: raw) {
+                return gate
+            }
+            // Older versions stored only the password switch.
+            return passwordEnabled ? .password : .none
+        }
+        set {
+            defaults.set(newValue.rawValue, forKey: "unlockGate")
+            passwordEnabled = newValue == .password
+        }
+    }
+
     // MARK: - Password
 
     var passwordEnabled: Bool {
@@ -167,6 +184,23 @@ final class SettingsStore {
     }
 
     private init() {}
+}
+
+/// The check the exit shortcut runs. Raw values are persisted.
+enum UnlockGate: String, CaseIterable, Identifiable {
+    case none = "Shortcut only"
+    case math = "Math question"
+    case password = "Password"
+
+    var id: String { rawValue }
+
+    var blurb: String {
+        switch self {
+        case .none: return "The shortcut alone ends the lock."
+        case .math: return "The shortcut opens a multiplication question. Grown-ups solve it in a second."
+        case .password: return "The shortcut asks for your password."
+        }
+    }
 }
 
 private extension Int {

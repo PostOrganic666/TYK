@@ -141,17 +141,17 @@ private struct ModeCard: View {
 
     var body: some View {
         Button(action: action) {
-            HStack(spacing: 8) {
-                Text(mode.emoji).font(.system(size: 22))
+            VStack(spacing: 6) {
+                Text(mode.emoji).font(.system(size: 30))
                 Text(mode.rawValue)
-                    .font(.system(size: 12, weight: .semibold))
+                    .font(.system(size: 13, weight: .semibold))
                     .foregroundColor(.primary)
                     .lineLimit(1)
                     .minimumScaleFactor(0.8)
-                Spacer(minLength: 0)
             }
-            .padding(.horizontal, 10)
-            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 10)
+            .frame(maxWidth: .infinity, minHeight: 84)
             .background(RoundedRectangle(cornerRadius: 9, style: .continuous).fill(fillColor))
             .overlay(
                 RoundedRectangle(cornerRadius: 9, style: .continuous)
@@ -400,43 +400,44 @@ struct ModePanel: View {
 struct ExitPanel: View {
     @Binding var exitKeyCode: UInt16
     @Binding var exitModifiers: CGEventFlags
-    @Binding var passwordEnabled: Bool
+    @Binding var unlockGate: UnlockGate
     @Binding var password: String
     @Binding var confirmPassword: String
     let passwordError: String?
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack(alignment: .center, spacing: 14) {
-                SettingRow(label: "Shortcut") {
-                    ShortcutRecorderView(keyCode: $exitKeyCode, modifiers: $exitModifiers)
-                        .frame(width: 160, height: 26)
-                        .help("Hold two or more modifier keys, then press one key.")
+        VStack(alignment: .leading, spacing: 9) {
+            SettingRow(label: "Shortcut") {
+                ShortcutRecorderView(keyCode: $exitKeyCode, modifiers: $exitModifiers)
+                    .frame(width: 160, height: 26)
+                    .help("Hold two or more modifier keys, then press one key.")
+            }
+            SettingRow(label: "Then ask for") {
+                Picker("Then ask for", selection: $unlockGate) {
+                    ForEach(UnlockGate.allCases) { Text($0.rawValue).tag($0) }
                 }
-                .frame(maxWidth: 300)
-
-                Toggle("Ask for a password", isOn: $passwordEnabled)
-                    .toggleStyle(.checkbox)
-                if passwordEnabled {
+                .labelsHidden()
+                .frame(width: 150)
+                .help(unlockGate.blurb)
+                if unlockGate == .password {
                     SecureField(KeychainManager.hasPassword ? "New password" : "Password", text: $password)
                         .textFieldStyle(.roundedBorder)
-                        .frame(width: 120)
+                        .frame(width: 130)
                     SecureField("Confirm", text: $confirmPassword)
                         .textFieldStyle(.roundedBorder)
-                        .frame(width: 120)
+                        .frame(width: 130)
                 }
-                Spacer(minLength: 0)
-            }
-            HStack(spacing: 12) {
-                Text("The emergency unlock \(BackdoorShortcut.displayShortcut) always works.")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
                 if let passwordError {
                     Text(passwordError)
                         .font(.caption)
                         .foregroundColor(.red)
                 }
             }
+            Text(unlockGate.blurb + " The emergency unlock \(BackdoorShortcut.displayShortcut) always works.")
+                .font(.caption)
+                .foregroundColor(.secondary)
+                .lineLimit(2)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }
