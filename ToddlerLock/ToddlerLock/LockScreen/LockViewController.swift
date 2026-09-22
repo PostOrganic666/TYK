@@ -132,10 +132,15 @@ final class LockViewController: NSViewController {
 
     // MARK: - Event routing
 
-    /// Screen coordinates (bottom-left origin) → this view's coordinates.
-    private func viewPosition(from screenPoint: CGPoint) -> CGPoint {
-        guard let window = view.window else { return screenPoint }
-        let inWindow = window.convertPoint(fromScreen: screenPoint)
+    /// The virtual pointer lives in Core Graphics screen space (origin
+    /// top-left, y grows downward, like the mouse deltas that drive it).
+    /// AppKit screen space has the origin at the bottom-left of the main
+    /// display, so flip y before asking the window to convert.
+    private func viewPosition(from cgPoint: CGPoint) -> CGPoint {
+        guard let window = view.window else { return cgPoint }
+        let mainHeight = NSScreen.screens.first?.frame.height ?? window.frame.height
+        let appKitPoint = CGPoint(x: cgPoint.x, y: mainHeight - cgPoint.y)
+        let inWindow = window.convertPoint(fromScreen: appKitPoint)
         return view.convert(inWindow, from: nil)
     }
 
