@@ -42,6 +42,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         showSettingsWindow()
 
+        // Ask macOS to list the app under Accessibility (and prompt) when it
+        // is not trusted yet. Without this call a removed or stale row never
+        // comes back on its own.
+        if !permissionChecker.hasAccessibility {
+            permissionChecker.requestAccessibility()
+        }
+
         SoundManager.shared.maxVolume = Float(settings.maxVolume)
 
         #if DEBUG
@@ -444,11 +451,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         In System Settings → Privacy & Security → Accessibility:
         1. Find Toddler Mode in the list and turn it on.
-        2. If it already shows as on, turn it off and on again. macOS keeps the old grant after an update.
+        2. If it already shows as on, select it, click the minus button to remove it, then relaunch Toddler Mode and turn it on again. macOS keeps a stale grant after an update.
         3. Quit and relaunch Toddler Mode.
         """
         alert.addButton(withTitle: "Open Settings")
         alert.addButton(withTitle: "Cancel")
+        permissionChecker.requestAccessibility()
         let response = alert.runModal()
         if response == .alertFirstButtonReturn {
             permissionChecker.openAccessibilitySettings()
