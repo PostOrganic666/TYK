@@ -1,4 +1,5 @@
 import AppKit
+import SpriteKit
 import Combine
 import SwiftUI
 
@@ -25,6 +26,7 @@ final class CameraModeInput: ObservableObject {
 /// and a preview layer and no outputs at all.
 final class CameraMode: PlayMode {
     let contentView: NSView?
+    var spriteScene: SKScene? { nil }
     private let camera: PlayCameraController
     private let input = CameraModeInput()
 

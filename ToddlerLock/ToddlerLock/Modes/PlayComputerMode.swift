@@ -1,10 +1,12 @@
 import AppKit
+import SpriteKit
 import SwiftUI
 
 /// Play Computer: a pretend Mac desktop hosted in SwiftUI. Mouse events
 /// reach the SwiftUI views as real NSEvents; keys go through ComputerInput.
 final class PlayComputerMode: PlayMode {
     let contentView: NSView?
+    var spriteScene: SKScene? { nil }
     private let input = ComputerInput.shared
 
     init(size: CGSize) {

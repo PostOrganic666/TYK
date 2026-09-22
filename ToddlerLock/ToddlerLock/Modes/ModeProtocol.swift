@@ -69,8 +69,6 @@ protocol PlayMode: AnyObject {
 }
 
 extension PlayMode {
-    var spriteScene: SKScene? { nil }
-    var contentView: NSView? { nil }
     func handleMouseUp(position: CGPoint) {}
     func handleScroll(deltaY: CGFloat, at position: CGPoint) {}
     func willEnd() {}

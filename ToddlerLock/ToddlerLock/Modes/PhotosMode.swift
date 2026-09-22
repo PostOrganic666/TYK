@@ -1,4 +1,5 @@
 import AppKit
+import SpriteKit
 import Combine
 import SwiftUI
 
@@ -66,6 +67,7 @@ final class PhotoInput: ObservableObject {
 /// Settings screen is where access is granted.
 final class PhotosMode: PlayMode {
     let contentView: NSView?
+    var spriteScene: SKScene? { nil }
     let style: PlayModeType
 
     private let input: PhotoInput

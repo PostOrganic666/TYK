@@ -13,6 +13,8 @@ import SpriteKit
 ///     gentle auto-spawn so the scene stays alive on its own.
 final class ChillMode: PlayMode {
     let scene: SKScene
+    var spriteScene: SKScene? { scene }
+    var contentView: NSView? { nil }
     private let soundManager = SoundManager.shared
 
     /// Infant / Toddler / Lively knobs, fixed for the life of the mode.

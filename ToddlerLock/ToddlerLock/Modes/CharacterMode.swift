@@ -6,6 +6,8 @@ import AppKit
 /// Leaves a trail of colorful paw prints.
 final class CharacterMode: PlayMode {
     let scene: SKScene
+    var spriteScene: SKScene? { scene }
+    var contentView: NSView? { nil }
     private let soundManager = SoundManager.shared
     private let characterSet: LetterCharacterSet
 
