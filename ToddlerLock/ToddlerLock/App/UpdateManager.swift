@@ -7,7 +7,7 @@ final class UpdateManager {
     static let shared = UpdateManager()
 
     private let githubRepo = "js1664/Toddler-Mode-for-Mac"
-    private let downloadURL = URL(string: "https://suss.dev/toddlermodemac/ToddlerMode.dmg")!
+    private let downloadURL = URL(string: "https://happyduckling.app/toddlerapp/ToddlerMode.dmg")!
 
     private var currentVersion: String {
         Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.0.0"
