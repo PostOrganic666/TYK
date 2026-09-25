@@ -39,6 +39,11 @@ jobs:
               grep -E '(^|[[:space:]])(error:|warning:)|BUILD FAILED' "$RUNNER_TEMP/xcodebuild.log" | tail -n 100
               echo '```'
             } >> "$GITHUB_STEP_SUMMARY"
+            grep -E '(^|[[:space:]])error:|BUILD FAILED' "$RUNNER_TEMP/xcodebuild.log" \
+              | tail -n 20 \
+              | while IFS= read -r line; do
+                  echo "::error title=Xcode compiler::$line"
+                done
           fi
           exit "$status"
 
