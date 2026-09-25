@@ -11,7 +11,7 @@ jobs:
   macos:
     runs-on: macos-15
     permissions:
-      contents: read
+      contents: write
 
     steps:
       - name: Check out source
@@ -64,3 +64,18 @@ jobs:
           path: ${{ runner.temp }}/Tyk-macOS.zip
           if-no-files-found: error
           retention-days: 14
+
+      - name: Publish v0.1.0 prerelease
+        if: github.ref == 'refs/heads/codex/toddler-fork'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v0.1.0 >/dev/null 2>&1; then
+            gh release upload v0.1.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
+          else
+            gh release create v0.1.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
+              --target "$GITHUB_SHA" \
+              --title "Тык 0.1.0 — предварительная версия" \
+              --notes "Первая пробная сборка: русские буквы с озвучкой, книжные животные и транспорт, семплированная челеста." \
+              --prerelease
+          fi
