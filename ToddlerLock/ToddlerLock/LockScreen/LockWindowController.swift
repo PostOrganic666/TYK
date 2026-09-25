@@ -10,14 +10,14 @@ final class LockWindowController {
 
     /// The mode that was used to create the lock screen. Remembered so display
     /// change events can recreate windows with the correct mode (not the default).
-    private(set) var activeMode: PlayModeType = .freePlay
+    private(set) var activeMode: PlayModeType = .letters
 
     /// Snapshot of screen IDs the last time we built windows, used to skip
     /// no-op display change notifications.
     private var lastScreenIDs: Set<UInt32> = []
 
     /// Create lock windows covering all screens and show them.
-    func showLockScreen(mode: PlayModeType = .freePlay) {
+    func showLockScreen(mode: PlayModeType = .letters) {
         closeAll()
 
         activeMode = mode
