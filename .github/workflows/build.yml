@@ -15,13 +15,14 @@ jobs:
 
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Generate Xcode project
         run: python3 ToddlerLock/generate_project.py
 
       - name: Build unsigned release
         run: |
+          set +e
           xcodebuild \
             -project ToddlerLock/ToddlerLock.xcodeproj \
             -target ToddlerLock \
@@ -29,7 +30,17 @@ jobs:
             SYMROOT="$RUNNER_TEMP/Build" \
             OBJROOT="$RUNNER_TEMP/Intermediates" \
             CODE_SIGNING_ALLOWED=NO \
-            build
+            build 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"
+          status=${PIPESTATUS[0]}
+          if [ "$status" -ne 0 ]; then
+            {
+              echo "### Xcode compiler output"
+              echo '```text'
+              grep -E '(^|[[:space:]])(error:|warning:)|BUILD FAILED' "$RUNNER_TEMP/xcodebuild.log" | tail -n 100
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+          exit "$status"
 
       - name: Sign local build ad-hoc
         run: |
