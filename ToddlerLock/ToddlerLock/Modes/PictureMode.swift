@@ -15,6 +15,30 @@ enum PictureCollection {
                 .init(name: "ёжик", column: 3, rowFromTop: 0),
                 .init(name: "кот", column: 0, rowFromTop: 1),
                 .init(name: "собака", column: 1, rowFromTop: 1),
+                .init(name: "белка", assetName: "storybook-animals-02", column: 0, rowFromTop: 0),
+                .init(name: "сова", assetName: "storybook-animals-02", column: 1, rowFromTop: 0),
+                .init(name: "енот", assetName: "storybook-animals-02", column: 2, rowFromTop: 0),
+                .init(name: "оленёнок", assetName: "storybook-animals-02", column: 3, rowFromTop: 0),
+                .init(name: "лягушка", assetName: "storybook-animals-02", column: 0, rowFromTop: 1),
+                .init(name: "утка", assetName: "storybook-animals-02", column: 1, rowFromTop: 1),
+                .init(name: "пингвин", assetName: "storybook-animals-02", column: 2, rowFromTop: 1),
+                .init(name: "слон", assetName: "storybook-animals-02", column: 3, rowFromTop: 1),
+                .init(name: "жираф", assetName: "storybook-animals-02", column: 0, rowFromTop: 2),
+                .init(name: "лев", assetName: "storybook-animals-02", column: 1, rowFromTop: 2),
+                .init(name: "зебра", assetName: "storybook-animals-02", column: 2, rowFromTop: 2),
+                .init(name: "обезьяна", assetName: "storybook-animals-02", column: 3, rowFromTop: 2),
+                .init(name: "корова", assetName: "storybook-animals-03", column: 0, rowFromTop: 0),
+                .init(name: "поросёнок", assetName: "storybook-animals-03", column: 1, rowFromTop: 0),
+                .init(name: "овечка", assetName: "storybook-animals-03", column: 2, rowFromTop: 0),
+                .init(name: "коза", assetName: "storybook-animals-03", column: 3, rowFromTop: 0),
+                .init(name: "лошадь", assetName: "storybook-animals-03", column: 0, rowFromTop: 1),
+                .init(name: "курица", assetName: "storybook-animals-03", column: 1, rowFromTop: 1),
+                .init(name: "черепаха", assetName: "storybook-animals-03", column: 2, rowFromTop: 1),
+                .init(name: "крокодил", assetName: "storybook-animals-03", column: 3, rowFromTop: 1),
+                .init(name: "дельфин", assetName: "storybook-animals-03", column: 0, rowFromTop: 2),
+                .init(name: "кит", assetName: "storybook-animals-03", column: 1, rowFromTop: 2),
+                .init(name: "тюлень", assetName: "storybook-animals-03", column: 2, rowFromTop: 2),
+                .init(name: "кенгуру", assetName: "storybook-animals-03", column: 3, rowFromTop: 2),
             ]
         case .transport:
             return [
@@ -24,6 +48,30 @@ enum PictureCollection {
                 .init(name: "экскаватор", column: 1, rowFromTop: 2),
                 .init(name: "самолёт", column: 2, rowFromTop: 2),
                 .init(name: "кораблик", column: 3, rowFromTop: 2),
+                .init(name: "пожарная машина", assetName: "storybook-transport-02", column: 0, rowFromTop: 0),
+                .init(name: "скорая помощь", assetName: "storybook-transport-02", column: 1, rowFromTop: 0),
+                .init(name: "полицейская машина", assetName: "storybook-transport-02", column: 2, rowFromTop: 0),
+                .init(name: "самосвал", assetName: "storybook-transport-02", column: 3, rowFromTop: 0),
+                .init(name: "бетономешалка", assetName: "storybook-transport-02", column: 0, rowFromTop: 1),
+                .init(name: "бульдозер", assetName: "storybook-transport-02", column: 1, rowFromTop: 1),
+                .init(name: "автокран", assetName: "storybook-transport-02", column: 2, rowFromTop: 1),
+                .init(name: "мусоровоз", assetName: "storybook-transport-02", column: 3, rowFromTop: 1),
+                .init(name: "вертолёт", assetName: "storybook-transport-02", column: 0, rowFromTop: 2),
+                .init(name: "ракета", assetName: "storybook-transport-02", column: 1, rowFromTop: 2),
+                .init(name: "велосипед", assetName: "storybook-transport-02", column: 2, rowFromTop: 2),
+                .init(name: "мотоцикл", assetName: "storybook-transport-02", column: 3, rowFromTop: 2),
+                .init(name: "трамвай", assetName: "storybook-transport-03", column: 0, rowFromTop: 0),
+                .init(name: "поезд метро", assetName: "storybook-transport-03", column: 1, rowFromTop: 0),
+                .init(name: "такси", assetName: "storybook-transport-03", column: 2, rowFromTop: 0),
+                .init(name: "фургон", assetName: "storybook-transport-03", column: 3, rowFromTop: 0),
+                .init(name: "парусник", assetName: "storybook-transport-03", column: 0, rowFromTop: 1),
+                .init(name: "подводная лодка", assetName: "storybook-transport-03", column: 1, rowFromTop: 1),
+                .init(name: "паром", assetName: "storybook-transport-03", column: 2, rowFromTop: 1),
+                .init(name: "воздушный шар", assetName: "storybook-transport-03", column: 3, rowFromTop: 1),
+                .init(name: "самокат", assetName: "storybook-transport-03", column: 0, rowFromTop: 2),
+                .init(name: "снегоход", assetName: "storybook-transport-03", column: 1, rowFromTop: 2),
+                .init(name: "погрузчик", assetName: "storybook-transport-03", column: 2, rowFromTop: 2),
+                .init(name: "комбайн", assetName: "storybook-transport-03", column: 3, rowFromTop: 2),
             ]
         }
     }
@@ -43,7 +91,7 @@ final class PictureMode: PlayMode {
 
     init(size: CGSize, collection: PictureCollection) {
         self.collection = collection
-        self.pictures = collection.pictures
+        self.pictures = collection.pictures.shuffled()
         scene = SKScene(size: size)
         scene.scaleMode = .resizeFill
         scene.backgroundColor = StorybookPalette.cream
@@ -115,4 +163,3 @@ final class PictureMode: PlayMode {
         }
     }
 }
-

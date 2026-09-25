@@ -43,6 +43,10 @@ sources = [
 resources = [
     ("Resources/TykIcon.icns", "TykIcon.icns"),
     ("Resources/Illustrations/storybook-sprites.png", "storybook-sprites.png"),
+    ("Resources/Illustrations/storybook-animals-02.png", "storybook-animals-02.png"),
+    ("Resources/Illustrations/storybook-animals-03.png", "storybook-animals-03.png"),
+    ("Resources/Illustrations/storybook-transport-02.png", "storybook-transport-02.png"),
+    ("Resources/Illustrations/storybook-transport-03.png", "storybook-transport-03.png"),
 ]
 
 # Groups
@@ -370,7 +374,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.1.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.2.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
@@ -394,7 +398,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.1.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.2.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')

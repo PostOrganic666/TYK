@@ -36,6 +36,10 @@
 		492D1A73FCDD6BF4AE22B560 /* StatusItemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */; };
 		9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9641C913799FCCE94DFF7AB7 /* TykIcon.icns */; };
 		5AC5312DDA87957B59EE968F /* storybook-sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FD6D4425A791E80265975A /* storybook-sprites.png */; };
+		74B813D924BE0C379E052E6B /* storybook-animals-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A14C69D7E4CE2ACEF1F886 /* storybook-animals-02.png */; };
+		2033BA8AA2FC3A813EB0960B /* storybook-animals-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 6619944E2AC0A19044752054 /* storybook-animals-03.png */; };
+		591EC03C809DF515F7541C7C /* storybook-transport-02.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DDEE8540DCCACD51FF7595 /* storybook-transport-02.png */; };
+		F45C294170563E6480CD8770 /* storybook-transport-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A50DEBF978D1E44FCB5D308B /* storybook-transport-03.png */; };
 		6C61552DC6670A50FC25765E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B218FB64174136C14AE6BB /* AppKit.framework */; };
 		112B820D330936A7D4320258 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */; };
 		8A574D44D01D2536468B4FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0C6800A838F359482B740 /* CoreGraphics.framework */; };
@@ -74,6 +78,10 @@
 		5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/StatusItemIcon.swift"; sourceTree = "<group>"; };
 		9641C913799FCCE94DFF7AB7 /* TykIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/TykIcon.icns"; sourceTree = "<group>"; };
 		D0FD6D4425A791E80265975A /* storybook-sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-sprites.png"; sourceTree = "<group>"; };
+		17A14C69D7E4CE2ACEF1F886 /* storybook-animals-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-animals-02.png"; sourceTree = "<group>"; };
+		6619944E2AC0A19044752054 /* storybook-animals-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-animals-03.png"; sourceTree = "<group>"; };
+		C5DDEE8540DCCACD51FF7595 /* storybook-transport-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-transport-02.png"; sourceTree = "<group>"; };
+		A50DEBF978D1E44FCB5D308B /* storybook-transport-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-transport-03.png"; sourceTree = "<group>"; };
 		E7E7CA9F4DF8A3E05631F826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
 		86B3BC083DF59791BE56CFAE /* ToddlerLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; };
 		71CCD365E3A654DA84DBA191 /* ToddlerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +230,10 @@
 			children = (
 				9641C913799FCCE94DFF7AB7 /* TykIcon.icns */,
 				D0FD6D4425A791E80265975A /* storybook-sprites.png */,
+				17A14C69D7E4CE2ACEF1F886 /* storybook-animals-02.png */,
+				6619944E2AC0A19044752054 /* storybook-animals-03.png */,
+				C5DDEE8540DCCACD51FF7595 /* storybook-transport-02.png */,
+				A50DEBF978D1E44FCB5D308B /* storybook-transport-03.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -329,6 +341,10 @@
 			files = (
 				9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */,
 				5AC5312DDA87957B59EE968F /* storybook-sprites.png in Resources */,
+				74B813D924BE0C379E052E6B /* storybook-animals-02.png in Resources */,
+				2033BA8AA2FC3A813EB0960B /* storybook-animals-03.png in Resources */,
+				591EC03C809DF515F7541C7C /* storybook-transport-02.png in Resources */,
+				F45C294170563E6480CD8770 /* storybook-transport-03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -412,7 +428,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
