@@ -49,14 +49,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             permissionChecker.requestAccessibility()
         }
 
-        SoundManager.shared.maxVolume = Float(settings.maxVolume)
+        SampledInstrument.shared.volume = Float(settings.maxVolume)
 
         #if DEBUG
         let args = ProcessInfo.processInfo.arguments
         if let i = args.firstIndex(of: "-preview"), i + 1 < args.count, let mode = PlayModeType(rawValue: args[i + 1]) {
             showPreviewWindow(mode: mode)
         }
-        if args.contains("-input-spike") { runInputSpike() }
         // `-snapshot-settings <path>` writes a PNG of the Settings window and quits.
         if let i = args.firstIndex(of: "-snapshot-settings"), i + 1 < args.count {
             let path = args[i + 1]
@@ -91,8 +90,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // App menu
         let appMenuItem = NSMenuItem()
         let appMenu = NSMenu()
-        appMenu.addItem(withTitle: "About Toddler Mode", action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: "")
-        appMenu.addItem(withTitle: "Check for Updates…", action: #selector(checkForUpdatesAction), keyEquivalent: "")
+        appMenu.addItem(withTitle: "О приложении «Тык»", action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: "")
         appMenu.addItem(.separator())
         appMenu.addItem(withTitle: "Settings...", action: #selector(showSettingsAction), keyEquivalent: ",")
         appMenu.addItem(.separator())
@@ -100,7 +98,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Preview any mode in a normal window: no lock, no event tap, real
         // cursor. For building and screenshots.
         let previewMenu = NSMenu(title: "Preview")
-        for mode in PlayModeType.allCases {
+        for mode in PlayModeType.featured {
             let item = previewMenu.addItem(withTitle: mode.rawValue, action: #selector(previewModeAction(_:)), keyEquivalent: "")
             item.representedObject = mode.rawValue
         }
@@ -130,10 +128,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc private func showSettingsAction() {
         showSettingsWindow()
-    }
-
-    @objc private func checkForUpdatesAction() {
-        UpdateManager.shared.checkForUpdates()
     }
 
     #if DEBUG
@@ -196,8 +190,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         // In the preview the real cursor works, so route real events into
         // the same handlers the lock screen uses.
-        SoundManager.shared.enabled = settings.soundEnabled
-        SoundManager.shared.maxVolume = Float(settings.maxVolume)
+        SampledInstrument.shared.volume = Float(settings.maxVolume)
         NSEvent.addLocalMonitorForEvents(matching: [.keyDown]) { [weak vc] event in
             guard let vc, event.window === vc.view.window, let mode = vc.previewMode else { return event }
             mode.handleKeyDown(keyCode: event.keyCode, characters: event.characters)
@@ -217,7 +210,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
         let vc = LockViewController()
-        vc.currentMode = .playComputer
+        vc.currentMode = .letters
         vc.isPreview = true
         let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 600, height: 400),
                               styleMask: [.titled], backing: .buffered, defer: false)
@@ -228,7 +221,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSApp.activate(ignoringOtherApps: true)
         previewWindow = window
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
-            for sub in vc.view.subviews where sub is NSHostingView<DesktopView> { sub.removeFromSuperview() }
             let probe = SpikeProbeView(frame: vc.view.bounds)
             probe.autoresizingMask = [.width, .height]
             // Top half: SwiftUI. Bottom-left: an AppKit button.
@@ -264,7 +256,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             // menu bar item in light, dark, and highlighted menu bars.
             button.image = StatusItemIcon.templateImage()
             button.imageScaling = .scaleProportionallyDown
-            button.setAccessibilityLabel("Toddler Mode")
+            button.setAccessibilityLabel("Тык")
         }
         updateStatusMenu()
     }
@@ -282,7 +274,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
             let lockWithItem = menu.addItem(withTitle: "Lock With", action: nil, keyEquivalent: "")
             let lockWithMenu = NSMenu(title: "Lock With")
-            for candidate in PlayModeType.allCases {
+            for candidate in PlayModeType.featured {
                 let item = lockWithMenu.addItem(
                     withTitle: candidate.rawValue,
                     action: #selector(lockWithModeFromMenu(_:)),
@@ -296,9 +288,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
             menu.addItem(.separator())
             menu.addItem(withTitle: "Settings…", action: #selector(showSettingsAction), keyEquivalent: ",")
-            menu.addItem(withTitle: "Check for Updates…", action: #selector(checkForUpdatesAction), keyEquivalent: "")
             menu.addItem(.separator())
-            menu.addItem(withTitle: "Quit Toddler Mode", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "")
+            menu.addItem(withTitle: "Выйти из «Тык»", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "")
             statusItem?.button?.toolTip = "Toddler Mode. Ready to lock: \(mode.rawValue)."
         }
 
@@ -344,7 +335,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             defer: false
         )
         window.contentView = hostingView
-        window.title = "Toddler Mode"
+        window.title = "Тык"
         window.center()
         window.isReleasedWhenClosed = false
         window.makeKeyAndOrderFront(nil)
@@ -378,10 +369,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         // Apply sound settings
-        SoundManager.shared.enabled = settings.soundEnabled
-        SoundManager.shared.musicEnabled = settings.musicEnabled
-        SoundManager.shared.maxVolume = Float(settings.maxVolume)
-        SoundManager.shared.styleVolume = PlayStyle.current.volumeScale
+        SampledInstrument.shared.volume = Float(settings.maxVolume)
 
         // Hide settings window
         settingsWindow?.orderOut(nil)
@@ -434,9 +422,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         #endif
 
-        // Start background music if enabled
-        SoundManager.shared.startMusic()
-
         // Activate our app to ensure the lock window is frontmost
         NSApp.activate(ignoringOtherApps: true)
 
@@ -445,17 +430,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     private func showPermissionAlert() {
         let alert = NSAlert()
-        alert.messageText = "Accessibility Permission Required"
+        alert.messageText = "Нужен Универсальный доступ"
         alert.informativeText = """
-        Toddler Mode needs Accessibility permission to block keyboard and mouse input.
+        Приложению «Тык» нужен Универсальный доступ, чтобы блокировать системные сочетания клавиш, жесты и случайные действия мышью.
 
-        In System Settings → Privacy & Security → Accessibility:
-        1. Find Toddler Mode in the list and turn it on.
-        2. If it already shows as on, select it, click the minus button to remove it, then relaunch Toddler Mode and turn it on again. macOS keeps a stale grant after an update.
-        3. Quit and relaunch Toddler Mode.
+        В Системных настройках → Конфиденциальность и безопасность → Универсальный доступ:
+        1. Найдите «Тык» и включите переключатель.
+        2. Если он уже включён, удалите старую запись кнопкой «−», перезапустите «Тык» и разрешите доступ заново.
+        3. Закройте и снова откройте приложение.
         """
-        alert.addButton(withTitle: "Open Settings")
-        alert.addButton(withTitle: "Cancel")
+        alert.addButton(withTitle: "Открыть настройки")
+        alert.addButton(withTitle: "Отмена")
         permissionChecker.requestAccessibility()
         let response = alert.runModal()
         if response == .alertFirstButtonReturn {
@@ -478,8 +463,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Stop lifecycle monitoring
         lifecycleManager.stop()
 
-        // Stop background music
-        SoundManager.shared.stopMusic()
+        SampledInstrument.shared.stop()
+        RussianSpeech.shared.stop()
 
         // Stop the event tap
         eventTapManager.stop()

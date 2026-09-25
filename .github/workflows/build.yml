@@ -1,0 +1,50 @@
+name: Build Tyk
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - "codex/**"
+
+jobs:
+  macos:
+    runs-on: macos-15
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Generate Xcode project
+        run: python3 ToddlerLock/generate_project.py
+
+      - name: Build unsigned release
+        run: |
+          xcodebuild \
+            -project ToddlerLock/ToddlerLock.xcodeproj \
+            -target ToddlerLock \
+            -configuration Release \
+            SYMROOT="$RUNNER_TEMP/Build" \
+            OBJROOT="$RUNNER_TEMP/Intermediates" \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Sign local build ad-hoc
+        run: |
+          APP_PATH=$(find "$RUNNER_TEMP/Build/Release" -maxdepth 1 -name '*.app' -print -quit)
+          test -n "$APP_PATH"
+          codesign --force --deep --sign - \
+            --entitlements ToddlerLock/ToddlerLock/App/ToddlerLock.entitlements \
+            "$APP_PATH"
+          codesign --verify --deep --strict --verbose=2 "$APP_PATH"
+          ditto -c -k --keepParent "$APP_PATH" "$RUNNER_TEMP/Tyk-macOS.zip"
+
+      - name: Upload application
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tyk-macOS
+          path: ${{ runner.temp }}/Tyk-macOS.zip
+          if-no-files-found: error
+          retention-days: 14

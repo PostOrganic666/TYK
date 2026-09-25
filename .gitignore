@@ -13,6 +13,8 @@ DerivedData/
 # Generated files
 *.o
 *.d
+__pycache__/
+*.pyc
 
 # Claude
 .claude/

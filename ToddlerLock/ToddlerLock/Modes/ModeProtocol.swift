@@ -4,40 +4,28 @@ import SpriteKit
 /// The available play modes. Raw values are persisted; never change them.
 /// Case order drives the order of the mode cards in Settings.
 enum PlayModeType: String, CaseIterable {
-    case freePlay = "Free Play"
-    case playComputer = "Play Computer"
-    case camera = "Camera"
-    case game = "Game"
-    case character = "Character"
-    case chill = "Chill"
-    case slideshow = "Slideshow"
-    case explore = "Explore"
+    case letters = "Буквы"
+    case animals = "Животные"
+    case transport = "Транспорт"
+    case musicStudio = "Музыка"
 
-    var isPhotoMode: Bool { self == .slideshow || self == .explore }
+    static let featured = allCases
 
-    var emoji: String {
+    var symbolName: String {
         switch self {
-        case .freePlay: return "🎨"
-        case .playComputer: return "💻"
-        case .camera: return "📸"
-        case .game: return "🎮"
-        case .character: return "🐾"
-        case .chill: return "🌿"
-        case .slideshow: return "🖼️"
-        case .explore: return "👆"
+        case .letters: return "textformat"
+        case .animals: return "pawprint.fill"
+        case .transport: return "car.side.fill"
+        case .musicStudio: return "music.quarternote.3"
         }
     }
 
     var blurb: String {
         switch self {
-        case .freePlay: return "Colorful letters, shapes & rainbow trails"
-        case .playComputer: return "A pretend Mac with a dock and 20 little apps"
-        case .camera: return "A real camera view with silly filters. Nothing is saved"
-        case .game: return "Pop floating bubbles to score points"
-        case .character: return "A friendly creature follows the mouse"
-        case .chill: return "Gentle emoji & soft colors for calm play"
-        case .slideshow: return "Family photos and videos change on their own"
-        case .explore: return "Arrow keys and clicks move through family photos"
+        case .letters: return "Все 33 русские буквы с чётким произношением"
+        case .animals: return "Книжные звери появляются по одному и называют себя"
+        case .transport: return "Поезд, трактор, автобус и другая техника"
+        case .musicStudio: return "Настоящие семплы челесты вместо электронных гудков"
         }
     }
 }

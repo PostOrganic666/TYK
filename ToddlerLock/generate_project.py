@@ -13,7 +13,6 @@ def make_id(name):
 sources = [
     ("App/main.swift", "main.swift"),
     ("App/AppDelegate.swift", "AppDelegate.swift"),
-    ("App/UpdateManager.swift", "UpdateManager.swift"),
     ("InputBlocking/EventTapManager.swift", "EventTapManager.swift"),
     ("InputBlocking/ExitShortcutDetector.swift", "ExitShortcutDetector.swift"),
     ("InputBlocking/BackdoorShortcut.swift", "BackdoorShortcut.swift"),
@@ -25,50 +24,30 @@ sources = [
     ("LockScreen/LockViewController.swift", "LockViewController.swift"),
     ("LockScreen/LockWindowController.swift", "LockWindowController.swift"),
     ("LockScreen/PasswordOverlayView.swift", "PasswordOverlayView.swift"),
-    ("Effects/SoundManager.swift", "SoundManager.swift"),
-    ("Modes/FreePlayMode.swift", "FreePlayMode.swift"),
-    ("Modes/GameMode.swift", "GameMode.swift"),
-    ("Modes/CharacterMode.swift", "CharacterMode.swift"),
-    ("Modes/ChillMode.swift", "ChillMode.swift"),
+    ("Effects/RussianSpeech.swift", "RussianSpeech.swift"),
+    ("Effects/SampledInstrument.swift", "SampledInstrument.swift"),
     ("Modes/ModeProtocol.swift", "ModeProtocol.swift"),
+    ("Modes/RussianAlphabet.swift", "RussianAlphabet.swift"),
+    ("Modes/StorybookArt.swift", "StorybookArt.swift"),
+    ("Modes/LettersMode.swift", "LettersMode.swift"),
+    ("Modes/PictureMode.swift", "PictureMode.swift"),
+    ("Modes/MusicMode.swift", "MusicMode.swift"),
     ("Permissions/PermissionChecker.swift", "PermissionChecker.swift"),
-    ("Settings/CharacterSet.swift", "CharacterSet.swift"),
     ("Settings/KeychainManager.swift", "KeychainManager.swift"),
     ("Settings/ShortcutRecorderView.swift", "ShortcutRecorderView.swift"),
-    ("Settings/SettingsStore.swift", "SettingsStore.swift"),
-    ("Settings/SettingsView.swift", "SettingsView.swift"),
-    ("Settings/SettingsSections.swift", "SettingsSections.swift"),
+    ("Settings/ForkSettingsStore.swift", "ForkSettingsStore.swift"),
+    ("Settings/ForkSettingsView.swift", "ForkSettingsView.swift"),
     ("Settings/StatusItemIcon.swift", "StatusItemIcon.swift"),
-    ("Effects/PlayStyle.swift", "PlayStyle.swift"),
-    ("Modes/PlayComputerMode.swift", "PlayComputerMode.swift"),
-    ("Modes/CameraMode.swift", "CameraMode.swift"),
-    ("Modes/PhotosMode.swift", "PhotosMode.swift"),
-    ("Photos/PhotoLibraryService.swift", "PhotoLibraryService.swift"),
-    ("Photos/PhotoViews.swift", "PhotoViews.swift"),
-    ("Photos/PhotoSettingsViews.swift", "PhotoSettingsViews.swift"),
-    ("Camera/PlayCameraController.swift", "PlayCameraController.swift"),
-    ("Camera/CameraPlayView.swift", "CameraPlayView.swift"),
-    ("PlayComputer/ComputerInput.swift", "ComputerInput.swift"),
-    ("PlayComputer/ComputerApps.swift", "ComputerApps.swift"),
-    ("PlayComputer/DesktopView.swift", "DesktopView.swift"),
-    ("PlayComputer/DesktopChrome.swift", "DesktopChrome.swift"),
-    ("PlayComputer/FakeWindow.swift", "FakeWindow.swift"),
-    ("PlayComputer/SystemApps.swift", "SystemApps.swift"),
-    ("PlayComputer/SystemAppViews.swift", "SystemAppViews.swift"),
-    ("PlayComputer/ToyApps.swift", "ToyApps.swift"),
-    ("PlayComputer/ToyAppViews.swift", "ToyAppViews.swift"),
-    ("PlayComputer/MoreToyApps.swift", "MoreToyApps.swift"),
-    ("PlayComputer/MoreToyAppViews.swift", "MoreToyAppViews.swift"),
-    ("PlayComputer/MiniAppKit.swift", "MiniAppKit.swift"),
-    ("PlayComputer/MoreToyAppGagViews.swift", "MoreToyAppGagViews.swift"),
-    ("PlayComputer/ToyAppFaceTime.swift", "ToyAppFaceTime.swift"),
-    ("PlayComputer/ToyAppMessages.swift", "ToyAppMessages.swift"),
-    ("PlayComputer/ToyAppWorld.swift", "ToyAppWorld.swift"),
+]
+
+resources = [
+    ("Resources/TykIcon.icns", "TykIcon.icns"),
+    ("Resources/Illustrations/storybook-sprites.png", "storybook-sprites.png"),
 ]
 
 # Groups
 groups = {
-    "App": ["App/main.swift", "App/AppDelegate.swift", "App/UpdateManager.swift"],
+    "App": ["App/main.swift", "App/AppDelegate.swift"],
     "InputBlocking": [
         "InputBlocking/EventTapManager.swift",
         "InputBlocking/ExitShortcutDetector.swift",
@@ -77,7 +56,7 @@ groups = {
         "InputBlocking/InputEventBus.swift",
         "InputBlocking/PresentationManager.swift",
     ],
-    "Effects": ["Effects/SoundManager.swift", "Effects/PlayStyle.swift"],
+    "Effects": ["Effects/RussianSpeech.swift", "Effects/SampledInstrument.swift"],
     "Lifecycle": ["Lifecycle/LifecycleManager.swift"],
     "LockScreen": [
         "LockScreen/CursorManager.swift",
@@ -85,16 +64,11 @@ groups = {
         "LockScreen/LockWindowController.swift",
         "LockScreen/PasswordOverlayView.swift",
     ],
-    "Modes": ["Modes/FreePlayMode.swift", "Modes/GameMode.swift", "Modes/CharacterMode.swift", "Modes/ChillMode.swift", "Modes/ModeProtocol.swift",
-              "Modes/PlayComputerMode.swift", "Modes/CameraMode.swift", "Modes/PhotosMode.swift"],
-    "Photos": ["Photos/PhotoLibraryService.swift", "Photos/PhotoViews.swift", "Photos/PhotoSettingsViews.swift"],
-    "Camera": ["Camera/PlayCameraController.swift", "Camera/CameraPlayView.swift"],
-    "PlayComputer": ["PlayComputer/ComputerInput.swift", "PlayComputer/ComputerApps.swift", "PlayComputer/DesktopView.swift",
-                     "PlayComputer/DesktopChrome.swift", "PlayComputer/FakeWindow.swift", "PlayComputer/SystemApps.swift",
-                     "PlayComputer/SystemAppViews.swift", "PlayComputer/ToyApps.swift", "PlayComputer/ToyAppViews.swift",
-                     "PlayComputer/MoreToyApps.swift", "PlayComputer/MoreToyAppViews.swift", "PlayComputer/MiniAppKit.swift", "PlayComputer/ToyAppWorld.swift", "PlayComputer/ToyAppMessages.swift", "PlayComputer/ToyAppFaceTime.swift", "PlayComputer/MoreToyAppGagViews.swift"],
+    "Modes": ["Modes/ModeProtocol.swift", "Modes/RussianAlphabet.swift", "Modes/StorybookArt.swift",
+              "Modes/LettersMode.swift", "Modes/PictureMode.swift", "Modes/MusicMode.swift"],
     "Permissions": ["Permissions/PermissionChecker.swift"],
-    "Settings": ["Settings/CharacterSet.swift", "Settings/KeychainManager.swift", "Settings/ShortcutRecorderView.swift", "Settings/SettingsStore.swift", "Settings/SettingsView.swift", "Settings/SettingsSections.swift", "Settings/StatusItemIcon.swift"],
+    "Settings": ["Settings/KeychainManager.swift", "Settings/ShortcutRecorderView.swift", "Settings/ForkSettingsStore.swift", "Settings/ForkSettingsView.swift", "Settings/StatusItemIcon.swift"],
+    "Resources": [path for path, _ in resources],
 }
 
 # IDs
@@ -112,6 +86,7 @@ DEBUG_CONFIG_TARGET = make_id("debugConfigTarget")
 RELEASE_CONFIG_TARGET = make_id("releaseConfigTarget")
 SOURCES_PHASE_ID = make_id("sourcesPhase")
 FRAMEWORKS_PHASE_ID = make_id("frameworksPhase")
+RESOURCES_PHASE_ID = make_id("resourcesPhase")
 PRODUCT_REF_ID = make_id("productRef")
 INFO_PLIST_FILE_REF = make_id("infoPlist")
 ENTITLEMENTS_FILE_REF = make_id("entitlements")
@@ -122,6 +97,7 @@ frameworks = {
     "SpriteKit.framework": make_id("fw_spritekit"),
     "CoreGraphics.framework": make_id("fw_coregraphics"),
     "AVFoundation.framework": make_id("fw_avfoundation"),
+    "AudioToolbox.framework": make_id("fw_audiotoolbox"),
     "Security.framework": make_id("fw_security"),
 }
 fw_build_refs = {name: make_id("fwbuild_" + name) for name in frameworks}
@@ -145,6 +121,10 @@ def gen():
         fid = make_id("build_" + path)
         ref = make_id("ref_" + path)
         a(f'\t\t{fid} /* {name} in Sources */ = {{isa = PBXBuildFile; fileRef = {ref} /* {name} */; }};')
+    for path, name in resources:
+        fid = make_id("build_" + path)
+        ref = make_id("ref_" + path)
+        a(f'\t\t{fid} /* {name} in Resources */ = {{isa = PBXBuildFile; fileRef = {ref} /* {name} */; }};')
     for fw_name, fw_id in frameworks.items():
         build_id = fw_build_refs[fw_name]
         a(f'\t\t{build_id} /* {fw_name} in Frameworks */ = {{isa = PBXBuildFile; fileRef = {fw_id} /* {fw_name} */; }};')
@@ -156,6 +136,10 @@ def gen():
     for path, name in sources:
         ref = make_id("ref_" + path)
         a(f'\t\t{ref} /* {name} */ = {{isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "{path}"; sourceTree = "<group>"; }};')
+    for path, name in resources:
+        ref = make_id("ref_" + path)
+        file_type = "image.icns" if name.endswith(".icns") else "image.png"
+        a(f'\t\t{ref} /* {name} */ = {{isa = PBXFileReference; lastKnownFileType = {file_type}; path = "{path}"; sourceTree = "<group>"; }};')
     a(f'\t\t{INFO_PLIST_FILE_REF} /* Info.plist */ = {{isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; }};')
     a(f'\t\t{ENTITLEMENTS_FILE_REF} /* ToddlerLock.entitlements */ = {{isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; }};')
     a(f'\t\t{PRODUCT_REF_ID} /* ToddlerLock.app */ = {{isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerLock.app; sourceTree = BUILT_PRODUCTS_DIR; }};')
@@ -239,6 +223,7 @@ def gen():
     a('\t\t\tbuildPhases = (')
     a(f'\t\t\t\t{SOURCES_PHASE_ID} /* Sources */,')
     a(f'\t\t\t\t{FRAMEWORKS_PHASE_ID} /* Frameworks */,')
+    a(f'\t\t\t\t{RESOURCES_PHASE_ID} /* Resources */,')
     a('\t\t\t);')
     a('\t\t\tbuildRules = (')
     a('\t\t\t);')
@@ -305,6 +290,21 @@ def gen():
     a('/* End PBXFrameworksBuildPhase section */')
     a('')
 
+    # PBXResourcesBuildPhase
+    a('/* Begin PBXResourcesBuildPhase section */')
+    a(f'\t\t{RESOURCES_PHASE_ID} /* Resources */ = {{')
+    a('\t\t\tisa = PBXResourcesBuildPhase;')
+    a('\t\t\tbuildActionMask = 2147483647;')
+    a('\t\t\tfiles = (')
+    for path, name in resources:
+        fid = make_id("build_" + path)
+        a(f'\t\t\t\t{fid} /* {name} in Resources */,')
+    a('\t\t\t);')
+    a('\t\t\trunOnlyForDeploymentPostprocessing = 0;')
+    a('\t\t};')
+    a('/* End PBXResourcesBuildPhase section */')
+    a('')
+
     # XCBuildConfiguration section
     a('/* Begin XCBuildConfiguration section */')
 
@@ -358,21 +358,21 @@ def gen():
     a('\t\t\tisa = XCBuildConfiguration;')
     a('\t\t\tbuildSettings = {')
     a('\t\t\t\tCODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;')
-    # Developer ID even for Debug: macOS keys the Accessibility grant to the
-    # signing certificate, so Debug and Release builds must share one.
-    a('\t\t\t\tCODE_SIGN_IDENTITY = "Developer ID Application";')
+    # The personal fork is signed ad-hoc. Give release builds a real
+    # Developer ID only when publishing them from your own Apple team.
+    a('\t\t\t\tCODE_SIGN_IDENTITY = "-";')
     a('\t\t\t\tCODE_SIGN_STYLE = Manual;')
     a('\t\t\t\tCOMBINE_HIDPI_IMAGES = YES;')
-    a('\t\t\t\tDEVELOPMENT_TEAM = 44CHGH7YRS;')
+    a('\t\t\t\tDEVELOPMENT_TEAM = "";')
     a('\t\t\t\tENABLE_HARDENED_RUNTIME = YES;')
     a('\t\t\t\tINFOPLIST_FILE = ToddlerLock/App/Info.plist;')
     a('\t\t\t\tLD_RUNPATH_SEARCH_PATHS = (')
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 1.0;')
-    a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.toddlerlock.app;')
-    a('\t\t\t\tPRODUCT_NAME = "Toddler Mode";')
+    a('\t\t\t\tMARKETING_VERSION = 0.1.0;')
+    a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
+    a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
     a('\t\t\t\tSWIFT_VERSION = 5.0;')
     a('\t\t\t};')
@@ -384,19 +384,19 @@ def gen():
     a('\t\t\tisa = XCBuildConfiguration;')
     a('\t\t\tbuildSettings = {')
     a('\t\t\t\tCODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;')
-    a('\t\t\t\tCODE_SIGN_IDENTITY = "Developer ID Application";')
+    a('\t\t\t\tCODE_SIGN_IDENTITY = "-";')
     a('\t\t\t\tCODE_SIGN_STYLE = Manual;')
     a('\t\t\t\tCOMBINE_HIDPI_IMAGES = YES;')
-    a('\t\t\t\tDEVELOPMENT_TEAM = 44CHGH7YRS;')
+    a('\t\t\t\tDEVELOPMENT_TEAM = "";')
     a('\t\t\t\tENABLE_HARDENED_RUNTIME = YES;')
     a('\t\t\t\tINFOPLIST_FILE = ToddlerLock/App/Info.plist;')
     a('\t\t\t\tLD_RUNPATH_SEARCH_PATHS = (')
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 1.0;')
-    a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.toddlerlock.app;')
-    a('\t\t\t\tPRODUCT_NAME = "Toddler Mode";')
+    a('\t\t\t\tMARKETING_VERSION = 0.1.0;')
+    a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
+    a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
     a('\t\t\t\tSWIFT_VERSION = 5.0;')
     a('\t\t\t};')

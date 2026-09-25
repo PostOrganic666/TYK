@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D2F995E8FE36232784EE92ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D3305C10C2E29ADCE3956 /* main.swift */; };
 		0194D25DE4933223F1FD5C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E2B8E17719705B9B76D0D /* AppDelegate.swift */; };
-		2F1A66C36D7CF435727B3552 /* UpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD26315B87C8126ECCFCEA6B /* UpdateManager.swift */; };
 		BF68C2A45103E12FF1C04D05 /* EventTapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F63C89ACE377814334B838 /* EventTapManager.swift */; };
 		0FA91E6F5C918F51EE6A6410 /* ExitShortcutDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C85B16919D53019E8B28C /* ExitShortcutDetector.swift */; };
 		1227DF03D8509CBE4CAD5CA7 /* BackdoorShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD5801188CC387FE9A7679B /* BackdoorShortcut.swift */; };
@@ -21,56 +20,33 @@
 		A1967DD9C7FEF1FBE6F7D986 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD840472D5203F127F74CDBD /* LockViewController.swift */; };
 		1A58250344B931E53B5F7CCB /* LockWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E25778BDBE33506A44F1A7 /* LockWindowController.swift */; };
 		4AD5AFCA22689357E9BC7C2A /* PasswordOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279376402B045F24973B78C6 /* PasswordOverlayView.swift */; };
-		1F6930BEC454B22F72CC2FC5 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5978C25E31F95FD7BA2FED /* SoundManager.swift */; };
-		19ED8A3D6E1E0B40BC9D4295 /* FreePlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5657370F539AF0762418B6 /* FreePlayMode.swift */; };
-		3681356554FB1D6A63BE368C /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5189B47D5C473A2D0393CECE /* GameMode.swift */; };
-		AF57F25678080384444B8C38 /* CharacterMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF4140717623384B69C652 /* CharacterMode.swift */; };
-		678B192D20212DF24EAE33A8 /* ChillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFCEDB1162AD38DD840E274 /* ChillMode.swift */; };
+		10CA6192C8221FAFDF87D204 /* RussianSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B600717042A8154D63D27CD /* RussianSpeech.swift */; };
+		B13965CAB838E0EBC88041EE /* SampledInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F1E58BCE54A3383412560 /* SampledInstrument.swift */; };
 		CEF75671E12EC454D8E387BC /* ModeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDC920E0C8031CC90C2406 /* ModeProtocol.swift */; };
+		D7B7F9F4698E9AF0CEF23CDC /* RussianAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EDD4DB3465982CD23FB1A /* RussianAlphabet.swift */; };
+		7D6292EC6994ACF1884C829A /* StorybookArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001B4147A38E7C9ACB2F133 /* StorybookArt.swift */; };
+		7918897ED39D94E1929A2E34 /* LettersMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB443C2E2DF83347A8DB276 /* LettersMode.swift */; };
+		E159DE4B5F0BFCDD960B173C /* PictureMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B7B52C2C440717FC5E911 /* PictureMode.swift */; };
+		E1643EDD3D1B7B6FBC6E28E5 /* MusicMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2631EAED7F08A909C02BC /* MusicMode.swift */; };
 		ECF3C770AA263EDB6C73F618 /* PermissionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DEEAF5219F1BACB36A6323 /* PermissionChecker.swift */; };
-		69B8DBA16DD781BD02474B97 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC7B8FF6297AC7D002AE23A /* CharacterSet.swift */; };
 		5ED8BA99176554C7A9F1AAF1 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DFDA1BE1ADB450E3134D60 /* KeychainManager.swift */; };
 		CD636EF4624F19B1591E8636 /* ShortcutRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE3562D36E27F345CE5BEF /* ShortcutRecorderView.swift */; };
-		EB25FDB9C2F5AB47208EE997 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E6AA312DF00479DCCE4016 /* SettingsStore.swift */; };
-		15E21D8EE2EECED1C3E1D14A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429065E5634357490A421ABD /* SettingsView.swift */; };
-		0E62F3EB4B9925758CF6A922 /* SettingsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA372F3A33309A7A1FFB1D /* SettingsSections.swift */; };
+		48C429E3CF6C094A4D3E5011 /* ForkSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C7F419CB3B39EE57D7407 /* ForkSettingsStore.swift */; };
+		1FBFAC5FE001D358D924108D /* ForkSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA1E69D14A9BCFA70A5F5B /* ForkSettingsView.swift */; };
 		492D1A73FCDD6BF4AE22B560 /* StatusItemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */; };
-		9C458943FE987F3A92B02430 /* PlayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9773993C584B050E5961BB /* PlayStyle.swift */; };
-		EBFA032E06F5254BC53F071D /* PlayComputerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADB1E34AB8C28EE95ECF6B /* PlayComputerMode.swift */; };
-		41B2AF077337E09A5D7A39C1 /* CameraMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71F4B517D7A002ABFFB193 /* CameraMode.swift */; };
-		B779A317098EEC8F54A59D72 /* PhotosMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE392BC343543BC71068B2E /* PhotosMode.swift */; };
-		CC0110A7CC7A7DC6CC13C78A /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1A387D73E60387C0B8EBB /* PhotoLibraryService.swift */; };
-		E6A6502A6FA0B206695B9D2E /* PhotoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADC945EC2DE52E73082B49 /* PhotoViews.swift */; };
-		B2783AC6A6D448DBEF366B72 /* PhotoSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCC2845C9F7A0AAE4D1DCB /* PhotoSettingsViews.swift */; };
-		0FCB8636A05CA209C98DCCDE /* PlayCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D40C4DDEE11F63EE2D56F /* PlayCameraController.swift */; };
-		F112A2F3B53CB4C95DC90E79 /* CameraPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F326AD8174C54870C6C74 /* CameraPlayView.swift */; };
-		6EF9EF92CB68CF09F4FE8712 /* ComputerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA05195C0F813012D1F159 /* ComputerInput.swift */; };
-		05390D711E8EB55A95D30C0E /* ComputerApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CF9834F3D0F18C6BD57D4 /* ComputerApps.swift */; };
-		4FED2CC0996B22940E2DD8A1 /* DesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC198F808AD76B7D5964893B /* DesktopView.swift */; };
-		15917A40AAD46B28BFD0D4A0 /* DesktopChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C1A672EAB3B20DBDA96356 /* DesktopChrome.swift */; };
-		9BBD8C2A3E5A10FF88B9FBDE /* FakeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715970E3E7D225A976776A39 /* FakeWindow.swift */; };
-		FA6853B9377B6E96DE5FC613 /* SystemApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BF1168C96991267D2658D0 /* SystemApps.swift */; };
-		DBDF1B8E2A5E70F194768D6F /* SystemAppViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E710F9FDED8B53D9D8F5773 /* SystemAppViews.swift */; };
-		C447F8B4E7F621B93B57FA08 /* ToyApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306842AF4F5BB58240D5A65F /* ToyApps.swift */; };
-		3F178D7257D09769DE208748 /* ToyAppViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985CA7E12556F3F35A007AD /* ToyAppViews.swift */; };
-		631C8F695E8B2B51976E7037 /* MoreToyApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F8FEBA5F36517915602A5 /* MoreToyApps.swift */; };
-		D491ECA9F4186B4E8E0808ED /* MoreToyAppViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421FBAEBAB9321BA188E7DC /* MoreToyAppViews.swift */; };
-		B4C1AE6237B02ADE8339A5FF /* MiniAppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDA5F3366B0707A9D151CBA /* MiniAppKit.swift */; };
-		1FDD90C052C31BE531534825 /* MoreToyAppGagViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8032C953A89D2D659116F7 /* MoreToyAppGagViews.swift */; };
-		6A8366703747C1AF44001A22 /* ToyAppFaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B716D45B416764BEFEC73 /* ToyAppFaceTime.swift */; };
-		FC0CCAAA18BC455E4B6D8AF2 /* ToyAppMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128675E0D2B7EE8B28CBA99 /* ToyAppMessages.swift */; };
-		9BA19BFA1D584C6168039C63 /* ToyAppWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58CB233870FB56BEC9593E8 /* ToyAppWorld.swift */; };
+		9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9641C913799FCCE94DFF7AB7 /* TykIcon.icns */; };
+		5AC5312DDA87957B59EE968F /* storybook-sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FD6D4425A791E80265975A /* storybook-sprites.png */; };
 		6C61552DC6670A50FC25765E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B218FB64174136C14AE6BB /* AppKit.framework */; };
 		112B820D330936A7D4320258 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */; };
 		8A574D44D01D2536468B4FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0C6800A838F359482B740 /* CoreGraphics.framework */; };
 		5EE8AF2DDBC5A79DD042D53F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163F60131321B9AEAC87DB9C /* AVFoundation.framework */; };
+		9EED716AFE1104898C3EFBD4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7F9D6921680E9B623BF2BB /* AudioToolbox.framework */; };
 		3E0E9089666F6E4DE42A457F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5B8CD30E640D4EBBE846C /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		104D3305C10C2E29ADCE3956 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/main.swift"; sourceTree = "<group>"; };
 		178E2B8E17719705B9B76D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/AppDelegate.swift"; sourceTree = "<group>"; };
-		FD26315B87C8126ECCFCEA6B /* UpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/UpdateManager.swift"; sourceTree = "<group>"; };
 		F7F63C89ACE377814334B838 /* EventTapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputBlocking/EventTapManager.swift"; sourceTree = "<group>"; };
 		7D7C85B16919D53019E8B28C /* ExitShortcutDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputBlocking/ExitShortcutDetector.swift"; sourceTree = "<group>"; };
 		BAD5801188CC387FE9A7679B /* BackdoorShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputBlocking/BackdoorShortcut.swift"; sourceTree = "<group>"; };
@@ -82,45 +58,22 @@
 		CD840472D5203F127F74CDBD /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LockScreen/LockViewController.swift"; sourceTree = "<group>"; };
 		57E25778BDBE33506A44F1A7 /* LockWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LockScreen/LockWindowController.swift"; sourceTree = "<group>"; };
 		279376402B045F24973B78C6 /* PasswordOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LockScreen/PasswordOverlayView.swift"; sourceTree = "<group>"; };
-		BC5978C25E31F95FD7BA2FED /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effects/SoundManager.swift"; sourceTree = "<group>"; };
-		6E5657370F539AF0762418B6 /* FreePlayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/FreePlayMode.swift"; sourceTree = "<group>"; };
-		5189B47D5C473A2D0393CECE /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/GameMode.swift"; sourceTree = "<group>"; };
-		C6FF4140717623384B69C652 /* CharacterMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/CharacterMode.swift"; sourceTree = "<group>"; };
-		4EFCEDB1162AD38DD840E274 /* ChillMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/ChillMode.swift"; sourceTree = "<group>"; };
+		2B600717042A8154D63D27CD /* RussianSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effects/RussianSpeech.swift"; sourceTree = "<group>"; };
+		A56F1E58BCE54A3383412560 /* SampledInstrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effects/SampledInstrument.swift"; sourceTree = "<group>"; };
 		5EFDC920E0C8031CC90C2406 /* ModeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/ModeProtocol.swift"; sourceTree = "<group>"; };
+		266EDD4DB3465982CD23FB1A /* RussianAlphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/RussianAlphabet.swift"; sourceTree = "<group>"; };
+		8001B4147A38E7C9ACB2F133 /* StorybookArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/StorybookArt.swift"; sourceTree = "<group>"; };
+		AAB443C2E2DF83347A8DB276 /* LettersMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/LettersMode.swift"; sourceTree = "<group>"; };
+		204B7B52C2C440717FC5E911 /* PictureMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/PictureMode.swift"; sourceTree = "<group>"; };
+		1EA2631EAED7F08A909C02BC /* MusicMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/MusicMode.swift"; sourceTree = "<group>"; };
 		11DEEAF5219F1BACB36A6323 /* PermissionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Permissions/PermissionChecker.swift"; sourceTree = "<group>"; };
-		AAC7B8FF6297AC7D002AE23A /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/CharacterSet.swift"; sourceTree = "<group>"; };
 		A0DFDA1BE1ADB450E3134D60 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/KeychainManager.swift"; sourceTree = "<group>"; };
 		50CE3562D36E27F345CE5BEF /* ShortcutRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/ShortcutRecorderView.swift"; sourceTree = "<group>"; };
-		07E6AA312DF00479DCCE4016 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/SettingsStore.swift"; sourceTree = "<group>"; };
-		429065E5634357490A421ABD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/SettingsView.swift"; sourceTree = "<group>"; };
-		22FA372F3A33309A7A1FFB1D /* SettingsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/SettingsSections.swift"; sourceTree = "<group>"; };
+		8D6C7F419CB3B39EE57D7407 /* ForkSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/ForkSettingsStore.swift"; sourceTree = "<group>"; };
+		D8BA1E69D14A9BCFA70A5F5B /* ForkSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/ForkSettingsView.swift"; sourceTree = "<group>"; };
 		5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/StatusItemIcon.swift"; sourceTree = "<group>"; };
-		3F9773993C584B050E5961BB /* PlayStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Effects/PlayStyle.swift"; sourceTree = "<group>"; };
-		EDADB1E34AB8C28EE95ECF6B /* PlayComputerMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/PlayComputerMode.swift"; sourceTree = "<group>"; };
-		8A71F4B517D7A002ABFFB193 /* CameraMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/CameraMode.swift"; sourceTree = "<group>"; };
-		6DE392BC343543BC71068B2E /* PhotosMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/PhotosMode.swift"; sourceTree = "<group>"; };
-		48C1A387D73E60387C0B8EBB /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photos/PhotoLibraryService.swift"; sourceTree = "<group>"; };
-		BEADC945EC2DE52E73082B49 /* PhotoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photos/PhotoViews.swift"; sourceTree = "<group>"; };
-		CADCC2845C9F7A0AAE4D1DCB /* PhotoSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photos/PhotoSettingsViews.swift"; sourceTree = "<group>"; };
-		881D40C4DDEE11F63EE2D56F /* PlayCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera/PlayCameraController.swift"; sourceTree = "<group>"; };
-		ED5F326AD8174C54870C6C74 /* CameraPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera/CameraPlayView.swift"; sourceTree = "<group>"; };
-		5AFA05195C0F813012D1F159 /* ComputerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ComputerInput.swift"; sourceTree = "<group>"; };
-		562CF9834F3D0F18C6BD57D4 /* ComputerApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ComputerApps.swift"; sourceTree = "<group>"; };
-		DC198F808AD76B7D5964893B /* DesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/DesktopView.swift"; sourceTree = "<group>"; };
-		66C1A672EAB3B20DBDA96356 /* DesktopChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/DesktopChrome.swift"; sourceTree = "<group>"; };
-		715970E3E7D225A976776A39 /* FakeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/FakeWindow.swift"; sourceTree = "<group>"; };
-		C0BF1168C96991267D2658D0 /* SystemApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/SystemApps.swift"; sourceTree = "<group>"; };
-		5E710F9FDED8B53D9D8F5773 /* SystemAppViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/SystemAppViews.swift"; sourceTree = "<group>"; };
-		306842AF4F5BB58240D5A65F /* ToyApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ToyApps.swift"; sourceTree = "<group>"; };
-		0985CA7E12556F3F35A007AD /* ToyAppViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ToyAppViews.swift"; sourceTree = "<group>"; };
-		804F8FEBA5F36517915602A5 /* MoreToyApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/MoreToyApps.swift"; sourceTree = "<group>"; };
-		4421FBAEBAB9321BA188E7DC /* MoreToyAppViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/MoreToyAppViews.swift"; sourceTree = "<group>"; };
-		FCDA5F3366B0707A9D151CBA /* MiniAppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/MiniAppKit.swift"; sourceTree = "<group>"; };
-		EF8032C953A89D2D659116F7 /* MoreToyAppGagViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/MoreToyAppGagViews.swift"; sourceTree = "<group>"; };
-		F98B716D45B416764BEFEC73 /* ToyAppFaceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ToyAppFaceTime.swift"; sourceTree = "<group>"; };
-		7128675E0D2B7EE8B28CBA99 /* ToyAppMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ToyAppMessages.swift"; sourceTree = "<group>"; };
-		B58CB233870FB56BEC9593E8 /* ToyAppWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayComputer/ToyAppWorld.swift"; sourceTree = "<group>"; };
+		9641C913799FCCE94DFF7AB7 /* TykIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/TykIcon.icns"; sourceTree = "<group>"; };
+		D0FD6D4425A791E80265975A /* storybook-sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-sprites.png"; sourceTree = "<group>"; };
 		E7E7CA9F4DF8A3E05631F826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
 		86B3BC083DF59791BE56CFAE /* ToddlerLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; };
 		71CCD365E3A654DA84DBA191 /* ToddlerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +81,7 @@
 		2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		E1E0C6800A838F359482B740 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		163F60131321B9AEAC87DB9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA7F9D6921680E9B623BF2BB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2CD5B8CD30E640D4EBBE846C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -156,6 +110,7 @@
 				2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */,
 				E1E0C6800A838F359482B740 /* CoreGraphics.framework */,
 				163F60131321B9AEAC87DB9C /* AVFoundation.framework */,
+				EA7F9D6921680E9B623BF2BB /* AudioToolbox.framework */,
 				2CD5B8CD30E640D4EBBE846C /* Security.framework */,
 			);
 			name = Frameworks;
@@ -170,11 +125,9 @@
 				4C175141D9FA5E307FC6A781 /* Lifecycle */,
 				B112678DF3FCA3C2F0FFD6AD /* LockScreen */,
 				2E7D567B6CFC99861685895D /* Modes */,
-				CC8F68B30ABCDEDA504959C5 /* Photos */,
-				CC596602C1B99054C3C3AEEF /* Camera */,
-				B11EA25D6C3D52F2F70BA8D3 /* PlayComputer */,
 				252E20260343465570D8EA34 /* Permissions */,
 				F463FD195E910129A74FD8C7 /* Settings */,
+				45B877375D6D6297BAAF2860 /* Resources */,
 				E7E7CA9F4DF8A3E05631F826 /* Info.plist */,
 				86B3BC083DF59791BE56CFAE /* ToddlerLock.entitlements */,
 			);
@@ -186,7 +139,6 @@
 			children = (
 				104D3305C10C2E29ADCE3956 /* main.swift */,
 				178E2B8E17719705B9B76D0D /* AppDelegate.swift */,
-				FD26315B87C8126ECCFCEA6B /* UpdateManager.swift */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -207,8 +159,8 @@
 		37D1275F0653F4E391D4F109 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
-				BC5978C25E31F95FD7BA2FED /* SoundManager.swift */,
-				3F9773993C584B050E5961BB /* PlayStyle.swift */,
+				2B600717042A8154D63D27CD /* RussianSpeech.swift */,
+				A56F1E58BCE54A3383412560 /* SampledInstrument.swift */,
 			);
 			name = Effects;
 			sourceTree = "<group>";
@@ -235,58 +187,14 @@
 		2E7D567B6CFC99861685895D /* Modes */ = {
 			isa = PBXGroup;
 			children = (
-				6E5657370F539AF0762418B6 /* FreePlayMode.swift */,
-				5189B47D5C473A2D0393CECE /* GameMode.swift */,
-				C6FF4140717623384B69C652 /* CharacterMode.swift */,
-				4EFCEDB1162AD38DD840E274 /* ChillMode.swift */,
 				5EFDC920E0C8031CC90C2406 /* ModeProtocol.swift */,
-				EDADB1E34AB8C28EE95ECF6B /* PlayComputerMode.swift */,
-				8A71F4B517D7A002ABFFB193 /* CameraMode.swift */,
-				6DE392BC343543BC71068B2E /* PhotosMode.swift */,
+				266EDD4DB3465982CD23FB1A /* RussianAlphabet.swift */,
+				8001B4147A38E7C9ACB2F133 /* StorybookArt.swift */,
+				AAB443C2E2DF83347A8DB276 /* LettersMode.swift */,
+				204B7B52C2C440717FC5E911 /* PictureMode.swift */,
+				1EA2631EAED7F08A909C02BC /* MusicMode.swift */,
 			);
 			name = Modes;
-			sourceTree = "<group>";
-		};
-		CC8F68B30ABCDEDA504959C5 /* Photos */ = {
-			isa = PBXGroup;
-			children = (
-				48C1A387D73E60387C0B8EBB /* PhotoLibraryService.swift */,
-				BEADC945EC2DE52E73082B49 /* PhotoViews.swift */,
-				CADCC2845C9F7A0AAE4D1DCB /* PhotoSettingsViews.swift */,
-			);
-			name = Photos;
-			sourceTree = "<group>";
-		};
-		CC596602C1B99054C3C3AEEF /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				881D40C4DDEE11F63EE2D56F /* PlayCameraController.swift */,
-				ED5F326AD8174C54870C6C74 /* CameraPlayView.swift */,
-			);
-			name = Camera;
-			sourceTree = "<group>";
-		};
-		B11EA25D6C3D52F2F70BA8D3 /* PlayComputer */ = {
-			isa = PBXGroup;
-			children = (
-				5AFA05195C0F813012D1F159 /* ComputerInput.swift */,
-				562CF9834F3D0F18C6BD57D4 /* ComputerApps.swift */,
-				DC198F808AD76B7D5964893B /* DesktopView.swift */,
-				66C1A672EAB3B20DBDA96356 /* DesktopChrome.swift */,
-				715970E3E7D225A976776A39 /* FakeWindow.swift */,
-				C0BF1168C96991267D2658D0 /* SystemApps.swift */,
-				5E710F9FDED8B53D9D8F5773 /* SystemAppViews.swift */,
-				306842AF4F5BB58240D5A65F /* ToyApps.swift */,
-				0985CA7E12556F3F35A007AD /* ToyAppViews.swift */,
-				804F8FEBA5F36517915602A5 /* MoreToyApps.swift */,
-				4421FBAEBAB9321BA188E7DC /* MoreToyAppViews.swift */,
-				FCDA5F3366B0707A9D151CBA /* MiniAppKit.swift */,
-				B58CB233870FB56BEC9593E8 /* ToyAppWorld.swift */,
-				7128675E0D2B7EE8B28CBA99 /* ToyAppMessages.swift */,
-				F98B716D45B416764BEFEC73 /* ToyAppFaceTime.swift */,
-				EF8032C953A89D2D659116F7 /* MoreToyAppGagViews.swift */,
-			);
-			name = PlayComputer;
 			sourceTree = "<group>";
 		};
 		252E20260343465570D8EA34 /* Permissions */ = {
@@ -300,15 +208,22 @@
 		F463FD195E910129A74FD8C7 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				AAC7B8FF6297AC7D002AE23A /* CharacterSet.swift */,
 				A0DFDA1BE1ADB450E3134D60 /* KeychainManager.swift */,
 				50CE3562D36E27F345CE5BEF /* ShortcutRecorderView.swift */,
-				07E6AA312DF00479DCCE4016 /* SettingsStore.swift */,
-				429065E5634357490A421ABD /* SettingsView.swift */,
-				22FA372F3A33309A7A1FFB1D /* SettingsSections.swift */,
+				8D6C7F419CB3B39EE57D7407 /* ForkSettingsStore.swift */,
+				D8BA1E69D14A9BCFA70A5F5B /* ForkSettingsView.swift */,
 				5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */,
 			);
 			name = Settings;
+			sourceTree = "<group>";
+		};
+		45B877375D6D6297BAAF2860 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9641C913799FCCE94DFF7AB7 /* TykIcon.icns */,
+				D0FD6D4425A791E80265975A /* storybook-sprites.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +235,7 @@
 			buildPhases = (
 				F680599402C0D80E245DE801 /* Sources */,
 				6BC9136C2E1B992EF374A2EA /* Frameworks */,
+				781C774F390DF12CD292A30B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -360,7 +276,6 @@
 			files = (
 				D2F995E8FE36232784EE92ED /* main.swift in Sources */,
 				0194D25DE4933223F1FD5C63 /* AppDelegate.swift in Sources */,
-				2F1A66C36D7CF435727B3552 /* UpdateManager.swift in Sources */,
 				BF68C2A45103E12FF1C04D05 /* EventTapManager.swift in Sources */,
 				0FA91E6F5C918F51EE6A6410 /* ExitShortcutDetector.swift in Sources */,
 				1227DF03D8509CBE4CAD5CA7 /* BackdoorShortcut.swift in Sources */,
@@ -372,45 +287,20 @@
 				A1967DD9C7FEF1FBE6F7D986 /* LockViewController.swift in Sources */,
 				1A58250344B931E53B5F7CCB /* LockWindowController.swift in Sources */,
 				4AD5AFCA22689357E9BC7C2A /* PasswordOverlayView.swift in Sources */,
-				1F6930BEC454B22F72CC2FC5 /* SoundManager.swift in Sources */,
-				19ED8A3D6E1E0B40BC9D4295 /* FreePlayMode.swift in Sources */,
-				3681356554FB1D6A63BE368C /* GameMode.swift in Sources */,
-				AF57F25678080384444B8C38 /* CharacterMode.swift in Sources */,
-				678B192D20212DF24EAE33A8 /* ChillMode.swift in Sources */,
+				10CA6192C8221FAFDF87D204 /* RussianSpeech.swift in Sources */,
+				B13965CAB838E0EBC88041EE /* SampledInstrument.swift in Sources */,
 				CEF75671E12EC454D8E387BC /* ModeProtocol.swift in Sources */,
+				D7B7F9F4698E9AF0CEF23CDC /* RussianAlphabet.swift in Sources */,
+				7D6292EC6994ACF1884C829A /* StorybookArt.swift in Sources */,
+				7918897ED39D94E1929A2E34 /* LettersMode.swift in Sources */,
+				E159DE4B5F0BFCDD960B173C /* PictureMode.swift in Sources */,
+				E1643EDD3D1B7B6FBC6E28E5 /* MusicMode.swift in Sources */,
 				ECF3C770AA263EDB6C73F618 /* PermissionChecker.swift in Sources */,
-				69B8DBA16DD781BD02474B97 /* CharacterSet.swift in Sources */,
 				5ED8BA99176554C7A9F1AAF1 /* KeychainManager.swift in Sources */,
 				CD636EF4624F19B1591E8636 /* ShortcutRecorderView.swift in Sources */,
-				EB25FDB9C2F5AB47208EE997 /* SettingsStore.swift in Sources */,
-				15E21D8EE2EECED1C3E1D14A /* SettingsView.swift in Sources */,
-				0E62F3EB4B9925758CF6A922 /* SettingsSections.swift in Sources */,
+				48C429E3CF6C094A4D3E5011 /* ForkSettingsStore.swift in Sources */,
+				1FBFAC5FE001D358D924108D /* ForkSettingsView.swift in Sources */,
 				492D1A73FCDD6BF4AE22B560 /* StatusItemIcon.swift in Sources */,
-				9C458943FE987F3A92B02430 /* PlayStyle.swift in Sources */,
-				EBFA032E06F5254BC53F071D /* PlayComputerMode.swift in Sources */,
-				41B2AF077337E09A5D7A39C1 /* CameraMode.swift in Sources */,
-				B779A317098EEC8F54A59D72 /* PhotosMode.swift in Sources */,
-				CC0110A7CC7A7DC6CC13C78A /* PhotoLibraryService.swift in Sources */,
-				E6A6502A6FA0B206695B9D2E /* PhotoViews.swift in Sources */,
-				B2783AC6A6D448DBEF366B72 /* PhotoSettingsViews.swift in Sources */,
-				0FCB8636A05CA209C98DCCDE /* PlayCameraController.swift in Sources */,
-				F112A2F3B53CB4C95DC90E79 /* CameraPlayView.swift in Sources */,
-				6EF9EF92CB68CF09F4FE8712 /* ComputerInput.swift in Sources */,
-				05390D711E8EB55A95D30C0E /* ComputerApps.swift in Sources */,
-				4FED2CC0996B22940E2DD8A1 /* DesktopView.swift in Sources */,
-				15917A40AAD46B28BFD0D4A0 /* DesktopChrome.swift in Sources */,
-				9BBD8C2A3E5A10FF88B9FBDE /* FakeWindow.swift in Sources */,
-				FA6853B9377B6E96DE5FC613 /* SystemApps.swift in Sources */,
-				DBDF1B8E2A5E70F194768D6F /* SystemAppViews.swift in Sources */,
-				C447F8B4E7F621B93B57FA08 /* ToyApps.swift in Sources */,
-				3F178D7257D09769DE208748 /* ToyAppViews.swift in Sources */,
-				631C8F695E8B2B51976E7037 /* MoreToyApps.swift in Sources */,
-				D491ECA9F4186B4E8E0808ED /* MoreToyAppViews.swift in Sources */,
-				B4C1AE6237B02ADE8339A5FF /* MiniAppKit.swift in Sources */,
-				1FDD90C052C31BE531534825 /* MoreToyAppGagViews.swift in Sources */,
-				6A8366703747C1AF44001A22 /* ToyAppFaceTime.swift in Sources */,
-				FC0CCAAA18BC455E4B6D8AF2 /* ToyAppMessages.swift in Sources */,
-				9BA19BFA1D584C6168039C63 /* ToyAppWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +315,24 @@
 				112B820D330936A7D4320258 /* SpriteKit.framework in Frameworks */,
 				8A574D44D01D2536468B4FA0 /* CoreGraphics.framework in Frameworks */,
 				5EE8AF2DDBC5A79DD042D53F /* AVFoundation.framework in Frameworks */,
+				9EED716AFE1104898C3EFBD4 /* AudioToolbox.framework in Frameworks */,
 				3E0E9089666F6E4DE42A457F /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781C774F390DF12CD292A30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */,
+				5AC5312DDA87957B59EE968F /* storybook-sprites.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		B10504F0F8A7477709D957A8 /* Debug */ = {
@@ -477,19 +380,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 44CHGH7YRS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = ToddlerLock/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.toddlerlock.app;
-				PRODUCT_NAME = "Toddler Mode";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
+				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -499,19 +402,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ToddlerLock/App/ToddlerLock.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 44CHGH7YRS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = ToddlerLock/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.toddlerlock.app;
-				PRODUCT_NAME = "Toddler Mode";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
+				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};

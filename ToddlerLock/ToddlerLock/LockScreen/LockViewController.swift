@@ -23,7 +23,7 @@ final class LockViewController: NSViewController {
     private let cursorManager = CursorManager.shared
     private let eventBus = InputEventBus.shared
 
-    var currentMode: PlayModeType = .freePlay
+    var currentMode: PlayModeType = .letters
 
     /// True when hosted in the DEBUG preview window (real cursor, no lock).
     var isPreview = false
@@ -69,13 +69,10 @@ final class LockViewController: NSViewController {
 
     static func makeMode(_ type: PlayModeType, size: CGSize) -> PlayMode {
         switch type {
-        case .freePlay: return FreePlayMode(size: size)
-        case .game: return GameMode(size: size)
-        case .character: return CharacterMode(size: size, characterSet: SettingsStore.shared.characterSet)
-        case .chill: return ChillMode(size: size)
-        case .playComputer: return PlayComputerMode(size: size)
-        case .camera: return CameraMode(size: size)
-        case .slideshow, .explore: return PhotosMode(size: size, style: type)
+        case .letters: return LettersMode(size: size)
+        case .animals: return PictureMode(size: size, collection: .animals)
+        case .transport: return PictureMode(size: size, collection: .transport)
+        case .musicStudio: return MusicMode(size: size)
         }
     }
 
@@ -172,13 +169,11 @@ final class LockViewController: NSViewController {
                 let pos = self.viewPosition(from: self.cursorManager.virtualPosition)
                 mode.handleMouseDown(position: pos)
                 self.synthesizeMouse(.leftMouseDown, at: pos)
-                ComputerInput.shared.isMouseDown = true
 
             case .mouseUp:
                 let pos = self.viewPosition(from: self.cursorManager.virtualPosition)
                 mode.handleMouseUp(position: pos)
                 self.synthesizeMouse(.leftMouseUp, at: pos)
-                ComputerInput.shared.isMouseDown = false
 
             case .scrollWheel:
                 let pos = self.viewPosition(from: self.cursorManager.virtualPosition)
@@ -194,7 +189,6 @@ final class LockViewController: NSViewController {
     private func publishPointer(_ pos: CGPoint) {
         guard hostedView != nil else { return }
         // Top-left coordinates for SwiftUI hover math.
-        ComputerInput.shared.pointer = CGPoint(x: pos.x, y: view.bounds.height - pos.y)
     }
 
     /// Feed a real NSEvent to the window so SwiftUI/AppKit views react.
@@ -260,7 +254,8 @@ final class LockViewController: NSViewController {
     /// play content. The exit shortcut still controls the exit.
     private func showBreakScreen() {
         guard breakOverlay == nil else { return }
-        SoundManager.shared.stopMusic()
+        SampledInstrument.shared.stop()
+        RussianSpeech.shared.stop()
         let overlay = BreakOverlayView(frame: container.bounds)
         overlay.autoresizingMask = [.width, .height]
         overlay.alphaValue = 0
