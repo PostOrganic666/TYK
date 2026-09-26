@@ -52,28 +52,9 @@ enum StorybookBackdrop {
 struct StorybookPicture {
     let name: String
     let assetName: String
-    let column: Int
-    let rowFromTop: Int
-
-    init(name: String, assetName: String = "storybook-sprites", column: Int, rowFromTop: Int) {
-        self.name = name
-        self.assetName = assetName
-        self.column = column
-        self.rowFromTop = rowFromTop
-    }
 
     var texture: SKTexture {
-        let sheet = SKTexture(imageNamed: assetName)
-        sheet.filteringMode = .linear
-        let columns: CGFloat = 4
-        let rows: CGFloat = 3
-        let rect = CGRect(
-            x: CGFloat(column) / columns,
-            y: 1 - CGFloat(rowFromTop + 1) / rows,
-            width: 1 / columns,
-            height: 1 / rows
-        )
-        let result = SKTexture(rect: rect, in: sheet)
+        let result = SKTexture(imageNamed: assetName)
         result.filteringMode = .linear
         return result
     }

@@ -64,6 +64,11 @@ final class SettingsStore {
         }
     }
 
+    var speechVoiceIdentifier: String {
+        get { defaults.string(forKey: "speechVoiceIdentifier") ?? RussianSpeech.preferredVoiceIdentifier }
+        set { defaults.set(newValue, forKey: "speechVoiceIdentifier") }
+    }
+
     var sessionLimitMinutes: Int {
         get { defaults.integer(forKey: "sessionLimitMinutes") }
         set { defaults.set(newValue, forKey: "sessionLimitMinutes") }
@@ -99,4 +104,3 @@ enum UnlockGate: String, CaseIterable, Identifiable {
 private extension Int {
     func nonZeroOr(_ fallback: Int) -> Int { self == 0 ? fallback : self }
 }
-

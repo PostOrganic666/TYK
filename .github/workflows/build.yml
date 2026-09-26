@@ -65,17 +65,17 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
-      - name: Publish v0.2.0 prerelease
+      - name: Publish v0.3.0 prerelease
         if: github.ref == 'refs/heads/codex/toddler-fork'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.2.0 >/dev/null 2>&1; then
-            gh release upload v0.2.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
+          if gh release view v0.3.0 >/dev/null 2>&1; then
+            gh release upload v0.3.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
           else
-            gh release create v0.2.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
+            gh release create v0.3.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
               --target "$GITHUB_SHA" \
-              --title "Тык 0.2.0 — больше букв, зверей и транспорта" \
-              --notes "Буквы теперь меняют цвет, размер и положение. В разделах животных и транспорта — по 30 объектов вместо шести." \
+              --title "Тык 0.3.0 — чистые иллюстрации и новый голос" \
+              --notes "Каждый объект теперь хранится отдельной прозрачной картинкой: ничего не обрезается и соседние элементы не попадают в кадр. Животных стало 60. Добавлен выбор между более живой нейросетевой Еленой и спокойной Миленой." \
               --prerelease
           fi

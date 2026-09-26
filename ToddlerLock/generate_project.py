@@ -4,6 +4,7 @@
 import os
 import hashlib
 import uuid
+from pathlib import Path
 
 def make_id(name):
     """Generate a deterministic 24-char hex ID from a name."""
@@ -40,14 +41,12 @@ sources = [
     ("Settings/StatusItemIcon.swift", "StatusItemIcon.swift"),
 ]
 
-resources = [
-    ("Resources/TykIcon.icns", "TykIcon.icns"),
-    ("Resources/Illustrations/storybook-sprites.png", "storybook-sprites.png"),
-    ("Resources/Illustrations/storybook-animals-02.png", "storybook-animals-02.png"),
-    ("Resources/Illustrations/storybook-animals-03.png", "storybook-animals-03.png"),
-    ("Resources/Illustrations/storybook-transport-02.png", "storybook-transport-02.png"),
-    ("Resources/Illustrations/storybook-transport-03.png", "storybook-transport-03.png"),
+source_root = Path(__file__).resolve().parent / "ToddlerLock"
+picture_resources = [
+    (str(path.relative_to(source_root)), path.name)
+    for path in sorted((source_root / "Resources" / "Pictures").glob("**/*.png"))
 ]
+resources = [("Resources/TykIcon.icns", "TykIcon.icns")] + picture_resources
 
 # Groups
 groups = {
@@ -374,7 +373,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.2.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.3.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
@@ -398,7 +397,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.2.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.3.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')

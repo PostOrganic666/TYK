@@ -35,11 +35,96 @@
 		1FBFAC5FE001D358D924108D /* ForkSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA1E69D14A9BCFA70A5F5B /* ForkSettingsView.swift */; };
 		492D1A73FCDD6BF4AE22B560 /* StatusItemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */; };
 		9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9641C913799FCCE94DFF7AB7 /* TykIcon.icns */; };
-		5AC5312DDA87957B59EE968F /* storybook-sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FD6D4425A791E80265975A /* storybook-sprites.png */; };
-		74B813D924BE0C379E052E6B /* storybook-animals-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A14C69D7E4CE2ACEF1F886 /* storybook-animals-02.png */; };
-		2033BA8AA2FC3A813EB0960B /* storybook-animals-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 6619944E2AC0A19044752054 /* storybook-animals-03.png */; };
-		591EC03C809DF515F7541C7C /* storybook-transport-02.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DDEE8540DCCACD51FF7595 /* storybook-transport-02.png */; };
-		F45C294170563E6480CD8770 /* storybook-transport-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A50DEBF978D1E44FCB5D308B /* storybook-transport-03.png */; };
+		32016D597A9218B80570EEFD /* animal-alpaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 526F8CA0F0948FDA49B5114C /* animal-alpaca.png */; };
+		7F8FAE329C86B0EE6564C92E /* animal-badger.png in Resources */ = {isa = PBXBuildFile; fileRef = 048EEF26E18A0AD2541513EF /* animal-badger.png */; };
+		4CA82AF04F7B782DA7C50A78 /* animal-bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4B00F380A7387BAFBEB19C /* animal-bear.png */; };
+		0E855FD43E970B73BEEFF9E1 /* animal-beaver.png in Resources */ = {isa = PBXBuildFile; fileRef = E974A12C98EAFB0853203B7B /* animal-beaver.png */; };
+		7F68A998D8B0DA8272DC8126 /* animal-bison.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29EF46CA807A9EF83255B0 /* animal-bison.png */; };
+		B78FC2B1182C192E4CAF555F /* animal-boar.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DC427B04684097253E8675 /* animal-boar.png */; };
+		38067BB6F9ECA877DE36295B /* animal-camel.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1831C12F89C67EAFA6056 /* animal-camel.png */; };
+		80F7ED35944BCE206AF10B49 /* animal-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A11B1238ACE89797311E03D /* animal-cat.png */; };
+		9F00152669D367AE2156817F /* animal-chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777F75EFF4AAC8E1BBF4A4F /* animal-chicken.png */; };
+		9716B874F03CD2EF866F7F61 /* animal-cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 874C02627CEB982CD63EB72C /* animal-cow.png */; };
+		D4EFA97CFB084AB2B5B7FE26 /* animal-crab.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EBECA73867C6747A45CB8D /* animal-crab.png */; };
+		5FC22BBC08E8D64BA96E32F5 /* animal-crocodile.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1AF44C3EAEA66F89C3DE99 /* animal-crocodile.png */; };
+		00F732BD57ECEED11A375C70 /* animal-dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E0D7BDBED7E4FAD1A3742C /* animal-dog.png */; };
+		D56BA036CBF83B5EB29EBCF7 /* animal-dolphin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5055DA674F1E4142EEACB3CF /* animal-dolphin.png */; };
+		71B0EFAE6F8B7E870330621A /* animal-donkey.png in Resources */ = {isa = PBXBuildFile; fileRef = A7318847D2D32E5100C3A007 /* animal-donkey.png */; };
+		AA10E2645E785A20DCE20C27 /* animal-duck.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA00D39DBBF13FC1B76F41D /* animal-duck.png */; };
+		0C1120D555D310BE962DAB4E /* animal-elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = D050CCFBBE38A8FA38E557AD /* animal-elephant.png */; };
+		ACA7CF1695D8D7B9BAD7ADFB /* animal-fawn.png in Resources */ = {isa = PBXBuildFile; fileRef = A110E32D520A53F9B53563A5 /* animal-fawn.png */; };
+		492C7FCFDCC31BA523EC7352 /* animal-flamingo.png in Resources */ = {isa = PBXBuildFile; fileRef = 078FAB457C3BF50D6DA979A9 /* animal-flamingo.png */; };
+		1E53AD5BAB77B2390478698E /* animal-fox.png in Resources */ = {isa = PBXBuildFile; fileRef = E60CF9B80517300471B6C2CC /* animal-fox.png */; };
+		C7795F2E5147AF588610E12D /* animal-frog.png in Resources */ = {isa = PBXBuildFile; fileRef = B798811839EC3B5979A628ED /* animal-frog.png */; };
+		B9722E35CCECBF89F6E9C4F3 /* animal-giraffe.png in Resources */ = {isa = PBXBuildFile; fileRef = 979C274A01CACBEE8EA62AA5 /* animal-giraffe.png */; };
+		97E8B069E4AF28431BBA7875 /* animal-goat.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654DE801DED53247D21921 /* animal-goat.png */; };
+		AADD6B5B1F17319724EF2A4E /* animal-hamster.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B4E26BFC3CE34188584310 /* animal-hamster.png */; };
+		DE7C466D40617A3136A55D1F /* animal-hare.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF48221F495418DBC4F0C23 /* animal-hare.png */; };
+		CDB4BF1664B1C907D9C3BC79 /* animal-hedgehog.png in Resources */ = {isa = PBXBuildFile; fileRef = 1135FE4EEE30F36970B7EE63 /* animal-hedgehog.png */; };
+		40F291D389B7BFFA6CE5A3A7 /* animal-hippopotamus.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AB045EE0BAC9F64DCBFD40 /* animal-hippopotamus.png */; };
+		505D6455D7CF3276BB58D2AB /* animal-horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4258384895ED9D67BA056676 /* animal-horse.png */; };
+		2676F346E0561AD591733F92 /* animal-kangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA4BBF6495DA88273D561D0 /* animal-kangaroo.png */; };
+		72E168645ABDD1C73474E679 /* animal-koala.png in Resources */ = {isa = PBXBuildFile; fileRef = 396D27CBCE37E76F6D727D8D /* animal-koala.png */; };
+		D2694F014645E3874FB3B0D7 /* animal-leopard.png in Resources */ = {isa = PBXBuildFile; fileRef = CE120C87ECEE73489AED4F1B /* animal-leopard.png */; };
+		B994A2AEA11AE698AF57E6D0 /* animal-lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FABEF542FB9C02AFF9C23F4 /* animal-lion.png */; };
+		8DF3BBC55915B95E55CA75FC /* animal-llama.png in Resources */ = {isa = PBXBuildFile; fileRef = 849119D8508BEF1E00AD23AC /* animal-llama.png */; };
+		C668DD6C87842986236BB605 /* animal-manta-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E49BD881025DD102259C78E /* animal-manta-ray.png */; };
+		30A69857656A3112AAD0B52D /* animal-monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0506529454300076E29D0D9E /* animal-monkey.png */; };
+		9EBFEB9C1EF30E5A60CE9B9F /* animal-mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E1C3324C437A1AEFFB88EC /* animal-mouse.png */; };
+		505FD34A3512BD221DCC50AA /* animal-octopus.png in Resources */ = {isa = PBXBuildFile; fileRef = 690A2BBD3B3B7A9B33682F82 /* animal-octopus.png */; };
+		CD379888D70B577DD29837F9 /* animal-owl.png in Resources */ = {isa = PBXBuildFile; fileRef = 032AA5FA6222B7600882A8AD /* animal-owl.png */; };
+		F705EA5CA107E2CB021CA839 /* animal-panda.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F1B3EDECB4DD33DE80A829 /* animal-panda.png */; };
+		388DB6EDFF481ECB55C74759 /* animal-parrot.png in Resources */ = {isa = PBXBuildFile; fileRef = F148A85CC3F089B0FF0956AA /* animal-parrot.png */; };
+		28CEA561FBE351DD584786D2 /* animal-peacock.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6F610579F1D61B67253F3D /* animal-peacock.png */; };
+		F87966368E28F961534D255D /* animal-penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1024833D2684C9711695296B /* animal-penguin.png */; };
+		9867D2A241561E1D07023BF8 /* animal-pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 563132A85EEF1D950EA17A58 /* animal-pig.png */; };
+		98E18C6CB1E80C948AF67093 /* animal-raccoon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BC18D3D8FCA1636CBA2B8C /* animal-raccoon.png */; };
+		A938EFFC189A4B7DB536D85C /* animal-rhinoceros.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D751DFF3475652DBF3C76A /* animal-rhinoceros.png */; };
+		AA8F9695A28DF068515A6A64 /* animal-seal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF428400BF4AE628F019FE84 /* animal-seal.png */; };
+		DD0341CE29B381A6F64232B2 /* animal-shark.png in Resources */ = {isa = PBXBuildFile; fileRef = E347C1CB9369E676203FB4D9 /* animal-shark.png */; };
+		82C6EFC99DAF9BA5E00B4011 /* animal-sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD276FA992B44C5159E6F3D /* animal-sheep.png */; };
+		7B1DBEBDB8694BA084F10464 /* animal-sloth.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B1D25C5F6B90D07ABFA34E /* animal-sloth.png */; };
+		3BB5E3A98962BAF8F24E0608 /* animal-squirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8578FF17541B6D720B1AA40 /* animal-squirrel.png */; };
+		81F2A397B33325A6015FBF2F /* animal-starfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 9913064FF6ED6D6E7EB5D8DA /* animal-starfish.png */; };
+		50E67C50CB34B35C307D79FE /* animal-stork.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D939D895E45850E929EA81 /* animal-stork.png */; };
+		50AA0AC959BC034155E3E9C5 /* animal-swan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFAF5C34C5A55AB1B0C8E96 /* animal-swan.png */; };
+		FB4486940C9D30B3B8ED4151 /* animal-tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CCF29ACB7F336254DA7F0D /* animal-tiger.png */; };
+		CA78AC759252B1F25A06353A /* animal-turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = A30A445E64A6230F69094654 /* animal-turtle.png */; };
+		D9A586014C3F01E2DC0221BB /* animal-walrus.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B73D37250553BA0AD45A94 /* animal-walrus.png */; };
+		818AB5F601BA0CEAAEB9D818 /* animal-whale.png in Resources */ = {isa = PBXBuildFile; fileRef = 0736E766E66F384DDAC87CE3 /* animal-whale.png */; };
+		D0E431F841C4318A3730393B /* animal-wolf.png in Resources */ = {isa = PBXBuildFile; fileRef = B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */; };
+		3DAABAB0CB8B51AEDD7CA8D7 /* animal-woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */; };
+		EF700F744054D48FF452AAD7 /* animal-zebra.png in Resources */ = {isa = PBXBuildFile; fileRef = 89012E78C45B9BD387F0D484 /* animal-zebra.png */; };
+		F15E336979FE8CF36E05C618 /* transport-airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */; };
+		C348048DE9C52CDD73FDBAA8 /* transport-ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FA82FEE06897A630CB1E79 /* transport-ambulance.png */; };
+		5A6B1789A2E44F30088CABF2 /* transport-bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BF3EABB4F70C5C17DC1266 /* transport-bicycle.png */; };
+		A87689E7C428BD8DC29AEFB3 /* transport-bulldozer.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A85D4E77CD9D9D12754E4BE /* transport-bulldozer.png */; };
+		4C5D47DA715E151CBDF28A6C /* transport-bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 537DB9D2C9CAA54374D8457C /* transport-bus.png */; };
+		BDF38478B91AA75460E09B29 /* transport-combine.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F3827E16F381DD797F61BC /* transport-combine.png */; };
+		113410F00D06A334CDC7006F /* transport-concrete-mixer.png in Resources */ = {isa = PBXBuildFile; fileRef = 491D5C814B099A7DFF0ACF84 /* transport-concrete-mixer.png */; };
+		B387C7A509A23B04EAB75236 /* transport-crane-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B02ED4587D9905B40F93DC8 /* transport-crane-truck.png */; };
+		BBCE859147EF1C046D97B812 /* transport-delivery-van.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1D7252F5FA5AD5469F0373 /* transport-delivery-van.png */; };
+		8107278BD8FE4958ADC1AEDF /* transport-dump-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C2874DD251DF3AF3B4E4D1 /* transport-dump-truck.png */; };
+		9CE309AF1047D6C7C4F17297 /* transport-excavator.png in Resources */ = {isa = PBXBuildFile; fileRef = 609C5D1D96A8A78520F3CC83 /* transport-excavator.png */; };
+		4631703A3B441BA3FB72C18C /* transport-ferry.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15377498CCCA2AA07407B1 /* transport-ferry.png */; };
+		701F07C86310DEAD288C5151 /* transport-fire-engine.png in Resources */ = {isa = PBXBuildFile; fileRef = E2470624E31F330321F54321 /* transport-fire-engine.png */; };
+		B8927DE1221D85E94C8FC171 /* transport-forklift.png in Resources */ = {isa = PBXBuildFile; fileRef = CC519CE4C800FA430A25A0D4 /* transport-forklift.png */; };
+		7002E0B548D66CD9CE6F8756 /* transport-garbage-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D41EC76A3E65AC30D569283 /* transport-garbage-truck.png */; };
+		F2BDD82BC86F513254FA5595 /* transport-helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E26A9923DBAACC14A4B948 /* transport-helicopter.png */; };
+		EBCFBFE3D14460817FF3EECE /* transport-hot-air-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0F51DA459B1D6326C8946 /* transport-hot-air-balloon.png */; };
+		33398588DAFA4C699CD2A2D7 /* transport-motorcycle.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B6D0291237E2A63F59381C /* transport-motorcycle.png */; };
+		4F7B3B064B8F0B51BFC036F8 /* transport-police-car.png in Resources */ = {isa = PBXBuildFile; fileRef = 449156C9C83CD13294CC8063 /* transport-police-car.png */; };
+		53F4EE75733B99B6F7331A57 /* transport-rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 66ADED3C486B24FF743DEF65 /* transport-rocket.png */; };
+		75F43C52BC8E857FBC21BF95 /* transport-sailboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF554D5B79A491FD5D1D10 /* transport-sailboat.png */; };
+		A2E4B67F73C57661A430711F /* transport-scooter.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C587B43C02A0EC9B3C153 /* transport-scooter.png */; };
+		9BD7EEA5CCBA1EA5BA854112 /* transport-snowmobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A92BFD4ED03AFC1995D75E2 /* transport-snowmobile.png */; };
+		EB601D2BA29849B6FDE360C4 /* transport-submarine.png in Resources */ = {isa = PBXBuildFile; fileRef = 574670833D3BEC577E386E3F /* transport-submarine.png */; };
+		B132D0EF6C4D4752C8FFA04B /* transport-subway-train.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D7DDBF8AB7B5EFC34D623 /* transport-subway-train.png */; };
+		35CC94CC728BAA042FB2FC0E /* transport-taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCEAB03E2828E3154E58191 /* transport-taxi.png */; };
+		50D697F90FDC6852EB8DA8BE /* transport-tractor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B383BC0E0B9123B1861A9CB /* transport-tractor.png */; };
+		A40319F49F548510E5A4DD9A /* transport-train.png in Resources */ = {isa = PBXBuildFile; fileRef = F37F17D7B0C68006E7AA636E /* transport-train.png */; };
+		66217A27985B2E89DAC962A0 /* transport-tram.png in Resources */ = {isa = PBXBuildFile; fileRef = C03DA3532D9EAEBB7FC49ABE /* transport-tram.png */; };
+		E12655632710274C000CBDEA /* transport-tugboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 10159FDD99C894B2CDB20466 /* transport-tugboat.png */; };
 		6C61552DC6670A50FC25765E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B218FB64174136C14AE6BB /* AppKit.framework */; };
 		112B820D330936A7D4320258 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */; };
 		8A574D44D01D2536468B4FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0C6800A838F359482B740 /* CoreGraphics.framework */; };
@@ -77,11 +162,96 @@
 		D8BA1E69D14A9BCFA70A5F5B /* ForkSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/ForkSettingsView.swift"; sourceTree = "<group>"; };
 		5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/StatusItemIcon.swift"; sourceTree = "<group>"; };
 		9641C913799FCCE94DFF7AB7 /* TykIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/TykIcon.icns"; sourceTree = "<group>"; };
-		D0FD6D4425A791E80265975A /* storybook-sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-sprites.png"; sourceTree = "<group>"; };
-		17A14C69D7E4CE2ACEF1F886 /* storybook-animals-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-animals-02.png"; sourceTree = "<group>"; };
-		6619944E2AC0A19044752054 /* storybook-animals-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-animals-03.png"; sourceTree = "<group>"; };
-		C5DDEE8540DCCACD51FF7595 /* storybook-transport-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-transport-02.png"; sourceTree = "<group>"; };
-		A50DEBF978D1E44FCB5D308B /* storybook-transport-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Illustrations/storybook-transport-03.png"; sourceTree = "<group>"; };
+		526F8CA0F0948FDA49B5114C /* animal-alpaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-alpaca.png"; sourceTree = "<group>"; };
+		048EEF26E18A0AD2541513EF /* animal-badger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-badger.png"; sourceTree = "<group>"; };
+		7F4B00F380A7387BAFBEB19C /* animal-bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-bear.png"; sourceTree = "<group>"; };
+		E974A12C98EAFB0853203B7B /* animal-beaver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-beaver.png"; sourceTree = "<group>"; };
+		BE29EF46CA807A9EF83255B0 /* animal-bison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-bison.png"; sourceTree = "<group>"; };
+		B4DC427B04684097253E8675 /* animal-boar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-boar.png"; sourceTree = "<group>"; };
+		83A1831C12F89C67EAFA6056 /* animal-camel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-camel.png"; sourceTree = "<group>"; };
+		7A11B1238ACE89797311E03D /* animal-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-cat.png"; sourceTree = "<group>"; };
+		2777F75EFF4AAC8E1BBF4A4F /* animal-chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-chicken.png"; sourceTree = "<group>"; };
+		874C02627CEB982CD63EB72C /* animal-cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-cow.png"; sourceTree = "<group>"; };
+		E3EBECA73867C6747A45CB8D /* animal-crab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-crab.png"; sourceTree = "<group>"; };
+		DC1AF44C3EAEA66F89C3DE99 /* animal-crocodile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-crocodile.png"; sourceTree = "<group>"; };
+		79E0D7BDBED7E4FAD1A3742C /* animal-dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-dog.png"; sourceTree = "<group>"; };
+		5055DA674F1E4142EEACB3CF /* animal-dolphin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-dolphin.png"; sourceTree = "<group>"; };
+		A7318847D2D32E5100C3A007 /* animal-donkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-donkey.png"; sourceTree = "<group>"; };
+		8CA00D39DBBF13FC1B76F41D /* animal-duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-duck.png"; sourceTree = "<group>"; };
+		D050CCFBBE38A8FA38E557AD /* animal-elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-elephant.png"; sourceTree = "<group>"; };
+		A110E32D520A53F9B53563A5 /* animal-fawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-fawn.png"; sourceTree = "<group>"; };
+		078FAB457C3BF50D6DA979A9 /* animal-flamingo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-flamingo.png"; sourceTree = "<group>"; };
+		E60CF9B80517300471B6C2CC /* animal-fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-fox.png"; sourceTree = "<group>"; };
+		B798811839EC3B5979A628ED /* animal-frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-frog.png"; sourceTree = "<group>"; };
+		979C274A01CACBEE8EA62AA5 /* animal-giraffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-giraffe.png"; sourceTree = "<group>"; };
+		70654DE801DED53247D21921 /* animal-goat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-goat.png"; sourceTree = "<group>"; };
+		D8B4E26BFC3CE34188584310 /* animal-hamster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hamster.png"; sourceTree = "<group>"; };
+		9AF48221F495418DBC4F0C23 /* animal-hare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hare.png"; sourceTree = "<group>"; };
+		1135FE4EEE30F36970B7EE63 /* animal-hedgehog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hedgehog.png"; sourceTree = "<group>"; };
+		97AB045EE0BAC9F64DCBFD40 /* animal-hippopotamus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hippopotamus.png"; sourceTree = "<group>"; };
+		4258384895ED9D67BA056676 /* animal-horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-horse.png"; sourceTree = "<group>"; };
+		0DA4BBF6495DA88273D561D0 /* animal-kangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-kangaroo.png"; sourceTree = "<group>"; };
+		396D27CBCE37E76F6D727D8D /* animal-koala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-koala.png"; sourceTree = "<group>"; };
+		CE120C87ECEE73489AED4F1B /* animal-leopard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-leopard.png"; sourceTree = "<group>"; };
+		7FABEF542FB9C02AFF9C23F4 /* animal-lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-lion.png"; sourceTree = "<group>"; };
+		849119D8508BEF1E00AD23AC /* animal-llama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-llama.png"; sourceTree = "<group>"; };
+		1E49BD881025DD102259C78E /* animal-manta-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-manta-ray.png"; sourceTree = "<group>"; };
+		0506529454300076E29D0D9E /* animal-monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-monkey.png"; sourceTree = "<group>"; };
+		A3E1C3324C437A1AEFFB88EC /* animal-mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-mouse.png"; sourceTree = "<group>"; };
+		690A2BBD3B3B7A9B33682F82 /* animal-octopus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-octopus.png"; sourceTree = "<group>"; };
+		032AA5FA6222B7600882A8AD /* animal-owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-owl.png"; sourceTree = "<group>"; };
+		85F1B3EDECB4DD33DE80A829 /* animal-panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-panda.png"; sourceTree = "<group>"; };
+		F148A85CC3F089B0FF0956AA /* animal-parrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-parrot.png"; sourceTree = "<group>"; };
+		FD6F610579F1D61B67253F3D /* animal-peacock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-peacock.png"; sourceTree = "<group>"; };
+		1024833D2684C9711695296B /* animal-penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-penguin.png"; sourceTree = "<group>"; };
+		563132A85EEF1D950EA17A58 /* animal-pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-pig.png"; sourceTree = "<group>"; };
+		E5BC18D3D8FCA1636CBA2B8C /* animal-raccoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-raccoon.png"; sourceTree = "<group>"; };
+		A8D751DFF3475652DBF3C76A /* animal-rhinoceros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-rhinoceros.png"; sourceTree = "<group>"; };
+		CF428400BF4AE628F019FE84 /* animal-seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-seal.png"; sourceTree = "<group>"; };
+		E347C1CB9369E676203FB4D9 /* animal-shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-shark.png"; sourceTree = "<group>"; };
+		3CD276FA992B44C5159E6F3D /* animal-sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-sheep.png"; sourceTree = "<group>"; };
+		76B1D25C5F6B90D07ABFA34E /* animal-sloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-sloth.png"; sourceTree = "<group>"; };
+		B8578FF17541B6D720B1AA40 /* animal-squirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-squirrel.png"; sourceTree = "<group>"; };
+		9913064FF6ED6D6E7EB5D8DA /* animal-starfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-starfish.png"; sourceTree = "<group>"; };
+		34D939D895E45850E929EA81 /* animal-stork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-stork.png"; sourceTree = "<group>"; };
+		2BFAF5C34C5A55AB1B0C8E96 /* animal-swan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-swan.png"; sourceTree = "<group>"; };
+		F4CCF29ACB7F336254DA7F0D /* animal-tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-tiger.png"; sourceTree = "<group>"; };
+		A30A445E64A6230F69094654 /* animal-turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-turtle.png"; sourceTree = "<group>"; };
+		A3B73D37250553BA0AD45A94 /* animal-walrus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-walrus.png"; sourceTree = "<group>"; };
+		0736E766E66F384DDAC87CE3 /* animal-whale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-whale.png"; sourceTree = "<group>"; };
+		B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-wolf.png"; sourceTree = "<group>"; };
+		5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-woodpecker.png"; sourceTree = "<group>"; };
+		89012E78C45B9BD387F0D484 /* animal-zebra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-zebra.png"; sourceTree = "<group>"; };
+		F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-airplane.png"; sourceTree = "<group>"; };
+		26FA82FEE06897A630CB1E79 /* transport-ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-ambulance.png"; sourceTree = "<group>"; };
+		75BF3EABB4F70C5C17DC1266 /* transport-bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-bicycle.png"; sourceTree = "<group>"; };
+		2A85D4E77CD9D9D12754E4BE /* transport-bulldozer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-bulldozer.png"; sourceTree = "<group>"; };
+		537DB9D2C9CAA54374D8457C /* transport-bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-bus.png"; sourceTree = "<group>"; };
+		F4F3827E16F381DD797F61BC /* transport-combine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-combine.png"; sourceTree = "<group>"; };
+		491D5C814B099A7DFF0ACF84 /* transport-concrete-mixer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-concrete-mixer.png"; sourceTree = "<group>"; };
+		7B02ED4587D9905B40F93DC8 /* transport-crane-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-crane-truck.png"; sourceTree = "<group>"; };
+		7C1D7252F5FA5AD5469F0373 /* transport-delivery-van.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-delivery-van.png"; sourceTree = "<group>"; };
+		C2C2874DD251DF3AF3B4E4D1 /* transport-dump-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-dump-truck.png"; sourceTree = "<group>"; };
+		609C5D1D96A8A78520F3CC83 /* transport-excavator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-excavator.png"; sourceTree = "<group>"; };
+		7E15377498CCCA2AA07407B1 /* transport-ferry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-ferry.png"; sourceTree = "<group>"; };
+		E2470624E31F330321F54321 /* transport-fire-engine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-fire-engine.png"; sourceTree = "<group>"; };
+		CC519CE4C800FA430A25A0D4 /* transport-forklift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-forklift.png"; sourceTree = "<group>"; };
+		3D41EC76A3E65AC30D569283 /* transport-garbage-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-garbage-truck.png"; sourceTree = "<group>"; };
+		F5E26A9923DBAACC14A4B948 /* transport-helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-helicopter.png"; sourceTree = "<group>"; };
+		5BF0F51DA459B1D6326C8946 /* transport-hot-air-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-hot-air-balloon.png"; sourceTree = "<group>"; };
+		F6B6D0291237E2A63F59381C /* transport-motorcycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-motorcycle.png"; sourceTree = "<group>"; };
+		449156C9C83CD13294CC8063 /* transport-police-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-police-car.png"; sourceTree = "<group>"; };
+		66ADED3C486B24FF743DEF65 /* transport-rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-rocket.png"; sourceTree = "<group>"; };
+		0CCF554D5B79A491FD5D1D10 /* transport-sailboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-sailboat.png"; sourceTree = "<group>"; };
+		EE2C587B43C02A0EC9B3C153 /* transport-scooter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-scooter.png"; sourceTree = "<group>"; };
+		8A92BFD4ED03AFC1995D75E2 /* transport-snowmobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-snowmobile.png"; sourceTree = "<group>"; };
+		574670833D3BEC577E386E3F /* transport-submarine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-submarine.png"; sourceTree = "<group>"; };
+		2E0D7DDBF8AB7B5EFC34D623 /* transport-subway-train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-subway-train.png"; sourceTree = "<group>"; };
+		9BCEAB03E2828E3154E58191 /* transport-taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-taxi.png"; sourceTree = "<group>"; };
+		8B383BC0E0B9123B1861A9CB /* transport-tractor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tractor.png"; sourceTree = "<group>"; };
+		F37F17D7B0C68006E7AA636E /* transport-train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-train.png"; sourceTree = "<group>"; };
+		C03DA3532D9EAEBB7FC49ABE /* transport-tram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tram.png"; sourceTree = "<group>"; };
+		10159FDD99C894B2CDB20466 /* transport-tugboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tugboat.png"; sourceTree = "<group>"; };
 		E7E7CA9F4DF8A3E05631F826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
 		86B3BC083DF59791BE56CFAE /* ToddlerLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; };
 		71CCD365E3A654DA84DBA191 /* ToddlerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,11 +399,96 @@
 			isa = PBXGroup;
 			children = (
 				9641C913799FCCE94DFF7AB7 /* TykIcon.icns */,
-				D0FD6D4425A791E80265975A /* storybook-sprites.png */,
-				17A14C69D7E4CE2ACEF1F886 /* storybook-animals-02.png */,
-				6619944E2AC0A19044752054 /* storybook-animals-03.png */,
-				C5DDEE8540DCCACD51FF7595 /* storybook-transport-02.png */,
-				A50DEBF978D1E44FCB5D308B /* storybook-transport-03.png */,
+				526F8CA0F0948FDA49B5114C /* animal-alpaca.png */,
+				048EEF26E18A0AD2541513EF /* animal-badger.png */,
+				7F4B00F380A7387BAFBEB19C /* animal-bear.png */,
+				E974A12C98EAFB0853203B7B /* animal-beaver.png */,
+				BE29EF46CA807A9EF83255B0 /* animal-bison.png */,
+				B4DC427B04684097253E8675 /* animal-boar.png */,
+				83A1831C12F89C67EAFA6056 /* animal-camel.png */,
+				7A11B1238ACE89797311E03D /* animal-cat.png */,
+				2777F75EFF4AAC8E1BBF4A4F /* animal-chicken.png */,
+				874C02627CEB982CD63EB72C /* animal-cow.png */,
+				E3EBECA73867C6747A45CB8D /* animal-crab.png */,
+				DC1AF44C3EAEA66F89C3DE99 /* animal-crocodile.png */,
+				79E0D7BDBED7E4FAD1A3742C /* animal-dog.png */,
+				5055DA674F1E4142EEACB3CF /* animal-dolphin.png */,
+				A7318847D2D32E5100C3A007 /* animal-donkey.png */,
+				8CA00D39DBBF13FC1B76F41D /* animal-duck.png */,
+				D050CCFBBE38A8FA38E557AD /* animal-elephant.png */,
+				A110E32D520A53F9B53563A5 /* animal-fawn.png */,
+				078FAB457C3BF50D6DA979A9 /* animal-flamingo.png */,
+				E60CF9B80517300471B6C2CC /* animal-fox.png */,
+				B798811839EC3B5979A628ED /* animal-frog.png */,
+				979C274A01CACBEE8EA62AA5 /* animal-giraffe.png */,
+				70654DE801DED53247D21921 /* animal-goat.png */,
+				D8B4E26BFC3CE34188584310 /* animal-hamster.png */,
+				9AF48221F495418DBC4F0C23 /* animal-hare.png */,
+				1135FE4EEE30F36970B7EE63 /* animal-hedgehog.png */,
+				97AB045EE0BAC9F64DCBFD40 /* animal-hippopotamus.png */,
+				4258384895ED9D67BA056676 /* animal-horse.png */,
+				0DA4BBF6495DA88273D561D0 /* animal-kangaroo.png */,
+				396D27CBCE37E76F6D727D8D /* animal-koala.png */,
+				CE120C87ECEE73489AED4F1B /* animal-leopard.png */,
+				7FABEF542FB9C02AFF9C23F4 /* animal-lion.png */,
+				849119D8508BEF1E00AD23AC /* animal-llama.png */,
+				1E49BD881025DD102259C78E /* animal-manta-ray.png */,
+				0506529454300076E29D0D9E /* animal-monkey.png */,
+				A3E1C3324C437A1AEFFB88EC /* animal-mouse.png */,
+				690A2BBD3B3B7A9B33682F82 /* animal-octopus.png */,
+				032AA5FA6222B7600882A8AD /* animal-owl.png */,
+				85F1B3EDECB4DD33DE80A829 /* animal-panda.png */,
+				F148A85CC3F089B0FF0956AA /* animal-parrot.png */,
+				FD6F610579F1D61B67253F3D /* animal-peacock.png */,
+				1024833D2684C9711695296B /* animal-penguin.png */,
+				563132A85EEF1D950EA17A58 /* animal-pig.png */,
+				E5BC18D3D8FCA1636CBA2B8C /* animal-raccoon.png */,
+				A8D751DFF3475652DBF3C76A /* animal-rhinoceros.png */,
+				CF428400BF4AE628F019FE84 /* animal-seal.png */,
+				E347C1CB9369E676203FB4D9 /* animal-shark.png */,
+				3CD276FA992B44C5159E6F3D /* animal-sheep.png */,
+				76B1D25C5F6B90D07ABFA34E /* animal-sloth.png */,
+				B8578FF17541B6D720B1AA40 /* animal-squirrel.png */,
+				9913064FF6ED6D6E7EB5D8DA /* animal-starfish.png */,
+				34D939D895E45850E929EA81 /* animal-stork.png */,
+				2BFAF5C34C5A55AB1B0C8E96 /* animal-swan.png */,
+				F4CCF29ACB7F336254DA7F0D /* animal-tiger.png */,
+				A30A445E64A6230F69094654 /* animal-turtle.png */,
+				A3B73D37250553BA0AD45A94 /* animal-walrus.png */,
+				0736E766E66F384DDAC87CE3 /* animal-whale.png */,
+				B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */,
+				5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */,
+				89012E78C45B9BD387F0D484 /* animal-zebra.png */,
+				F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */,
+				26FA82FEE06897A630CB1E79 /* transport-ambulance.png */,
+				75BF3EABB4F70C5C17DC1266 /* transport-bicycle.png */,
+				2A85D4E77CD9D9D12754E4BE /* transport-bulldozer.png */,
+				537DB9D2C9CAA54374D8457C /* transport-bus.png */,
+				F4F3827E16F381DD797F61BC /* transport-combine.png */,
+				491D5C814B099A7DFF0ACF84 /* transport-concrete-mixer.png */,
+				7B02ED4587D9905B40F93DC8 /* transport-crane-truck.png */,
+				7C1D7252F5FA5AD5469F0373 /* transport-delivery-van.png */,
+				C2C2874DD251DF3AF3B4E4D1 /* transport-dump-truck.png */,
+				609C5D1D96A8A78520F3CC83 /* transport-excavator.png */,
+				7E15377498CCCA2AA07407B1 /* transport-ferry.png */,
+				E2470624E31F330321F54321 /* transport-fire-engine.png */,
+				CC519CE4C800FA430A25A0D4 /* transport-forklift.png */,
+				3D41EC76A3E65AC30D569283 /* transport-garbage-truck.png */,
+				F5E26A9923DBAACC14A4B948 /* transport-helicopter.png */,
+				5BF0F51DA459B1D6326C8946 /* transport-hot-air-balloon.png */,
+				F6B6D0291237E2A63F59381C /* transport-motorcycle.png */,
+				449156C9C83CD13294CC8063 /* transport-police-car.png */,
+				66ADED3C486B24FF743DEF65 /* transport-rocket.png */,
+				0CCF554D5B79A491FD5D1D10 /* transport-sailboat.png */,
+				EE2C587B43C02A0EC9B3C153 /* transport-scooter.png */,
+				8A92BFD4ED03AFC1995D75E2 /* transport-snowmobile.png */,
+				574670833D3BEC577E386E3F /* transport-submarine.png */,
+				2E0D7DDBF8AB7B5EFC34D623 /* transport-subway-train.png */,
+				9BCEAB03E2828E3154E58191 /* transport-taxi.png */,
+				8B383BC0E0B9123B1861A9CB /* transport-tractor.png */,
+				F37F17D7B0C68006E7AA636E /* transport-train.png */,
+				C03DA3532D9EAEBB7FC49ABE /* transport-tram.png */,
+				10159FDD99C894B2CDB20466 /* transport-tugboat.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -340,11 +595,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */,
-				5AC5312DDA87957B59EE968F /* storybook-sprites.png in Resources */,
-				74B813D924BE0C379E052E6B /* storybook-animals-02.png in Resources */,
-				2033BA8AA2FC3A813EB0960B /* storybook-animals-03.png in Resources */,
-				591EC03C809DF515F7541C7C /* storybook-transport-02.png in Resources */,
-				F45C294170563E6480CD8770 /* storybook-transport-03.png in Resources */,
+				32016D597A9218B80570EEFD /* animal-alpaca.png in Resources */,
+				7F8FAE329C86B0EE6564C92E /* animal-badger.png in Resources */,
+				4CA82AF04F7B782DA7C50A78 /* animal-bear.png in Resources */,
+				0E855FD43E970B73BEEFF9E1 /* animal-beaver.png in Resources */,
+				7F68A998D8B0DA8272DC8126 /* animal-bison.png in Resources */,
+				B78FC2B1182C192E4CAF555F /* animal-boar.png in Resources */,
+				38067BB6F9ECA877DE36295B /* animal-camel.png in Resources */,
+				80F7ED35944BCE206AF10B49 /* animal-cat.png in Resources */,
+				9F00152669D367AE2156817F /* animal-chicken.png in Resources */,
+				9716B874F03CD2EF866F7F61 /* animal-cow.png in Resources */,
+				D4EFA97CFB084AB2B5B7FE26 /* animal-crab.png in Resources */,
+				5FC22BBC08E8D64BA96E32F5 /* animal-crocodile.png in Resources */,
+				00F732BD57ECEED11A375C70 /* animal-dog.png in Resources */,
+				D56BA036CBF83B5EB29EBCF7 /* animal-dolphin.png in Resources */,
+				71B0EFAE6F8B7E870330621A /* animal-donkey.png in Resources */,
+				AA10E2645E785A20DCE20C27 /* animal-duck.png in Resources */,
+				0C1120D555D310BE962DAB4E /* animal-elephant.png in Resources */,
+				ACA7CF1695D8D7B9BAD7ADFB /* animal-fawn.png in Resources */,
+				492C7FCFDCC31BA523EC7352 /* animal-flamingo.png in Resources */,
+				1E53AD5BAB77B2390478698E /* animal-fox.png in Resources */,
+				C7795F2E5147AF588610E12D /* animal-frog.png in Resources */,
+				B9722E35CCECBF89F6E9C4F3 /* animal-giraffe.png in Resources */,
+				97E8B069E4AF28431BBA7875 /* animal-goat.png in Resources */,
+				AADD6B5B1F17319724EF2A4E /* animal-hamster.png in Resources */,
+				DE7C466D40617A3136A55D1F /* animal-hare.png in Resources */,
+				CDB4BF1664B1C907D9C3BC79 /* animal-hedgehog.png in Resources */,
+				40F291D389B7BFFA6CE5A3A7 /* animal-hippopotamus.png in Resources */,
+				505D6455D7CF3276BB58D2AB /* animal-horse.png in Resources */,
+				2676F346E0561AD591733F92 /* animal-kangaroo.png in Resources */,
+				72E168645ABDD1C73474E679 /* animal-koala.png in Resources */,
+				D2694F014645E3874FB3B0D7 /* animal-leopard.png in Resources */,
+				B994A2AEA11AE698AF57E6D0 /* animal-lion.png in Resources */,
+				8DF3BBC55915B95E55CA75FC /* animal-llama.png in Resources */,
+				C668DD6C87842986236BB605 /* animal-manta-ray.png in Resources */,
+				30A69857656A3112AAD0B52D /* animal-monkey.png in Resources */,
+				9EBFEB9C1EF30E5A60CE9B9F /* animal-mouse.png in Resources */,
+				505FD34A3512BD221DCC50AA /* animal-octopus.png in Resources */,
+				CD379888D70B577DD29837F9 /* animal-owl.png in Resources */,
+				F705EA5CA107E2CB021CA839 /* animal-panda.png in Resources */,
+				388DB6EDFF481ECB55C74759 /* animal-parrot.png in Resources */,
+				28CEA561FBE351DD584786D2 /* animal-peacock.png in Resources */,
+				F87966368E28F961534D255D /* animal-penguin.png in Resources */,
+				9867D2A241561E1D07023BF8 /* animal-pig.png in Resources */,
+				98E18C6CB1E80C948AF67093 /* animal-raccoon.png in Resources */,
+				A938EFFC189A4B7DB536D85C /* animal-rhinoceros.png in Resources */,
+				AA8F9695A28DF068515A6A64 /* animal-seal.png in Resources */,
+				DD0341CE29B381A6F64232B2 /* animal-shark.png in Resources */,
+				82C6EFC99DAF9BA5E00B4011 /* animal-sheep.png in Resources */,
+				7B1DBEBDB8694BA084F10464 /* animal-sloth.png in Resources */,
+				3BB5E3A98962BAF8F24E0608 /* animal-squirrel.png in Resources */,
+				81F2A397B33325A6015FBF2F /* animal-starfish.png in Resources */,
+				50E67C50CB34B35C307D79FE /* animal-stork.png in Resources */,
+				50AA0AC959BC034155E3E9C5 /* animal-swan.png in Resources */,
+				FB4486940C9D30B3B8ED4151 /* animal-tiger.png in Resources */,
+				CA78AC759252B1F25A06353A /* animal-turtle.png in Resources */,
+				D9A586014C3F01E2DC0221BB /* animal-walrus.png in Resources */,
+				818AB5F601BA0CEAAEB9D818 /* animal-whale.png in Resources */,
+				D0E431F841C4318A3730393B /* animal-wolf.png in Resources */,
+				3DAABAB0CB8B51AEDD7CA8D7 /* animal-woodpecker.png in Resources */,
+				EF700F744054D48FF452AAD7 /* animal-zebra.png in Resources */,
+				F15E336979FE8CF36E05C618 /* transport-airplane.png in Resources */,
+				C348048DE9C52CDD73FDBAA8 /* transport-ambulance.png in Resources */,
+				5A6B1789A2E44F30088CABF2 /* transport-bicycle.png in Resources */,
+				A87689E7C428BD8DC29AEFB3 /* transport-bulldozer.png in Resources */,
+				4C5D47DA715E151CBDF28A6C /* transport-bus.png in Resources */,
+				BDF38478B91AA75460E09B29 /* transport-combine.png in Resources */,
+				113410F00D06A334CDC7006F /* transport-concrete-mixer.png in Resources */,
+				B387C7A509A23B04EAB75236 /* transport-crane-truck.png in Resources */,
+				BBCE859147EF1C046D97B812 /* transport-delivery-van.png in Resources */,
+				8107278BD8FE4958ADC1AEDF /* transport-dump-truck.png in Resources */,
+				9CE309AF1047D6C7C4F17297 /* transport-excavator.png in Resources */,
+				4631703A3B441BA3FB72C18C /* transport-ferry.png in Resources */,
+				701F07C86310DEAD288C5151 /* transport-fire-engine.png in Resources */,
+				B8927DE1221D85E94C8FC171 /* transport-forklift.png in Resources */,
+				7002E0B548D66CD9CE6F8756 /* transport-garbage-truck.png in Resources */,
+				F2BDD82BC86F513254FA5595 /* transport-helicopter.png in Resources */,
+				EBCFBFE3D14460817FF3EECE /* transport-hot-air-balloon.png in Resources */,
+				33398588DAFA4C699CD2A2D7 /* transport-motorcycle.png in Resources */,
+				4F7B3B064B8F0B51BFC036F8 /* transport-police-car.png in Resources */,
+				53F4EE75733B99B6F7331A57 /* transport-rocket.png in Resources */,
+				75F43C52BC8E857FBC21BF95 /* transport-sailboat.png in Resources */,
+				A2E4B67F73C57661A430711F /* transport-scooter.png in Resources */,
+				9BD7EEA5CCBA1EA5BA854112 /* transport-snowmobile.png in Resources */,
+				EB601D2BA29849B6FDE360C4 /* transport-submarine.png in Resources */,
+				B132D0EF6C4D4752C8FFA04B /* transport-subway-train.png in Resources */,
+				35CC94CC728BAA042FB2FC0E /* transport-taxi.png in Resources */,
+				50D697F90FDC6852EB8DA8BE /* transport-tractor.png in Resources */,
+				A40319F49F548510E5A4DD9A /* transport-train.png in Resources */,
+				66217A27985B2E89DAC962A0 /* transport-tram.png in Resources */,
+				E12655632710274C000CBDEA /* transport-tugboat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +746,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -428,7 +768,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;

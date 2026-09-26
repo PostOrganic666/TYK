@@ -6,6 +6,7 @@ struct SettingsView: View {
     @State private var selectedMode = SettingsStore.shared.selectedMode
     @State private var soundEnabled = SettingsStore.shared.soundEnabled
     @State private var maxVolume = SettingsStore.shared.maxVolume
+    @State private var speechVoiceIdentifier = SettingsStore.shared.speechVoiceIdentifier
     @State private var sessionLimitMinutes = SettingsStore.shared.sessionLimitMinutes
     @State private var exitKeyCode = SettingsStore.shared.exitKeyCode
     @State private var exitModifiers = SettingsStore.shared.exitModifiers
@@ -110,6 +111,25 @@ struct SettingsView: View {
                     .foregroundColor(.secondary)
                     .frame(width: 38, alignment: .trailing)
             }
+            SettingRow(label: "Голос") {
+                Picker("Голос", selection: $speechVoiceIdentifier) {
+                    ForEach(RussianSpeech.voiceChoices) { voice in
+                        Text(voice.title).tag(voice.id)
+                    }
+                }
+                .labelsHidden()
+                .frame(width: 138)
+                Button {
+                    RussianSpeech.shared.preview(
+                        voiceIdentifier: speechVoiceIdentifier,
+                        volume: maxVolume
+                    )
+                } label: {
+                    Image(systemName: "speaker.wave.2.fill")
+                }
+                .help("Послушать голос")
+                .disabled(!soundEnabled)
+            }
             SettingRow(label: "Перерыв") {
                 Picker("Перерыв", selection: $sessionLimitMinutes) {
                     Text("Выкл.").tag(0)
@@ -155,6 +175,7 @@ struct SettingsView: View {
         store.selectedMode = selectedMode
         store.soundEnabled = soundEnabled
         store.maxVolume = maxVolume
+        store.speechVoiceIdentifier = speechVoiceIdentifier
         store.sessionLimitMinutes = sessionLimitMinutes
         store.exitKeyCode = exitKeyCode
         store.exitModifiers = exitModifiers
@@ -211,7 +232,7 @@ private extension PlayModeType {
     var detail: String {
         switch self {
         case .letters: return "Все 33 буквы. Если включена русская раскладка, на экране появляется именно нажатая буква; иначе клавиши распределены по алфавиту. Голос работает офлайн."
-        case .animals: return "Тридцать рисованных животных появляются по одному в случайном порядке. Голос спокойно произносит название, без очков, таймеров и конфетти."
+        case .animals: return "Шестьдесят рисованных животных появляются по одному в случайном порядке. Голос произносит название, без очков, таймеров и конфетти."
         case .transport: return "Тридцать видов транспорта в том же книжном стиле и случайном порядке. Каждое нажатие меняет объект и называет его."
         case .musicStudio: return "Десять согласованных нот на семплированной челесте из системного банка macOS, с короткой комнатной реверберацией."
         }
