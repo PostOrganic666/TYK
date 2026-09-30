@@ -7,6 +7,7 @@ enum PlayModeType: String, CaseIterable {
     case letters = "Буквы"
     case animals = "Животные"
     case transport = "Транспорт"
+    case household = "Дома"
     case musicStudio = "Музыка"
 
     static let featured = allCases
@@ -16,6 +17,7 @@ enum PlayModeType: String, CaseIterable {
         case .letters: return "textformat"
         case .animals: return "pawprint.fill"
         case .transport: return "car.side.fill"
+        case .household: return "house.fill"
         case .musicStudio: return "music.quarternote.3"
         }
     }
@@ -23,8 +25,9 @@ enum PlayModeType: String, CaseIterable {
     var blurb: String {
         switch self {
         case .letters: return "Все 33 русские буквы с чётким произношением"
-        case .animals: return "Книжные звери появляются по одному и называют себя"
+        case .animals: return "Звери, птицы, насекомые и рыбы называют себя"
         case .transport: return "Поезд, трактор, автобус и другая техника"
+        case .household: return "Знакомые предметы кухни, ванной, прихожей и комнаты"
         case .musicStudio: return "Настоящие семплы челесты вместо электронных гудков"
         }
     }

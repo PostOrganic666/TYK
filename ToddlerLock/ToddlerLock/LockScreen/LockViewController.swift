@@ -72,6 +72,7 @@ final class LockViewController: NSViewController {
         case .letters: return LettersMode(size: size)
         case .animals: return PictureMode(size: size, collection: .animals)
         case .transport: return PictureMode(size: size, collection: .transport)
+        case .household: return PictureMode(size: size, collection: .household)
         case .musicStudio: return MusicMode(size: size)
         }
     }

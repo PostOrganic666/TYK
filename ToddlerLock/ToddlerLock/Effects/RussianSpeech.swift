@@ -5,22 +5,25 @@ struct RussianVoiceChoice: Identifiable {
     let title: String
 }
 
-/// Offline Russian narration. Requests are slightly delayed so a
-/// toddler mashing several keys hears the final item instead of chopped-up
-/// syllables from every intermediate press.
+/// Bundled Russian Kore recordings. Debounce keeps rapid key presses from
+/// building a queue; an unknown/new label uses the offline system voice.
 final class RussianSpeech {
     static let shared = RussianSpeech()
-    static let preferredVoiceIdentifier = "yelena-premium"
+    static let preferredVoiceIdentifier = "gemini-kore"
     static let voiceChoices = [
-        RussianVoiceChoice(id: preferredVoiceIdentifier, title: "Елена — живая"),
-        RussianVoiceChoice(id: "milena", title: "Милена — спокойная"),
+        RussianVoiceChoice(id: preferredVoiceIdentifier, title: "Kore — женский"),
     ]
 
-    private static let yelenaSystemIdentifier =
-        "com.apple.speech.synthesis.voice.custom.siri.yelena.premium"
-
     private let synthesizer = AVSpeechSynthesizer()
+    private var player: AVAudioPlayer?
     private var pending: DispatchWorkItem?
+    private let recordingNames: [String: String] = {
+        guard let url = Bundle.main.url(forResource: "speech-index", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let index = try? JSONDecoder().decode([String: String].self, from: data)
+        else { return [:] }
+        return index
+    }()
 
     private init() {}
 
@@ -29,57 +32,42 @@ final class RussianSpeech {
         pending?.cancel()
         let item = DispatchWorkItem { [weak self] in
             guard let self else { return }
-            self.synthesizer.stopSpeaking(at: .immediate)
-            let utterance = AVSpeechUtterance(string: text)
-            let choice = SettingsStore.shared.speechVoiceIdentifier
-            utterance.voice = Self.voice(for: choice)
-            utterance.rate = choice == Self.preferredVoiceIdentifier ? 0.46 : 0.43
-            utterance.pitchMultiplier = choice == Self.preferredVoiceIdentifier ? 1.03 : 1.08
-            utterance.volume = Float(SettingsStore.shared.maxVolume)
-            utterance.preUtteranceDelay = 0.04
-            utterance.postUtteranceDelay = 0.08
-            self.synthesizer.speak(utterance)
+            self.play(text, volume: SettingsStore.shared.maxVolume)
         }
         pending = item
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.18, execute: item)
     }
 
     func preview(voiceIdentifier: String, volume: Double) {
-        pending?.cancel()
-        synthesizer.stopSpeaking(at: .immediate)
-        let utterance = AVSpeechUtterance(string: "Привет! Давай играть!")
-        utterance.voice = Self.voice(for: voiceIdentifier)
-        utterance.rate = voiceIdentifier == Self.preferredVoiceIdentifier ? 0.46 : 0.43
-        utterance.pitchMultiplier = voiceIdentifier == Self.preferredVoiceIdentifier ? 1.03 : 1.08
-        utterance.volume = Float(volume)
-        synthesizer.speak(utterance)
+        stop()
+        play("Привет! Давай играть!", volume: volume)
     }
 
     func stop() {
         pending?.cancel()
         pending = nil
+        player?.stop()
+        player = nil
         synthesizer.stopSpeaking(at: .immediate)
     }
 
-    private static func voice(for choice: String) -> AVSpeechSynthesisVoice? {
-        let voices = AVSpeechSynthesisVoice.speechVoices()
-        if choice == preferredVoiceIdentifier {
-            return AVSpeechSynthesisVoice(identifier: yelenaSystemIdentifier)
-                ?? voices.first {
-                    let name = $0.name.lowercased()
-                    return isRussian($0) && (name.contains("yelena") || name.contains("елена"))
-                }
-                ?? milena(in: voices)
+    private func play(_ text: String, volume: Double) {
+        player?.stop()
+        player = nil
+        synthesizer.stopSpeaking(at: .immediate)
+        if let name = recordingNames[text],
+           let url = Bundle.main.url(forResource: name, withExtension: "wav"),
+           let recording = try? AVAudioPlayer(contentsOf: url) {
+            recording.volume = Float(volume)
+            player = recording
+            if recording.play() { return }
+            player = nil
         }
-        return milena(in: voices)
-    }
-
-    private static func milena(in voices: [AVSpeechSynthesisVoice]) -> AVSpeechSynthesisVoice? {
-        voices.first { isRussian($0) && $0.name.lowercased().contains("milena") }
-            ?? AVSpeechSynthesisVoice(language: "ru-RU")
-    }
-
-    private static func isRussian(_ voice: AVSpeechSynthesisVoice) -> Bool {
-        voice.language.replacingOccurrences(of: "_", with: "-") == "ru-RU"
+        // New content remains audible until its Kore recording is generated.
+        let utterance = AVSpeechUtterance(string: text)
+        utterance.voice = AVSpeechSynthesisVoice(language: "ru-RU")
+        utterance.rate = 0.43
+        utterance.volume = Float(volume)
+        synthesizer.speak(utterance)
     }
 }

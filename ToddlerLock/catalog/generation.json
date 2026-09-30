@@ -1,0 +1,772 @@
+[
+  {
+    "id": "animals-01",
+    "collection": "animals",
+    "items": [
+      {
+        "asset": "animal-butterfly",
+        "name": "бабочка",
+        "subject": "butterfly with large colorful wings",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-bee",
+        "name": "пчела",
+        "subject": "round honey bee with black and yellow stripes",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-ladybug",
+        "name": "божья коровка",
+        "subject": "red ladybug with black spots",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-ant",
+        "name": "муравей",
+        "subject": "brown ant with six legs and antennae",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-dragonfly",
+        "name": "стрекоза",
+        "subject": "dragonfly with four long transparent wings",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-grasshopper",
+        "name": "кузнечик",
+        "subject": "green grasshopper with large bent hind legs",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-beetle",
+        "name": "жук",
+        "subject": "green beetle with hard shiny wing covers",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-caterpillar",
+        "name": "гусеница",
+        "subject": "green caterpillar with many small legs",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-snail",
+        "name": "улитка",
+        "subject": "snail with spiral shell and two eye stalks",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-spider",
+        "name": "паук",
+        "subject": "friendly small spider with eight legs",
+        "group": "animals",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: butterfly with large colorful wings; 2: round honey bee with black and yellow stripes; 3: red ladybug with black spots; 4: brown ant with six legs and antennae; 5: dragonfly with four long transparent wings; 6: green grasshopper with large bent hind legs; 7: green beetle with hard shiny wing covers; 8: green caterpillar with many small legs; 9: snail with spiral shell and two eye stalks; 10: friendly small spider with eight legs"
+  },
+  {
+    "id": "animals-02",
+    "collection": "animals",
+    "items": [
+      {
+        "asset": "animal-sparrow",
+        "name": "воробей",
+        "subject": "small brown sparrow",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-pigeon",
+        "name": "голубь",
+        "subject": "gray pigeon with iridescent neck",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-crow",
+        "name": "ворона",
+        "subject": "hooded crow with gray body and black head wings tail",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-magpie",
+        "name": "сорока",
+        "subject": "black and white magpie with long tail",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-bullfinch",
+        "name": "снегирь",
+        "subject": "bullfinch with red chest and black cap",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-tit",
+        "name": "синица",
+        "subject": "great tit with yellow breast black cap and white cheeks",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-swallow",
+        "name": "ласточка",
+        "subject": "swallow with forked tail and white belly",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-goose",
+        "name": "гусь",
+        "subject": "white goose with long neck and orange beak",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-rooster",
+        "name": "петух",
+        "subject": "colorful rooster with red comb and large curved tail",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-turkey",
+        "name": "индюк",
+        "subject": "turkey with fan tail and red wattle",
+        "group": "animals",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: small brown sparrow; 2: gray pigeon with iridescent neck; 3: hooded crow with gray body and black head wings tail; 4: black and white magpie with long tail; 5: bullfinch with red chest and black cap; 6: great tit with yellow breast black cap and white cheeks; 7: swallow with forked tail and white belly; 8: white goose with long neck and orange beak; 9: colorful rooster with red comb and large curved tail; 10: turkey with fan tail and red wattle"
+  },
+  {
+    "id": "animals-03",
+    "collection": "animals",
+    "items": [
+      {
+        "asset": "animal-goldfish",
+        "name": "золотая рыбка",
+        "subject": "orange goldfish with flowing fins",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-clownfish",
+        "name": "рыба-клоун",
+        "subject": "orange clownfish with three white bands",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-perch",
+        "name": "окунь",
+        "subject": "green perch fish with dark vertical stripes and red fins",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-pike",
+        "name": "щука",
+        "subject": "long green pike fish with broad flat snout",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-catfish",
+        "name": "сом",
+        "subject": "catfish with distinctive long whiskers",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-seahorse",
+        "name": "морской конёк",
+        "subject": "orange seahorse with curled tail",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-jellyfish",
+        "name": "медуза",
+        "subject": "gentle pink jellyfish with soft flowing tentacles",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-rabbit",
+        "name": "кролик",
+        "subject": "white domestic rabbit with long ears",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-guinea-pig",
+        "name": "морская свинка",
+        "subject": "round brown and white guinea pig",
+        "group": "animals",
+        "status": "added"
+      },
+      {
+        "asset": "animal-mole",
+        "name": "крот",
+        "subject": "small dark gray mole with broad pink digging paws",
+        "group": "animals",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: orange goldfish with flowing fins; 2: orange clownfish with three white bands; 3: green perch fish with dark vertical stripes and red fins; 4: long green pike fish with broad flat snout; 5: catfish with distinctive long whiskers; 6: orange seahorse with curled tail; 7: gentle pink jellyfish with soft flowing tentacles; 8: white domestic rabbit with long ears; 9: round brown and white guinea pig; 10: small dark gray mole with broad pink digging paws"
+  },
+  {
+    "id": "transport-01",
+    "collection": "transport",
+    "items": [
+      {
+        "asset": "transport-car",
+        "name": "машина",
+        "subject": "red passenger car",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-truck",
+        "name": "грузовик",
+        "subject": "blue cargo truck with open cargo bed",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-minibus",
+        "name": "микроавтобус",
+        "subject": "yellow passenger minibus",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-trolleybus",
+        "name": "троллейбус",
+        "subject": "green trolleybus with two roof trolley poles",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-road-roller",
+        "name": "каток",
+        "subject": "yellow road roller with large smooth front steel drum",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-snowplow",
+        "name": "снегоуборочная машина",
+        "subject": "orange snowplow truck with broad front snow blade",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-street-sweeper",
+        "name": "подметальная машина",
+        "subject": "compact street sweeper with visible round brushes",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-car-carrier",
+        "name": "автовоз",
+        "subject": "car carrier truck carrying two passenger cars",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-tanker",
+        "name": "автоцистерна",
+        "subject": "blue tanker truck with large cylindrical tank",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-tow-truck",
+        "name": "эвакуатор",
+        "subject": "orange flatbed tow truck carrying a small car",
+        "group": "transport",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: red passenger car; 2: blue cargo truck with open cargo bed; 3: yellow passenger minibus; 4: green trolleybus with two roof trolley poles; 5: yellow road roller with large smooth front steel drum; 6: orange snowplow truck with broad front snow blade; 7: compact street sweeper with visible round brushes; 8: car carrier truck carrying two passenger cars; 9: blue tanker truck with large cylindrical tank; 10: orange flatbed tow truck carrying a small car"
+  },
+  {
+    "id": "transport-02",
+    "collection": "transport",
+    "items": [
+      {
+        "asset": "transport-quad-bike",
+        "name": "квадроцикл",
+        "subject": "four wheeled red quad bike",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-balance-bike",
+        "name": "беговел",
+        "subject": "small toddler balance bike with two wheels and no pedals",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-kick-scooter",
+        "name": "детский самокат",
+        "subject": "toddler three wheeled kick scooter",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-rowboat",
+        "name": "лодка",
+        "subject": "small wooden rowboat with two oars",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-motorboat",
+        "name": "катер",
+        "subject": "small white motorboat",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-ship",
+        "name": "корабль",
+        "subject": "large friendly passenger ship",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-jet-ski",
+        "name": "водный мотоцикл",
+        "subject": "blue jet ski",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-hang-glider",
+        "name": "дельтаплан",
+        "subject": "colorful triangular hang glider without pilot",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-airship",
+        "name": "дирижабль",
+        "subject": "airship with elongated balloon and small cabin",
+        "group": "transport",
+        "status": "added"
+      },
+      {
+        "asset": "transport-space-rover",
+        "name": "луноход",
+        "subject": "six wheeled lunar rover with antenna",
+        "group": "transport",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: four wheeled red quad bike; 2: small toddler balance bike with two wheels and no pedals; 3: toddler three wheeled kick scooter; 4: small wooden rowboat with two oars; 5: small white motorboat; 6: large friendly passenger ship; 7: blue jet ski; 8: colorful triangular hang glider without pilot; 9: airship with elongated balloon and small cabin; 10: six wheeled lunar rover with antenna"
+  },
+  {
+    "id": "home-01",
+    "collection": "home",
+    "items": [
+      {
+        "asset": "home-cup",
+        "name": "чашка",
+        "subject": "ceramic cup with handle",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-plate",
+        "name": "тарелка",
+        "subject": "round ceramic dinner plate",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-bowl",
+        "name": "миска",
+        "subject": "deep ceramic bowl",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-spoon",
+        "name": "ложка",
+        "subject": "rounded tablespoon",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-fork",
+        "name": "вилка",
+        "subject": "simple four tine dinner fork",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-glass",
+        "name": "стакан",
+        "subject": "clear drinking glass",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-bottle",
+        "name": "бутылочка",
+        "subject": "baby feeding bottle with silicone nipple",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-pot",
+        "name": "кастрюля",
+        "subject": "cooking pot with two handles and closed lid",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-pan",
+        "name": "сковорода",
+        "subject": "frying pan with long handle",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-kettle",
+        "name": "чайник",
+        "subject": "rounded kettle with handle and spout",
+        "group": "Кухня",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: ceramic cup with handle; 2: round ceramic dinner plate; 3: deep ceramic bowl; 4: rounded tablespoon; 5: simple four tine dinner fork; 6: clear drinking glass; 7: baby feeding bottle with silicone nipple; 8: cooking pot with two handles and closed lid; 9: frying pan with long handle; 10: rounded kettle with handle and spout"
+  },
+  {
+    "id": "home-02",
+    "collection": "home",
+    "items": [
+      {
+        "asset": "home-jug",
+        "name": "кувшин",
+        "subject": "water jug with handle and spout",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-strainer",
+        "name": "дуршлаг",
+        "subject": "colander with handles and visible holes",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-cutting-board",
+        "name": "разделочная доска",
+        "subject": "wooden cutting board with short handle",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-napkin",
+        "name": "салфетка",
+        "subject": "folded cloth napkin",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-bib",
+        "name": "слюнявчик",
+        "subject": "baby bib",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-high-chair",
+        "name": "детский стульчик",
+        "subject": "toddler high chair with tray",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-fridge",
+        "name": "холодильник",
+        "subject": "closed refrigerator",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-stove",
+        "name": "плита",
+        "subject": "kitchen stove with oven and four round burners",
+        "group": "Кухня",
+        "status": "added"
+      },
+      {
+        "asset": "home-bathtub",
+        "name": "ванна",
+        "subject": "bathtub with short rounded feet",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-sink",
+        "name": "раковина",
+        "subject": "bathroom sink with faucet",
+        "group": "Ванная",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: water jug with handle and spout; 2: colander with handles and visible holes; 3: wooden cutting board with short handle; 4: folded cloth napkin; 5: baby bib; 6: toddler high chair with tray; 7: closed refrigerator; 8: kitchen stove with oven and four round burners; 9: bathtub with short rounded feet; 10: bathroom sink with faucet"
+  },
+  {
+    "id": "home-03",
+    "collection": "home",
+    "items": [
+      {
+        "asset": "home-faucet",
+        "name": "кран",
+        "subject": "curved water faucet with single handle",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-soap",
+        "name": "мыло",
+        "subject": "plain rounded bar of soap",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-toothbrush",
+        "name": "зубная щётка",
+        "subject": "child toothbrush",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-toothpaste",
+        "name": "зубная паста",
+        "subject": "toothpaste tube with closed cap",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-bath-towel",
+        "name": "полотенце",
+        "subject": "folded fluffy bath towel",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-comb",
+        "name": "расчёска",
+        "subject": "simple hair comb",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-sponge",
+        "name": "мочалка",
+        "subject": "soft bath sponge",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-potty",
+        "name": "горшок",
+        "subject": "child potty with backrest",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-rubber-duck",
+        "name": "уточка для ванны",
+        "subject": "yellow rubber bath duck",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-washing-machine",
+        "name": "стиральная машина",
+        "subject": "front loading washing machine",
+        "group": "Ванная",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: curved water faucet with single handle; 2: plain rounded bar of soap; 3: child toothbrush; 4: toothpaste tube with closed cap; 5: folded fluffy bath towel; 6: simple hair comb; 7: soft bath sponge; 8: child potty with backrest; 9: yellow rubber bath duck; 10: front loading washing machine"
+  },
+  {
+    "id": "home-04",
+    "collection": "home",
+    "items": [
+      {
+        "asset": "home-laundry-basket",
+        "name": "корзина для белья",
+        "subject": "woven laundry basket",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-shampoo",
+        "name": "шампунь",
+        "subject": "plain shampoo bottle with closed cap",
+        "group": "Ванная",
+        "status": "added"
+      },
+      {
+        "asset": "home-door",
+        "name": "дверь",
+        "subject": "closed front door with handle",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-keys",
+        "name": "ключи",
+        "subject": "two keys on simple key ring",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-shoes",
+        "name": "ботинки",
+        "subject": "pair of toddler shoes",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-slippers",
+        "name": "тапочки",
+        "subject": "pair of soft slippers",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-coat",
+        "name": "куртка",
+        "subject": "child jacket",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-hat",
+        "name": "шапка",
+        "subject": "knitted child hat",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-scarf",
+        "name": "шарф",
+        "subject": "soft knitted scarf",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-umbrella",
+        "name": "зонтик",
+        "subject": "open colorful umbrella",
+        "group": "Прихожая",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: woven laundry basket; 2: plain shampoo bottle with closed cap; 3: closed front door with handle; 4: two keys on simple key ring; 5: pair of toddler shoes; 6: pair of soft slippers; 7: child jacket; 8: knitted child hat; 9: soft knitted scarf; 10: open colorful umbrella"
+  },
+  {
+    "id": "home-05",
+    "collection": "home",
+    "items": [
+      {
+        "asset": "home-backpack",
+        "name": "рюкзак",
+        "subject": "small child backpack",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-stroller",
+        "name": "коляска",
+        "subject": "empty baby stroller",
+        "group": "Прихожая",
+        "status": "added"
+      },
+      {
+        "asset": "home-chair",
+        "name": "стул",
+        "subject": "wooden chair",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-table",
+        "name": "стол",
+        "subject": "small wooden table",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-bed",
+        "name": "кровать",
+        "subject": "small child bed with bedding",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-pillow",
+        "name": "подушка",
+        "subject": "soft pillow",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-blanket",
+        "name": "одеяло",
+        "subject": "folded quilt blanket",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-lamp",
+        "name": "лампа",
+        "subject": "table lamp with rounded shade",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-clock",
+        "name": "часы",
+        "subject": "simple round wall clock",
+        "group": "Комната",
+        "status": "added"
+      },
+      {
+        "asset": "home-book",
+        "name": "книга",
+        "subject": "closed colorful book without text",
+        "group": "Комната",
+        "status": "added"
+      }
+    ],
+    "prompt": "Use case: illustration-story. Asset type: transparent sprite sheet for a toddler picture game. Create ONE landscape sheet with exactly TEN isolated illustrations in a STRICT equal 5-column by 2-row grid, read left-to-right, top row then bottom row. Each subject centered within its own cell, with generous transparent gutters and at least 15% padding inside each cell; never cross a cell boundary. All objects fully visible. Warm hand-painted watercolor and gouache children's picture-book style, delicate paper-like texture within objects, rounded friendly forms, simple readable silhouettes, muted pastel colors with warm cream, sage, ochre, sky blue and terracotta. Animals have gentle expressive eyes, correct recognizable species features. Objects and vehicles have no faces. Genuine transparent background, NO scenery, NO ground, NO shadows outside objects, NO labels, NO text, NO grid lines, NO watermark, NO extra objects. Every cell contains only the named subject (pairs and carried cars only when specified). Make subjects large and clear. Exact cells: 1: small child backpack; 2: empty baby stroller; 3: wooden chair; 4: small wooden table; 5: small child bed with bedding; 6: soft pillow; 7: folded quilt blanket; 8: table lamp with rounded shade; 9: simple round wall clock; 10: closed colorful book without text"
+  }
+]

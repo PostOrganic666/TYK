@@ -65,7 +65,11 @@ final class SettingsStore {
     }
 
     var speechVoiceIdentifier: String {
-        get { defaults.string(forKey: "speechVoiceIdentifier") ?? RussianSpeech.preferredVoiceIdentifier }
+        get {
+            let stored = defaults.string(forKey: "speechVoiceIdentifier")
+            return RussianSpeech.voiceChoices.first { $0.id == stored }?.id
+                ?? RussianSpeech.preferredVoiceIdentifier
+        }
         set { defaults.set(newValue, forKey: "speechVoiceIdentifier") }
     }
 

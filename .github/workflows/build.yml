@@ -20,6 +20,9 @@ jobs:
       - name: Generate Xcode project
         run: python3 ToddlerLock/generate_project.py
 
+      - name: Check offline speech coverage
+        run: python3 ToddlerLock/tools/generate_speech.py --check
+
       - name: Build unsigned release
         run: |
           set +e
@@ -29,6 +32,8 @@ jobs:
             -configuration Release \
             SYMROOT="$RUNNER_TEMP/Build" \
             OBJROOT="$RUNNER_TEMP/Intermediates" \
+            ARCHS="arm64 x86_64" \
+            ONLY_ACTIVE_ARCH=NO \
             CODE_SIGNING_ALLOWED=NO \
             build 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"
           status=${PIPESTATUS[0]}
@@ -65,17 +70,17 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
-      - name: Publish v0.3.0 prerelease
+      - name: Publish v0.4.0 prerelease
         if: github.ref == 'refs/heads/codex/toddler-fork'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.3.0 >/dev/null 2>&1; then
-            gh release upload v0.3.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
+          if gh release view v0.4.0 >/dev/null 2>&1; then
+            gh release upload v0.4.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
           else
-            gh release create v0.3.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
+            gh release create v0.4.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
               --target "$GITHUB_SHA" \
-              --title "Тык 0.3.0 — чистые иллюстрации и новый голос" \
-              --notes "Каждый объект теперь хранится отдельной прозрачной картинкой: ничего не обрезается и соседние элементы не попадают в кадр. Животных стало 60. Добавлен выбор между более живой нейросетевой Еленой и спокойной Миленой." \
+              --title "Тык 0.4.0 — 190 картинок и офлайн-голос Kore" \
+              --notes "90 животных, 50 видов транспорта и новый режим «Дома» с 50 предметами. Женский голос Kore: 224 готовые записи работают офлайн. Каталог отмечает покрытие озвучки; её проверка выполняется перед сборкой. Universal-приложение для Apple Silicon и Intel." \
               --prerelease
           fi

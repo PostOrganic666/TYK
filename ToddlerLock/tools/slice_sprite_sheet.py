@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Extract six isolated sprites from a transparent 3x2 imagegen sheet.
+"""Extract isolated sprites from a transparent imagegen sheet (default: 3x2).
 
 The subjects are detected as connected alpha components instead of being cut at
 the mathematical cell boundaries. This matters because a paw, tail, or shadow
-can cross a nominal grid line even when the six subjects do not overlap.
+can cross a nominal grid line even when the subjects do not overlap.
 """
 
 from __future__ import annotations
@@ -85,29 +85,34 @@ def connected_components(alpha: Image.Image) -> tuple[array, list[Component]]:
     return labels, components
 
 
-def ordered_subjects(components: list[Component]) -> list[Component]:
+def ordered_subjects(components: list[Component], columns: int = 3, rows: int = 2) -> list[Component]:
+    count = columns * rows
     sizeable = [component for component in components if component.count >= 500]
-    if len(sizeable) < 6:
-        raise SystemExit(f"Expected six sizeable alpha components, found {len(sizeable)}")
+    if len(sizeable) < count:
+        raise SystemExit(f"Expected {count} sizeable alpha components, found {len(sizeable)}")
 
-    subjects = sorted(sizeable, key=lambda component: component.count, reverse=True)[:6]
+    subjects = sorted(sizeable, key=lambda component: component.count, reverse=True)[:count]
     subjects.sort(key=lambda component: component.center[1])
-    top = sorted(subjects[:3], key=lambda component: component.center[0])
-    bottom = sorted(subjects[3:], key=lambda component: component.center[0])
-    return top + bottom
+    return [subject for row in range(rows)
+            for subject in sorted(subjects[row * columns:(row + 1) * columns],
+                                  key=lambda component: component.center[0])]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("source", type=Path)
     parser.add_argument("output_dir", type=Path)
-    parser.add_argument("names", nargs=6)
+    parser.add_argument("names", nargs="+")
+    parser.add_argument("--columns", type=int, default=3)
+    parser.add_argument("--rows", type=int, default=2)
     args = parser.parse_args()
+    if args.columns < 1 or args.rows < 1 or len(args.names) != args.columns * args.rows:
+        parser.error("Provide one name per cell and positive grid dimensions")
 
     sheet = Image.open(args.source).convert("RGBA")
     alpha = sheet.getchannel("A")
     labels, components = connected_components(alpha)
-    subjects = ordered_subjects(components)
+    subjects = ordered_subjects(components, args.columns, args.rows)
     width, _ = sheet.size
     sheet_pixels = sheet.load()
     args.output_dir.mkdir(parents=True, exist_ok=True)

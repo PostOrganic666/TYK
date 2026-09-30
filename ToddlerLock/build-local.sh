@@ -11,6 +11,7 @@ if ! command -v xcodebuild >/dev/null 2>&1; then
 fi
 
 python3 "$SCRIPT_DIR/generate_project.py"
+python3 "$SCRIPT_DIR/tools/generate_speech.py" --check
 xcodebuild \
   -project "$PROJECT" \
   -target ToddlerLock \

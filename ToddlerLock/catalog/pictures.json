@@ -1,0 +1,2382 @@
+[
+  {
+    "asset": "animal-bear",
+    "name": "медведь",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "медведь",
+      "file": "Resources/Speech/animal-bear.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-fox",
+    "name": "лиса",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "лиса",
+      "file": "Resources/Speech/animal-fox.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-hare",
+    "name": "заяц",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "заяц",
+      "file": "Resources/Speech/animal-hare.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-hedgehog",
+    "name": "ёжик",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "ёжик",
+      "file": "Resources/Speech/animal-hedgehog.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-cat",
+    "name": "кот",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "кот",
+      "file": "Resources/Speech/animal-cat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-dog",
+    "name": "собака",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "собака",
+      "file": "Resources/Speech/animal-dog.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-squirrel",
+    "name": "белка",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "белка",
+      "file": "Resources/Speech/animal-squirrel.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-owl",
+    "name": "сова",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "сова",
+      "file": "Resources/Speech/animal-owl.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-raccoon",
+    "name": "енот",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "енот",
+      "file": "Resources/Speech/animal-raccoon.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-fawn",
+    "name": "оленёнок",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "оленёнок",
+      "file": "Resources/Speech/animal-fawn.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-frog",
+    "name": "лягушка",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "лягушка",
+      "file": "Resources/Speech/animal-frog.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-duck",
+    "name": "утка",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "утка",
+      "file": "Resources/Speech/animal-duck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-penguin",
+    "name": "пингвин",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "пингвин",
+      "file": "Resources/Speech/animal-penguin.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-elephant",
+    "name": "слон",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "слон",
+      "file": "Resources/Speech/animal-elephant.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-giraffe",
+    "name": "жираф",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "жираф",
+      "file": "Resources/Speech/animal-giraffe.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-lion",
+    "name": "лев",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "лев",
+      "file": "Resources/Speech/animal-lion.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-zebra",
+    "name": "зебра",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "зебра",
+      "file": "Resources/Speech/animal-zebra.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-monkey",
+    "name": "обезьяна",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "обезьяна",
+      "file": "Resources/Speech/animal-monkey.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-cow",
+    "name": "корова",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "корова",
+      "file": "Resources/Speech/animal-cow.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-pig",
+    "name": "поросёнок",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "поросёнок",
+      "file": "Resources/Speech/animal-pig.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-sheep",
+    "name": "овечка",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "овечка",
+      "file": "Resources/Speech/animal-sheep.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-goat",
+    "name": "коза",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "коза",
+      "file": "Resources/Speech/animal-goat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-horse",
+    "name": "лошадь",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "лошадь",
+      "file": "Resources/Speech/animal-horse.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-chicken",
+    "name": "курица",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "курица",
+      "file": "Resources/Speech/animal-chicken.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-turtle",
+    "name": "черепаха",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "черепаха",
+      "file": "Resources/Speech/animal-turtle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-crocodile",
+    "name": "крокодил",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "крокодил",
+      "file": "Resources/Speech/animal-crocodile.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-dolphin",
+    "name": "дельфин",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "дельфин",
+      "file": "Resources/Speech/animal-dolphin.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-whale",
+    "name": "кит",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "кит",
+      "file": "Resources/Speech/animal-whale.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-seal",
+    "name": "тюлень",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "тюлень",
+      "file": "Resources/Speech/animal-seal.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-kangaroo",
+    "name": "кенгуру",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "кенгуру",
+      "file": "Resources/Speech/animal-kangaroo.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-beaver",
+    "name": "бобр",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "бобр",
+      "file": "Resources/Speech/animal-beaver.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-badger",
+    "name": "барсук",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "барсук",
+      "file": "Resources/Speech/animal-badger.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-hamster",
+    "name": "хомяк",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "хомяк",
+      "file": "Resources/Speech/animal-hamster.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-mouse",
+    "name": "мышка",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "мышка",
+      "file": "Resources/Speech/animal-mouse.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-wolf",
+    "name": "волк",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "волк",
+      "file": "Resources/Speech/animal-wolf.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-boar",
+    "name": "кабан",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "кабан",
+      "file": "Resources/Speech/animal-boar.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-camel",
+    "name": "верблюд",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "верблюд",
+      "file": "Resources/Speech/animal-camel.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-rhinoceros",
+    "name": "носорог",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "носорог",
+      "file": "Resources/Speech/animal-rhinoceros.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-hippopotamus",
+    "name": "бегемот",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "бегемот",
+      "file": "Resources/Speech/animal-hippopotamus.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-tiger",
+    "name": "тигр",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "тигр",
+      "file": "Resources/Speech/animal-tiger.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-leopard",
+    "name": "леопард",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "леопард",
+      "file": "Resources/Speech/animal-leopard.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-panda",
+    "name": "панда",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "панда",
+      "file": "Resources/Speech/animal-panda.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-koala",
+    "name": "коала",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "коала",
+      "file": "Resources/Speech/animal-koala.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-sloth",
+    "name": "ленивец",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "ленивец",
+      "file": "Resources/Speech/animal-sloth.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-llama",
+    "name": "лама",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "лама",
+      "file": "Resources/Speech/animal-llama.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-alpaca",
+    "name": "альпака",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "альпака",
+      "file": "Resources/Speech/animal-alpaca.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-donkey",
+    "name": "осёл",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "осёл",
+      "file": "Resources/Speech/animal-donkey.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-bison",
+    "name": "бизон",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "бизон",
+      "file": "Resources/Speech/animal-bison.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-peacock",
+    "name": "павлин",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "павлин",
+      "file": "Resources/Speech/animal-peacock.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-flamingo",
+    "name": "фламинго",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "фламинго",
+      "file": "Resources/Speech/animal-flamingo.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-parrot",
+    "name": "попугай",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "попугай",
+      "file": "Resources/Speech/animal-parrot.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-woodpecker",
+    "name": "дятел",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "дятел",
+      "file": "Resources/Speech/animal-woodpecker.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-stork",
+    "name": "аист",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "аист",
+      "file": "Resources/Speech/animal-stork.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-swan",
+    "name": "лебедь",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "лебедь",
+      "file": "Resources/Speech/animal-swan.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-octopus",
+    "name": "осьминог",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "осьминог",
+      "file": "Resources/Speech/animal-octopus.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-starfish",
+    "name": "морская звезда",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "морская звезда",
+      "file": "Resources/Speech/animal-starfish.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-crab",
+    "name": "краб",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "краб",
+      "file": "Resources/Speech/animal-crab.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-walrus",
+    "name": "морж",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "морж",
+      "file": "Resources/Speech/animal-walrus.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-shark",
+    "name": "акула",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "акула",
+      "file": "Resources/Speech/animal-shark.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-manta-ray",
+    "name": "скат",
+    "group": "animals",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "скат",
+      "file": "Resources/Speech/animal-manta-ray.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-tractor",
+    "name": "трактор",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "трактор",
+      "file": "Resources/Speech/transport-tractor.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-train",
+    "name": "поезд",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "поезд",
+      "file": "Resources/Speech/transport-train.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-bus",
+    "name": "автобус",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "автобус",
+      "file": "Resources/Speech/transport-bus.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-excavator",
+    "name": "экскаватор",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "экскаватор",
+      "file": "Resources/Speech/transport-excavator.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-airplane",
+    "name": "самолёт",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "самолёт",
+      "file": "Resources/Speech/transport-airplane.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-tugboat",
+    "name": "буксир",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "буксир",
+      "file": "Resources/Speech/transport-tugboat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-fire-engine",
+    "name": "пожарная машина",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "пожарная машина",
+      "file": "Resources/Speech/transport-fire-engine.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-ambulance",
+    "name": "скорая помощь",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "скорая помощь",
+      "file": "Resources/Speech/transport-ambulance.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-police-car",
+    "name": "полицейская машина",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "полицейская машина",
+      "file": "Resources/Speech/transport-police-car.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-dump-truck",
+    "name": "самосвал",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "самосвал",
+      "file": "Resources/Speech/transport-dump-truck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-concrete-mixer",
+    "name": "бетономешалка",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "бетономешалка",
+      "file": "Resources/Speech/transport-concrete-mixer.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-bulldozer",
+    "name": "бульдозер",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "бульдозер",
+      "file": "Resources/Speech/transport-bulldozer.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-crane-truck",
+    "name": "автокран",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "автокран",
+      "file": "Resources/Speech/transport-crane-truck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-garbage-truck",
+    "name": "мусоровоз",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "мусоровоз",
+      "file": "Resources/Speech/transport-garbage-truck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-helicopter",
+    "name": "вертолёт",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "вертолёт",
+      "file": "Resources/Speech/transport-helicopter.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-rocket",
+    "name": "ракета",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "ракета",
+      "file": "Resources/Speech/transport-rocket.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-bicycle",
+    "name": "велосипед",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "велосипед",
+      "file": "Resources/Speech/transport-bicycle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-motorcycle",
+    "name": "мотоцикл",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "мотоцикл",
+      "file": "Resources/Speech/transport-motorcycle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-tram",
+    "name": "трамвай",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "трамвай",
+      "file": "Resources/Speech/transport-tram.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-subway-train",
+    "name": "поезд метро",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "поезд метро",
+      "file": "Resources/Speech/transport-subway-train.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-taxi",
+    "name": "такси",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "такси",
+      "file": "Resources/Speech/transport-taxi.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-delivery-van",
+    "name": "фургон",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "фургон",
+      "file": "Resources/Speech/transport-delivery-van.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-sailboat",
+    "name": "парусник",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "парусник",
+      "file": "Resources/Speech/transport-sailboat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-submarine",
+    "name": "подводная лодка",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "подводная лодка",
+      "file": "Resources/Speech/transport-submarine.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-ferry",
+    "name": "паром",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "паром",
+      "file": "Resources/Speech/transport-ferry.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-hot-air-balloon",
+    "name": "воздушный шар",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "воздушный шар",
+      "file": "Resources/Speech/transport-hot-air-balloon.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-scooter",
+    "name": "самокат",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "самокат",
+      "file": "Resources/Speech/transport-scooter.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-snowmobile",
+    "name": "снегоход",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "снегоход",
+      "file": "Resources/Speech/transport-snowmobile.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-forklift",
+    "name": "погрузчик",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "погрузчик",
+      "file": "Resources/Speech/transport-forklift.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-combine",
+    "name": "комбайн",
+    "group": "transport",
+    "status": "existing",
+    "speech": {
+      "status": "generated",
+      "text": "комбайн",
+      "file": "Resources/Speech/transport-combine.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-butterfly",
+    "name": "бабочка",
+    "subject": "butterfly with large colorful wings",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "бабочка",
+      "file": "Resources/Speech/animal-butterfly.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-bee",
+    "name": "пчела",
+    "subject": "round honey bee with black and yellow stripes",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "пчела",
+      "file": "Resources/Speech/animal-bee.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-ladybug",
+    "name": "божья коровка",
+    "subject": "red ladybug with black spots",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "божья коровка",
+      "file": "Resources/Speech/animal-ladybug.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-ant",
+    "name": "муравей",
+    "subject": "brown ant with six legs and antennae",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "муравей",
+      "file": "Resources/Speech/animal-ant.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-dragonfly",
+    "name": "стрекоза",
+    "subject": "dragonfly with four long transparent wings",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "стрекоза",
+      "file": "Resources/Speech/animal-dragonfly.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-grasshopper",
+    "name": "кузнечик",
+    "subject": "green grasshopper with large bent hind legs",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "кузнечик",
+      "file": "Resources/Speech/animal-grasshopper.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-beetle",
+    "name": "жук",
+    "subject": "green beetle with hard shiny wing covers",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "жук",
+      "file": "Resources/Speech/animal-beetle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-caterpillar",
+    "name": "гусеница",
+    "subject": "green caterpillar with many small legs",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "гусеница",
+      "file": "Resources/Speech/animal-caterpillar.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-snail",
+    "name": "улитка",
+    "subject": "snail with spiral shell and two eye stalks",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "улитка",
+      "file": "Resources/Speech/animal-snail.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-spider",
+    "name": "паук",
+    "subject": "friendly small spider with eight legs",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "паук",
+      "file": "Resources/Speech/animal-spider.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-sparrow",
+    "name": "воробей",
+    "subject": "small brown sparrow",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "воробей",
+      "file": "Resources/Speech/animal-sparrow.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-pigeon",
+    "name": "голубь",
+    "subject": "gray pigeon with iridescent neck",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "голубь",
+      "file": "Resources/Speech/animal-pigeon.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-crow",
+    "name": "ворона",
+    "subject": "hooded crow with gray body and black head wings tail",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "ворона",
+      "file": "Resources/Speech/animal-crow.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-magpie",
+    "name": "сорока",
+    "subject": "black and white magpie with long tail",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "сорока",
+      "file": "Resources/Speech/animal-magpie.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-bullfinch",
+    "name": "снегирь",
+    "subject": "bullfinch with red chest and black cap",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "снегирь",
+      "file": "Resources/Speech/animal-bullfinch.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-tit",
+    "name": "синица",
+    "subject": "great tit with yellow breast black cap and white cheeks",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "синица",
+      "file": "Resources/Speech/animal-tit.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-swallow",
+    "name": "ласточка",
+    "subject": "swallow with forked tail and white belly",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "ласточка",
+      "file": "Resources/Speech/animal-swallow.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-goose",
+    "name": "гусь",
+    "subject": "white goose with long neck and orange beak",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "гусь",
+      "file": "Resources/Speech/animal-goose.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-rooster",
+    "name": "петух",
+    "subject": "colorful rooster with red comb and large curved tail",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "петух",
+      "file": "Resources/Speech/animal-rooster.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-turkey",
+    "name": "индюк",
+    "subject": "turkey with fan tail and red wattle",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "индюк",
+      "file": "Resources/Speech/animal-turkey.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-goldfish",
+    "name": "золотая рыбка",
+    "subject": "orange goldfish with flowing fins",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "золотая рыбка",
+      "file": "Resources/Speech/animal-goldfish.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-clownfish",
+    "name": "рыба-клоун",
+    "subject": "orange clownfish with three white bands",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "рыба-клоун",
+      "file": "Resources/Speech/animal-clownfish.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-perch",
+    "name": "окунь",
+    "subject": "green perch fish with dark vertical stripes and red fins",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "окунь",
+      "file": "Resources/Speech/animal-perch.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-pike",
+    "name": "щука",
+    "subject": "long green pike fish with broad flat snout",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "щука",
+      "file": "Resources/Speech/animal-pike.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-catfish",
+    "name": "сом",
+    "subject": "catfish with distinctive long whiskers",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "сом",
+      "file": "Resources/Speech/animal-catfish.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-seahorse",
+    "name": "морской конёк",
+    "subject": "orange seahorse with curled tail",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "морской конёк",
+      "file": "Resources/Speech/animal-seahorse.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-jellyfish",
+    "name": "медуза",
+    "subject": "gentle pink jellyfish with soft flowing tentacles",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "медуза",
+      "file": "Resources/Speech/animal-jellyfish.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-rabbit",
+    "name": "кролик",
+    "subject": "white domestic rabbit with long ears",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "кролик",
+      "file": "Resources/Speech/animal-rabbit.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-guinea-pig",
+    "name": "морская свинка",
+    "subject": "round brown and white guinea pig",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "морская свинка",
+      "file": "Resources/Speech/animal-guinea-pig.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-mole",
+    "name": "крот",
+    "subject": "small dark gray mole with broad pink digging paws",
+    "group": "animals",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "крот",
+      "file": "Resources/Speech/animal-mole.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-car",
+    "name": "машина",
+    "subject": "red passenger car",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "машина",
+      "file": "Resources/Speech/transport-car.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-truck",
+    "name": "грузовик",
+    "subject": "blue cargo truck with open cargo bed",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "грузовик",
+      "file": "Resources/Speech/transport-truck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-minibus",
+    "name": "микроавтобус",
+    "subject": "yellow passenger minibus",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "микроавтобус",
+      "file": "Resources/Speech/transport-minibus.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-trolleybus",
+    "name": "троллейбус",
+    "subject": "green trolleybus with two roof trolley poles",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "троллейбус",
+      "file": "Resources/Speech/transport-trolleybus.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-road-roller",
+    "name": "каток",
+    "subject": "yellow road roller with large smooth front steel drum",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "каток",
+      "file": "Resources/Speech/transport-road-roller.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-snowplow",
+    "name": "снегоуборочная машина",
+    "subject": "orange snowplow truck with broad front snow blade",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "снегоуборочная машина",
+      "file": "Resources/Speech/transport-snowplow.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-street-sweeper",
+    "name": "подметальная машина",
+    "subject": "compact street sweeper with visible round brushes",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "подметальная машина",
+      "file": "Resources/Speech/transport-street-sweeper.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-car-carrier",
+    "name": "автовоз",
+    "subject": "car carrier truck carrying two passenger cars",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "автовоз",
+      "file": "Resources/Speech/transport-car-carrier.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-tanker",
+    "name": "автоцистерна",
+    "subject": "blue tanker truck with large cylindrical tank",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "автоцистерна",
+      "file": "Resources/Speech/transport-tanker.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-tow-truck",
+    "name": "эвакуатор",
+    "subject": "orange flatbed tow truck carrying a small car",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "эвакуатор",
+      "file": "Resources/Speech/transport-tow-truck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-quad-bike",
+    "name": "квадроцикл",
+    "subject": "four wheeled red quad bike",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "квадроцикл",
+      "file": "Resources/Speech/transport-quad-bike.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-balance-bike",
+    "name": "беговел",
+    "subject": "small toddler balance bike with two wheels and no pedals",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "беговел",
+      "file": "Resources/Speech/transport-balance-bike.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-kick-scooter",
+    "name": "детский самокат",
+    "subject": "toddler three wheeled kick scooter",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "детский самокат",
+      "file": "Resources/Speech/transport-kick-scooter.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-rowboat",
+    "name": "лодка",
+    "subject": "small wooden rowboat with two oars",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "лодка",
+      "file": "Resources/Speech/transport-rowboat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-motorboat",
+    "name": "катер",
+    "subject": "small white motorboat",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "катер",
+      "file": "Resources/Speech/transport-motorboat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-ship",
+    "name": "корабль",
+    "subject": "large friendly passenger ship",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "корабль",
+      "file": "Resources/Speech/transport-ship.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-jet-ski",
+    "name": "водный мотоцикл",
+    "subject": "blue jet ski",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "водный мотоцикл",
+      "file": "Resources/Speech/transport-jet-ski.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-hang-glider",
+    "name": "дельтаплан",
+    "subject": "colorful triangular hang glider without pilot",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "дельтаплан",
+      "file": "Resources/Speech/transport-hang-glider.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-airship",
+    "name": "дирижабль",
+    "subject": "airship with elongated balloon and small cabin",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "дирижабль",
+      "file": "Resources/Speech/transport-airship.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "transport-space-rover",
+    "name": "луноход",
+    "subject": "six wheeled lunar rover with antenna",
+    "group": "transport",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "луноход",
+      "file": "Resources/Speech/transport-space-rover.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-cup",
+    "name": "чашка",
+    "subject": "ceramic cup with handle",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "чашка",
+      "file": "Resources/Speech/home-cup.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-plate",
+    "name": "тарелка",
+    "subject": "round ceramic dinner plate",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "тарелка",
+      "file": "Resources/Speech/home-plate.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bowl",
+    "name": "миска",
+    "subject": "deep ceramic bowl",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "миска",
+      "file": "Resources/Speech/home-bowl.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-spoon",
+    "name": "ложка",
+    "subject": "rounded tablespoon",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "ложка",
+      "file": "Resources/Speech/home-spoon.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-fork",
+    "name": "вилка",
+    "subject": "simple four tine dinner fork",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "вилка",
+      "file": "Resources/Speech/home-fork.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-glass",
+    "name": "стакан",
+    "subject": "clear drinking glass",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "стакан",
+      "file": "Resources/Speech/home-glass.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bottle",
+    "name": "бутылочка",
+    "subject": "baby feeding bottle with silicone nipple",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "бутылочка",
+      "file": "Resources/Speech/home-bottle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-pot",
+    "name": "кастрюля",
+    "subject": "cooking pot with two handles and closed lid",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "кастрюля",
+      "file": "Resources/Speech/home-pot.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-pan",
+    "name": "сковорода",
+    "subject": "frying pan with long handle",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "сковорода",
+      "file": "Resources/Speech/home-pan.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-kettle",
+    "name": "чайник",
+    "subject": "rounded kettle with handle and spout",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "чайник",
+      "file": "Resources/Speech/home-kettle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-jug",
+    "name": "кувшин",
+    "subject": "water jug with handle and spout",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "кувшин",
+      "file": "Resources/Speech/home-jug.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-strainer",
+    "name": "дуршлаг",
+    "subject": "colander with handles and visible holes",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "дуршлаг",
+      "file": "Resources/Speech/home-strainer.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-cutting-board",
+    "name": "разделочная доска",
+    "subject": "wooden cutting board with short handle",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "разделочная доска",
+      "file": "Resources/Speech/home-cutting-board.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-napkin",
+    "name": "салфетка",
+    "subject": "folded cloth napkin",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "салфетка",
+      "file": "Resources/Speech/home-napkin.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bib",
+    "name": "слюнявчик",
+    "subject": "baby bib",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "слюнявчик",
+      "file": "Resources/Speech/home-bib.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-high-chair",
+    "name": "детский стульчик",
+    "subject": "toddler high chair with tray",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "детский стульчик",
+      "file": "Resources/Speech/home-high-chair.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-fridge",
+    "name": "холодильник",
+    "subject": "closed refrigerator",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "холодильник",
+      "file": "Resources/Speech/home-fridge.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-stove",
+    "name": "плита",
+    "subject": "kitchen stove with oven and four round burners",
+    "group": "Кухня",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "плита",
+      "file": "Resources/Speech/home-stove.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bathtub",
+    "name": "ванна",
+    "subject": "bathtub with short rounded feet",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "ванна",
+      "file": "Resources/Speech/home-bathtub.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-sink",
+    "name": "раковина",
+    "subject": "bathroom sink with faucet",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "раковина",
+      "file": "Resources/Speech/home-sink.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-faucet",
+    "name": "кран",
+    "subject": "curved water faucet with single handle",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "кран",
+      "file": "Resources/Speech/home-faucet.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-soap",
+    "name": "мыло",
+    "subject": "plain rounded bar of soap",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "мыло",
+      "file": "Resources/Speech/home-soap.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-toothbrush",
+    "name": "зубная щётка",
+    "subject": "child toothbrush",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "зубная щётка",
+      "file": "Resources/Speech/home-toothbrush.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-toothpaste",
+    "name": "зубная паста",
+    "subject": "toothpaste tube with closed cap",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "зубная паста",
+      "file": "Resources/Speech/home-toothpaste.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bath-towel",
+    "name": "полотенце",
+    "subject": "folded fluffy bath towel",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "полотенце",
+      "file": "Resources/Speech/home-bath-towel.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-comb",
+    "name": "расчёска",
+    "subject": "simple hair comb",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "расчёска",
+      "file": "Resources/Speech/home-comb.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-sponge",
+    "name": "мочалка",
+    "subject": "soft bath sponge",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "мочалка",
+      "file": "Resources/Speech/home-sponge.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-potty",
+    "name": "горшок",
+    "subject": "child potty with backrest",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "горшок",
+      "file": "Resources/Speech/home-potty.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-rubber-duck",
+    "name": "уточка для ванны",
+    "subject": "yellow rubber bath duck",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "уточка для ванны",
+      "file": "Resources/Speech/home-rubber-duck.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-washing-machine",
+    "name": "стиральная машина",
+    "subject": "front loading washing machine",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "стиральная машина",
+      "file": "Resources/Speech/home-washing-machine.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-laundry-basket",
+    "name": "корзина для белья",
+    "subject": "woven laundry basket",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "корзина для белья",
+      "file": "Resources/Speech/home-laundry-basket.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-shampoo",
+    "name": "шампунь",
+    "subject": "plain shampoo bottle with closed cap",
+    "group": "Ванная",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "шампунь",
+      "file": "Resources/Speech/home-shampoo.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-door",
+    "name": "дверь",
+    "subject": "closed front door with handle",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "дверь",
+      "file": "Resources/Speech/home-door.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-keys",
+    "name": "ключи",
+    "subject": "two keys on simple key ring",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "ключи",
+      "file": "Resources/Speech/home-keys.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-shoes",
+    "name": "ботинки",
+    "subject": "pair of toddler shoes",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "ботинки",
+      "file": "Resources/Speech/home-shoes.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-slippers",
+    "name": "тапочки",
+    "subject": "pair of soft slippers",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "тапочки",
+      "file": "Resources/Speech/home-slippers.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-coat",
+    "name": "куртка",
+    "subject": "child jacket",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "куртка",
+      "file": "Resources/Speech/home-coat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-hat",
+    "name": "шапка",
+    "subject": "knitted child hat",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "шапка",
+      "file": "Resources/Speech/home-hat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-scarf",
+    "name": "шарф",
+    "subject": "soft knitted scarf",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "шарф",
+      "file": "Resources/Speech/home-scarf.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-umbrella",
+    "name": "зонтик",
+    "subject": "open colorful umbrella",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "зонтик",
+      "file": "Resources/Speech/home-umbrella.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-backpack",
+    "name": "рюкзак",
+    "subject": "small child backpack",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "рюкзак",
+      "file": "Resources/Speech/home-backpack.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-stroller",
+    "name": "коляска",
+    "subject": "empty baby stroller",
+    "group": "Прихожая",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "коляска",
+      "file": "Resources/Speech/home-stroller.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-chair",
+    "name": "стул",
+    "subject": "wooden chair",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "стул",
+      "file": "Resources/Speech/home-chair.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-table",
+    "name": "стол",
+    "subject": "small wooden table",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "стол",
+      "file": "Resources/Speech/home-table.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bed",
+    "name": "кровать",
+    "subject": "small child bed with bedding",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "кровать",
+      "file": "Resources/Speech/home-bed.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-pillow",
+    "name": "подушка",
+    "subject": "soft pillow",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "подушка",
+      "file": "Resources/Speech/home-pillow.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-blanket",
+    "name": "одеяло",
+    "subject": "folded quilt blanket",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "одеяло",
+      "file": "Resources/Speech/home-blanket.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-lamp",
+    "name": "лампа",
+    "subject": "table lamp with rounded shade",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "лампа",
+      "file": "Resources/Speech/home-lamp.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-clock",
+    "name": "часы",
+    "subject": "simple round wall clock",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "часы",
+      "file": "Resources/Speech/home-clock.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-book",
+    "name": "книга",
+    "subject": "closed colorful book without text",
+    "group": "Комната",
+    "status": "added",
+    "speech": {
+      "status": "generated",
+      "text": "книга",
+      "file": "Resources/Speech/home-book.wav",
+      "voice": "Kore"
+    }
+  }
+]

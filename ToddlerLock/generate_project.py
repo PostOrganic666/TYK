@@ -46,7 +46,12 @@ picture_resources = [
     (str(path.relative_to(source_root)), path.name)
     for path in sorted((source_root / "Resources" / "Pictures").glob("**/*.png"))
 ]
-resources = [("Resources/TykIcon.icns", "TykIcon.icns")] + picture_resources
+speech_resources = [
+    (str(path.relative_to(source_root)), path.name)
+    for path in sorted((source_root / "Resources" / "Speech").glob("*"))
+    if path.suffix in {".wav", ".json"}
+]
+resources = [("Resources/TykIcon.icns", "TykIcon.icns")] + picture_resources + speech_resources
 
 # Groups
 groups = {
@@ -141,7 +146,8 @@ def gen():
         a(f'\t\t{ref} /* {name} */ = {{isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "{path}"; sourceTree = "<group>"; }};')
     for path, name in resources:
         ref = make_id("ref_" + path)
-        file_type = "image.icns" if name.endswith(".icns") else "image.png"
+        file_type = {".icns": "image.icns", ".png": "image.png",
+                     ".wav": "audio.wav", ".json": "text.json"}[Path(name).suffix]
         a(f'\t\t{ref} /* {name} */ = {{isa = PBXFileReference; lastKnownFileType = {file_type}; path = "{path}"; sourceTree = "<group>"; }};')
     a(f'\t\t{INFO_PLIST_FILE_REF} /* Info.plist */ = {{isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; }};')
     a(f'\t\t{ENTITLEMENTS_FILE_REF} /* ToddlerLock.entitlements */ = {{isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; }};')
@@ -373,7 +379,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.3.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.4.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
@@ -397,7 +403,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.3.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.4.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')

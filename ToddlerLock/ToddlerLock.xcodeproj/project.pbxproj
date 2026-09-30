@@ -36,20 +36,30 @@
 		492D1A73FCDD6BF4AE22B560 /* StatusItemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */; };
 		9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9641C913799FCCE94DFF7AB7 /* TykIcon.icns */; };
 		32016D597A9218B80570EEFD /* animal-alpaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 526F8CA0F0948FDA49B5114C /* animal-alpaca.png */; };
+		412A7615ED06EE66E9994BF8 /* animal-ant.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE4526D812814DCBDF4DD56 /* animal-ant.png */; };
 		7F8FAE329C86B0EE6564C92E /* animal-badger.png in Resources */ = {isa = PBXBuildFile; fileRef = 048EEF26E18A0AD2541513EF /* animal-badger.png */; };
 		4CA82AF04F7B782DA7C50A78 /* animal-bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4B00F380A7387BAFBEB19C /* animal-bear.png */; };
 		0E855FD43E970B73BEEFF9E1 /* animal-beaver.png in Resources */ = {isa = PBXBuildFile; fileRef = E974A12C98EAFB0853203B7B /* animal-beaver.png */; };
+		3845C40B015BC848ED4C239B /* animal-bee.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3697F43E749EAAF3A1B2E /* animal-bee.png */; };
+		A2069FD2FEBC647CF8D06E5C /* animal-beetle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9177DC135D3C0F6A79F98114 /* animal-beetle.png */; };
 		7F68A998D8B0DA8272DC8126 /* animal-bison.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29EF46CA807A9EF83255B0 /* animal-bison.png */; };
 		B78FC2B1182C192E4CAF555F /* animal-boar.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DC427B04684097253E8675 /* animal-boar.png */; };
+		D4AACDFED7558CB80BBC3AE5 /* animal-bullfinch.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B74CE9CD89CFC6C082B24F /* animal-bullfinch.png */; };
+		1F9B25CCCE575CB79D03245D /* animal-butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFDE704FF525F75B3652B3 /* animal-butterfly.png */; };
 		38067BB6F9ECA877DE36295B /* animal-camel.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1831C12F89C67EAFA6056 /* animal-camel.png */; };
 		80F7ED35944BCE206AF10B49 /* animal-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A11B1238ACE89797311E03D /* animal-cat.png */; };
+		394265C66CB3C664DA1EB766 /* animal-caterpillar.png in Resources */ = {isa = PBXBuildFile; fileRef = D20281D9EBBA9DE4847D91AF /* animal-caterpillar.png */; };
+		871C31A06988A2B4F87E0FA3 /* animal-catfish.png in Resources */ = {isa = PBXBuildFile; fileRef = CB15523A429563D8984FCC02 /* animal-catfish.png */; };
 		9F00152669D367AE2156817F /* animal-chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777F75EFF4AAC8E1BBF4A4F /* animal-chicken.png */; };
+		6BC2CE50A8725DD0D7D614A1 /* animal-clownfish.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6EEAB151CCAAA7D8A50903 /* animal-clownfish.png */; };
 		9716B874F03CD2EF866F7F61 /* animal-cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 874C02627CEB982CD63EB72C /* animal-cow.png */; };
 		D4EFA97CFB084AB2B5B7FE26 /* animal-crab.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EBECA73867C6747A45CB8D /* animal-crab.png */; };
 		5FC22BBC08E8D64BA96E32F5 /* animal-crocodile.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1AF44C3EAEA66F89C3DE99 /* animal-crocodile.png */; };
+		6B6D8D7F9B7440E6246A84FE /* animal-crow.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5F1F3CEAFB0BF549078112 /* animal-crow.png */; };
 		00F732BD57ECEED11A375C70 /* animal-dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E0D7BDBED7E4FAD1A3742C /* animal-dog.png */; };
 		D56BA036CBF83B5EB29EBCF7 /* animal-dolphin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5055DA674F1E4142EEACB3CF /* animal-dolphin.png */; };
 		71B0EFAE6F8B7E870330621A /* animal-donkey.png in Resources */ = {isa = PBXBuildFile; fileRef = A7318847D2D32E5100C3A007 /* animal-donkey.png */; };
+		0F6C2592C2A036FC292C7DC5 /* animal-dragonfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB965F48C5CE453D39EF9B6 /* animal-dragonfly.png */; };
 		AA10E2645E785A20DCE20C27 /* animal-duck.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA00D39DBBF13FC1B76F41D /* animal-duck.png */; };
 		0C1120D555D310BE962DAB4E /* animal-elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = D050CCFBBE38A8FA38E557AD /* animal-elephant.png */; };
 		ACA7CF1695D8D7B9BAD7ADFB /* animal-fawn.png in Resources */ = {isa = PBXBuildFile; fileRef = A110E32D520A53F9B53563A5 /* animal-fawn.png */; };
@@ -58,17 +68,25 @@
 		C7795F2E5147AF588610E12D /* animal-frog.png in Resources */ = {isa = PBXBuildFile; fileRef = B798811839EC3B5979A628ED /* animal-frog.png */; };
 		B9722E35CCECBF89F6E9C4F3 /* animal-giraffe.png in Resources */ = {isa = PBXBuildFile; fileRef = 979C274A01CACBEE8EA62AA5 /* animal-giraffe.png */; };
 		97E8B069E4AF28431BBA7875 /* animal-goat.png in Resources */ = {isa = PBXBuildFile; fileRef = 70654DE801DED53247D21921 /* animal-goat.png */; };
+		61B4DFDB5EF805E50F2FFA0C /* animal-goldfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 272D0E084D663C04E7DE02E6 /* animal-goldfish.png */; };
+		75BC15B03B2509D3E7761A1C /* animal-goose.png in Resources */ = {isa = PBXBuildFile; fileRef = E77B2BC9774F5AF76FEC799E /* animal-goose.png */; };
+		DB8EB951285FAD4274374903 /* animal-grasshopper.png in Resources */ = {isa = PBXBuildFile; fileRef = 0507CEBF707714E007FA8391 /* animal-grasshopper.png */; };
+		B0E653CAA4F4DF43D51F6E50 /* animal-guinea-pig.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9E9AA5114543C77A8FF99C /* animal-guinea-pig.png */; };
 		AADD6B5B1F17319724EF2A4E /* animal-hamster.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B4E26BFC3CE34188584310 /* animal-hamster.png */; };
 		DE7C466D40617A3136A55D1F /* animal-hare.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF48221F495418DBC4F0C23 /* animal-hare.png */; };
 		CDB4BF1664B1C907D9C3BC79 /* animal-hedgehog.png in Resources */ = {isa = PBXBuildFile; fileRef = 1135FE4EEE30F36970B7EE63 /* animal-hedgehog.png */; };
 		40F291D389B7BFFA6CE5A3A7 /* animal-hippopotamus.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AB045EE0BAC9F64DCBFD40 /* animal-hippopotamus.png */; };
 		505D6455D7CF3276BB58D2AB /* animal-horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4258384895ED9D67BA056676 /* animal-horse.png */; };
+		5BD3CDA72A5CF0C55E0524B5 /* animal-jellyfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEEF6F57209E46A3631512A /* animal-jellyfish.png */; };
 		2676F346E0561AD591733F92 /* animal-kangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA4BBF6495DA88273D561D0 /* animal-kangaroo.png */; };
 		72E168645ABDD1C73474E679 /* animal-koala.png in Resources */ = {isa = PBXBuildFile; fileRef = 396D27CBCE37E76F6D727D8D /* animal-koala.png */; };
+		02DECD13BEBFD8601F10EABC /* animal-ladybug.png in Resources */ = {isa = PBXBuildFile; fileRef = B307704CEEE86B4AFFFAC03C /* animal-ladybug.png */; };
 		D2694F014645E3874FB3B0D7 /* animal-leopard.png in Resources */ = {isa = PBXBuildFile; fileRef = CE120C87ECEE73489AED4F1B /* animal-leopard.png */; };
 		B994A2AEA11AE698AF57E6D0 /* animal-lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FABEF542FB9C02AFF9C23F4 /* animal-lion.png */; };
 		8DF3BBC55915B95E55CA75FC /* animal-llama.png in Resources */ = {isa = PBXBuildFile; fileRef = 849119D8508BEF1E00AD23AC /* animal-llama.png */; };
+		41E34A8640433AA1BE21F433 /* animal-magpie.png in Resources */ = {isa = PBXBuildFile; fileRef = A3409B533CE58BF5E03D47A3 /* animal-magpie.png */; };
 		C668DD6C87842986236BB605 /* animal-manta-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E49BD881025DD102259C78E /* animal-manta-ray.png */; };
+		B7CCDC719F354841E3EC4A77 /* animal-mole.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1B2EEA650D11B637D5C4D5 /* animal-mole.png */; };
 		30A69857656A3112AAD0B52D /* animal-monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0506529454300076E29D0D9E /* animal-monkey.png */; };
 		9EBFEB9C1EF30E5A60CE9B9F /* animal-mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E1C3324C437A1AEFFB88EC /* animal-mouse.png */; };
 		505FD34A3512BD221DCC50AA /* animal-octopus.png in Resources */ = {isa = PBXBuildFile; fileRef = 690A2BBD3B3B7A9B33682F82 /* animal-octopus.png */; };
@@ -77,29 +95,95 @@
 		388DB6EDFF481ECB55C74759 /* animal-parrot.png in Resources */ = {isa = PBXBuildFile; fileRef = F148A85CC3F089B0FF0956AA /* animal-parrot.png */; };
 		28CEA561FBE351DD584786D2 /* animal-peacock.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6F610579F1D61B67253F3D /* animal-peacock.png */; };
 		F87966368E28F961534D255D /* animal-penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1024833D2684C9711695296B /* animal-penguin.png */; };
+		693EA1A74D607F2DB8A6F003 /* animal-perch.png in Resources */ = {isa = PBXBuildFile; fileRef = 399B9051F18BCF7005EDE1E2 /* animal-perch.png */; };
 		9867D2A241561E1D07023BF8 /* animal-pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 563132A85EEF1D950EA17A58 /* animal-pig.png */; };
+		7417B9348FE1AF9B17F597C8 /* animal-pigeon.png in Resources */ = {isa = PBXBuildFile; fileRef = 604D62BCFA67689FBE46BCC6 /* animal-pigeon.png */; };
+		7729D4117549FA6E139E3D45 /* animal-pike.png in Resources */ = {isa = PBXBuildFile; fileRef = DB91679DB58214EF53559206 /* animal-pike.png */; };
+		5CC667CFF208881CEF45AAC7 /* animal-rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = F1729294FB91A1FE211DD404 /* animal-rabbit.png */; };
 		98E18C6CB1E80C948AF67093 /* animal-raccoon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BC18D3D8FCA1636CBA2B8C /* animal-raccoon.png */; };
 		A938EFFC189A4B7DB536D85C /* animal-rhinoceros.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D751DFF3475652DBF3C76A /* animal-rhinoceros.png */; };
+		0F1461B3EFB1A86D0419E12F /* animal-rooster.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE9248324130A5FB06800C6 /* animal-rooster.png */; };
+		C09475783B50A512A0C787BA /* animal-seahorse.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864AB67B1745A656EAE1B1F /* animal-seahorse.png */; };
 		AA8F9695A28DF068515A6A64 /* animal-seal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF428400BF4AE628F019FE84 /* animal-seal.png */; };
 		DD0341CE29B381A6F64232B2 /* animal-shark.png in Resources */ = {isa = PBXBuildFile; fileRef = E347C1CB9369E676203FB4D9 /* animal-shark.png */; };
 		82C6EFC99DAF9BA5E00B4011 /* animal-sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD276FA992B44C5159E6F3D /* animal-sheep.png */; };
 		7B1DBEBDB8694BA084F10464 /* animal-sloth.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B1D25C5F6B90D07ABFA34E /* animal-sloth.png */; };
+		C635BDD2989F8F52A95F247C /* animal-snail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C32254E578F90C55B9DFD2 /* animal-snail.png */; };
+		34ECFC2FD7555DA8C789455F /* animal-sparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 228966017C9A81C60CD0ACA2 /* animal-sparrow.png */; };
+		3B346028C79E1105A47C85F6 /* animal-spider.png in Resources */ = {isa = PBXBuildFile; fileRef = 316D83820F1F584F6BC44F5A /* animal-spider.png */; };
 		3BB5E3A98962BAF8F24E0608 /* animal-squirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8578FF17541B6D720B1AA40 /* animal-squirrel.png */; };
 		81F2A397B33325A6015FBF2F /* animal-starfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 9913064FF6ED6D6E7EB5D8DA /* animal-starfish.png */; };
 		50E67C50CB34B35C307D79FE /* animal-stork.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D939D895E45850E929EA81 /* animal-stork.png */; };
+		46CA8BCB17CB1CB8BB83209B /* animal-swallow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F9B6CDA825BB4C2C522AA /* animal-swallow.png */; };
 		50AA0AC959BC034155E3E9C5 /* animal-swan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFAF5C34C5A55AB1B0C8E96 /* animal-swan.png */; };
 		FB4486940C9D30B3B8ED4151 /* animal-tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CCF29ACB7F336254DA7F0D /* animal-tiger.png */; };
+		DEDC56F8682E4B4C2989B536 /* animal-tit.png in Resources */ = {isa = PBXBuildFile; fileRef = BE902172A14A14EEBD3D8E70 /* animal-tit.png */; };
+		D3FDC6D6B3EC135C82BC8635 /* animal-turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3206FAE1E2C58C51F96A6C3B /* animal-turkey.png */; };
 		CA78AC759252B1F25A06353A /* animal-turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = A30A445E64A6230F69094654 /* animal-turtle.png */; };
 		D9A586014C3F01E2DC0221BB /* animal-walrus.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B73D37250553BA0AD45A94 /* animal-walrus.png */; };
 		818AB5F601BA0CEAAEB9D818 /* animal-whale.png in Resources */ = {isa = PBXBuildFile; fileRef = 0736E766E66F384DDAC87CE3 /* animal-whale.png */; };
 		D0E431F841C4318A3730393B /* animal-wolf.png in Resources */ = {isa = PBXBuildFile; fileRef = B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */; };
 		3DAABAB0CB8B51AEDD7CA8D7 /* animal-woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */; };
 		EF700F744054D48FF452AAD7 /* animal-zebra.png in Resources */ = {isa = PBXBuildFile; fileRef = 89012E78C45B9BD387F0D484 /* animal-zebra.png */; };
+		993DB9EA033EED0865F2858F /* home-backpack.png in Resources */ = {isa = PBXBuildFile; fileRef = 60042B0A5BDC73F184D9F743 /* home-backpack.png */; };
+		AFFA9BA9442317789FC28719 /* home-bath-towel.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFB999392C9A7FAAC84976B /* home-bath-towel.png */; };
+		2B4B9D581A697D487C0235BD /* home-bathtub.png in Resources */ = {isa = PBXBuildFile; fileRef = F36399F776A3952E3ECC1509 /* home-bathtub.png */; };
+		EFE3FF48326796E8C093FE86 /* home-bed.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF484FC7F896533CB3F096E /* home-bed.png */; };
+		76D0B6251FBEC14BDBAF780B /* home-bib.png in Resources */ = {isa = PBXBuildFile; fileRef = E15FBF7CFD03F1C67604F4F5 /* home-bib.png */; };
+		A14F1C408D5978AAB1C17CE7 /* home-blanket.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC66F5977659DBD224C6863 /* home-blanket.png */; };
+		6197059874BE4F91DB6B3BA5 /* home-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C00174980478789B8BFDB55 /* home-book.png */; };
+		68A368EFF70E566AD5B06BDC /* home-bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3544E47EE08FB0DEA4DB332B /* home-bottle.png */; };
+		728C5FF9CA53AFB6012F2226 /* home-bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B91C7118FFDBE3AC14FD0 /* home-bowl.png */; };
+		C9B32BC0953E7C92998280D3 /* home-chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 2043CD086A7A0D178738677F /* home-chair.png */; };
+		56600008C647E470628B0046 /* home-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 053E87C2D5C8513F7B039B88 /* home-clock.png */; };
+		EBA886C281B295C1F2EE23D3 /* home-coat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF7E85DD8FC51C7B164E53 /* home-coat.png */; };
+		F0C325C5378D350C8AEF503B /* home-comb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6354C8BDE985D67AECC272 /* home-comb.png */; };
+		60825EB3393D5E0B50A98D21 /* home-cup.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A69CA741A438A0B4A6104 /* home-cup.png */; };
+		400672E8F292ACC672849BF9 /* home-cutting-board.png in Resources */ = {isa = PBXBuildFile; fileRef = FC17545048F3ACAB2FC42D02 /* home-cutting-board.png */; };
+		2B27CC94F4FAEE63FD5FB557 /* home-door.png in Resources */ = {isa = PBXBuildFile; fileRef = B79B58657D5E4E6CB0BE344A /* home-door.png */; };
+		859525C3C17B13833E9B22A1 /* home-faucet.png in Resources */ = {isa = PBXBuildFile; fileRef = A2ECF5CFD1A94765F3ABA062 /* home-faucet.png */; };
+		9B548A62FC4093056406DD93 /* home-fork.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB06907EBB0BA219934C0EE /* home-fork.png */; };
+		A7759FD99B2C3DDB59BDD61E /* home-fridge.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C3CB6A5B553FD54B9A158B /* home-fridge.png */; };
+		5CB3378B787442C0570C0E82 /* home-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = C43A1454169A6A5DA0847A3B /* home-glass.png */; };
+		0F912C37D84B7400118A8BCA /* home-hat.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDB7C48C91515D290570154 /* home-hat.png */; };
+		499AA23900CFA94C39B33197 /* home-high-chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 42230B7B8FB4F2D977F6539B /* home-high-chair.png */; };
+		1942A8342E3F0D0BAF441A61 /* home-jug.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9CE232582D420CC1F452A /* home-jug.png */; };
+		4CC79DD00B0F1D2CE342706C /* home-kettle.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2682F634671AC097C1A57 /* home-kettle.png */; };
+		59739BC478DC980A802E42A4 /* home-keys.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D36A8911B408237730502F /* home-keys.png */; };
+		5CCC01609713438A2A7A7289 /* home-lamp.png in Resources */ = {isa = PBXBuildFile; fileRef = A56AA985B23A9D80F7AF82AC /* home-lamp.png */; };
+		E6785A29587B5049F5E13E52 /* home-laundry-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 9108C51B4DFF58E9714A16FE /* home-laundry-basket.png */; };
+		5FE9D6F49C6039D6BE4457BC /* home-napkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B8925B7664F2CC0FE74114 /* home-napkin.png */; };
+		1A8B04514BF474AFCC44DA1C /* home-pan.png in Resources */ = {isa = PBXBuildFile; fileRef = 336359F63AD9DFF81F838904 /* home-pan.png */; };
+		CF4E8458E14BAE701DFA9B02 /* home-pillow.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7FEA4132073292A9205B /* home-pillow.png */; };
+		8B9D2911B1FF34427FC77876 /* home-plate.png in Resources */ = {isa = PBXBuildFile; fileRef = B15F090C5CF870B30FE10D56 /* home-plate.png */; };
+		56A4992F121F58C5B909BE2B /* home-pot.png in Resources */ = {isa = PBXBuildFile; fileRef = E437531CE6CF4891F99FA814 /* home-pot.png */; };
+		C6FD465D6F1BFCD0DF0A5FF0 /* home-potty.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA2B4C747958F0B8A7F061C /* home-potty.png */; };
+		F09392004356E0A32D15953C /* home-rubber-duck.png in Resources */ = {isa = PBXBuildFile; fileRef = 538869D4796F295988D87593 /* home-rubber-duck.png */; };
+		5DC9D9F11951F1D2096E8CAB /* home-scarf.png in Resources */ = {isa = PBXBuildFile; fileRef = D297C28A5D2FA92214B47A26 /* home-scarf.png */; };
+		613DEF4CA69297F5165A247C /* home-shampoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C567D970F888E4CDE72317E /* home-shampoo.png */; };
+		5D792BEE9D3774A44299772F /* home-shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = E97F618C6BD69816C7A09AFA /* home-shoes.png */; };
+		88DCABD491E78AD79DBD7471 /* home-sink.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF78ADB80B937979AE8ABC1 /* home-sink.png */; };
+		45897794A1DD136156E32709 /* home-slippers.png in Resources */ = {isa = PBXBuildFile; fileRef = F2006CDB92F657ABA248B619 /* home-slippers.png */; };
+		00FD5CDAC955EAB81ECDF555 /* home-soap.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDA93BE840543A103638A /* home-soap.png */; };
+		B1E726EFED1F743FFD20FCDB /* home-sponge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A09C33252A119D0749E9964 /* home-sponge.png */; };
+		1426AFF66835853283EED21A /* home-spoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 261922EA6B14E88E549D4BFB /* home-spoon.png */; };
+		0C2EED4E07D6AADB101EB458 /* home-stove.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A5C07B9C4E1E86592E4258 /* home-stove.png */; };
+		086158D59662A7939756CAC2 /* home-strainer.png in Resources */ = {isa = PBXBuildFile; fileRef = B797BDB15954DF6680D965FF /* home-strainer.png */; };
+		C6ED9A670549E890C9BE5828 /* home-stroller.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013615178898D958B626EDD /* home-stroller.png */; };
+		C727A61EBFB180E802B31914 /* home-table.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC8A63A14FB9AA1EBE3C97A /* home-table.png */; };
+		6290B8E767E80100CAAF87F7 /* home-toothbrush.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9C618DA86A2F27999B879C /* home-toothbrush.png */; };
+		50342AC8FE9634902E50FC68 /* home-toothpaste.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0664384F8036EE1A549D0 /* home-toothpaste.png */; };
+		917CDD2393C59E029571F1D7 /* home-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A8133CFF8F084BCD8430B86 /* home-umbrella.png */; };
+		0D9E8F2CD9CD128F69A06A4E /* home-washing-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8570FB6B47E6F88C2EEB73FC /* home-washing-machine.png */; };
 		F15E336979FE8CF36E05C618 /* transport-airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */; };
+		06F55BA1A070D56BE16CB036 /* transport-airship.png in Resources */ = {isa = PBXBuildFile; fileRef = 920222F15718C386A41BCFF0 /* transport-airship.png */; };
 		C348048DE9C52CDD73FDBAA8 /* transport-ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FA82FEE06897A630CB1E79 /* transport-ambulance.png */; };
+		D6F651C7F240256BCCDF1F6F /* transport-balance-bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 24899053FFB6EBF265CACE59 /* transport-balance-bike.png */; };
 		5A6B1789A2E44F30088CABF2 /* transport-bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BF3EABB4F70C5C17DC1266 /* transport-bicycle.png */; };
 		A87689E7C428BD8DC29AEFB3 /* transport-bulldozer.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A85D4E77CD9D9D12754E4BE /* transport-bulldozer.png */; };
 		4C5D47DA715E151CBDF28A6C /* transport-bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 537DB9D2C9CAA54374D8457C /* transport-bus.png */; };
+		F8AF99494E405856C3ECC40B /* transport-car-carrier.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6AC25CD519249E91BE1CD /* transport-car-carrier.png */; };
+		A6C78F54419124A138C910DB /* transport-car.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F95FEA0062E54D82E6C834 /* transport-car.png */; };
 		BDF38478B91AA75460E09B29 /* transport-combine.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F3827E16F381DD797F61BC /* transport-combine.png */; };
 		113410F00D06A334CDC7006F /* transport-concrete-mixer.png in Resources */ = {isa = PBXBuildFile; fileRef = 491D5C814B099A7DFF0ACF84 /* transport-concrete-mixer.png */; };
 		B387C7A509A23B04EAB75236 /* transport-crane-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B02ED4587D9905B40F93DC8 /* transport-crane-truck.png */; };
@@ -110,21 +194,262 @@
 		701F07C86310DEAD288C5151 /* transport-fire-engine.png in Resources */ = {isa = PBXBuildFile; fileRef = E2470624E31F330321F54321 /* transport-fire-engine.png */; };
 		B8927DE1221D85E94C8FC171 /* transport-forklift.png in Resources */ = {isa = PBXBuildFile; fileRef = CC519CE4C800FA430A25A0D4 /* transport-forklift.png */; };
 		7002E0B548D66CD9CE6F8756 /* transport-garbage-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D41EC76A3E65AC30D569283 /* transport-garbage-truck.png */; };
+		AD38DE02138DFAE278292EE7 /* transport-hang-glider.png in Resources */ = {isa = PBXBuildFile; fileRef = 93ED7F1DE620F114D205B2DE /* transport-hang-glider.png */; };
 		F2BDD82BC86F513254FA5595 /* transport-helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E26A9923DBAACC14A4B948 /* transport-helicopter.png */; };
 		EBCFBFE3D14460817FF3EECE /* transport-hot-air-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0F51DA459B1D6326C8946 /* transport-hot-air-balloon.png */; };
+		36CCCD91EC1D497607BA126E /* transport-jet-ski.png in Resources */ = {isa = PBXBuildFile; fileRef = 5991ADDB0EC550C5BE48B7FE /* transport-jet-ski.png */; };
+		2E081B93733BA3101A55090F /* transport-kick-scooter.png in Resources */ = {isa = PBXBuildFile; fileRef = 984495A03AD060A8EC4F830F /* transport-kick-scooter.png */; };
+		C0A5EB824650B1381510CE48 /* transport-minibus.png in Resources */ = {isa = PBXBuildFile; fileRef = 34267C82EFFFA284A1B9FB88 /* transport-minibus.png */; };
+		10138AE6CF75D1F779869C19 /* transport-motorboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B00EF2D1CBD21BE923202EA /* transport-motorboat.png */; };
 		33398588DAFA4C699CD2A2D7 /* transport-motorcycle.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B6D0291237E2A63F59381C /* transport-motorcycle.png */; };
 		4F7B3B064B8F0B51BFC036F8 /* transport-police-car.png in Resources */ = {isa = PBXBuildFile; fileRef = 449156C9C83CD13294CC8063 /* transport-police-car.png */; };
+		B7A7D18C14B7774EFD134EA6 /* transport-quad-bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 700BDB92ECED5FE528901B7F /* transport-quad-bike.png */; };
+		DF461F3397C1284AC81035A9 /* transport-road-roller.png in Resources */ = {isa = PBXBuildFile; fileRef = 142F050A5B8163505B6A541D /* transport-road-roller.png */; };
 		53F4EE75733B99B6F7331A57 /* transport-rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 66ADED3C486B24FF743DEF65 /* transport-rocket.png */; };
+		1A2D56945A309FA93A6D0F2B /* transport-rowboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DE76D03C6D0B0B07C39230 /* transport-rowboat.png */; };
 		75F43C52BC8E857FBC21BF95 /* transport-sailboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF554D5B79A491FD5D1D10 /* transport-sailboat.png */; };
 		A2E4B67F73C57661A430711F /* transport-scooter.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C587B43C02A0EC9B3C153 /* transport-scooter.png */; };
+		236874257E58D5AB1852C0F5 /* transport-ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 161BC65DADF72B5AEC145047 /* transport-ship.png */; };
 		9BD7EEA5CCBA1EA5BA854112 /* transport-snowmobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A92BFD4ED03AFC1995D75E2 /* transport-snowmobile.png */; };
+		3F9E2AAFCDEA5E491DA2C2C2 /* transport-snowplow.png in Resources */ = {isa = PBXBuildFile; fileRef = F818BB6C9B573F00B8E099FB /* transport-snowplow.png */; };
+		26821C8C6327D4DF64A15885 /* transport-space-rover.png in Resources */ = {isa = PBXBuildFile; fileRef = D602E064F18D3A3F7208A759 /* transport-space-rover.png */; };
+		4A062D101909E78389DA1D4F /* transport-street-sweeper.png in Resources */ = {isa = PBXBuildFile; fileRef = 1520E0FDDF8BFD71A1BD41C6 /* transport-street-sweeper.png */; };
 		EB601D2BA29849B6FDE360C4 /* transport-submarine.png in Resources */ = {isa = PBXBuildFile; fileRef = 574670833D3BEC577E386E3F /* transport-submarine.png */; };
 		B132D0EF6C4D4752C8FFA04B /* transport-subway-train.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D7DDBF8AB7B5EFC34D623 /* transport-subway-train.png */; };
+		58FD580020A8BB6E2B9C57F0 /* transport-tanker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C482114A3C792371C35794E /* transport-tanker.png */; };
 		35CC94CC728BAA042FB2FC0E /* transport-taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCEAB03E2828E3154E58191 /* transport-taxi.png */; };
+		E0A29ADB815E03253D57BE8D /* transport-tow-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763752369189E1996211B0C /* transport-tow-truck.png */; };
 		50D697F90FDC6852EB8DA8BE /* transport-tractor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B383BC0E0B9123B1861A9CB /* transport-tractor.png */; };
 		A40319F49F548510E5A4DD9A /* transport-train.png in Resources */ = {isa = PBXBuildFile; fileRef = F37F17D7B0C68006E7AA636E /* transport-train.png */; };
 		66217A27985B2E89DAC962A0 /* transport-tram.png in Resources */ = {isa = PBXBuildFile; fileRef = C03DA3532D9EAEBB7FC49ABE /* transport-tram.png */; };
+		BDA9F8B7A4CBDA26472636CC /* transport-trolleybus.png in Resources */ = {isa = PBXBuildFile; fileRef = 680740BA6F8458D454065F88 /* transport-trolleybus.png */; };
+		364981AF039B10D54F737831 /* transport-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA0527ABD175D5E1C55025B /* transport-truck.png */; };
 		E12655632710274C000CBDEA /* transport-tugboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 10159FDD99C894B2CDB20466 /* transport-tugboat.png */; };
+		61F13C2DD67DFA62640DA34A /* animal-alpaca.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3E1B66FECFCACC82ACE797D5 /* animal-alpaca.wav */; };
+		C536536622D34EF16F980616 /* animal-ant.wav in Resources */ = {isa = PBXBuildFile; fileRef = D14067DFECE67509A26A4BC3 /* animal-ant.wav */; };
+		62BFC1FF9BC968DCE8744BAB /* animal-badger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC714512E316F0AF7EFADF /* animal-badger.wav */; };
+		5582BB334B48CA131CABA894 /* animal-bear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85950856583A9A4767B0E356 /* animal-bear.wav */; };
+		7898A51087A35D54F75B605D /* animal-beaver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B7FD9B68390BEDE9ED1899 /* animal-beaver.wav */; };
+		A20D4CE539D26B1A8FD5FE51 /* animal-bee.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCC86256387A518313A338FD /* animal-bee.wav */; };
+		5047F8156D174977B128122F /* animal-beetle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D10DB96500D32B9E70BEBB7 /* animal-beetle.wav */; };
+		5F95BF6D9B0C18354DDB6B1B /* animal-bison.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4E439B7D68333770EE42B31 /* animal-bison.wav */; };
+		B6965B353CD297CC10B7B1D6 /* animal-boar.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABECA607683022FECC71DFEA /* animal-boar.wav */; };
+		DB3E779A009C72588F6A0B5A /* animal-bullfinch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 751400313D86CC18D0BF1FE1 /* animal-bullfinch.wav */; };
+		6DC329DE0DF1BD78126050A4 /* animal-butterfly.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B71BBA04233D440796EC1AB /* animal-butterfly.wav */; };
+		6DAB5E75B02A656D116F53A0 /* animal-camel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A0B0E69AE63EFC2CBC07E7F /* animal-camel.wav */; };
+		AD0E7751926FFAF9A6DDBF4C /* animal-cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E00FEB393B1B8B13C5B9086 /* animal-cat.wav */; };
+		19F95E5BD9B6DA8298170274 /* animal-caterpillar.wav in Resources */ = {isa = PBXBuildFile; fileRef = C55FFD72B47CA8AC170DE59E /* animal-caterpillar.wav */; };
+		9C305E5C89776BCDD1E577B9 /* animal-catfish.wav in Resources */ = {isa = PBXBuildFile; fileRef = BBC10DC9AE398A4B15B16CAD /* animal-catfish.wav */; };
+		EECB8DF2793A74B5BFC00795 /* animal-chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B2BF42A09C7FD9CA4AB837D /* animal-chicken.wav */; };
+		98B9A7D0915A3A462B0D3697 /* animal-clownfish.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF6C1AEDAB9B23C5563FA5B3 /* animal-clownfish.wav */; };
+		7F7FAE67F6C811BC70390559 /* animal-cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB299324F046F9C739E2BB /* animal-cow.wav */; };
+		6E9AFB9189588150A6DA791B /* animal-crab.wav in Resources */ = {isa = PBXBuildFile; fileRef = 458ACED9BE41F99B9922839C /* animal-crab.wav */; };
+		F8E42D65501C8946B0A6E5BF /* animal-crocodile.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CF227EB553A41C4D32F91 /* animal-crocodile.wav */; };
+		D613A89ADA5DE9BAAC0871D0 /* animal-crow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23AC20F3567077FAE447E1DF /* animal-crow.wav */; };
+		AC42E980510D631E684D45AF /* animal-dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC9886CAAF9ACE456F356D /* animal-dog.wav */; };
+		FD999ADE69A77A5A6C0695F6 /* animal-dolphin.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFAD41EC268718D2988EE759 /* animal-dolphin.wav */; };
+		DBF858DE97DE5F139942D6B3 /* animal-donkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E13FDE8DC04226C5E4078D0 /* animal-donkey.wav */; };
+		4151049EE1DF873B8FA54CB3 /* animal-dragonfly.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2F1FB0D595DDB16D28BB3445 /* animal-dragonfly.wav */; };
+		774C39C77A705176CEAE7AD6 /* animal-duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4CC1968B2C79EC9AAFF95BA /* animal-duck.wav */; };
+		4E6197F6B4F79B895D520F8E /* animal-elephant.wav in Resources */ = {isa = PBXBuildFile; fileRef = B03A3429EC6D0162F07E93D1 /* animal-elephant.wav */; };
+		66F153A567EDA5EE46919148 /* animal-fawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = B5E38EDF7066FDCE7C05BEB1 /* animal-fawn.wav */; };
+		B177DF92F2F849D21BE8A548 /* animal-flamingo.wav in Resources */ = {isa = PBXBuildFile; fileRef = E651CF46C485218AD4B53A7C /* animal-flamingo.wav */; };
+		929C9B7DBECB3664A1546B10 /* animal-fox.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A819C1B2599F5DBC6F40A8 /* animal-fox.wav */; };
+		CA0006594F75186243E9D388 /* animal-frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7B67C3F018E98F7567D2950 /* animal-frog.wav */; };
+		1D591BB20904237D53E514C2 /* animal-giraffe.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72AB5D2803CBF2D282502840 /* animal-giraffe.wav */; };
+		785024EA33353463CC4EFF98 /* animal-goat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4203275E25E78CA942F06571 /* animal-goat.wav */; };
+		EFC1241FD632183789A683F8 /* animal-goldfish.wav in Resources */ = {isa = PBXBuildFile; fileRef = D8181E8C8D2A0FBC82EC3F19 /* animal-goldfish.wav */; };
+		7B20F6534CAB72CA0F6C9065 /* animal-goose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3441AB0A9FDC65F4F54D8 /* animal-goose.wav */; };
+		8CFBC4069DDAB31546B53A59 /* animal-grasshopper.wav in Resources */ = {isa = PBXBuildFile; fileRef = FDFBB81D7CDA0B35CD59EB58 /* animal-grasshopper.wav */; };
+		004B4C844A4B4DB1F404D256 /* animal-guinea-pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F02E1775E5474080391EBB6 /* animal-guinea-pig.wav */; };
+		BA550031B39839715142A662 /* animal-hamster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35ADF6249AA78442EBD89AE0 /* animal-hamster.wav */; };
+		758F33ACD3CDDFF6EC32AC2D /* animal-hare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9A39AB13232C33C499BD82DF /* animal-hare.wav */; };
+		AA753D9240DEBD3C7344DCD7 /* animal-hedgehog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46F70D043BC7E0E3A7E86868 /* animal-hedgehog.wav */; };
+		6906CB178C21C77CE699A201 /* animal-hippopotamus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36A275CB5CA97E14CA61AA16 /* animal-hippopotamus.wav */; };
+		9EF31D8A445BE0066269AA82 /* animal-horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2961B80631DB69FCA7050161 /* animal-horse.wav */; };
+		0C784E7AA12AB4B101660182 /* animal-jellyfish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 667BBC17AEB668EE660B5FA2 /* animal-jellyfish.wav */; };
+		AC29CC17A124DC8590E029FA /* animal-kangaroo.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCD95C4E1BE7C973EC693A83 /* animal-kangaroo.wav */; };
+		3A553C41A3778171658D9AF7 /* animal-koala.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5F503087DA9F9153079A6A /* animal-koala.wav */; };
+		05971F88EA816FC12D75529F /* animal-ladybug.wav in Resources */ = {isa = PBXBuildFile; fileRef = C11D2CF07C283E2940B1C66F /* animal-ladybug.wav */; };
+		7C985B2D2A0C04AD2C6AE5E2 /* animal-leopard.wav in Resources */ = {isa = PBXBuildFile; fileRef = B4FDBC7BB78AFEF80E04ACF4 /* animal-leopard.wav */; };
+		4295115F93EB938B1D07B560 /* animal-lion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 16E38B93AEA0535FA5FB281E /* animal-lion.wav */; };
+		36D0E7AB8D1B27D8EBDD62FF /* animal-llama.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D25AF5DCF0067796142B7F8 /* animal-llama.wav */; };
+		0CBA4BF25E7AC00FF05CEB2D /* animal-magpie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 120AEADC5E19879E9FA47074 /* animal-magpie.wav */; };
+		1C6E3148D8AF2C73BC3CE94A /* animal-manta-ray.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ACD8E8A8078E4F3A62F0C /* animal-manta-ray.wav */; };
+		8B967C16FDDFB7175AA37D3F /* animal-mole.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA0844CB17886C815288232D /* animal-mole.wav */; };
+		E25286D6CAD555704A9BF89D /* animal-monkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36942EBC2F244956AC4B4B9B /* animal-monkey.wav */; };
+		C575DD4F3C0CF47A57F808C7 /* animal-mouse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E395F0905BB18FBF4C73579 /* animal-mouse.wav */; };
+		330E826CBACE4866CCD026D8 /* animal-octopus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49D641E11ABBD8C2A8ADC75A /* animal-octopus.wav */; };
+		C6D3C98F6F40886C9111217C /* animal-owl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E978EF79ACA4469CA648F45 /* animal-owl.wav */; };
+		319C351B9B32B93EC03AFEBF /* animal-panda.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F3278273C428EFF10BACBB4 /* animal-panda.wav */; };
+		6CF5281E6B7668D519080761 /* animal-parrot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79834B986C5E1CDF9847B8FB /* animal-parrot.wav */; };
+		9ABCC64B23846CA531A7E26F /* animal-peacock.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFABDE95812AF84DAF99176C /* animal-peacock.wav */; };
+		7DEC24665EB343C0031E96FA /* animal-penguin.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB8F51D90EBDAE4EB185F8F /* animal-penguin.wav */; };
+		39507E54DF14873E390E8C36 /* animal-perch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A16F1E35918679414F0C5AD /* animal-perch.wav */; };
+		0882298B568D0E90B085F063 /* animal-pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44CF4F756B8B4607C495C348 /* animal-pig.wav */; };
+		823F30452949FD335BEB7D48 /* animal-pigeon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 810842C71BD0FACBF8C1FF71 /* animal-pigeon.wav */; };
+		D2596BB19F01424AF189249A /* animal-pike.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35411A00B461F334A72DEE0B /* animal-pike.wav */; };
+		F3A7653C385B6BF4A2194878 /* animal-rabbit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 96A20396A98991126794C8AE /* animal-rabbit.wav */; };
+		4A0B84AFFF591CA0158BC892 /* animal-raccoon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9685AD7263DC0E003E8E2115 /* animal-raccoon.wav */; };
+		911CAB3996E10ADEE1E3BD2B /* animal-rhinoceros.wav in Resources */ = {isa = PBXBuildFile; fileRef = 924C3F4DFBF63345B7A96B52 /* animal-rhinoceros.wav */; };
+		CDF141F2A8B53CD1464F3AA7 /* animal-rooster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 296DDF00CB128138CA8CFEBF /* animal-rooster.wav */; };
+		2944392EB2C4C496FCE20FD9 /* animal-seahorse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94BB8EA7945BC6569C6A8B27 /* animal-seahorse.wav */; };
+		2A675E9D3D386743A5A20424 /* animal-seal.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF7BDA2A6B5D30F803BE20FD /* animal-seal.wav */; };
+		EC5A8E67BDF792DCDC6A1BCD /* animal-shark.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58958816836A8E4D5AA302CD /* animal-shark.wav */; };
+		9E07382CD27BE08D2F9445D6 /* animal-sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB2C4E8FFA9C3DEB9F54574F /* animal-sheep.wav */; };
+		86971B38C5E2E639B6712974 /* animal-sloth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71B0455276AA11D92B59326F /* animal-sloth.wav */; };
+		5CC417A055588932DECDB87D /* animal-snail.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78AAE9FFA3FE7B6745731113 /* animal-snail.wav */; };
+		D5B184E32CD975DCF967692A /* animal-sparrow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B99D28A015F8BD9A03F714D /* animal-sparrow.wav */; };
+		3D660AD864D8B2B405BDF7C7 /* animal-spider.wav in Resources */ = {isa = PBXBuildFile; fileRef = 65F93406F9B063896E3151A6 /* animal-spider.wav */; };
+		BB51C4B657F9F84F0AD0F4A1 /* animal-squirrel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C1515E433C73E8B7A45B69 /* animal-squirrel.wav */; };
+		AC4874D35F7BDA3EB5734E2A /* animal-starfish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C39AAD0070C7E20B3E78F5E /* animal-starfish.wav */; };
+		9CC50B33EDBD97A200F59F0B /* animal-stork.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42BD66F53AE3C4592518C9A7 /* animal-stork.wav */; };
+		F627B15DC98C68467BF587E8 /* animal-swallow.wav in Resources */ = {isa = PBXBuildFile; fileRef = D41AADF41A11172C57710A46 /* animal-swallow.wav */; };
+		CC16730385C2CB67E2C83A4A /* animal-swan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D34F242311E37CAF949A115 /* animal-swan.wav */; };
+		B9C4C812EC6839DA987A3B6D /* animal-tiger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76D00E10A39F68B0656205DE /* animal-tiger.wav */; };
+		B4E321B90F624D3D3B41F2CA /* animal-tit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E834E67B5A2CE6C574FDC35F /* animal-tit.wav */; };
+		58E67E76ADC24320BEDF991C /* animal-turkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = DFD99A8F10C060B5850C8F82 /* animal-turkey.wav */; };
+		A7E319D1DA5C14A2B414B22E /* animal-turtle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 10215C0BB16E52FCDE26CB4A /* animal-turtle.wav */; };
+		55E22928CC91985CE3B16CAF /* animal-walrus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8209452E678E00D6C155C55E /* animal-walrus.wav */; };
+		35AE7A63593FDC8DE0F35582 /* animal-whale.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84034D8040569CBD26088A1D /* animal-whale.wav */; };
+		7237C3458ABB6F198209A6E9 /* animal-wolf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BF568A131A5B22716D8B1D8 /* animal-wolf.wav */; };
+		792799C9C08C14C8B439885A /* animal-woodpecker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B7416E446167DB3335529 /* animal-woodpecker.wav */; };
+		3507A12D54725D12BC018C76 /* animal-zebra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */; };
+		E10FBE7AA36F7380CCD64075 /* home-backpack.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE61A900E74126F399C84137 /* home-backpack.wav */; };
+		02A1AADD0F561B4942C864FD /* home-bath-towel.wav in Resources */ = {isa = PBXBuildFile; fileRef = B86D0FA74F87AE87194E5378 /* home-bath-towel.wav */; };
+		5F18BDA197DC243F955D4930 /* home-bathtub.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABD2D55E4EDFF38825337B3D /* home-bathtub.wav */; };
+		3337BACD3DF0BE71761826C0 /* home-bed.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF4DEC257BB0B1FD94BF5180 /* home-bed.wav */; };
+		2C9A4D0DF0E144EF0E8743D0 /* home-bib.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6E390AB69380CF9E90292 /* home-bib.wav */; };
+		FF40826C1194ACF0E6B79B42 /* home-blanket.wav in Resources */ = {isa = PBXBuildFile; fileRef = C18E98BFF91948F3C9E076B8 /* home-blanket.wav */; };
+		7F75C30D4513C31E152C5DFD /* home-book.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4799D8D8E7CDDF8D428B4D25 /* home-book.wav */; };
+		374D42E8671AB4BB91681D43 /* home-bottle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 336D1E1F05404D2A7621EE54 /* home-bottle.wav */; };
+		FABC592DFCECDF72B2A4DCCF /* home-bowl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A60945398FB875DE7952BA3 /* home-bowl.wav */; };
+		943AB4A0B6801C8DB5E00E1B /* home-chair.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEAB1DC0FC4AA1834BAAAF3A /* home-chair.wav */; };
+		1129EDB00059592D1B9F0A53 /* home-clock.wav in Resources */ = {isa = PBXBuildFile; fileRef = C12EE71DC33F8D9F7A46BD08 /* home-clock.wav */; };
+		BB95359A431F487B1574FE67 /* home-coat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B30C103EC23089B91FD1F /* home-coat.wav */; };
+		2B8F1C78813C06AC8BC03DAC /* home-comb.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6DE40B3E8C7A4941CD5A632 /* home-comb.wav */; };
+		8CA810ABFDFC787FA8B1B8EC /* home-cup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFD5387F96D8DB4F4D06DF /* home-cup.wav */; };
+		9A15C3CB84855470DD931FA7 /* home-cutting-board.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0D157AA3F44E8454CE02B9E /* home-cutting-board.wav */; };
+		59CD8BA4B0046D213EE8D962 /* home-door.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6D569B70D74457F1C2D302E1 /* home-door.wav */; };
+		4441441A5E742B2D9C4300DD /* home-faucet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 072AA968C87B0B61FB701872 /* home-faucet.wav */; };
+		09BDF80A9A36F7DC7E5E7741 /* home-fork.wav in Resources */ = {isa = PBXBuildFile; fileRef = C897248F915DF217C2EF8DD1 /* home-fork.wav */; };
+		AB8B94DE368BD1F21B6216CA /* home-fridge.wav in Resources */ = {isa = PBXBuildFile; fileRef = B923EE213790284A05954F4D /* home-fridge.wav */; };
+		D09E118FDEAAB6DE1F5B2796 /* home-glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D0F56B4B88A1268A91A16 /* home-glass.wav */; };
+		97BF23C8509F253AC06271C0 /* home-hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80E704A638A7BDE47EDB7222 /* home-hat.wav */; };
+		89DBB9114130725C956D93D1 /* home-high-chair.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBE3256ADDFA1BD0D9B65A82 /* home-high-chair.wav */; };
+		A67829A9CB51C6F5A4387E54 /* home-jug.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AFA2BAD0DC50AD24F9B6DD8 /* home-jug.wav */; };
+		42A401A670F0C10B36EBB8CA /* home-kettle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 398C7C55EBE7C9BA3470B75A /* home-kettle.wav */; };
+		EEF53D812B8AB1209DB1B9D0 /* home-keys.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7AC4363F180686A2A935315 /* home-keys.wav */; };
+		F243051D61088F749EC9339C /* home-lamp.wav in Resources */ = {isa = PBXBuildFile; fileRef = C66D6E546DD656DCD76F485A /* home-lamp.wav */; };
+		4193CC3E49D346D2946C79D8 /* home-laundry-basket.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5082C79E47655E387628B590 /* home-laundry-basket.wav */; };
+		9711FE56FF34A211892A59F0 /* home-napkin.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7FB1FEA8224561D4C872BB5 /* home-napkin.wav */; };
+		C807014E92DCBAAC0132C1F6 /* home-pan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95805C1CDC9FEFF91249D19D /* home-pan.wav */; };
+		F12C784AC8F578F3298970BB /* home-pillow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E83006C46D9082659B52FE6 /* home-pillow.wav */; };
+		D000655DC095CA7F462D1D93 /* home-plate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BA67F98E63C2FB334AC37 /* home-plate.wav */; };
+		60CB870BF877B65790AA3CF1 /* home-pot.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1BF326555EDC1D7EAF52331 /* home-pot.wav */; };
+		ACAF3ED2F7E1CC7F4B4C8F6E /* home-potty.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCC17B365E0113BBACBEB87E /* home-potty.wav */; };
+		E972D62FE2CD43537D9F357E /* home-rubber-duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88C74ED6E8AE6B44961BAD81 /* home-rubber-duck.wav */; };
+		390AEE39A57F46B3A8FCB895 /* home-scarf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C48D7493C6879300B627961 /* home-scarf.wav */; };
+		3B5FAFCAAC510873261F8DE6 /* home-shampoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B65693FC100FC5305387065 /* home-shampoo.wav */; };
+		D9DB82168CF0CB627C1FB96D /* home-shoes.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFFC3108AA3A4B8ECFD8F193 /* home-shoes.wav */; };
+		79E7D25A9978B7AD8747E369 /* home-sink.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA7B00B17E7B590C412E7960 /* home-sink.wav */; };
+		6371CB30E51A8AB646A233BA /* home-slippers.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC1BBDE82D5214CDDA9EAED /* home-slippers.wav */; };
+		FC421141C310BFB77E67FC01 /* home-soap.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD09BB3EF1CA53129B0698F9 /* home-soap.wav */; };
+		D5BA97C7A929BC21262ABA05 /* home-sponge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92EBC6E8B462EA63E53097CF /* home-sponge.wav */; };
+		10AEBB308F4172393E24F87B /* home-spoon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 531D1CE51193E315DC4E8AD4 /* home-spoon.wav */; };
+		8CB78A9A4E1B6015B9D49136 /* home-stove.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7853D201F93AE80AA0B59A5 /* home-stove.wav */; };
+		724EEFEBCDE638D5007E4D71 /* home-strainer.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC6AF4021210EC8B08DAA72B /* home-strainer.wav */; };
+		8BC3B8B353B6DB5F672456CC /* home-stroller.wav in Resources */ = {isa = PBXBuildFile; fileRef = D062A7072504DCE0CF2230FD /* home-stroller.wav */; };
+		FAF110DE408BAA60D6B3EAC2 /* home-table.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C70F98B5EF5AE233AC81429 /* home-table.wav */; };
+		F38D569426715A8934C0F337 /* home-toothbrush.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0025289EE3E2F2637C27453E /* home-toothbrush.wav */; };
+		CF49FF64D1D86EF0F1890F09 /* home-toothpaste.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25F029017CF5A6BFA974AE81 /* home-toothpaste.wav */; };
+		D69AA680F954CB173E359CB1 /* home-umbrella.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25BB162AFAF35C30F10FCF47 /* home-umbrella.wav */; };
+		E1946ECD3AF6D05EFE6ED24B /* home-washing-machine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C8912372534113E753D29DD /* home-washing-machine.wav */; };
+		5D9B1CBA058BEB7F505999AF /* letter-0401.wav in Resources */ = {isa = PBXBuildFile; fileRef = 359FE0EE063DF15B7F2DEE67 /* letter-0401.wav */; };
+		86B66D84DA6EBC67C9A7F75A /* letter-0410.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2FD87431B550B2E2F706BF6 /* letter-0410.wav */; };
+		BA686A923A73ED787E3CE390 /* letter-0411.wav in Resources */ = {isa = PBXBuildFile; fileRef = 775D45CB3186A9176E77A24C /* letter-0411.wav */; };
+		EA9FDBEC68D178388936D296 /* letter-0412.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75AE4DD928E401CEF309DE08 /* letter-0412.wav */; };
+		5DABD4408C28E8A2B7DD5EC0 /* letter-0413.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7804E8136B898428ABD0516 /* letter-0413.wav */; };
+		211C425A8AE4B2068EFD9FC0 /* letter-0414.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22B66BF9A24C8363B39FEC6C /* letter-0414.wav */; };
+		38126339AD6FEB802E5D136B /* letter-0415.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5918FE8AC0D1022CFAD0B3A2 /* letter-0415.wav */; };
+		1617BFDF368F4E1A1F80D83B /* letter-0416.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5D5DEDEB615FB6A51267571 /* letter-0416.wav */; };
+		CD55DF3D9B2B5709635DDCFB /* letter-0417.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E78B266C04C2E849CC57154 /* letter-0417.wav */; };
+		0CC96F7F265C0412296B8AF3 /* letter-0418.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFC2CF56056B564FF69B2E1C /* letter-0418.wav */; };
+		3774D072A585CB3BE966467A /* letter-0419.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0F713EECFEBF8385E1F6CC5 /* letter-0419.wav */; };
+		11CEC6594E9A0E4B04A14472 /* letter-041a.wav in Resources */ = {isa = PBXBuildFile; fileRef = B96DF6FFC113EB94809775D7 /* letter-041a.wav */; };
+		8FBD876CC86BCCE5208D6FA1 /* letter-041b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4ABFE884FB35F45496B1EBB8 /* letter-041b.wav */; };
+		1E641A9A4A928E3E9DBBA855 /* letter-041c.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACA6E2E64CDC2C38AE17D899 /* letter-041c.wav */; };
+		089FDFF8DED292BF3F15F3FA /* letter-041d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C3037180CDF22A6B04FB6CE /* letter-041d.wav */; };
+		D44D40F362314B947E463B49 /* letter-041e.wav in Resources */ = {isa = PBXBuildFile; fileRef = E381F3015DFD9728D4034D2E /* letter-041e.wav */; };
+		21D47B9A88B762A938DEA6C8 /* letter-041f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69A1F52207D74CB912E2FCBD /* letter-041f.wav */; };
+		5266E88F4E98D84B3F78E4AF /* letter-0420.wav in Resources */ = {isa = PBXBuildFile; fileRef = 164679E19DDD51709584041B /* letter-0420.wav */; };
+		FFA9C63B20FE32CE98B048C6 /* letter-0421.wav in Resources */ = {isa = PBXBuildFile; fileRef = D95BE92BE974D944EF475B63 /* letter-0421.wav */; };
+		A526FF3525394F7DF2D9489E /* letter-0422.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC23496D80C28FEE87EEF1B8 /* letter-0422.wav */; };
+		5A2744808395284776FEF5AC /* letter-0423.wav in Resources */ = {isa = PBXBuildFile; fileRef = F67059DBA10F46BE449E1253 /* letter-0423.wav */; };
+		FAC93E09D12458564820C87B /* letter-0424.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C8798C57D93D7C379673B77 /* letter-0424.wav */; };
+		836E04712F93DA3AAF99C1F1 /* letter-0425.wav in Resources */ = {isa = PBXBuildFile; fileRef = C97DDE61353AEE9475C33136 /* letter-0425.wav */; };
+		E73E5AF196BBC41B8A523816 /* letter-0426.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58FDBC32FA38B466AA75398C /* letter-0426.wav */; };
+		589C80F772C6232A25E5FEA0 /* letter-0427.wav in Resources */ = {isa = PBXBuildFile; fileRef = 898FA193B6417DCDE45E225E /* letter-0427.wav */; };
+		D5E80A9B166ADD828B389C2E /* letter-0428.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE67E00D01EE7199D3947F7E /* letter-0428.wav */; };
+		687286A65843B9420AC18AB5 /* letter-0429.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2B1EAA5B36ED4BAAE61F4A9 /* letter-0429.wav */; };
+		4E3F6C02C2416B962DD60165 /* letter-042a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53552C2BED6F90D3B612B033 /* letter-042a.wav */; };
+		8C4BD5211D854129CE7E6761 /* letter-042b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1091D09C7F7F66B609C7B0D7 /* letter-042b.wav */; };
+		293E5F3000E6411260834A85 /* letter-042c.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEBE284694744077CFAA727F /* letter-042c.wav */; };
+		61E7FBD983D6CFAAF6999F1A /* letter-042d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67EBFE562E8FDBEEC60EC730 /* letter-042d.wav */; };
+		96D3C1CA797E68BEDEC266CA /* letter-042e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 550435C443986B6653B0931E /* letter-042e.wav */; };
+		66F5F820FDA5A40339A6A583 /* letter-042f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 906CD20AF0F2EC0B3DA54B3F /* letter-042f.wav */; };
+		6DAE02563A6A4DA77F160A83 /* speech-index.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B72045E76371AFB578E726 /* speech-index.json */; };
+		AF5F62F6257608678738732F /* transport-airplane.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AC98C1DF143EA3BD5AC2CA2 /* transport-airplane.wav */; };
+		C8A0E227733C9A048D31D071 /* transport-airship.wav in Resources */ = {isa = PBXBuildFile; fileRef = 799AD133F4C3DA103D533946 /* transport-airship.wav */; };
+		D15511C175BB36E104273B56 /* transport-ambulance.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3E2DECE1290A6DBFCED5A84 /* transport-ambulance.wav */; };
+		98524A247506DB62E403DC66 /* transport-balance-bike.wav in Resources */ = {isa = PBXBuildFile; fileRef = E32BEB3E7DC9B9B32F0A456A /* transport-balance-bike.wav */; };
+		542BC15895CF4826EAB07F33 /* transport-bicycle.wav in Resources */ = {isa = PBXBuildFile; fileRef = BEDD2CBD96BE5B8965E5AA0C /* transport-bicycle.wav */; };
+		DFBA3240C6AC942C216A8471 /* transport-bulldozer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F9CD9511B2BBE65D653C6 /* transport-bulldozer.wav */; };
+		78D4547470F244763C74297F /* transport-bus.wav in Resources */ = {isa = PBXBuildFile; fileRef = D223C7E3D53B5D93640BC71A /* transport-bus.wav */; };
+		0A875AD771213FB4E8829C24 /* transport-car-carrier.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98C6B4DBCBCC21832E77024B /* transport-car-carrier.wav */; };
+		D79C3D8B4D007BB623DD97BC /* transport-car.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BC182A7E63587713D159B9E /* transport-car.wav */; };
+		09013CD5BCF4F85B4276AA4B /* transport-combine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A40A2412252F8A60AFF37FD /* transport-combine.wav */; };
+		F54A11F14CC6DE442B8234AF /* transport-concrete-mixer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 888AA811B8FF15C4D54FAEB4 /* transport-concrete-mixer.wav */; };
+		9954BB159DF9E8441893D5A5 /* transport-crane-truck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A0541017EFA093627E2C140 /* transport-crane-truck.wav */; };
+		C5E70D90654CD4E91C4D59E7 /* transport-delivery-van.wav in Resources */ = {isa = PBXBuildFile; fileRef = C8AD8C7EBAD1BA61CE9A4E5D /* transport-delivery-van.wav */; };
+		39D801988C74311E5A6B26C8 /* transport-dump-truck.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3536472A44ED01000C6C58E /* transport-dump-truck.wav */; };
+		C017EE687435D0FF43A6DD0D /* transport-excavator.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9666A6C37EE518148B7809B7 /* transport-excavator.wav */; };
+		FB8CCACD32B48A15C4FE3833 /* transport-ferry.wav in Resources */ = {isa = PBXBuildFile; fileRef = 449E34902F7FC30733126F05 /* transport-ferry.wav */; };
+		A6E3CF7C6103FA3D10688936 /* transport-fire-engine.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1B8017C1B8677AF6B1A3A68 /* transport-fire-engine.wav */; };
+		FA27257F90AA84F2D5DF4029 /* transport-forklift.wav in Resources */ = {isa = PBXBuildFile; fileRef = 70F436DC253D52FB937F5073 /* transport-forklift.wav */; };
+		8A1C63D9B5E139614A813C16 /* transport-garbage-truck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92B004292C0920CF8A49CA2A /* transport-garbage-truck.wav */; };
+		E2D30D9135C5870041AAB130 /* transport-hang-glider.wav in Resources */ = {isa = PBXBuildFile; fileRef = D5695222FAAF860399F89A98 /* transport-hang-glider.wav */; };
+		D44CEC315099AABCAA27C69E /* transport-helicopter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BED07236F96AC212EA3CC1C /* transport-helicopter.wav */; };
+		21196865EA65DF1E66904292 /* transport-hot-air-balloon.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA367EB50A73DA5D86E7B4E6 /* transport-hot-air-balloon.wav */; };
+		19601E5E4C30D623431C21A5 /* transport-jet-ski.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0CA161FF6D7FB0E054F0DF3 /* transport-jet-ski.wav */; };
+		FBE160127899EB7709A452ED /* transport-kick-scooter.wav in Resources */ = {isa = PBXBuildFile; fileRef = F39AF9E13CC64006D8A65830 /* transport-kick-scooter.wav */; };
+		908EFE6060A2FC12C8F6439D /* transport-minibus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B60764BE8F0707491375988 /* transport-minibus.wav */; };
+		59418F90EF3BABFE03FFBC1E /* transport-motorboat.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDF5BA014DE551BD057274F9 /* transport-motorboat.wav */; };
+		14C4849082DD37A0D4FD532C /* transport-motorcycle.wav in Resources */ = {isa = PBXBuildFile; fileRef = B47EF590583CF2C011D10BB7 /* transport-motorcycle.wav */; };
+		3685A49F6244F8DF1471596D /* transport-police-car.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAD8302773DBFF228F53102F /* transport-police-car.wav */; };
+		4B88C9983F26FF1F94EEB41B /* transport-quad-bike.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E1A85435D441CC6451FC5AD /* transport-quad-bike.wav */; };
+		85486DFDB8687E2F6AC911F9 /* transport-road-roller.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A81E83A6531B89788D696 /* transport-road-roller.wav */; };
+		9CCB66584EADFF6AE01EDACC /* transport-rocket.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6617617B10DC55E48695A29 /* transport-rocket.wav */; };
+		3AD44412B68174F42C0C2915 /* transport-rowboat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45836460D14FEE97626DAD4B /* transport-rowboat.wav */; };
+		CC81383830A56055F5FC15F1 /* transport-sailboat.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB1E2A39F698F126FBBA68E0 /* transport-sailboat.wav */; };
+		78D2F513FD4EB3B1A3D22EC7 /* transport-scooter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 310CD93C0DA03CE515B23919 /* transport-scooter.wav */; };
+		FA5FCC1F38DA00CD4C6BC4F6 /* transport-ship.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AE75109D9B8394E4EE989 /* transport-ship.wav */; };
+		9A6318D49D5D555DC2485987 /* transport-snowmobile.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1777A3B9569BF74B034C10A /* transport-snowmobile.wav */; };
+		160BA9B94B06720A2A3DBE39 /* transport-snowplow.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6F29D4D317DCC37887BA446 /* transport-snowplow.wav */; };
+		3FB6D92C398811EA862575B9 /* transport-space-rover.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4D635F2E081269717B05DDF /* transport-space-rover.wav */; };
+		C078DDD900BA4E5B5002371C /* transport-street-sweeper.wav in Resources */ = {isa = PBXBuildFile; fileRef = 505592936B764EC900FA9EED /* transport-street-sweeper.wav */; };
+		1116D6632B485DA75D5AFA4D /* transport-submarine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 70EF9E2B90B0178981913D6D /* transport-submarine.wav */; };
+		F582D44D7B0CD5EC31DFA5D6 /* transport-subway-train.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9522A8D54F575EAA45768369 /* transport-subway-train.wav */; };
+		D8ABEA315B0213C544BB3031 /* transport-tanker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 753FB18E776BEC0FCFABED10 /* transport-tanker.wav */; };
+		BC4A4E68FF827778D54DF07C /* transport-taxi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8562B1EE7D4FA1F43BB4B07E /* transport-taxi.wav */; };
+		44E858C7EA2440F230F477BB /* transport-tow-truck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BD08251EC51C49F092FFC57 /* transport-tow-truck.wav */; };
+		A4E1DC0B804A4B28BD43708C /* transport-tractor.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90D16EE03C0CF5193C9A7097 /* transport-tractor.wav */; };
+		5094709C6172E6139D88D450 /* transport-train.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E0C7C8CB5A9F997EE336251 /* transport-train.wav */; };
+		9C335DD98E3939C395A3A50C /* transport-tram.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2EF4F3E90109DCCE51929EB7 /* transport-tram.wav */; };
+		496A1513313C5E7751B8998C /* transport-trolleybus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9117E383CF8CECDD50C17B42 /* transport-trolleybus.wav */; };
+		735487BFD83C70C189EBF574 /* transport-truck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7FCD562A635F137FEEA5C0 /* transport-truck.wav */; };
+		E4132F5E74D38ABA79C4AAB3 /* transport-tugboat.wav in Resources */ = {isa = PBXBuildFile; fileRef = C40AB8E6E897D79991BCAD4E /* transport-tugboat.wav */; };
+		FF168031CBB1CC0159C87D49 /* voice-preview.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CD3176228A657773535FE0F /* voice-preview.wav */; };
 		6C61552DC6670A50FC25765E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B218FB64174136C14AE6BB /* AppKit.framework */; };
 		112B820D330936A7D4320258 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */; };
 		8A574D44D01D2536468B4FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0C6800A838F359482B740 /* CoreGraphics.framework */; };
@@ -163,20 +488,30 @@
 		5F00702EBB82C29EF284AC16 /* StatusItemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings/StatusItemIcon.swift"; sourceTree = "<group>"; };
 		9641C913799FCCE94DFF7AB7 /* TykIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/TykIcon.icns"; sourceTree = "<group>"; };
 		526F8CA0F0948FDA49B5114C /* animal-alpaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-alpaca.png"; sourceTree = "<group>"; };
+		DBE4526D812814DCBDF4DD56 /* animal-ant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-ant.png"; sourceTree = "<group>"; };
 		048EEF26E18A0AD2541513EF /* animal-badger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-badger.png"; sourceTree = "<group>"; };
 		7F4B00F380A7387BAFBEB19C /* animal-bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-bear.png"; sourceTree = "<group>"; };
 		E974A12C98EAFB0853203B7B /* animal-beaver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-beaver.png"; sourceTree = "<group>"; };
+		3EB3697F43E749EAAF3A1B2E /* animal-bee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-bee.png"; sourceTree = "<group>"; };
+		9177DC135D3C0F6A79F98114 /* animal-beetle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-beetle.png"; sourceTree = "<group>"; };
 		BE29EF46CA807A9EF83255B0 /* animal-bison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-bison.png"; sourceTree = "<group>"; };
 		B4DC427B04684097253E8675 /* animal-boar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-boar.png"; sourceTree = "<group>"; };
+		D0B74CE9CD89CFC6C082B24F /* animal-bullfinch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-bullfinch.png"; sourceTree = "<group>"; };
+		6BDFDE704FF525F75B3652B3 /* animal-butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-butterfly.png"; sourceTree = "<group>"; };
 		83A1831C12F89C67EAFA6056 /* animal-camel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-camel.png"; sourceTree = "<group>"; };
 		7A11B1238ACE89797311E03D /* animal-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-cat.png"; sourceTree = "<group>"; };
+		D20281D9EBBA9DE4847D91AF /* animal-caterpillar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-caterpillar.png"; sourceTree = "<group>"; };
+		CB15523A429563D8984FCC02 /* animal-catfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-catfish.png"; sourceTree = "<group>"; };
 		2777F75EFF4AAC8E1BBF4A4F /* animal-chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-chicken.png"; sourceTree = "<group>"; };
+		EC6EEAB151CCAAA7D8A50903 /* animal-clownfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-clownfish.png"; sourceTree = "<group>"; };
 		874C02627CEB982CD63EB72C /* animal-cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-cow.png"; sourceTree = "<group>"; };
 		E3EBECA73867C6747A45CB8D /* animal-crab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-crab.png"; sourceTree = "<group>"; };
 		DC1AF44C3EAEA66F89C3DE99 /* animal-crocodile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-crocodile.png"; sourceTree = "<group>"; };
+		EA5F1F3CEAFB0BF549078112 /* animal-crow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-crow.png"; sourceTree = "<group>"; };
 		79E0D7BDBED7E4FAD1A3742C /* animal-dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-dog.png"; sourceTree = "<group>"; };
 		5055DA674F1E4142EEACB3CF /* animal-dolphin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-dolphin.png"; sourceTree = "<group>"; };
 		A7318847D2D32E5100C3A007 /* animal-donkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-donkey.png"; sourceTree = "<group>"; };
+		6EB965F48C5CE453D39EF9B6 /* animal-dragonfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-dragonfly.png"; sourceTree = "<group>"; };
 		8CA00D39DBBF13FC1B76F41D /* animal-duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-duck.png"; sourceTree = "<group>"; };
 		D050CCFBBE38A8FA38E557AD /* animal-elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-elephant.png"; sourceTree = "<group>"; };
 		A110E32D520A53F9B53563A5 /* animal-fawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-fawn.png"; sourceTree = "<group>"; };
@@ -185,17 +520,25 @@
 		B798811839EC3B5979A628ED /* animal-frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-frog.png"; sourceTree = "<group>"; };
 		979C274A01CACBEE8EA62AA5 /* animal-giraffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-giraffe.png"; sourceTree = "<group>"; };
 		70654DE801DED53247D21921 /* animal-goat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-goat.png"; sourceTree = "<group>"; };
+		272D0E084D663C04E7DE02E6 /* animal-goldfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-goldfish.png"; sourceTree = "<group>"; };
+		E77B2BC9774F5AF76FEC799E /* animal-goose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-goose.png"; sourceTree = "<group>"; };
+		0507CEBF707714E007FA8391 /* animal-grasshopper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-grasshopper.png"; sourceTree = "<group>"; };
+		CC9E9AA5114543C77A8FF99C /* animal-guinea-pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-guinea-pig.png"; sourceTree = "<group>"; };
 		D8B4E26BFC3CE34188584310 /* animal-hamster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hamster.png"; sourceTree = "<group>"; };
 		9AF48221F495418DBC4F0C23 /* animal-hare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hare.png"; sourceTree = "<group>"; };
 		1135FE4EEE30F36970B7EE63 /* animal-hedgehog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hedgehog.png"; sourceTree = "<group>"; };
 		97AB045EE0BAC9F64DCBFD40 /* animal-hippopotamus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-hippopotamus.png"; sourceTree = "<group>"; };
 		4258384895ED9D67BA056676 /* animal-horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-horse.png"; sourceTree = "<group>"; };
+		7BEEF6F57209E46A3631512A /* animal-jellyfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-jellyfish.png"; sourceTree = "<group>"; };
 		0DA4BBF6495DA88273D561D0 /* animal-kangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-kangaroo.png"; sourceTree = "<group>"; };
 		396D27CBCE37E76F6D727D8D /* animal-koala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-koala.png"; sourceTree = "<group>"; };
+		B307704CEEE86B4AFFFAC03C /* animal-ladybug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-ladybug.png"; sourceTree = "<group>"; };
 		CE120C87ECEE73489AED4F1B /* animal-leopard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-leopard.png"; sourceTree = "<group>"; };
 		7FABEF542FB9C02AFF9C23F4 /* animal-lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-lion.png"; sourceTree = "<group>"; };
 		849119D8508BEF1E00AD23AC /* animal-llama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-llama.png"; sourceTree = "<group>"; };
+		A3409B533CE58BF5E03D47A3 /* animal-magpie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-magpie.png"; sourceTree = "<group>"; };
 		1E49BD881025DD102259C78E /* animal-manta-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-manta-ray.png"; sourceTree = "<group>"; };
+		7D1B2EEA650D11B637D5C4D5 /* animal-mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-mole.png"; sourceTree = "<group>"; };
 		0506529454300076E29D0D9E /* animal-monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-monkey.png"; sourceTree = "<group>"; };
 		A3E1C3324C437A1AEFFB88EC /* animal-mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-mouse.png"; sourceTree = "<group>"; };
 		690A2BBD3B3B7A9B33682F82 /* animal-octopus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-octopus.png"; sourceTree = "<group>"; };
@@ -204,29 +547,95 @@
 		F148A85CC3F089B0FF0956AA /* animal-parrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-parrot.png"; sourceTree = "<group>"; };
 		FD6F610579F1D61B67253F3D /* animal-peacock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-peacock.png"; sourceTree = "<group>"; };
 		1024833D2684C9711695296B /* animal-penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-penguin.png"; sourceTree = "<group>"; };
+		399B9051F18BCF7005EDE1E2 /* animal-perch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-perch.png"; sourceTree = "<group>"; };
 		563132A85EEF1D950EA17A58 /* animal-pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-pig.png"; sourceTree = "<group>"; };
+		604D62BCFA67689FBE46BCC6 /* animal-pigeon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-pigeon.png"; sourceTree = "<group>"; };
+		DB91679DB58214EF53559206 /* animal-pike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-pike.png"; sourceTree = "<group>"; };
+		F1729294FB91A1FE211DD404 /* animal-rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-rabbit.png"; sourceTree = "<group>"; };
 		E5BC18D3D8FCA1636CBA2B8C /* animal-raccoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-raccoon.png"; sourceTree = "<group>"; };
 		A8D751DFF3475652DBF3C76A /* animal-rhinoceros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-rhinoceros.png"; sourceTree = "<group>"; };
+		8EE9248324130A5FB06800C6 /* animal-rooster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-rooster.png"; sourceTree = "<group>"; };
+		3864AB67B1745A656EAE1B1F /* animal-seahorse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-seahorse.png"; sourceTree = "<group>"; };
 		CF428400BF4AE628F019FE84 /* animal-seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-seal.png"; sourceTree = "<group>"; };
 		E347C1CB9369E676203FB4D9 /* animal-shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-shark.png"; sourceTree = "<group>"; };
 		3CD276FA992B44C5159E6F3D /* animal-sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-sheep.png"; sourceTree = "<group>"; };
 		76B1D25C5F6B90D07ABFA34E /* animal-sloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-sloth.png"; sourceTree = "<group>"; };
+		84C32254E578F90C55B9DFD2 /* animal-snail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-snail.png"; sourceTree = "<group>"; };
+		228966017C9A81C60CD0ACA2 /* animal-sparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-sparrow.png"; sourceTree = "<group>"; };
+		316D83820F1F584F6BC44F5A /* animal-spider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-spider.png"; sourceTree = "<group>"; };
 		B8578FF17541B6D720B1AA40 /* animal-squirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-squirrel.png"; sourceTree = "<group>"; };
 		9913064FF6ED6D6E7EB5D8DA /* animal-starfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-starfish.png"; sourceTree = "<group>"; };
 		34D939D895E45850E929EA81 /* animal-stork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-stork.png"; sourceTree = "<group>"; };
+		4D3F9B6CDA825BB4C2C522AA /* animal-swallow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-swallow.png"; sourceTree = "<group>"; };
 		2BFAF5C34C5A55AB1B0C8E96 /* animal-swan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-swan.png"; sourceTree = "<group>"; };
 		F4CCF29ACB7F336254DA7F0D /* animal-tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-tiger.png"; sourceTree = "<group>"; };
+		BE902172A14A14EEBD3D8E70 /* animal-tit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-tit.png"; sourceTree = "<group>"; };
+		3206FAE1E2C58C51F96A6C3B /* animal-turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-turkey.png"; sourceTree = "<group>"; };
 		A30A445E64A6230F69094654 /* animal-turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-turtle.png"; sourceTree = "<group>"; };
 		A3B73D37250553BA0AD45A94 /* animal-walrus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-walrus.png"; sourceTree = "<group>"; };
 		0736E766E66F384DDAC87CE3 /* animal-whale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-whale.png"; sourceTree = "<group>"; };
 		B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-wolf.png"; sourceTree = "<group>"; };
 		5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-woodpecker.png"; sourceTree = "<group>"; };
 		89012E78C45B9BD387F0D484 /* animal-zebra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-zebra.png"; sourceTree = "<group>"; };
+		60042B0A5BDC73F184D9F743 /* home-backpack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-backpack.png"; sourceTree = "<group>"; };
+		CFFB999392C9A7FAAC84976B /* home-bath-towel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bath-towel.png"; sourceTree = "<group>"; };
+		F36399F776A3952E3ECC1509 /* home-bathtub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bathtub.png"; sourceTree = "<group>"; };
+		BEF484FC7F896533CB3F096E /* home-bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bed.png"; sourceTree = "<group>"; };
+		E15FBF7CFD03F1C67604F4F5 /* home-bib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bib.png"; sourceTree = "<group>"; };
+		FEC66F5977659DBD224C6863 /* home-blanket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-blanket.png"; sourceTree = "<group>"; };
+		6C00174980478789B8BFDB55 /* home-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-book.png"; sourceTree = "<group>"; };
+		3544E47EE08FB0DEA4DB332B /* home-bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bottle.png"; sourceTree = "<group>"; };
+		5B4B91C7118FFDBE3AC14FD0 /* home-bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bowl.png"; sourceTree = "<group>"; };
+		2043CD086A7A0D178738677F /* home-chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-chair.png"; sourceTree = "<group>"; };
+		053E87C2D5C8513F7B039B88 /* home-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-clock.png"; sourceTree = "<group>"; };
+		7BCF7E85DD8FC51C7B164E53 /* home-coat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-coat.png"; sourceTree = "<group>"; };
+		3B6354C8BDE985D67AECC272 /* home-comb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-comb.png"; sourceTree = "<group>"; };
+		B49A69CA741A438A0B4A6104 /* home-cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-cup.png"; sourceTree = "<group>"; };
+		FC17545048F3ACAB2FC42D02 /* home-cutting-board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-cutting-board.png"; sourceTree = "<group>"; };
+		B79B58657D5E4E6CB0BE344A /* home-door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-door.png"; sourceTree = "<group>"; };
+		A2ECF5CFD1A94765F3ABA062 /* home-faucet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-faucet.png"; sourceTree = "<group>"; };
+		ACB06907EBB0BA219934C0EE /* home-fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-fork.png"; sourceTree = "<group>"; };
+		E0C3CB6A5B553FD54B9A158B /* home-fridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-fridge.png"; sourceTree = "<group>"; };
+		C43A1454169A6A5DA0847A3B /* home-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-glass.png"; sourceTree = "<group>"; };
+		CCDB7C48C91515D290570154 /* home-hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-hat.png"; sourceTree = "<group>"; };
+		42230B7B8FB4F2D977F6539B /* home-high-chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-high-chair.png"; sourceTree = "<group>"; };
+		F5D9CE232582D420CC1F452A /* home-jug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-jug.png"; sourceTree = "<group>"; };
+		13D2682F634671AC097C1A57 /* home-kettle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-kettle.png"; sourceTree = "<group>"; };
+		B9D36A8911B408237730502F /* home-keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-keys.png"; sourceTree = "<group>"; };
+		A56AA985B23A9D80F7AF82AC /* home-lamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-lamp.png"; sourceTree = "<group>"; };
+		9108C51B4DFF58E9714A16FE /* home-laundry-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-laundry-basket.png"; sourceTree = "<group>"; };
+		42B8925B7664F2CC0FE74114 /* home-napkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-napkin.png"; sourceTree = "<group>"; };
+		336359F63AD9DFF81F838904 /* home-pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-pan.png"; sourceTree = "<group>"; };
+		D83A7FEA4132073292A9205B /* home-pillow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-pillow.png"; sourceTree = "<group>"; };
+		B15F090C5CF870B30FE10D56 /* home-plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-plate.png"; sourceTree = "<group>"; };
+		E437531CE6CF4891F99FA814 /* home-pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-pot.png"; sourceTree = "<group>"; };
+		CCA2B4C747958F0B8A7F061C /* home-potty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-potty.png"; sourceTree = "<group>"; };
+		538869D4796F295988D87593 /* home-rubber-duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-rubber-duck.png"; sourceTree = "<group>"; };
+		D297C28A5D2FA92214B47A26 /* home-scarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-scarf.png"; sourceTree = "<group>"; };
+		2C567D970F888E4CDE72317E /* home-shampoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-shampoo.png"; sourceTree = "<group>"; };
+		E97F618C6BD69816C7A09AFA /* home-shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-shoes.png"; sourceTree = "<group>"; };
+		6BF78ADB80B937979AE8ABC1 /* home-sink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-sink.png"; sourceTree = "<group>"; };
+		F2006CDB92F657ABA248B619 /* home-slippers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-slippers.png"; sourceTree = "<group>"; };
+		B6AEDA93BE840543A103638A /* home-soap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-soap.png"; sourceTree = "<group>"; };
+		6A09C33252A119D0749E9964 /* home-sponge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-sponge.png"; sourceTree = "<group>"; };
+		261922EA6B14E88E549D4BFB /* home-spoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-spoon.png"; sourceTree = "<group>"; };
+		E1A5C07B9C4E1E86592E4258 /* home-stove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-stove.png"; sourceTree = "<group>"; };
+		B797BDB15954DF6680D965FF /* home-strainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-strainer.png"; sourceTree = "<group>"; };
+		5013615178898D958B626EDD /* home-stroller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-stroller.png"; sourceTree = "<group>"; };
+		DDC8A63A14FB9AA1EBE3C97A /* home-table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-table.png"; sourceTree = "<group>"; };
+		FD9C618DA86A2F27999B879C /* home-toothbrush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toothbrush.png"; sourceTree = "<group>"; };
+		3AE0664384F8036EE1A549D0 /* home-toothpaste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toothpaste.png"; sourceTree = "<group>"; };
+		7A8133CFF8F084BCD8430B86 /* home-umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-umbrella.png"; sourceTree = "<group>"; };
+		8570FB6B47E6F88C2EEB73FC /* home-washing-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-washing-machine.png"; sourceTree = "<group>"; };
 		F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-airplane.png"; sourceTree = "<group>"; };
+		920222F15718C386A41BCFF0 /* transport-airship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-airship.png"; sourceTree = "<group>"; };
 		26FA82FEE06897A630CB1E79 /* transport-ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-ambulance.png"; sourceTree = "<group>"; };
+		24899053FFB6EBF265CACE59 /* transport-balance-bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-balance-bike.png"; sourceTree = "<group>"; };
 		75BF3EABB4F70C5C17DC1266 /* transport-bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-bicycle.png"; sourceTree = "<group>"; };
 		2A85D4E77CD9D9D12754E4BE /* transport-bulldozer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-bulldozer.png"; sourceTree = "<group>"; };
 		537DB9D2C9CAA54374D8457C /* transport-bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-bus.png"; sourceTree = "<group>"; };
+		6AD6AC25CD519249E91BE1CD /* transport-car-carrier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-car-carrier.png"; sourceTree = "<group>"; };
+		58F95FEA0062E54D82E6C834 /* transport-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-car.png"; sourceTree = "<group>"; };
 		F4F3827E16F381DD797F61BC /* transport-combine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-combine.png"; sourceTree = "<group>"; };
 		491D5C814B099A7DFF0ACF84 /* transport-concrete-mixer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-concrete-mixer.png"; sourceTree = "<group>"; };
 		7B02ED4587D9905B40F93DC8 /* transport-crane-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-crane-truck.png"; sourceTree = "<group>"; };
@@ -237,21 +646,262 @@
 		E2470624E31F330321F54321 /* transport-fire-engine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-fire-engine.png"; sourceTree = "<group>"; };
 		CC519CE4C800FA430A25A0D4 /* transport-forklift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-forklift.png"; sourceTree = "<group>"; };
 		3D41EC76A3E65AC30D569283 /* transport-garbage-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-garbage-truck.png"; sourceTree = "<group>"; };
+		93ED7F1DE620F114D205B2DE /* transport-hang-glider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-hang-glider.png"; sourceTree = "<group>"; };
 		F5E26A9923DBAACC14A4B948 /* transport-helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-helicopter.png"; sourceTree = "<group>"; };
 		5BF0F51DA459B1D6326C8946 /* transport-hot-air-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-hot-air-balloon.png"; sourceTree = "<group>"; };
+		5991ADDB0EC550C5BE48B7FE /* transport-jet-ski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-jet-ski.png"; sourceTree = "<group>"; };
+		984495A03AD060A8EC4F830F /* transport-kick-scooter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-kick-scooter.png"; sourceTree = "<group>"; };
+		34267C82EFFFA284A1B9FB88 /* transport-minibus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-minibus.png"; sourceTree = "<group>"; };
+		6B00EF2D1CBD21BE923202EA /* transport-motorboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-motorboat.png"; sourceTree = "<group>"; };
 		F6B6D0291237E2A63F59381C /* transport-motorcycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-motorcycle.png"; sourceTree = "<group>"; };
 		449156C9C83CD13294CC8063 /* transport-police-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-police-car.png"; sourceTree = "<group>"; };
+		700BDB92ECED5FE528901B7F /* transport-quad-bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-quad-bike.png"; sourceTree = "<group>"; };
+		142F050A5B8163505B6A541D /* transport-road-roller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-road-roller.png"; sourceTree = "<group>"; };
 		66ADED3C486B24FF743DEF65 /* transport-rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-rocket.png"; sourceTree = "<group>"; };
+		98DE76D03C6D0B0B07C39230 /* transport-rowboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-rowboat.png"; sourceTree = "<group>"; };
 		0CCF554D5B79A491FD5D1D10 /* transport-sailboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-sailboat.png"; sourceTree = "<group>"; };
 		EE2C587B43C02A0EC9B3C153 /* transport-scooter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-scooter.png"; sourceTree = "<group>"; };
+		161BC65DADF72B5AEC145047 /* transport-ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-ship.png"; sourceTree = "<group>"; };
 		8A92BFD4ED03AFC1995D75E2 /* transport-snowmobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-snowmobile.png"; sourceTree = "<group>"; };
+		F818BB6C9B573F00B8E099FB /* transport-snowplow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-snowplow.png"; sourceTree = "<group>"; };
+		D602E064F18D3A3F7208A759 /* transport-space-rover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-space-rover.png"; sourceTree = "<group>"; };
+		1520E0FDDF8BFD71A1BD41C6 /* transport-street-sweeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-street-sweeper.png"; sourceTree = "<group>"; };
 		574670833D3BEC577E386E3F /* transport-submarine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-submarine.png"; sourceTree = "<group>"; };
 		2E0D7DDBF8AB7B5EFC34D623 /* transport-subway-train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-subway-train.png"; sourceTree = "<group>"; };
+		2C482114A3C792371C35794E /* transport-tanker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tanker.png"; sourceTree = "<group>"; };
 		9BCEAB03E2828E3154E58191 /* transport-taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-taxi.png"; sourceTree = "<group>"; };
+		4763752369189E1996211B0C /* transport-tow-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tow-truck.png"; sourceTree = "<group>"; };
 		8B383BC0E0B9123B1861A9CB /* transport-tractor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tractor.png"; sourceTree = "<group>"; };
 		F37F17D7B0C68006E7AA636E /* transport-train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-train.png"; sourceTree = "<group>"; };
 		C03DA3532D9EAEBB7FC49ABE /* transport-tram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tram.png"; sourceTree = "<group>"; };
+		680740BA6F8458D454065F88 /* transport-trolleybus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-trolleybus.png"; sourceTree = "<group>"; };
+		EFA0527ABD175D5E1C55025B /* transport-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-truck.png"; sourceTree = "<group>"; };
 		10159FDD99C894B2CDB20466 /* transport-tugboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tugboat.png"; sourceTree = "<group>"; };
+		3E1B66FECFCACC82ACE797D5 /* animal-alpaca.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-alpaca.wav"; sourceTree = "<group>"; };
+		D14067DFECE67509A26A4BC3 /* animal-ant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-ant.wav"; sourceTree = "<group>"; };
+		3FEC714512E316F0AF7EFADF /* animal-badger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-badger.wav"; sourceTree = "<group>"; };
+		85950856583A9A4767B0E356 /* animal-bear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-bear.wav"; sourceTree = "<group>"; };
+		63B7FD9B68390BEDE9ED1899 /* animal-beaver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-beaver.wav"; sourceTree = "<group>"; };
+		FCC86256387A518313A338FD /* animal-bee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-bee.wav"; sourceTree = "<group>"; };
+		4D10DB96500D32B9E70BEBB7 /* animal-beetle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-beetle.wav"; sourceTree = "<group>"; };
+		D4E439B7D68333770EE42B31 /* animal-bison.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-bison.wav"; sourceTree = "<group>"; };
+		ABECA607683022FECC71DFEA /* animal-boar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-boar.wav"; sourceTree = "<group>"; };
+		751400313D86CC18D0BF1FE1 /* animal-bullfinch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-bullfinch.wav"; sourceTree = "<group>"; };
+		3B71BBA04233D440796EC1AB /* animal-butterfly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-butterfly.wav"; sourceTree = "<group>"; };
+		2A0B0E69AE63EFC2CBC07E7F /* animal-camel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-camel.wav"; sourceTree = "<group>"; };
+		7E00FEB393B1B8B13C5B9086 /* animal-cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-cat.wav"; sourceTree = "<group>"; };
+		C55FFD72B47CA8AC170DE59E /* animal-caterpillar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-caterpillar.wav"; sourceTree = "<group>"; };
+		BBC10DC9AE398A4B15B16CAD /* animal-catfish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-catfish.wav"; sourceTree = "<group>"; };
+		3B2BF42A09C7FD9CA4AB837D /* animal-chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-chicken.wav"; sourceTree = "<group>"; };
+		AF6C1AEDAB9B23C5563FA5B3 /* animal-clownfish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-clownfish.wav"; sourceTree = "<group>"; };
+		6CAB299324F046F9C739E2BB /* animal-cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-cow.wav"; sourceTree = "<group>"; };
+		458ACED9BE41F99B9922839C /* animal-crab.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-crab.wav"; sourceTree = "<group>"; };
+		7C0CF227EB553A41C4D32F91 /* animal-crocodile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-crocodile.wav"; sourceTree = "<group>"; };
+		23AC20F3567077FAE447E1DF /* animal-crow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-crow.wav"; sourceTree = "<group>"; };
+		6CFC9886CAAF9ACE456F356D /* animal-dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-dog.wav"; sourceTree = "<group>"; };
+		CFAD41EC268718D2988EE759 /* animal-dolphin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-dolphin.wav"; sourceTree = "<group>"; };
+		2E13FDE8DC04226C5E4078D0 /* animal-donkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-donkey.wav"; sourceTree = "<group>"; };
+		2F1FB0D595DDB16D28BB3445 /* animal-dragonfly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-dragonfly.wav"; sourceTree = "<group>"; };
+		A4CC1968B2C79EC9AAFF95BA /* animal-duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-duck.wav"; sourceTree = "<group>"; };
+		B03A3429EC6D0162F07E93D1 /* animal-elephant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-elephant.wav"; sourceTree = "<group>"; };
+		B5E38EDF7066FDCE7C05BEB1 /* animal-fawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-fawn.wav"; sourceTree = "<group>"; };
+		E651CF46C485218AD4B53A7C /* animal-flamingo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-flamingo.wav"; sourceTree = "<group>"; };
+		84A819C1B2599F5DBC6F40A8 /* animal-fox.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-fox.wav"; sourceTree = "<group>"; };
+		E7B67C3F018E98F7567D2950 /* animal-frog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-frog.wav"; sourceTree = "<group>"; };
+		72AB5D2803CBF2D282502840 /* animal-giraffe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-giraffe.wav"; sourceTree = "<group>"; };
+		4203275E25E78CA942F06571 /* animal-goat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-goat.wav"; sourceTree = "<group>"; };
+		D8181E8C8D2A0FBC82EC3F19 /* animal-goldfish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-goldfish.wav"; sourceTree = "<group>"; };
+		3EF3441AB0A9FDC65F4F54D8 /* animal-goose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-goose.wav"; sourceTree = "<group>"; };
+		FDFBB81D7CDA0B35CD59EB58 /* animal-grasshopper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-grasshopper.wav"; sourceTree = "<group>"; };
+		8F02E1775E5474080391EBB6 /* animal-guinea-pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-guinea-pig.wav"; sourceTree = "<group>"; };
+		35ADF6249AA78442EBD89AE0 /* animal-hamster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-hamster.wav"; sourceTree = "<group>"; };
+		9A39AB13232C33C499BD82DF /* animal-hare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-hare.wav"; sourceTree = "<group>"; };
+		46F70D043BC7E0E3A7E86868 /* animal-hedgehog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-hedgehog.wav"; sourceTree = "<group>"; };
+		36A275CB5CA97E14CA61AA16 /* animal-hippopotamus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-hippopotamus.wav"; sourceTree = "<group>"; };
+		2961B80631DB69FCA7050161 /* animal-horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-horse.wav"; sourceTree = "<group>"; };
+		667BBC17AEB668EE660B5FA2 /* animal-jellyfish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-jellyfish.wav"; sourceTree = "<group>"; };
+		BCD95C4E1BE7C973EC693A83 /* animal-kangaroo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-kangaroo.wav"; sourceTree = "<group>"; };
+		DC5F503087DA9F9153079A6A /* animal-koala.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-koala.wav"; sourceTree = "<group>"; };
+		C11D2CF07C283E2940B1C66F /* animal-ladybug.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-ladybug.wav"; sourceTree = "<group>"; };
+		B4FDBC7BB78AFEF80E04ACF4 /* animal-leopard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-leopard.wav"; sourceTree = "<group>"; };
+		16E38B93AEA0535FA5FB281E /* animal-lion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-lion.wav"; sourceTree = "<group>"; };
+		1D25AF5DCF0067796142B7F8 /* animal-llama.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-llama.wav"; sourceTree = "<group>"; };
+		120AEADC5E19879E9FA47074 /* animal-magpie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-magpie.wav"; sourceTree = "<group>"; };
+		2A9ACD8E8A8078E4F3A62F0C /* animal-manta-ray.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-manta-ray.wav"; sourceTree = "<group>"; };
+		CA0844CB17886C815288232D /* animal-mole.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-mole.wav"; sourceTree = "<group>"; };
+		36942EBC2F244956AC4B4B9B /* animal-monkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-monkey.wav"; sourceTree = "<group>"; };
+		9E395F0905BB18FBF4C73579 /* animal-mouse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-mouse.wav"; sourceTree = "<group>"; };
+		49D641E11ABBD8C2A8ADC75A /* animal-octopus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-octopus.wav"; sourceTree = "<group>"; };
+		2E978EF79ACA4469CA648F45 /* animal-owl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-owl.wav"; sourceTree = "<group>"; };
+		9F3278273C428EFF10BACBB4 /* animal-panda.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-panda.wav"; sourceTree = "<group>"; };
+		79834B986C5E1CDF9847B8FB /* animal-parrot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-parrot.wav"; sourceTree = "<group>"; };
+		BFABDE95812AF84DAF99176C /* animal-peacock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-peacock.wav"; sourceTree = "<group>"; };
+		BCB8F51D90EBDAE4EB185F8F /* animal-penguin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-penguin.wav"; sourceTree = "<group>"; };
+		1A16F1E35918679414F0C5AD /* animal-perch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-perch.wav"; sourceTree = "<group>"; };
+		44CF4F756B8B4607C495C348 /* animal-pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-pig.wav"; sourceTree = "<group>"; };
+		810842C71BD0FACBF8C1FF71 /* animal-pigeon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-pigeon.wav"; sourceTree = "<group>"; };
+		35411A00B461F334A72DEE0B /* animal-pike.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-pike.wav"; sourceTree = "<group>"; };
+		96A20396A98991126794C8AE /* animal-rabbit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-rabbit.wav"; sourceTree = "<group>"; };
+		9685AD7263DC0E003E8E2115 /* animal-raccoon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-raccoon.wav"; sourceTree = "<group>"; };
+		924C3F4DFBF63345B7A96B52 /* animal-rhinoceros.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-rhinoceros.wav"; sourceTree = "<group>"; };
+		296DDF00CB128138CA8CFEBF /* animal-rooster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-rooster.wav"; sourceTree = "<group>"; };
+		94BB8EA7945BC6569C6A8B27 /* animal-seahorse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-seahorse.wav"; sourceTree = "<group>"; };
+		DF7BDA2A6B5D30F803BE20FD /* animal-seal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-seal.wav"; sourceTree = "<group>"; };
+		58958816836A8E4D5AA302CD /* animal-shark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-shark.wav"; sourceTree = "<group>"; };
+		AB2C4E8FFA9C3DEB9F54574F /* animal-sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-sheep.wav"; sourceTree = "<group>"; };
+		71B0455276AA11D92B59326F /* animal-sloth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-sloth.wav"; sourceTree = "<group>"; };
+		78AAE9FFA3FE7B6745731113 /* animal-snail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-snail.wav"; sourceTree = "<group>"; };
+		5B99D28A015F8BD9A03F714D /* animal-sparrow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-sparrow.wav"; sourceTree = "<group>"; };
+		65F93406F9B063896E3151A6 /* animal-spider.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-spider.wav"; sourceTree = "<group>"; };
+		55C1515E433C73E8B7A45B69 /* animal-squirrel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-squirrel.wav"; sourceTree = "<group>"; };
+		8C39AAD0070C7E20B3E78F5E /* animal-starfish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-starfish.wav"; sourceTree = "<group>"; };
+		42BD66F53AE3C4592518C9A7 /* animal-stork.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-stork.wav"; sourceTree = "<group>"; };
+		D41AADF41A11172C57710A46 /* animal-swallow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-swallow.wav"; sourceTree = "<group>"; };
+		0D34F242311E37CAF949A115 /* animal-swan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-swan.wav"; sourceTree = "<group>"; };
+		76D00E10A39F68B0656205DE /* animal-tiger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-tiger.wav"; sourceTree = "<group>"; };
+		E834E67B5A2CE6C574FDC35F /* animal-tit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-tit.wav"; sourceTree = "<group>"; };
+		DFD99A8F10C060B5850C8F82 /* animal-turkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-turkey.wav"; sourceTree = "<group>"; };
+		10215C0BB16E52FCDE26CB4A /* animal-turtle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-turtle.wav"; sourceTree = "<group>"; };
+		8209452E678E00D6C155C55E /* animal-walrus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-walrus.wav"; sourceTree = "<group>"; };
+		84034D8040569CBD26088A1D /* animal-whale.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-whale.wav"; sourceTree = "<group>"; };
+		0BF568A131A5B22716D8B1D8 /* animal-wolf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-wolf.wav"; sourceTree = "<group>"; };
+		4F5B7416E446167DB3335529 /* animal-woodpecker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-woodpecker.wav"; sourceTree = "<group>"; };
+		91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-zebra.wav"; sourceTree = "<group>"; };
+		FE61A900E74126F399C84137 /* home-backpack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-backpack.wav"; sourceTree = "<group>"; };
+		B86D0FA74F87AE87194E5378 /* home-bath-towel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bath-towel.wav"; sourceTree = "<group>"; };
+		ABD2D55E4EDFF38825337B3D /* home-bathtub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bathtub.wav"; sourceTree = "<group>"; };
+		CF4DEC257BB0B1FD94BF5180 /* home-bed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bed.wav"; sourceTree = "<group>"; };
+		7CA6E390AB69380CF9E90292 /* home-bib.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bib.wav"; sourceTree = "<group>"; };
+		C18E98BFF91948F3C9E076B8 /* home-blanket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-blanket.wav"; sourceTree = "<group>"; };
+		4799D8D8E7CDDF8D428B4D25 /* home-book.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-book.wav"; sourceTree = "<group>"; };
+		336D1E1F05404D2A7621EE54 /* home-bottle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bottle.wav"; sourceTree = "<group>"; };
+		4A60945398FB875DE7952BA3 /* home-bowl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bowl.wav"; sourceTree = "<group>"; };
+		EEAB1DC0FC4AA1834BAAAF3A /* home-chair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-chair.wav"; sourceTree = "<group>"; };
+		C12EE71DC33F8D9F7A46BD08 /* home-clock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-clock.wav"; sourceTree = "<group>"; };
+		0D0B30C103EC23089B91FD1F /* home-coat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-coat.wav"; sourceTree = "<group>"; };
+		F6DE40B3E8C7A4941CD5A632 /* home-comb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-comb.wav"; sourceTree = "<group>"; };
+		5EDFD5387F96D8DB4F4D06DF /* home-cup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-cup.wav"; sourceTree = "<group>"; };
+		D0D157AA3F44E8454CE02B9E /* home-cutting-board.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-cutting-board.wav"; sourceTree = "<group>"; };
+		6D569B70D74457F1C2D302E1 /* home-door.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-door.wav"; sourceTree = "<group>"; };
+		072AA968C87B0B61FB701872 /* home-faucet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-faucet.wav"; sourceTree = "<group>"; };
+		C897248F915DF217C2EF8DD1 /* home-fork.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-fork.wav"; sourceTree = "<group>"; };
+		B923EE213790284A05954F4D /* home-fridge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-fridge.wav"; sourceTree = "<group>"; };
+		4B5D0F56B4B88A1268A91A16 /* home-glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-glass.wav"; sourceTree = "<group>"; };
+		80E704A638A7BDE47EDB7222 /* home-hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-hat.wav"; sourceTree = "<group>"; };
+		FBE3256ADDFA1BD0D9B65A82 /* home-high-chair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-high-chair.wav"; sourceTree = "<group>"; };
+		8AFA2BAD0DC50AD24F9B6DD8 /* home-jug.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-jug.wav"; sourceTree = "<group>"; };
+		398C7C55EBE7C9BA3470B75A /* home-kettle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-kettle.wav"; sourceTree = "<group>"; };
+		E7AC4363F180686A2A935315 /* home-keys.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-keys.wav"; sourceTree = "<group>"; };
+		C66D6E546DD656DCD76F485A /* home-lamp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-lamp.wav"; sourceTree = "<group>"; };
+		5082C79E47655E387628B590 /* home-laundry-basket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-laundry-basket.wav"; sourceTree = "<group>"; };
+		C7FB1FEA8224561D4C872BB5 /* home-napkin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-napkin.wav"; sourceTree = "<group>"; };
+		95805C1CDC9FEFF91249D19D /* home-pan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-pan.wav"; sourceTree = "<group>"; };
+		9E83006C46D9082659B52FE6 /* home-pillow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-pillow.wav"; sourceTree = "<group>"; };
+		4B5BA67F98E63C2FB334AC37 /* home-plate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-plate.wav"; sourceTree = "<group>"; };
+		F1BF326555EDC1D7EAF52331 /* home-pot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-pot.wav"; sourceTree = "<group>"; };
+		BCC17B365E0113BBACBEB87E /* home-potty.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-potty.wav"; sourceTree = "<group>"; };
+		88C74ED6E8AE6B44961BAD81 /* home-rubber-duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-rubber-duck.wav"; sourceTree = "<group>"; };
+		9C48D7493C6879300B627961 /* home-scarf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-scarf.wav"; sourceTree = "<group>"; };
+		5B65693FC100FC5305387065 /* home-shampoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-shampoo.wav"; sourceTree = "<group>"; };
+		FFFC3108AA3A4B8ECFD8F193 /* home-shoes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-shoes.wav"; sourceTree = "<group>"; };
+		FA7B00B17E7B590C412E7960 /* home-sink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-sink.wav"; sourceTree = "<group>"; };
+		FAC1BBDE82D5214CDDA9EAED /* home-slippers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-slippers.wav"; sourceTree = "<group>"; };
+		FD09BB3EF1CA53129B0698F9 /* home-soap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-soap.wav"; sourceTree = "<group>"; };
+		92EBC6E8B462EA63E53097CF /* home-sponge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-sponge.wav"; sourceTree = "<group>"; };
+		531D1CE51193E315DC4E8AD4 /* home-spoon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-spoon.wav"; sourceTree = "<group>"; };
+		E7853D201F93AE80AA0B59A5 /* home-stove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-stove.wav"; sourceTree = "<group>"; };
+		CC6AF4021210EC8B08DAA72B /* home-strainer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-strainer.wav"; sourceTree = "<group>"; };
+		D062A7072504DCE0CF2230FD /* home-stroller.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-stroller.wav"; sourceTree = "<group>"; };
+		8C70F98B5EF5AE233AC81429 /* home-table.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-table.wav"; sourceTree = "<group>"; };
+		0025289EE3E2F2637C27453E /* home-toothbrush.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toothbrush.wav"; sourceTree = "<group>"; };
+		25F029017CF5A6BFA974AE81 /* home-toothpaste.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toothpaste.wav"; sourceTree = "<group>"; };
+		25BB162AFAF35C30F10FCF47 /* home-umbrella.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-umbrella.wav"; sourceTree = "<group>"; };
+		9C8912372534113E753D29DD /* home-washing-machine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-washing-machine.wav"; sourceTree = "<group>"; };
+		359FE0EE063DF15B7F2DEE67 /* letter-0401.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0401.wav"; sourceTree = "<group>"; };
+		B2FD87431B550B2E2F706BF6 /* letter-0410.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0410.wav"; sourceTree = "<group>"; };
+		775D45CB3186A9176E77A24C /* letter-0411.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0411.wav"; sourceTree = "<group>"; };
+		75AE4DD928E401CEF309DE08 /* letter-0412.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0412.wav"; sourceTree = "<group>"; };
+		B7804E8136B898428ABD0516 /* letter-0413.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0413.wav"; sourceTree = "<group>"; };
+		22B66BF9A24C8363B39FEC6C /* letter-0414.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0414.wav"; sourceTree = "<group>"; };
+		5918FE8AC0D1022CFAD0B3A2 /* letter-0415.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0415.wav"; sourceTree = "<group>"; };
+		F5D5DEDEB615FB6A51267571 /* letter-0416.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0416.wav"; sourceTree = "<group>"; };
+		6E78B266C04C2E849CC57154 /* letter-0417.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0417.wav"; sourceTree = "<group>"; };
+		BFC2CF56056B564FF69B2E1C /* letter-0418.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0418.wav"; sourceTree = "<group>"; };
+		C0F713EECFEBF8385E1F6CC5 /* letter-0419.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0419.wav"; sourceTree = "<group>"; };
+		B96DF6FFC113EB94809775D7 /* letter-041a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-041a.wav"; sourceTree = "<group>"; };
+		4ABFE884FB35F45496B1EBB8 /* letter-041b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-041b.wav"; sourceTree = "<group>"; };
+		ACA6E2E64CDC2C38AE17D899 /* letter-041c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-041c.wav"; sourceTree = "<group>"; };
+		8C3037180CDF22A6B04FB6CE /* letter-041d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-041d.wav"; sourceTree = "<group>"; };
+		E381F3015DFD9728D4034D2E /* letter-041e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-041e.wav"; sourceTree = "<group>"; };
+		69A1F52207D74CB912E2FCBD /* letter-041f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-041f.wav"; sourceTree = "<group>"; };
+		164679E19DDD51709584041B /* letter-0420.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0420.wav"; sourceTree = "<group>"; };
+		D95BE92BE974D944EF475B63 /* letter-0421.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0421.wav"; sourceTree = "<group>"; };
+		DC23496D80C28FEE87EEF1B8 /* letter-0422.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0422.wav"; sourceTree = "<group>"; };
+		F67059DBA10F46BE449E1253 /* letter-0423.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0423.wav"; sourceTree = "<group>"; };
+		9C8798C57D93D7C379673B77 /* letter-0424.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0424.wav"; sourceTree = "<group>"; };
+		C97DDE61353AEE9475C33136 /* letter-0425.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0425.wav"; sourceTree = "<group>"; };
+		58FDBC32FA38B466AA75398C /* letter-0426.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0426.wav"; sourceTree = "<group>"; };
+		898FA193B6417DCDE45E225E /* letter-0427.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0427.wav"; sourceTree = "<group>"; };
+		EE67E00D01EE7199D3947F7E /* letter-0428.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0428.wav"; sourceTree = "<group>"; };
+		A2B1EAA5B36ED4BAAE61F4A9 /* letter-0429.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0429.wav"; sourceTree = "<group>"; };
+		53552C2BED6F90D3B612B033 /* letter-042a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-042a.wav"; sourceTree = "<group>"; };
+		1091D09C7F7F66B609C7B0D7 /* letter-042b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-042b.wav"; sourceTree = "<group>"; };
+		CEBE284694744077CFAA727F /* letter-042c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-042c.wav"; sourceTree = "<group>"; };
+		67EBFE562E8FDBEEC60EC730 /* letter-042d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-042d.wav"; sourceTree = "<group>"; };
+		550435C443986B6653B0931E /* letter-042e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-042e.wav"; sourceTree = "<group>"; };
+		906CD20AF0F2EC0B3DA54B3F /* letter-042f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-042f.wav"; sourceTree = "<group>"; };
+		C6B72045E76371AFB578E726 /* speech-index.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Speech/speech-index.json"; sourceTree = "<group>"; };
+		2AC98C1DF143EA3BD5AC2CA2 /* transport-airplane.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-airplane.wav"; sourceTree = "<group>"; };
+		799AD133F4C3DA103D533946 /* transport-airship.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-airship.wav"; sourceTree = "<group>"; };
+		E3E2DECE1290A6DBFCED5A84 /* transport-ambulance.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-ambulance.wav"; sourceTree = "<group>"; };
+		E32BEB3E7DC9B9B32F0A456A /* transport-balance-bike.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-balance-bike.wav"; sourceTree = "<group>"; };
+		BEDD2CBD96BE5B8965E5AA0C /* transport-bicycle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-bicycle.wav"; sourceTree = "<group>"; };
+		0E0F9CD9511B2BBE65D653C6 /* transport-bulldozer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-bulldozer.wav"; sourceTree = "<group>"; };
+		D223C7E3D53B5D93640BC71A /* transport-bus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-bus.wav"; sourceTree = "<group>"; };
+		98C6B4DBCBCC21832E77024B /* transport-car-carrier.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-car-carrier.wav"; sourceTree = "<group>"; };
+		0BC182A7E63587713D159B9E /* transport-car.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-car.wav"; sourceTree = "<group>"; };
+		8A40A2412252F8A60AFF37FD /* transport-combine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-combine.wav"; sourceTree = "<group>"; };
+		888AA811B8FF15C4D54FAEB4 /* transport-concrete-mixer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-concrete-mixer.wav"; sourceTree = "<group>"; };
+		3A0541017EFA093627E2C140 /* transport-crane-truck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-crane-truck.wav"; sourceTree = "<group>"; };
+		C8AD8C7EBAD1BA61CE9A4E5D /* transport-delivery-van.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-delivery-van.wav"; sourceTree = "<group>"; };
+		F3536472A44ED01000C6C58E /* transport-dump-truck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-dump-truck.wav"; sourceTree = "<group>"; };
+		9666A6C37EE518148B7809B7 /* transport-excavator.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-excavator.wav"; sourceTree = "<group>"; };
+		449E34902F7FC30733126F05 /* transport-ferry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-ferry.wav"; sourceTree = "<group>"; };
+		A1B8017C1B8677AF6B1A3A68 /* transport-fire-engine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-fire-engine.wav"; sourceTree = "<group>"; };
+		70F436DC253D52FB937F5073 /* transport-forklift.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-forklift.wav"; sourceTree = "<group>"; };
+		92B004292C0920CF8A49CA2A /* transport-garbage-truck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-garbage-truck.wav"; sourceTree = "<group>"; };
+		D5695222FAAF860399F89A98 /* transport-hang-glider.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-hang-glider.wav"; sourceTree = "<group>"; };
+		9BED07236F96AC212EA3CC1C /* transport-helicopter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-helicopter.wav"; sourceTree = "<group>"; };
+		AA367EB50A73DA5D86E7B4E6 /* transport-hot-air-balloon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-hot-air-balloon.wav"; sourceTree = "<group>"; };
+		A0CA161FF6D7FB0E054F0DF3 /* transport-jet-ski.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-jet-ski.wav"; sourceTree = "<group>"; };
+		F39AF9E13CC64006D8A65830 /* transport-kick-scooter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-kick-scooter.wav"; sourceTree = "<group>"; };
+		6B60764BE8F0707491375988 /* transport-minibus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-minibus.wav"; sourceTree = "<group>"; };
+		CDF5BA014DE551BD057274F9 /* transport-motorboat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-motorboat.wav"; sourceTree = "<group>"; };
+		B47EF590583CF2C011D10BB7 /* transport-motorcycle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-motorcycle.wav"; sourceTree = "<group>"; };
+		EAD8302773DBFF228F53102F /* transport-police-car.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-police-car.wav"; sourceTree = "<group>"; };
+		1E1A85435D441CC6451FC5AD /* transport-quad-bike.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-quad-bike.wav"; sourceTree = "<group>"; };
+		8A3A81E83A6531B89788D696 /* transport-road-roller.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-road-roller.wav"; sourceTree = "<group>"; };
+		D6617617B10DC55E48695A29 /* transport-rocket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-rocket.wav"; sourceTree = "<group>"; };
+		45836460D14FEE97626DAD4B /* transport-rowboat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-rowboat.wav"; sourceTree = "<group>"; };
+		FB1E2A39F698F126FBBA68E0 /* transport-sailboat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-sailboat.wav"; sourceTree = "<group>"; };
+		310CD93C0DA03CE515B23919 /* transport-scooter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-scooter.wav"; sourceTree = "<group>"; };
+		5F8AE75109D9B8394E4EE989 /* transport-ship.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-ship.wav"; sourceTree = "<group>"; };
+		A1777A3B9569BF74B034C10A /* transport-snowmobile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-snowmobile.wav"; sourceTree = "<group>"; };
+		D6F29D4D317DCC37887BA446 /* transport-snowplow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-snowplow.wav"; sourceTree = "<group>"; };
+		C4D635F2E081269717B05DDF /* transport-space-rover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-space-rover.wav"; sourceTree = "<group>"; };
+		505592936B764EC900FA9EED /* transport-street-sweeper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-street-sweeper.wav"; sourceTree = "<group>"; };
+		70EF9E2B90B0178981913D6D /* transport-submarine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-submarine.wav"; sourceTree = "<group>"; };
+		9522A8D54F575EAA45768369 /* transport-subway-train.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-subway-train.wav"; sourceTree = "<group>"; };
+		753FB18E776BEC0FCFABED10 /* transport-tanker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-tanker.wav"; sourceTree = "<group>"; };
+		8562B1EE7D4FA1F43BB4B07E /* transport-taxi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-taxi.wav"; sourceTree = "<group>"; };
+		5BD08251EC51C49F092FFC57 /* transport-tow-truck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-tow-truck.wav"; sourceTree = "<group>"; };
+		90D16EE03C0CF5193C9A7097 /* transport-tractor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-tractor.wav"; sourceTree = "<group>"; };
+		1E0C7C8CB5A9F997EE336251 /* transport-train.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-train.wav"; sourceTree = "<group>"; };
+		2EF4F3E90109DCCE51929EB7 /* transport-tram.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-tram.wav"; sourceTree = "<group>"; };
+		9117E383CF8CECDD50C17B42 /* transport-trolleybus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-trolleybus.wav"; sourceTree = "<group>"; };
+		0A7FCD562A635F137FEEA5C0 /* transport-truck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-truck.wav"; sourceTree = "<group>"; };
+		C40AB8E6E897D79991BCAD4E /* transport-tugboat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-tugboat.wav"; sourceTree = "<group>"; };
+		6CD3176228A657773535FE0F /* voice-preview.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/voice-preview.wav"; sourceTree = "<group>"; };
 		E7E7CA9F4DF8A3E05631F826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
 		86B3BC083DF59791BE56CFAE /* ToddlerLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; };
 		71CCD365E3A654DA84DBA191 /* ToddlerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,20 +1050,30 @@
 			children = (
 				9641C913799FCCE94DFF7AB7 /* TykIcon.icns */,
 				526F8CA0F0948FDA49B5114C /* animal-alpaca.png */,
+				DBE4526D812814DCBDF4DD56 /* animal-ant.png */,
 				048EEF26E18A0AD2541513EF /* animal-badger.png */,
 				7F4B00F380A7387BAFBEB19C /* animal-bear.png */,
 				E974A12C98EAFB0853203B7B /* animal-beaver.png */,
+				3EB3697F43E749EAAF3A1B2E /* animal-bee.png */,
+				9177DC135D3C0F6A79F98114 /* animal-beetle.png */,
 				BE29EF46CA807A9EF83255B0 /* animal-bison.png */,
 				B4DC427B04684097253E8675 /* animal-boar.png */,
+				D0B74CE9CD89CFC6C082B24F /* animal-bullfinch.png */,
+				6BDFDE704FF525F75B3652B3 /* animal-butterfly.png */,
 				83A1831C12F89C67EAFA6056 /* animal-camel.png */,
 				7A11B1238ACE89797311E03D /* animal-cat.png */,
+				D20281D9EBBA9DE4847D91AF /* animal-caterpillar.png */,
+				CB15523A429563D8984FCC02 /* animal-catfish.png */,
 				2777F75EFF4AAC8E1BBF4A4F /* animal-chicken.png */,
+				EC6EEAB151CCAAA7D8A50903 /* animal-clownfish.png */,
 				874C02627CEB982CD63EB72C /* animal-cow.png */,
 				E3EBECA73867C6747A45CB8D /* animal-crab.png */,
 				DC1AF44C3EAEA66F89C3DE99 /* animal-crocodile.png */,
+				EA5F1F3CEAFB0BF549078112 /* animal-crow.png */,
 				79E0D7BDBED7E4FAD1A3742C /* animal-dog.png */,
 				5055DA674F1E4142EEACB3CF /* animal-dolphin.png */,
 				A7318847D2D32E5100C3A007 /* animal-donkey.png */,
+				6EB965F48C5CE453D39EF9B6 /* animal-dragonfly.png */,
 				8CA00D39DBBF13FC1B76F41D /* animal-duck.png */,
 				D050CCFBBE38A8FA38E557AD /* animal-elephant.png */,
 				A110E32D520A53F9B53563A5 /* animal-fawn.png */,
@@ -422,17 +1082,25 @@
 				B798811839EC3B5979A628ED /* animal-frog.png */,
 				979C274A01CACBEE8EA62AA5 /* animal-giraffe.png */,
 				70654DE801DED53247D21921 /* animal-goat.png */,
+				272D0E084D663C04E7DE02E6 /* animal-goldfish.png */,
+				E77B2BC9774F5AF76FEC799E /* animal-goose.png */,
+				0507CEBF707714E007FA8391 /* animal-grasshopper.png */,
+				CC9E9AA5114543C77A8FF99C /* animal-guinea-pig.png */,
 				D8B4E26BFC3CE34188584310 /* animal-hamster.png */,
 				9AF48221F495418DBC4F0C23 /* animal-hare.png */,
 				1135FE4EEE30F36970B7EE63 /* animal-hedgehog.png */,
 				97AB045EE0BAC9F64DCBFD40 /* animal-hippopotamus.png */,
 				4258384895ED9D67BA056676 /* animal-horse.png */,
+				7BEEF6F57209E46A3631512A /* animal-jellyfish.png */,
 				0DA4BBF6495DA88273D561D0 /* animal-kangaroo.png */,
 				396D27CBCE37E76F6D727D8D /* animal-koala.png */,
+				B307704CEEE86B4AFFFAC03C /* animal-ladybug.png */,
 				CE120C87ECEE73489AED4F1B /* animal-leopard.png */,
 				7FABEF542FB9C02AFF9C23F4 /* animal-lion.png */,
 				849119D8508BEF1E00AD23AC /* animal-llama.png */,
+				A3409B533CE58BF5E03D47A3 /* animal-magpie.png */,
 				1E49BD881025DD102259C78E /* animal-manta-ray.png */,
+				7D1B2EEA650D11B637D5C4D5 /* animal-mole.png */,
 				0506529454300076E29D0D9E /* animal-monkey.png */,
 				A3E1C3324C437A1AEFFB88EC /* animal-mouse.png */,
 				690A2BBD3B3B7A9B33682F82 /* animal-octopus.png */,
@@ -441,29 +1109,95 @@
 				F148A85CC3F089B0FF0956AA /* animal-parrot.png */,
 				FD6F610579F1D61B67253F3D /* animal-peacock.png */,
 				1024833D2684C9711695296B /* animal-penguin.png */,
+				399B9051F18BCF7005EDE1E2 /* animal-perch.png */,
 				563132A85EEF1D950EA17A58 /* animal-pig.png */,
+				604D62BCFA67689FBE46BCC6 /* animal-pigeon.png */,
+				DB91679DB58214EF53559206 /* animal-pike.png */,
+				F1729294FB91A1FE211DD404 /* animal-rabbit.png */,
 				E5BC18D3D8FCA1636CBA2B8C /* animal-raccoon.png */,
 				A8D751DFF3475652DBF3C76A /* animal-rhinoceros.png */,
+				8EE9248324130A5FB06800C6 /* animal-rooster.png */,
+				3864AB67B1745A656EAE1B1F /* animal-seahorse.png */,
 				CF428400BF4AE628F019FE84 /* animal-seal.png */,
 				E347C1CB9369E676203FB4D9 /* animal-shark.png */,
 				3CD276FA992B44C5159E6F3D /* animal-sheep.png */,
 				76B1D25C5F6B90D07ABFA34E /* animal-sloth.png */,
+				84C32254E578F90C55B9DFD2 /* animal-snail.png */,
+				228966017C9A81C60CD0ACA2 /* animal-sparrow.png */,
+				316D83820F1F584F6BC44F5A /* animal-spider.png */,
 				B8578FF17541B6D720B1AA40 /* animal-squirrel.png */,
 				9913064FF6ED6D6E7EB5D8DA /* animal-starfish.png */,
 				34D939D895E45850E929EA81 /* animal-stork.png */,
+				4D3F9B6CDA825BB4C2C522AA /* animal-swallow.png */,
 				2BFAF5C34C5A55AB1B0C8E96 /* animal-swan.png */,
 				F4CCF29ACB7F336254DA7F0D /* animal-tiger.png */,
+				BE902172A14A14EEBD3D8E70 /* animal-tit.png */,
+				3206FAE1E2C58C51F96A6C3B /* animal-turkey.png */,
 				A30A445E64A6230F69094654 /* animal-turtle.png */,
 				A3B73D37250553BA0AD45A94 /* animal-walrus.png */,
 				0736E766E66F384DDAC87CE3 /* animal-whale.png */,
 				B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */,
 				5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */,
 				89012E78C45B9BD387F0D484 /* animal-zebra.png */,
+				60042B0A5BDC73F184D9F743 /* home-backpack.png */,
+				CFFB999392C9A7FAAC84976B /* home-bath-towel.png */,
+				F36399F776A3952E3ECC1509 /* home-bathtub.png */,
+				BEF484FC7F896533CB3F096E /* home-bed.png */,
+				E15FBF7CFD03F1C67604F4F5 /* home-bib.png */,
+				FEC66F5977659DBD224C6863 /* home-blanket.png */,
+				6C00174980478789B8BFDB55 /* home-book.png */,
+				3544E47EE08FB0DEA4DB332B /* home-bottle.png */,
+				5B4B91C7118FFDBE3AC14FD0 /* home-bowl.png */,
+				2043CD086A7A0D178738677F /* home-chair.png */,
+				053E87C2D5C8513F7B039B88 /* home-clock.png */,
+				7BCF7E85DD8FC51C7B164E53 /* home-coat.png */,
+				3B6354C8BDE985D67AECC272 /* home-comb.png */,
+				B49A69CA741A438A0B4A6104 /* home-cup.png */,
+				FC17545048F3ACAB2FC42D02 /* home-cutting-board.png */,
+				B79B58657D5E4E6CB0BE344A /* home-door.png */,
+				A2ECF5CFD1A94765F3ABA062 /* home-faucet.png */,
+				ACB06907EBB0BA219934C0EE /* home-fork.png */,
+				E0C3CB6A5B553FD54B9A158B /* home-fridge.png */,
+				C43A1454169A6A5DA0847A3B /* home-glass.png */,
+				CCDB7C48C91515D290570154 /* home-hat.png */,
+				42230B7B8FB4F2D977F6539B /* home-high-chair.png */,
+				F5D9CE232582D420CC1F452A /* home-jug.png */,
+				13D2682F634671AC097C1A57 /* home-kettle.png */,
+				B9D36A8911B408237730502F /* home-keys.png */,
+				A56AA985B23A9D80F7AF82AC /* home-lamp.png */,
+				9108C51B4DFF58E9714A16FE /* home-laundry-basket.png */,
+				42B8925B7664F2CC0FE74114 /* home-napkin.png */,
+				336359F63AD9DFF81F838904 /* home-pan.png */,
+				D83A7FEA4132073292A9205B /* home-pillow.png */,
+				B15F090C5CF870B30FE10D56 /* home-plate.png */,
+				E437531CE6CF4891F99FA814 /* home-pot.png */,
+				CCA2B4C747958F0B8A7F061C /* home-potty.png */,
+				538869D4796F295988D87593 /* home-rubber-duck.png */,
+				D297C28A5D2FA92214B47A26 /* home-scarf.png */,
+				2C567D970F888E4CDE72317E /* home-shampoo.png */,
+				E97F618C6BD69816C7A09AFA /* home-shoes.png */,
+				6BF78ADB80B937979AE8ABC1 /* home-sink.png */,
+				F2006CDB92F657ABA248B619 /* home-slippers.png */,
+				B6AEDA93BE840543A103638A /* home-soap.png */,
+				6A09C33252A119D0749E9964 /* home-sponge.png */,
+				261922EA6B14E88E549D4BFB /* home-spoon.png */,
+				E1A5C07B9C4E1E86592E4258 /* home-stove.png */,
+				B797BDB15954DF6680D965FF /* home-strainer.png */,
+				5013615178898D958B626EDD /* home-stroller.png */,
+				DDC8A63A14FB9AA1EBE3C97A /* home-table.png */,
+				FD9C618DA86A2F27999B879C /* home-toothbrush.png */,
+				3AE0664384F8036EE1A549D0 /* home-toothpaste.png */,
+				7A8133CFF8F084BCD8430B86 /* home-umbrella.png */,
+				8570FB6B47E6F88C2EEB73FC /* home-washing-machine.png */,
 				F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */,
+				920222F15718C386A41BCFF0 /* transport-airship.png */,
 				26FA82FEE06897A630CB1E79 /* transport-ambulance.png */,
+				24899053FFB6EBF265CACE59 /* transport-balance-bike.png */,
 				75BF3EABB4F70C5C17DC1266 /* transport-bicycle.png */,
 				2A85D4E77CD9D9D12754E4BE /* transport-bulldozer.png */,
 				537DB9D2C9CAA54374D8457C /* transport-bus.png */,
+				6AD6AC25CD519249E91BE1CD /* transport-car-carrier.png */,
+				58F95FEA0062E54D82E6C834 /* transport-car.png */,
 				F4F3827E16F381DD797F61BC /* transport-combine.png */,
 				491D5C814B099A7DFF0ACF84 /* transport-concrete-mixer.png */,
 				7B02ED4587D9905B40F93DC8 /* transport-crane-truck.png */,
@@ -474,21 +1208,262 @@
 				E2470624E31F330321F54321 /* transport-fire-engine.png */,
 				CC519CE4C800FA430A25A0D4 /* transport-forklift.png */,
 				3D41EC76A3E65AC30D569283 /* transport-garbage-truck.png */,
+				93ED7F1DE620F114D205B2DE /* transport-hang-glider.png */,
 				F5E26A9923DBAACC14A4B948 /* transport-helicopter.png */,
 				5BF0F51DA459B1D6326C8946 /* transport-hot-air-balloon.png */,
+				5991ADDB0EC550C5BE48B7FE /* transport-jet-ski.png */,
+				984495A03AD060A8EC4F830F /* transport-kick-scooter.png */,
+				34267C82EFFFA284A1B9FB88 /* transport-minibus.png */,
+				6B00EF2D1CBD21BE923202EA /* transport-motorboat.png */,
 				F6B6D0291237E2A63F59381C /* transport-motorcycle.png */,
 				449156C9C83CD13294CC8063 /* transport-police-car.png */,
+				700BDB92ECED5FE528901B7F /* transport-quad-bike.png */,
+				142F050A5B8163505B6A541D /* transport-road-roller.png */,
 				66ADED3C486B24FF743DEF65 /* transport-rocket.png */,
+				98DE76D03C6D0B0B07C39230 /* transport-rowboat.png */,
 				0CCF554D5B79A491FD5D1D10 /* transport-sailboat.png */,
 				EE2C587B43C02A0EC9B3C153 /* transport-scooter.png */,
+				161BC65DADF72B5AEC145047 /* transport-ship.png */,
 				8A92BFD4ED03AFC1995D75E2 /* transport-snowmobile.png */,
+				F818BB6C9B573F00B8E099FB /* transport-snowplow.png */,
+				D602E064F18D3A3F7208A759 /* transport-space-rover.png */,
+				1520E0FDDF8BFD71A1BD41C6 /* transport-street-sweeper.png */,
 				574670833D3BEC577E386E3F /* transport-submarine.png */,
 				2E0D7DDBF8AB7B5EFC34D623 /* transport-subway-train.png */,
+				2C482114A3C792371C35794E /* transport-tanker.png */,
 				9BCEAB03E2828E3154E58191 /* transport-taxi.png */,
+				4763752369189E1996211B0C /* transport-tow-truck.png */,
 				8B383BC0E0B9123B1861A9CB /* transport-tractor.png */,
 				F37F17D7B0C68006E7AA636E /* transport-train.png */,
 				C03DA3532D9EAEBB7FC49ABE /* transport-tram.png */,
+				680740BA6F8458D454065F88 /* transport-trolleybus.png */,
+				EFA0527ABD175D5E1C55025B /* transport-truck.png */,
 				10159FDD99C894B2CDB20466 /* transport-tugboat.png */,
+				3E1B66FECFCACC82ACE797D5 /* animal-alpaca.wav */,
+				D14067DFECE67509A26A4BC3 /* animal-ant.wav */,
+				3FEC714512E316F0AF7EFADF /* animal-badger.wav */,
+				85950856583A9A4767B0E356 /* animal-bear.wav */,
+				63B7FD9B68390BEDE9ED1899 /* animal-beaver.wav */,
+				FCC86256387A518313A338FD /* animal-bee.wav */,
+				4D10DB96500D32B9E70BEBB7 /* animal-beetle.wav */,
+				D4E439B7D68333770EE42B31 /* animal-bison.wav */,
+				ABECA607683022FECC71DFEA /* animal-boar.wav */,
+				751400313D86CC18D0BF1FE1 /* animal-bullfinch.wav */,
+				3B71BBA04233D440796EC1AB /* animal-butterfly.wav */,
+				2A0B0E69AE63EFC2CBC07E7F /* animal-camel.wav */,
+				7E00FEB393B1B8B13C5B9086 /* animal-cat.wav */,
+				C55FFD72B47CA8AC170DE59E /* animal-caterpillar.wav */,
+				BBC10DC9AE398A4B15B16CAD /* animal-catfish.wav */,
+				3B2BF42A09C7FD9CA4AB837D /* animal-chicken.wav */,
+				AF6C1AEDAB9B23C5563FA5B3 /* animal-clownfish.wav */,
+				6CAB299324F046F9C739E2BB /* animal-cow.wav */,
+				458ACED9BE41F99B9922839C /* animal-crab.wav */,
+				7C0CF227EB553A41C4D32F91 /* animal-crocodile.wav */,
+				23AC20F3567077FAE447E1DF /* animal-crow.wav */,
+				6CFC9886CAAF9ACE456F356D /* animal-dog.wav */,
+				CFAD41EC268718D2988EE759 /* animal-dolphin.wav */,
+				2E13FDE8DC04226C5E4078D0 /* animal-donkey.wav */,
+				2F1FB0D595DDB16D28BB3445 /* animal-dragonfly.wav */,
+				A4CC1968B2C79EC9AAFF95BA /* animal-duck.wav */,
+				B03A3429EC6D0162F07E93D1 /* animal-elephant.wav */,
+				B5E38EDF7066FDCE7C05BEB1 /* animal-fawn.wav */,
+				E651CF46C485218AD4B53A7C /* animal-flamingo.wav */,
+				84A819C1B2599F5DBC6F40A8 /* animal-fox.wav */,
+				E7B67C3F018E98F7567D2950 /* animal-frog.wav */,
+				72AB5D2803CBF2D282502840 /* animal-giraffe.wav */,
+				4203275E25E78CA942F06571 /* animal-goat.wav */,
+				D8181E8C8D2A0FBC82EC3F19 /* animal-goldfish.wav */,
+				3EF3441AB0A9FDC65F4F54D8 /* animal-goose.wav */,
+				FDFBB81D7CDA0B35CD59EB58 /* animal-grasshopper.wav */,
+				8F02E1775E5474080391EBB6 /* animal-guinea-pig.wav */,
+				35ADF6249AA78442EBD89AE0 /* animal-hamster.wav */,
+				9A39AB13232C33C499BD82DF /* animal-hare.wav */,
+				46F70D043BC7E0E3A7E86868 /* animal-hedgehog.wav */,
+				36A275CB5CA97E14CA61AA16 /* animal-hippopotamus.wav */,
+				2961B80631DB69FCA7050161 /* animal-horse.wav */,
+				667BBC17AEB668EE660B5FA2 /* animal-jellyfish.wav */,
+				BCD95C4E1BE7C973EC693A83 /* animal-kangaroo.wav */,
+				DC5F503087DA9F9153079A6A /* animal-koala.wav */,
+				C11D2CF07C283E2940B1C66F /* animal-ladybug.wav */,
+				B4FDBC7BB78AFEF80E04ACF4 /* animal-leopard.wav */,
+				16E38B93AEA0535FA5FB281E /* animal-lion.wav */,
+				1D25AF5DCF0067796142B7F8 /* animal-llama.wav */,
+				120AEADC5E19879E9FA47074 /* animal-magpie.wav */,
+				2A9ACD8E8A8078E4F3A62F0C /* animal-manta-ray.wav */,
+				CA0844CB17886C815288232D /* animal-mole.wav */,
+				36942EBC2F244956AC4B4B9B /* animal-monkey.wav */,
+				9E395F0905BB18FBF4C73579 /* animal-mouse.wav */,
+				49D641E11ABBD8C2A8ADC75A /* animal-octopus.wav */,
+				2E978EF79ACA4469CA648F45 /* animal-owl.wav */,
+				9F3278273C428EFF10BACBB4 /* animal-panda.wav */,
+				79834B986C5E1CDF9847B8FB /* animal-parrot.wav */,
+				BFABDE95812AF84DAF99176C /* animal-peacock.wav */,
+				BCB8F51D90EBDAE4EB185F8F /* animal-penguin.wav */,
+				1A16F1E35918679414F0C5AD /* animal-perch.wav */,
+				44CF4F756B8B4607C495C348 /* animal-pig.wav */,
+				810842C71BD0FACBF8C1FF71 /* animal-pigeon.wav */,
+				35411A00B461F334A72DEE0B /* animal-pike.wav */,
+				96A20396A98991126794C8AE /* animal-rabbit.wav */,
+				9685AD7263DC0E003E8E2115 /* animal-raccoon.wav */,
+				924C3F4DFBF63345B7A96B52 /* animal-rhinoceros.wav */,
+				296DDF00CB128138CA8CFEBF /* animal-rooster.wav */,
+				94BB8EA7945BC6569C6A8B27 /* animal-seahorse.wav */,
+				DF7BDA2A6B5D30F803BE20FD /* animal-seal.wav */,
+				58958816836A8E4D5AA302CD /* animal-shark.wav */,
+				AB2C4E8FFA9C3DEB9F54574F /* animal-sheep.wav */,
+				71B0455276AA11D92B59326F /* animal-sloth.wav */,
+				78AAE9FFA3FE7B6745731113 /* animal-snail.wav */,
+				5B99D28A015F8BD9A03F714D /* animal-sparrow.wav */,
+				65F93406F9B063896E3151A6 /* animal-spider.wav */,
+				55C1515E433C73E8B7A45B69 /* animal-squirrel.wav */,
+				8C39AAD0070C7E20B3E78F5E /* animal-starfish.wav */,
+				42BD66F53AE3C4592518C9A7 /* animal-stork.wav */,
+				D41AADF41A11172C57710A46 /* animal-swallow.wav */,
+				0D34F242311E37CAF949A115 /* animal-swan.wav */,
+				76D00E10A39F68B0656205DE /* animal-tiger.wav */,
+				E834E67B5A2CE6C574FDC35F /* animal-tit.wav */,
+				DFD99A8F10C060B5850C8F82 /* animal-turkey.wav */,
+				10215C0BB16E52FCDE26CB4A /* animal-turtle.wav */,
+				8209452E678E00D6C155C55E /* animal-walrus.wav */,
+				84034D8040569CBD26088A1D /* animal-whale.wav */,
+				0BF568A131A5B22716D8B1D8 /* animal-wolf.wav */,
+				4F5B7416E446167DB3335529 /* animal-woodpecker.wav */,
+				91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */,
+				FE61A900E74126F399C84137 /* home-backpack.wav */,
+				B86D0FA74F87AE87194E5378 /* home-bath-towel.wav */,
+				ABD2D55E4EDFF38825337B3D /* home-bathtub.wav */,
+				CF4DEC257BB0B1FD94BF5180 /* home-bed.wav */,
+				7CA6E390AB69380CF9E90292 /* home-bib.wav */,
+				C18E98BFF91948F3C9E076B8 /* home-blanket.wav */,
+				4799D8D8E7CDDF8D428B4D25 /* home-book.wav */,
+				336D1E1F05404D2A7621EE54 /* home-bottle.wav */,
+				4A60945398FB875DE7952BA3 /* home-bowl.wav */,
+				EEAB1DC0FC4AA1834BAAAF3A /* home-chair.wav */,
+				C12EE71DC33F8D9F7A46BD08 /* home-clock.wav */,
+				0D0B30C103EC23089B91FD1F /* home-coat.wav */,
+				F6DE40B3E8C7A4941CD5A632 /* home-comb.wav */,
+				5EDFD5387F96D8DB4F4D06DF /* home-cup.wav */,
+				D0D157AA3F44E8454CE02B9E /* home-cutting-board.wav */,
+				6D569B70D74457F1C2D302E1 /* home-door.wav */,
+				072AA968C87B0B61FB701872 /* home-faucet.wav */,
+				C897248F915DF217C2EF8DD1 /* home-fork.wav */,
+				B923EE213790284A05954F4D /* home-fridge.wav */,
+				4B5D0F56B4B88A1268A91A16 /* home-glass.wav */,
+				80E704A638A7BDE47EDB7222 /* home-hat.wav */,
+				FBE3256ADDFA1BD0D9B65A82 /* home-high-chair.wav */,
+				8AFA2BAD0DC50AD24F9B6DD8 /* home-jug.wav */,
+				398C7C55EBE7C9BA3470B75A /* home-kettle.wav */,
+				E7AC4363F180686A2A935315 /* home-keys.wav */,
+				C66D6E546DD656DCD76F485A /* home-lamp.wav */,
+				5082C79E47655E387628B590 /* home-laundry-basket.wav */,
+				C7FB1FEA8224561D4C872BB5 /* home-napkin.wav */,
+				95805C1CDC9FEFF91249D19D /* home-pan.wav */,
+				9E83006C46D9082659B52FE6 /* home-pillow.wav */,
+				4B5BA67F98E63C2FB334AC37 /* home-plate.wav */,
+				F1BF326555EDC1D7EAF52331 /* home-pot.wav */,
+				BCC17B365E0113BBACBEB87E /* home-potty.wav */,
+				88C74ED6E8AE6B44961BAD81 /* home-rubber-duck.wav */,
+				9C48D7493C6879300B627961 /* home-scarf.wav */,
+				5B65693FC100FC5305387065 /* home-shampoo.wav */,
+				FFFC3108AA3A4B8ECFD8F193 /* home-shoes.wav */,
+				FA7B00B17E7B590C412E7960 /* home-sink.wav */,
+				FAC1BBDE82D5214CDDA9EAED /* home-slippers.wav */,
+				FD09BB3EF1CA53129B0698F9 /* home-soap.wav */,
+				92EBC6E8B462EA63E53097CF /* home-sponge.wav */,
+				531D1CE51193E315DC4E8AD4 /* home-spoon.wav */,
+				E7853D201F93AE80AA0B59A5 /* home-stove.wav */,
+				CC6AF4021210EC8B08DAA72B /* home-strainer.wav */,
+				D062A7072504DCE0CF2230FD /* home-stroller.wav */,
+				8C70F98B5EF5AE233AC81429 /* home-table.wav */,
+				0025289EE3E2F2637C27453E /* home-toothbrush.wav */,
+				25F029017CF5A6BFA974AE81 /* home-toothpaste.wav */,
+				25BB162AFAF35C30F10FCF47 /* home-umbrella.wav */,
+				9C8912372534113E753D29DD /* home-washing-machine.wav */,
+				359FE0EE063DF15B7F2DEE67 /* letter-0401.wav */,
+				B2FD87431B550B2E2F706BF6 /* letter-0410.wav */,
+				775D45CB3186A9176E77A24C /* letter-0411.wav */,
+				75AE4DD928E401CEF309DE08 /* letter-0412.wav */,
+				B7804E8136B898428ABD0516 /* letter-0413.wav */,
+				22B66BF9A24C8363B39FEC6C /* letter-0414.wav */,
+				5918FE8AC0D1022CFAD0B3A2 /* letter-0415.wav */,
+				F5D5DEDEB615FB6A51267571 /* letter-0416.wav */,
+				6E78B266C04C2E849CC57154 /* letter-0417.wav */,
+				BFC2CF56056B564FF69B2E1C /* letter-0418.wav */,
+				C0F713EECFEBF8385E1F6CC5 /* letter-0419.wav */,
+				B96DF6FFC113EB94809775D7 /* letter-041a.wav */,
+				4ABFE884FB35F45496B1EBB8 /* letter-041b.wav */,
+				ACA6E2E64CDC2C38AE17D899 /* letter-041c.wav */,
+				8C3037180CDF22A6B04FB6CE /* letter-041d.wav */,
+				E381F3015DFD9728D4034D2E /* letter-041e.wav */,
+				69A1F52207D74CB912E2FCBD /* letter-041f.wav */,
+				164679E19DDD51709584041B /* letter-0420.wav */,
+				D95BE92BE974D944EF475B63 /* letter-0421.wav */,
+				DC23496D80C28FEE87EEF1B8 /* letter-0422.wav */,
+				F67059DBA10F46BE449E1253 /* letter-0423.wav */,
+				9C8798C57D93D7C379673B77 /* letter-0424.wav */,
+				C97DDE61353AEE9475C33136 /* letter-0425.wav */,
+				58FDBC32FA38B466AA75398C /* letter-0426.wav */,
+				898FA193B6417DCDE45E225E /* letter-0427.wav */,
+				EE67E00D01EE7199D3947F7E /* letter-0428.wav */,
+				A2B1EAA5B36ED4BAAE61F4A9 /* letter-0429.wav */,
+				53552C2BED6F90D3B612B033 /* letter-042a.wav */,
+				1091D09C7F7F66B609C7B0D7 /* letter-042b.wav */,
+				CEBE284694744077CFAA727F /* letter-042c.wav */,
+				67EBFE562E8FDBEEC60EC730 /* letter-042d.wav */,
+				550435C443986B6653B0931E /* letter-042e.wav */,
+				906CD20AF0F2EC0B3DA54B3F /* letter-042f.wav */,
+				C6B72045E76371AFB578E726 /* speech-index.json */,
+				2AC98C1DF143EA3BD5AC2CA2 /* transport-airplane.wav */,
+				799AD133F4C3DA103D533946 /* transport-airship.wav */,
+				E3E2DECE1290A6DBFCED5A84 /* transport-ambulance.wav */,
+				E32BEB3E7DC9B9B32F0A456A /* transport-balance-bike.wav */,
+				BEDD2CBD96BE5B8965E5AA0C /* transport-bicycle.wav */,
+				0E0F9CD9511B2BBE65D653C6 /* transport-bulldozer.wav */,
+				D223C7E3D53B5D93640BC71A /* transport-bus.wav */,
+				98C6B4DBCBCC21832E77024B /* transport-car-carrier.wav */,
+				0BC182A7E63587713D159B9E /* transport-car.wav */,
+				8A40A2412252F8A60AFF37FD /* transport-combine.wav */,
+				888AA811B8FF15C4D54FAEB4 /* transport-concrete-mixer.wav */,
+				3A0541017EFA093627E2C140 /* transport-crane-truck.wav */,
+				C8AD8C7EBAD1BA61CE9A4E5D /* transport-delivery-van.wav */,
+				F3536472A44ED01000C6C58E /* transport-dump-truck.wav */,
+				9666A6C37EE518148B7809B7 /* transport-excavator.wav */,
+				449E34902F7FC30733126F05 /* transport-ferry.wav */,
+				A1B8017C1B8677AF6B1A3A68 /* transport-fire-engine.wav */,
+				70F436DC253D52FB937F5073 /* transport-forklift.wav */,
+				92B004292C0920CF8A49CA2A /* transport-garbage-truck.wav */,
+				D5695222FAAF860399F89A98 /* transport-hang-glider.wav */,
+				9BED07236F96AC212EA3CC1C /* transport-helicopter.wav */,
+				AA367EB50A73DA5D86E7B4E6 /* transport-hot-air-balloon.wav */,
+				A0CA161FF6D7FB0E054F0DF3 /* transport-jet-ski.wav */,
+				F39AF9E13CC64006D8A65830 /* transport-kick-scooter.wav */,
+				6B60764BE8F0707491375988 /* transport-minibus.wav */,
+				CDF5BA014DE551BD057274F9 /* transport-motorboat.wav */,
+				B47EF590583CF2C011D10BB7 /* transport-motorcycle.wav */,
+				EAD8302773DBFF228F53102F /* transport-police-car.wav */,
+				1E1A85435D441CC6451FC5AD /* transport-quad-bike.wav */,
+				8A3A81E83A6531B89788D696 /* transport-road-roller.wav */,
+				D6617617B10DC55E48695A29 /* transport-rocket.wav */,
+				45836460D14FEE97626DAD4B /* transport-rowboat.wav */,
+				FB1E2A39F698F126FBBA68E0 /* transport-sailboat.wav */,
+				310CD93C0DA03CE515B23919 /* transport-scooter.wav */,
+				5F8AE75109D9B8394E4EE989 /* transport-ship.wav */,
+				A1777A3B9569BF74B034C10A /* transport-snowmobile.wav */,
+				D6F29D4D317DCC37887BA446 /* transport-snowplow.wav */,
+				C4D635F2E081269717B05DDF /* transport-space-rover.wav */,
+				505592936B764EC900FA9EED /* transport-street-sweeper.wav */,
+				70EF9E2B90B0178981913D6D /* transport-submarine.wav */,
+				9522A8D54F575EAA45768369 /* transport-subway-train.wav */,
+				753FB18E776BEC0FCFABED10 /* transport-tanker.wav */,
+				8562B1EE7D4FA1F43BB4B07E /* transport-taxi.wav */,
+				5BD08251EC51C49F092FFC57 /* transport-tow-truck.wav */,
+				90D16EE03C0CF5193C9A7097 /* transport-tractor.wav */,
+				1E0C7C8CB5A9F997EE336251 /* transport-train.wav */,
+				2EF4F3E90109DCCE51929EB7 /* transport-tram.wav */,
+				9117E383CF8CECDD50C17B42 /* transport-trolleybus.wav */,
+				0A7FCD562A635F137FEEA5C0 /* transport-truck.wav */,
+				C40AB8E6E897D79991BCAD4E /* transport-tugboat.wav */,
+				6CD3176228A657773535FE0F /* voice-preview.wav */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -596,20 +1571,30 @@
 			files = (
 				9434BA7DC4E565F1830D6085 /* TykIcon.icns in Resources */,
 				32016D597A9218B80570EEFD /* animal-alpaca.png in Resources */,
+				412A7615ED06EE66E9994BF8 /* animal-ant.png in Resources */,
 				7F8FAE329C86B0EE6564C92E /* animal-badger.png in Resources */,
 				4CA82AF04F7B782DA7C50A78 /* animal-bear.png in Resources */,
 				0E855FD43E970B73BEEFF9E1 /* animal-beaver.png in Resources */,
+				3845C40B015BC848ED4C239B /* animal-bee.png in Resources */,
+				A2069FD2FEBC647CF8D06E5C /* animal-beetle.png in Resources */,
 				7F68A998D8B0DA8272DC8126 /* animal-bison.png in Resources */,
 				B78FC2B1182C192E4CAF555F /* animal-boar.png in Resources */,
+				D4AACDFED7558CB80BBC3AE5 /* animal-bullfinch.png in Resources */,
+				1F9B25CCCE575CB79D03245D /* animal-butterfly.png in Resources */,
 				38067BB6F9ECA877DE36295B /* animal-camel.png in Resources */,
 				80F7ED35944BCE206AF10B49 /* animal-cat.png in Resources */,
+				394265C66CB3C664DA1EB766 /* animal-caterpillar.png in Resources */,
+				871C31A06988A2B4F87E0FA3 /* animal-catfish.png in Resources */,
 				9F00152669D367AE2156817F /* animal-chicken.png in Resources */,
+				6BC2CE50A8725DD0D7D614A1 /* animal-clownfish.png in Resources */,
 				9716B874F03CD2EF866F7F61 /* animal-cow.png in Resources */,
 				D4EFA97CFB084AB2B5B7FE26 /* animal-crab.png in Resources */,
 				5FC22BBC08E8D64BA96E32F5 /* animal-crocodile.png in Resources */,
+				6B6D8D7F9B7440E6246A84FE /* animal-crow.png in Resources */,
 				00F732BD57ECEED11A375C70 /* animal-dog.png in Resources */,
 				D56BA036CBF83B5EB29EBCF7 /* animal-dolphin.png in Resources */,
 				71B0EFAE6F8B7E870330621A /* animal-donkey.png in Resources */,
+				0F6C2592C2A036FC292C7DC5 /* animal-dragonfly.png in Resources */,
 				AA10E2645E785A20DCE20C27 /* animal-duck.png in Resources */,
 				0C1120D555D310BE962DAB4E /* animal-elephant.png in Resources */,
 				ACA7CF1695D8D7B9BAD7ADFB /* animal-fawn.png in Resources */,
@@ -618,17 +1603,25 @@
 				C7795F2E5147AF588610E12D /* animal-frog.png in Resources */,
 				B9722E35CCECBF89F6E9C4F3 /* animal-giraffe.png in Resources */,
 				97E8B069E4AF28431BBA7875 /* animal-goat.png in Resources */,
+				61B4DFDB5EF805E50F2FFA0C /* animal-goldfish.png in Resources */,
+				75BC15B03B2509D3E7761A1C /* animal-goose.png in Resources */,
+				DB8EB951285FAD4274374903 /* animal-grasshopper.png in Resources */,
+				B0E653CAA4F4DF43D51F6E50 /* animal-guinea-pig.png in Resources */,
 				AADD6B5B1F17319724EF2A4E /* animal-hamster.png in Resources */,
 				DE7C466D40617A3136A55D1F /* animal-hare.png in Resources */,
 				CDB4BF1664B1C907D9C3BC79 /* animal-hedgehog.png in Resources */,
 				40F291D389B7BFFA6CE5A3A7 /* animal-hippopotamus.png in Resources */,
 				505D6455D7CF3276BB58D2AB /* animal-horse.png in Resources */,
+				5BD3CDA72A5CF0C55E0524B5 /* animal-jellyfish.png in Resources */,
 				2676F346E0561AD591733F92 /* animal-kangaroo.png in Resources */,
 				72E168645ABDD1C73474E679 /* animal-koala.png in Resources */,
+				02DECD13BEBFD8601F10EABC /* animal-ladybug.png in Resources */,
 				D2694F014645E3874FB3B0D7 /* animal-leopard.png in Resources */,
 				B994A2AEA11AE698AF57E6D0 /* animal-lion.png in Resources */,
 				8DF3BBC55915B95E55CA75FC /* animal-llama.png in Resources */,
+				41E34A8640433AA1BE21F433 /* animal-magpie.png in Resources */,
 				C668DD6C87842986236BB605 /* animal-manta-ray.png in Resources */,
+				B7CCDC719F354841E3EC4A77 /* animal-mole.png in Resources */,
 				30A69857656A3112AAD0B52D /* animal-monkey.png in Resources */,
 				9EBFEB9C1EF30E5A60CE9B9F /* animal-mouse.png in Resources */,
 				505FD34A3512BD221DCC50AA /* animal-octopus.png in Resources */,
@@ -637,29 +1630,95 @@
 				388DB6EDFF481ECB55C74759 /* animal-parrot.png in Resources */,
 				28CEA561FBE351DD584786D2 /* animal-peacock.png in Resources */,
 				F87966368E28F961534D255D /* animal-penguin.png in Resources */,
+				693EA1A74D607F2DB8A6F003 /* animal-perch.png in Resources */,
 				9867D2A241561E1D07023BF8 /* animal-pig.png in Resources */,
+				7417B9348FE1AF9B17F597C8 /* animal-pigeon.png in Resources */,
+				7729D4117549FA6E139E3D45 /* animal-pike.png in Resources */,
+				5CC667CFF208881CEF45AAC7 /* animal-rabbit.png in Resources */,
 				98E18C6CB1E80C948AF67093 /* animal-raccoon.png in Resources */,
 				A938EFFC189A4B7DB536D85C /* animal-rhinoceros.png in Resources */,
+				0F1461B3EFB1A86D0419E12F /* animal-rooster.png in Resources */,
+				C09475783B50A512A0C787BA /* animal-seahorse.png in Resources */,
 				AA8F9695A28DF068515A6A64 /* animal-seal.png in Resources */,
 				DD0341CE29B381A6F64232B2 /* animal-shark.png in Resources */,
 				82C6EFC99DAF9BA5E00B4011 /* animal-sheep.png in Resources */,
 				7B1DBEBDB8694BA084F10464 /* animal-sloth.png in Resources */,
+				C635BDD2989F8F52A95F247C /* animal-snail.png in Resources */,
+				34ECFC2FD7555DA8C789455F /* animal-sparrow.png in Resources */,
+				3B346028C79E1105A47C85F6 /* animal-spider.png in Resources */,
 				3BB5E3A98962BAF8F24E0608 /* animal-squirrel.png in Resources */,
 				81F2A397B33325A6015FBF2F /* animal-starfish.png in Resources */,
 				50E67C50CB34B35C307D79FE /* animal-stork.png in Resources */,
+				46CA8BCB17CB1CB8BB83209B /* animal-swallow.png in Resources */,
 				50AA0AC959BC034155E3E9C5 /* animal-swan.png in Resources */,
 				FB4486940C9D30B3B8ED4151 /* animal-tiger.png in Resources */,
+				DEDC56F8682E4B4C2989B536 /* animal-tit.png in Resources */,
+				D3FDC6D6B3EC135C82BC8635 /* animal-turkey.png in Resources */,
 				CA78AC759252B1F25A06353A /* animal-turtle.png in Resources */,
 				D9A586014C3F01E2DC0221BB /* animal-walrus.png in Resources */,
 				818AB5F601BA0CEAAEB9D818 /* animal-whale.png in Resources */,
 				D0E431F841C4318A3730393B /* animal-wolf.png in Resources */,
 				3DAABAB0CB8B51AEDD7CA8D7 /* animal-woodpecker.png in Resources */,
 				EF700F744054D48FF452AAD7 /* animal-zebra.png in Resources */,
+				993DB9EA033EED0865F2858F /* home-backpack.png in Resources */,
+				AFFA9BA9442317789FC28719 /* home-bath-towel.png in Resources */,
+				2B4B9D581A697D487C0235BD /* home-bathtub.png in Resources */,
+				EFE3FF48326796E8C093FE86 /* home-bed.png in Resources */,
+				76D0B6251FBEC14BDBAF780B /* home-bib.png in Resources */,
+				A14F1C408D5978AAB1C17CE7 /* home-blanket.png in Resources */,
+				6197059874BE4F91DB6B3BA5 /* home-book.png in Resources */,
+				68A368EFF70E566AD5B06BDC /* home-bottle.png in Resources */,
+				728C5FF9CA53AFB6012F2226 /* home-bowl.png in Resources */,
+				C9B32BC0953E7C92998280D3 /* home-chair.png in Resources */,
+				56600008C647E470628B0046 /* home-clock.png in Resources */,
+				EBA886C281B295C1F2EE23D3 /* home-coat.png in Resources */,
+				F0C325C5378D350C8AEF503B /* home-comb.png in Resources */,
+				60825EB3393D5E0B50A98D21 /* home-cup.png in Resources */,
+				400672E8F292ACC672849BF9 /* home-cutting-board.png in Resources */,
+				2B27CC94F4FAEE63FD5FB557 /* home-door.png in Resources */,
+				859525C3C17B13833E9B22A1 /* home-faucet.png in Resources */,
+				9B548A62FC4093056406DD93 /* home-fork.png in Resources */,
+				A7759FD99B2C3DDB59BDD61E /* home-fridge.png in Resources */,
+				5CB3378B787442C0570C0E82 /* home-glass.png in Resources */,
+				0F912C37D84B7400118A8BCA /* home-hat.png in Resources */,
+				499AA23900CFA94C39B33197 /* home-high-chair.png in Resources */,
+				1942A8342E3F0D0BAF441A61 /* home-jug.png in Resources */,
+				4CC79DD00B0F1D2CE342706C /* home-kettle.png in Resources */,
+				59739BC478DC980A802E42A4 /* home-keys.png in Resources */,
+				5CCC01609713438A2A7A7289 /* home-lamp.png in Resources */,
+				E6785A29587B5049F5E13E52 /* home-laundry-basket.png in Resources */,
+				5FE9D6F49C6039D6BE4457BC /* home-napkin.png in Resources */,
+				1A8B04514BF474AFCC44DA1C /* home-pan.png in Resources */,
+				CF4E8458E14BAE701DFA9B02 /* home-pillow.png in Resources */,
+				8B9D2911B1FF34427FC77876 /* home-plate.png in Resources */,
+				56A4992F121F58C5B909BE2B /* home-pot.png in Resources */,
+				C6FD465D6F1BFCD0DF0A5FF0 /* home-potty.png in Resources */,
+				F09392004356E0A32D15953C /* home-rubber-duck.png in Resources */,
+				5DC9D9F11951F1D2096E8CAB /* home-scarf.png in Resources */,
+				613DEF4CA69297F5165A247C /* home-shampoo.png in Resources */,
+				5D792BEE9D3774A44299772F /* home-shoes.png in Resources */,
+				88DCABD491E78AD79DBD7471 /* home-sink.png in Resources */,
+				45897794A1DD136156E32709 /* home-slippers.png in Resources */,
+				00FD5CDAC955EAB81ECDF555 /* home-soap.png in Resources */,
+				B1E726EFED1F743FFD20FCDB /* home-sponge.png in Resources */,
+				1426AFF66835853283EED21A /* home-spoon.png in Resources */,
+				0C2EED4E07D6AADB101EB458 /* home-stove.png in Resources */,
+				086158D59662A7939756CAC2 /* home-strainer.png in Resources */,
+				C6ED9A670549E890C9BE5828 /* home-stroller.png in Resources */,
+				C727A61EBFB180E802B31914 /* home-table.png in Resources */,
+				6290B8E767E80100CAAF87F7 /* home-toothbrush.png in Resources */,
+				50342AC8FE9634902E50FC68 /* home-toothpaste.png in Resources */,
+				917CDD2393C59E029571F1D7 /* home-umbrella.png in Resources */,
+				0D9E8F2CD9CD128F69A06A4E /* home-washing-machine.png in Resources */,
 				F15E336979FE8CF36E05C618 /* transport-airplane.png in Resources */,
+				06F55BA1A070D56BE16CB036 /* transport-airship.png in Resources */,
 				C348048DE9C52CDD73FDBAA8 /* transport-ambulance.png in Resources */,
+				D6F651C7F240256BCCDF1F6F /* transport-balance-bike.png in Resources */,
 				5A6B1789A2E44F30088CABF2 /* transport-bicycle.png in Resources */,
 				A87689E7C428BD8DC29AEFB3 /* transport-bulldozer.png in Resources */,
 				4C5D47DA715E151CBDF28A6C /* transport-bus.png in Resources */,
+				F8AF99494E405856C3ECC40B /* transport-car-carrier.png in Resources */,
+				A6C78F54419124A138C910DB /* transport-car.png in Resources */,
 				BDF38478B91AA75460E09B29 /* transport-combine.png in Resources */,
 				113410F00D06A334CDC7006F /* transport-concrete-mixer.png in Resources */,
 				B387C7A509A23B04EAB75236 /* transport-crane-truck.png in Resources */,
@@ -670,21 +1729,262 @@
 				701F07C86310DEAD288C5151 /* transport-fire-engine.png in Resources */,
 				B8927DE1221D85E94C8FC171 /* transport-forklift.png in Resources */,
 				7002E0B548D66CD9CE6F8756 /* transport-garbage-truck.png in Resources */,
+				AD38DE02138DFAE278292EE7 /* transport-hang-glider.png in Resources */,
 				F2BDD82BC86F513254FA5595 /* transport-helicopter.png in Resources */,
 				EBCFBFE3D14460817FF3EECE /* transport-hot-air-balloon.png in Resources */,
+				36CCCD91EC1D497607BA126E /* transport-jet-ski.png in Resources */,
+				2E081B93733BA3101A55090F /* transport-kick-scooter.png in Resources */,
+				C0A5EB824650B1381510CE48 /* transport-minibus.png in Resources */,
+				10138AE6CF75D1F779869C19 /* transport-motorboat.png in Resources */,
 				33398588DAFA4C699CD2A2D7 /* transport-motorcycle.png in Resources */,
 				4F7B3B064B8F0B51BFC036F8 /* transport-police-car.png in Resources */,
+				B7A7D18C14B7774EFD134EA6 /* transport-quad-bike.png in Resources */,
+				DF461F3397C1284AC81035A9 /* transport-road-roller.png in Resources */,
 				53F4EE75733B99B6F7331A57 /* transport-rocket.png in Resources */,
+				1A2D56945A309FA93A6D0F2B /* transport-rowboat.png in Resources */,
 				75F43C52BC8E857FBC21BF95 /* transport-sailboat.png in Resources */,
 				A2E4B67F73C57661A430711F /* transport-scooter.png in Resources */,
+				236874257E58D5AB1852C0F5 /* transport-ship.png in Resources */,
 				9BD7EEA5CCBA1EA5BA854112 /* transport-snowmobile.png in Resources */,
+				3F9E2AAFCDEA5E491DA2C2C2 /* transport-snowplow.png in Resources */,
+				26821C8C6327D4DF64A15885 /* transport-space-rover.png in Resources */,
+				4A062D101909E78389DA1D4F /* transport-street-sweeper.png in Resources */,
 				EB601D2BA29849B6FDE360C4 /* transport-submarine.png in Resources */,
 				B132D0EF6C4D4752C8FFA04B /* transport-subway-train.png in Resources */,
+				58FD580020A8BB6E2B9C57F0 /* transport-tanker.png in Resources */,
 				35CC94CC728BAA042FB2FC0E /* transport-taxi.png in Resources */,
+				E0A29ADB815E03253D57BE8D /* transport-tow-truck.png in Resources */,
 				50D697F90FDC6852EB8DA8BE /* transport-tractor.png in Resources */,
 				A40319F49F548510E5A4DD9A /* transport-train.png in Resources */,
 				66217A27985B2E89DAC962A0 /* transport-tram.png in Resources */,
+				BDA9F8B7A4CBDA26472636CC /* transport-trolleybus.png in Resources */,
+				364981AF039B10D54F737831 /* transport-truck.png in Resources */,
 				E12655632710274C000CBDEA /* transport-tugboat.png in Resources */,
+				61F13C2DD67DFA62640DA34A /* animal-alpaca.wav in Resources */,
+				C536536622D34EF16F980616 /* animal-ant.wav in Resources */,
+				62BFC1FF9BC968DCE8744BAB /* animal-badger.wav in Resources */,
+				5582BB334B48CA131CABA894 /* animal-bear.wav in Resources */,
+				7898A51087A35D54F75B605D /* animal-beaver.wav in Resources */,
+				A20D4CE539D26B1A8FD5FE51 /* animal-bee.wav in Resources */,
+				5047F8156D174977B128122F /* animal-beetle.wav in Resources */,
+				5F95BF6D9B0C18354DDB6B1B /* animal-bison.wav in Resources */,
+				B6965B353CD297CC10B7B1D6 /* animal-boar.wav in Resources */,
+				DB3E779A009C72588F6A0B5A /* animal-bullfinch.wav in Resources */,
+				6DC329DE0DF1BD78126050A4 /* animal-butterfly.wav in Resources */,
+				6DAB5E75B02A656D116F53A0 /* animal-camel.wav in Resources */,
+				AD0E7751926FFAF9A6DDBF4C /* animal-cat.wav in Resources */,
+				19F95E5BD9B6DA8298170274 /* animal-caterpillar.wav in Resources */,
+				9C305E5C89776BCDD1E577B9 /* animal-catfish.wav in Resources */,
+				EECB8DF2793A74B5BFC00795 /* animal-chicken.wav in Resources */,
+				98B9A7D0915A3A462B0D3697 /* animal-clownfish.wav in Resources */,
+				7F7FAE67F6C811BC70390559 /* animal-cow.wav in Resources */,
+				6E9AFB9189588150A6DA791B /* animal-crab.wav in Resources */,
+				F8E42D65501C8946B0A6E5BF /* animal-crocodile.wav in Resources */,
+				D613A89ADA5DE9BAAC0871D0 /* animal-crow.wav in Resources */,
+				AC42E980510D631E684D45AF /* animal-dog.wav in Resources */,
+				FD999ADE69A77A5A6C0695F6 /* animal-dolphin.wav in Resources */,
+				DBF858DE97DE5F139942D6B3 /* animal-donkey.wav in Resources */,
+				4151049EE1DF873B8FA54CB3 /* animal-dragonfly.wav in Resources */,
+				774C39C77A705176CEAE7AD6 /* animal-duck.wav in Resources */,
+				4E6197F6B4F79B895D520F8E /* animal-elephant.wav in Resources */,
+				66F153A567EDA5EE46919148 /* animal-fawn.wav in Resources */,
+				B177DF92F2F849D21BE8A548 /* animal-flamingo.wav in Resources */,
+				929C9B7DBECB3664A1546B10 /* animal-fox.wav in Resources */,
+				CA0006594F75186243E9D388 /* animal-frog.wav in Resources */,
+				1D591BB20904237D53E514C2 /* animal-giraffe.wav in Resources */,
+				785024EA33353463CC4EFF98 /* animal-goat.wav in Resources */,
+				EFC1241FD632183789A683F8 /* animal-goldfish.wav in Resources */,
+				7B20F6534CAB72CA0F6C9065 /* animal-goose.wav in Resources */,
+				8CFBC4069DDAB31546B53A59 /* animal-grasshopper.wav in Resources */,
+				004B4C844A4B4DB1F404D256 /* animal-guinea-pig.wav in Resources */,
+				BA550031B39839715142A662 /* animal-hamster.wav in Resources */,
+				758F33ACD3CDDFF6EC32AC2D /* animal-hare.wav in Resources */,
+				AA753D9240DEBD3C7344DCD7 /* animal-hedgehog.wav in Resources */,
+				6906CB178C21C77CE699A201 /* animal-hippopotamus.wav in Resources */,
+				9EF31D8A445BE0066269AA82 /* animal-horse.wav in Resources */,
+				0C784E7AA12AB4B101660182 /* animal-jellyfish.wav in Resources */,
+				AC29CC17A124DC8590E029FA /* animal-kangaroo.wav in Resources */,
+				3A553C41A3778171658D9AF7 /* animal-koala.wav in Resources */,
+				05971F88EA816FC12D75529F /* animal-ladybug.wav in Resources */,
+				7C985B2D2A0C04AD2C6AE5E2 /* animal-leopard.wav in Resources */,
+				4295115F93EB938B1D07B560 /* animal-lion.wav in Resources */,
+				36D0E7AB8D1B27D8EBDD62FF /* animal-llama.wav in Resources */,
+				0CBA4BF25E7AC00FF05CEB2D /* animal-magpie.wav in Resources */,
+				1C6E3148D8AF2C73BC3CE94A /* animal-manta-ray.wav in Resources */,
+				8B967C16FDDFB7175AA37D3F /* animal-mole.wav in Resources */,
+				E25286D6CAD555704A9BF89D /* animal-monkey.wav in Resources */,
+				C575DD4F3C0CF47A57F808C7 /* animal-mouse.wav in Resources */,
+				330E826CBACE4866CCD026D8 /* animal-octopus.wav in Resources */,
+				C6D3C98F6F40886C9111217C /* animal-owl.wav in Resources */,
+				319C351B9B32B93EC03AFEBF /* animal-panda.wav in Resources */,
+				6CF5281E6B7668D519080761 /* animal-parrot.wav in Resources */,
+				9ABCC64B23846CA531A7E26F /* animal-peacock.wav in Resources */,
+				7DEC24665EB343C0031E96FA /* animal-penguin.wav in Resources */,
+				39507E54DF14873E390E8C36 /* animal-perch.wav in Resources */,
+				0882298B568D0E90B085F063 /* animal-pig.wav in Resources */,
+				823F30452949FD335BEB7D48 /* animal-pigeon.wav in Resources */,
+				D2596BB19F01424AF189249A /* animal-pike.wav in Resources */,
+				F3A7653C385B6BF4A2194878 /* animal-rabbit.wav in Resources */,
+				4A0B84AFFF591CA0158BC892 /* animal-raccoon.wav in Resources */,
+				911CAB3996E10ADEE1E3BD2B /* animal-rhinoceros.wav in Resources */,
+				CDF141F2A8B53CD1464F3AA7 /* animal-rooster.wav in Resources */,
+				2944392EB2C4C496FCE20FD9 /* animal-seahorse.wav in Resources */,
+				2A675E9D3D386743A5A20424 /* animal-seal.wav in Resources */,
+				EC5A8E67BDF792DCDC6A1BCD /* animal-shark.wav in Resources */,
+				9E07382CD27BE08D2F9445D6 /* animal-sheep.wav in Resources */,
+				86971B38C5E2E639B6712974 /* animal-sloth.wav in Resources */,
+				5CC417A055588932DECDB87D /* animal-snail.wav in Resources */,
+				D5B184E32CD975DCF967692A /* animal-sparrow.wav in Resources */,
+				3D660AD864D8B2B405BDF7C7 /* animal-spider.wav in Resources */,
+				BB51C4B657F9F84F0AD0F4A1 /* animal-squirrel.wav in Resources */,
+				AC4874D35F7BDA3EB5734E2A /* animal-starfish.wav in Resources */,
+				9CC50B33EDBD97A200F59F0B /* animal-stork.wav in Resources */,
+				F627B15DC98C68467BF587E8 /* animal-swallow.wav in Resources */,
+				CC16730385C2CB67E2C83A4A /* animal-swan.wav in Resources */,
+				B9C4C812EC6839DA987A3B6D /* animal-tiger.wav in Resources */,
+				B4E321B90F624D3D3B41F2CA /* animal-tit.wav in Resources */,
+				58E67E76ADC24320BEDF991C /* animal-turkey.wav in Resources */,
+				A7E319D1DA5C14A2B414B22E /* animal-turtle.wav in Resources */,
+				55E22928CC91985CE3B16CAF /* animal-walrus.wav in Resources */,
+				35AE7A63593FDC8DE0F35582 /* animal-whale.wav in Resources */,
+				7237C3458ABB6F198209A6E9 /* animal-wolf.wav in Resources */,
+				792799C9C08C14C8B439885A /* animal-woodpecker.wav in Resources */,
+				3507A12D54725D12BC018C76 /* animal-zebra.wav in Resources */,
+				E10FBE7AA36F7380CCD64075 /* home-backpack.wav in Resources */,
+				02A1AADD0F561B4942C864FD /* home-bath-towel.wav in Resources */,
+				5F18BDA197DC243F955D4930 /* home-bathtub.wav in Resources */,
+				3337BACD3DF0BE71761826C0 /* home-bed.wav in Resources */,
+				2C9A4D0DF0E144EF0E8743D0 /* home-bib.wav in Resources */,
+				FF40826C1194ACF0E6B79B42 /* home-blanket.wav in Resources */,
+				7F75C30D4513C31E152C5DFD /* home-book.wav in Resources */,
+				374D42E8671AB4BB91681D43 /* home-bottle.wav in Resources */,
+				FABC592DFCECDF72B2A4DCCF /* home-bowl.wav in Resources */,
+				943AB4A0B6801C8DB5E00E1B /* home-chair.wav in Resources */,
+				1129EDB00059592D1B9F0A53 /* home-clock.wav in Resources */,
+				BB95359A431F487B1574FE67 /* home-coat.wav in Resources */,
+				2B8F1C78813C06AC8BC03DAC /* home-comb.wav in Resources */,
+				8CA810ABFDFC787FA8B1B8EC /* home-cup.wav in Resources */,
+				9A15C3CB84855470DD931FA7 /* home-cutting-board.wav in Resources */,
+				59CD8BA4B0046D213EE8D962 /* home-door.wav in Resources */,
+				4441441A5E742B2D9C4300DD /* home-faucet.wav in Resources */,
+				09BDF80A9A36F7DC7E5E7741 /* home-fork.wav in Resources */,
+				AB8B94DE368BD1F21B6216CA /* home-fridge.wav in Resources */,
+				D09E118FDEAAB6DE1F5B2796 /* home-glass.wav in Resources */,
+				97BF23C8509F253AC06271C0 /* home-hat.wav in Resources */,
+				89DBB9114130725C956D93D1 /* home-high-chair.wav in Resources */,
+				A67829A9CB51C6F5A4387E54 /* home-jug.wav in Resources */,
+				42A401A670F0C10B36EBB8CA /* home-kettle.wav in Resources */,
+				EEF53D812B8AB1209DB1B9D0 /* home-keys.wav in Resources */,
+				F243051D61088F749EC9339C /* home-lamp.wav in Resources */,
+				4193CC3E49D346D2946C79D8 /* home-laundry-basket.wav in Resources */,
+				9711FE56FF34A211892A59F0 /* home-napkin.wav in Resources */,
+				C807014E92DCBAAC0132C1F6 /* home-pan.wav in Resources */,
+				F12C784AC8F578F3298970BB /* home-pillow.wav in Resources */,
+				D000655DC095CA7F462D1D93 /* home-plate.wav in Resources */,
+				60CB870BF877B65790AA3CF1 /* home-pot.wav in Resources */,
+				ACAF3ED2F7E1CC7F4B4C8F6E /* home-potty.wav in Resources */,
+				E972D62FE2CD43537D9F357E /* home-rubber-duck.wav in Resources */,
+				390AEE39A57F46B3A8FCB895 /* home-scarf.wav in Resources */,
+				3B5FAFCAAC510873261F8DE6 /* home-shampoo.wav in Resources */,
+				D9DB82168CF0CB627C1FB96D /* home-shoes.wav in Resources */,
+				79E7D25A9978B7AD8747E369 /* home-sink.wav in Resources */,
+				6371CB30E51A8AB646A233BA /* home-slippers.wav in Resources */,
+				FC421141C310BFB77E67FC01 /* home-soap.wav in Resources */,
+				D5BA97C7A929BC21262ABA05 /* home-sponge.wav in Resources */,
+				10AEBB308F4172393E24F87B /* home-spoon.wav in Resources */,
+				8CB78A9A4E1B6015B9D49136 /* home-stove.wav in Resources */,
+				724EEFEBCDE638D5007E4D71 /* home-strainer.wav in Resources */,
+				8BC3B8B353B6DB5F672456CC /* home-stroller.wav in Resources */,
+				FAF110DE408BAA60D6B3EAC2 /* home-table.wav in Resources */,
+				F38D569426715A8934C0F337 /* home-toothbrush.wav in Resources */,
+				CF49FF64D1D86EF0F1890F09 /* home-toothpaste.wav in Resources */,
+				D69AA680F954CB173E359CB1 /* home-umbrella.wav in Resources */,
+				E1946ECD3AF6D05EFE6ED24B /* home-washing-machine.wav in Resources */,
+				5D9B1CBA058BEB7F505999AF /* letter-0401.wav in Resources */,
+				86B66D84DA6EBC67C9A7F75A /* letter-0410.wav in Resources */,
+				BA686A923A73ED787E3CE390 /* letter-0411.wav in Resources */,
+				EA9FDBEC68D178388936D296 /* letter-0412.wav in Resources */,
+				5DABD4408C28E8A2B7DD5EC0 /* letter-0413.wav in Resources */,
+				211C425A8AE4B2068EFD9FC0 /* letter-0414.wav in Resources */,
+				38126339AD6FEB802E5D136B /* letter-0415.wav in Resources */,
+				1617BFDF368F4E1A1F80D83B /* letter-0416.wav in Resources */,
+				CD55DF3D9B2B5709635DDCFB /* letter-0417.wav in Resources */,
+				0CC96F7F265C0412296B8AF3 /* letter-0418.wav in Resources */,
+				3774D072A585CB3BE966467A /* letter-0419.wav in Resources */,
+				11CEC6594E9A0E4B04A14472 /* letter-041a.wav in Resources */,
+				8FBD876CC86BCCE5208D6FA1 /* letter-041b.wav in Resources */,
+				1E641A9A4A928E3E9DBBA855 /* letter-041c.wav in Resources */,
+				089FDFF8DED292BF3F15F3FA /* letter-041d.wav in Resources */,
+				D44D40F362314B947E463B49 /* letter-041e.wav in Resources */,
+				21D47B9A88B762A938DEA6C8 /* letter-041f.wav in Resources */,
+				5266E88F4E98D84B3F78E4AF /* letter-0420.wav in Resources */,
+				FFA9C63B20FE32CE98B048C6 /* letter-0421.wav in Resources */,
+				A526FF3525394F7DF2D9489E /* letter-0422.wav in Resources */,
+				5A2744808395284776FEF5AC /* letter-0423.wav in Resources */,
+				FAC93E09D12458564820C87B /* letter-0424.wav in Resources */,
+				836E04712F93DA3AAF99C1F1 /* letter-0425.wav in Resources */,
+				E73E5AF196BBC41B8A523816 /* letter-0426.wav in Resources */,
+				589C80F772C6232A25E5FEA0 /* letter-0427.wav in Resources */,
+				D5E80A9B166ADD828B389C2E /* letter-0428.wav in Resources */,
+				687286A65843B9420AC18AB5 /* letter-0429.wav in Resources */,
+				4E3F6C02C2416B962DD60165 /* letter-042a.wav in Resources */,
+				8C4BD5211D854129CE7E6761 /* letter-042b.wav in Resources */,
+				293E5F3000E6411260834A85 /* letter-042c.wav in Resources */,
+				61E7FBD983D6CFAAF6999F1A /* letter-042d.wav in Resources */,
+				96D3C1CA797E68BEDEC266CA /* letter-042e.wav in Resources */,
+				66F5F820FDA5A40339A6A583 /* letter-042f.wav in Resources */,
+				6DAE02563A6A4DA77F160A83 /* speech-index.json in Resources */,
+				AF5F62F6257608678738732F /* transport-airplane.wav in Resources */,
+				C8A0E227733C9A048D31D071 /* transport-airship.wav in Resources */,
+				D15511C175BB36E104273B56 /* transport-ambulance.wav in Resources */,
+				98524A247506DB62E403DC66 /* transport-balance-bike.wav in Resources */,
+				542BC15895CF4826EAB07F33 /* transport-bicycle.wav in Resources */,
+				DFBA3240C6AC942C216A8471 /* transport-bulldozer.wav in Resources */,
+				78D4547470F244763C74297F /* transport-bus.wav in Resources */,
+				0A875AD771213FB4E8829C24 /* transport-car-carrier.wav in Resources */,
+				D79C3D8B4D007BB623DD97BC /* transport-car.wav in Resources */,
+				09013CD5BCF4F85B4276AA4B /* transport-combine.wav in Resources */,
+				F54A11F14CC6DE442B8234AF /* transport-concrete-mixer.wav in Resources */,
+				9954BB159DF9E8441893D5A5 /* transport-crane-truck.wav in Resources */,
+				C5E70D90654CD4E91C4D59E7 /* transport-delivery-van.wav in Resources */,
+				39D801988C74311E5A6B26C8 /* transport-dump-truck.wav in Resources */,
+				C017EE687435D0FF43A6DD0D /* transport-excavator.wav in Resources */,
+				FB8CCACD32B48A15C4FE3833 /* transport-ferry.wav in Resources */,
+				A6E3CF7C6103FA3D10688936 /* transport-fire-engine.wav in Resources */,
+				FA27257F90AA84F2D5DF4029 /* transport-forklift.wav in Resources */,
+				8A1C63D9B5E139614A813C16 /* transport-garbage-truck.wav in Resources */,
+				E2D30D9135C5870041AAB130 /* transport-hang-glider.wav in Resources */,
+				D44CEC315099AABCAA27C69E /* transport-helicopter.wav in Resources */,
+				21196865EA65DF1E66904292 /* transport-hot-air-balloon.wav in Resources */,
+				19601E5E4C30D623431C21A5 /* transport-jet-ski.wav in Resources */,
+				FBE160127899EB7709A452ED /* transport-kick-scooter.wav in Resources */,
+				908EFE6060A2FC12C8F6439D /* transport-minibus.wav in Resources */,
+				59418F90EF3BABFE03FFBC1E /* transport-motorboat.wav in Resources */,
+				14C4849082DD37A0D4FD532C /* transport-motorcycle.wav in Resources */,
+				3685A49F6244F8DF1471596D /* transport-police-car.wav in Resources */,
+				4B88C9983F26FF1F94EEB41B /* transport-quad-bike.wav in Resources */,
+				85486DFDB8687E2F6AC911F9 /* transport-road-roller.wav in Resources */,
+				9CCB66584EADFF6AE01EDACC /* transport-rocket.wav in Resources */,
+				3AD44412B68174F42C0C2915 /* transport-rowboat.wav in Resources */,
+				CC81383830A56055F5FC15F1 /* transport-sailboat.wav in Resources */,
+				78D2F513FD4EB3B1A3D22EC7 /* transport-scooter.wav in Resources */,
+				FA5FCC1F38DA00CD4C6BC4F6 /* transport-ship.wav in Resources */,
+				9A6318D49D5D555DC2485987 /* transport-snowmobile.wav in Resources */,
+				160BA9B94B06720A2A3DBE39 /* transport-snowplow.wav in Resources */,
+				3FB6D92C398811EA862575B9 /* transport-space-rover.wav in Resources */,
+				C078DDD900BA4E5B5002371C /* transport-street-sweeper.wav in Resources */,
+				1116D6632B485DA75D5AFA4D /* transport-submarine.wav in Resources */,
+				F582D44D7B0CD5EC31DFA5D6 /* transport-subway-train.wav in Resources */,
+				D8ABEA315B0213C544BB3031 /* transport-tanker.wav in Resources */,
+				BC4A4E68FF827778D54DF07C /* transport-taxi.wav in Resources */,
+				44E858C7EA2440F230F477BB /* transport-tow-truck.wav in Resources */,
+				A4E1DC0B804A4B28BD43708C /* transport-tractor.wav in Resources */,
+				5094709C6172E6139D88D450 /* transport-train.wav in Resources */,
+				9C335DD98E3939C395A3A50C /* transport-tram.wav in Resources */,
+				496A1513313C5E7751B8998C /* transport-trolleybus.wav in Resources */,
+				735487BFD83C70C189EBF574 /* transport-truck.wav in Resources */,
+				E4132F5E74D38ABA79C4AAB3 /* transport-tugboat.wav in Resources */,
+				FF168031CBB1CC0159C87D49 /* voice-preview.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,7 +2046,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.0;
+				MARKETING_VERSION = 0.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -768,7 +2068,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.0;
+				MARKETING_VERSION = 0.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
