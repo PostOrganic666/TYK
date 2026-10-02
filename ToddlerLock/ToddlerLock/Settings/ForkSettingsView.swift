@@ -22,23 +22,26 @@ struct SettingsView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            VStack(spacing: 14) {
-                modeGrid
-                HStack(alignment: .top, spacing: 14) {
-                    SettingsPanel(title: "Звук и время") { playPanel }
-                    SettingsPanel(title: "Что будет происходить") {
-                        Text(selectedMode.blurb)
-                            .font(.system(size: 14, weight: .medium))
-                        Text(selectedMode.detail)
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                            .fixedSize(horizontal: false, vertical: true)
+            ScrollView {
+                VStack(spacing: 14) {
+                    modeGrid
+                    HStack(alignment: .top, spacing: 14) {
+                        SettingsPanel(title: "Звук и время") { playPanel }
+                        SettingsPanel(title: "Что будет происходить") {
+                            Text(selectedMode.blurb)
+                                .font(.system(size: 14, weight: .medium))
+                            Text(selectedMode.detail)
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
                     }
+                    SettingsPanel(title: "Выход для взрослого") { exitPanel }
                 }
-                SettingsPanel(title: "Выход для взрослого") { exitPanel }
+                .padding(16)
+                .frame(maxWidth: .infinity, alignment: .top)
             }
-            .padding(16)
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
 
             Divider()
             HStack {
