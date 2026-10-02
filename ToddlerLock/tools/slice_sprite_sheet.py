@@ -118,12 +118,12 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     for name, subject in zip(args.names, subjects):
-        # Include tiny detached details (for example whiskers) in the same
+        # Include detached details (for example a tree star or whiskers) in the same
         # generous neighborhood, while excluding every other main subject.
         center_x, center_y = subject.center
         assigned_labels = {subject.label}
         for component in components:
-            if component.count >= 500 or component.count < 3:
+            if component.label in {candidate.label for candidate in subjects} or component.count < 3:
                 continue
             x, y = component.center
             if abs(x - center_x) <= 290 and abs(y - center_y) <= 260:

@@ -26,6 +26,10 @@
 		D7B7F9F4698E9AF0CEF23CDC /* RussianAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EDD4DB3465982CD23FB1A /* RussianAlphabet.swift */; };
 		7D6292EC6994ACF1884C829A /* StorybookArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001B4147A38E7C9ACB2F133 /* StorybookArt.swift */; };
 		7918897ED39D94E1929A2E34 /* LettersMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB443C2E2DF83347A8DB276 /* LettersMode.swift */; };
+		1815B1C1EA19F3553D084C6A /* AlphabetMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94D37BC6CF932D4CDD8387 /* AlphabetMode.swift */; };
+		3E1304A59E69B8831932AA68 /* AlphabetCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED170D7BD0CBEEFEB8C561 /* AlphabetCards.swift */; };
+		48D2FF8655CDA2A747DC5109 /* AlphabetProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8676EF1CF5EA80A210473 /* AlphabetProgress.swift */; };
+		6B5D390DD82CFAB348C7A8EF /* PacedPlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2ECDE66D7AF8B5A629546 /* PacedPlayMode.swift */; };
 		E159DE4B5F0BFCDD960B173C /* PictureMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B7B52C2C440717FC5E911 /* PictureMode.swift */; };
 		E1643EDD3D1B7B6FBC6E28E5 /* MusicMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2631EAED7F08A909C02BC /* MusicMode.swift */; };
 		ECF3C770AA263EDB6C73F618 /* PermissionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DEEAF5219F1BACB36A6323 /* PermissionChecker.swift */; };
@@ -225,6 +229,45 @@
 		BDA9F8B7A4CBDA26472636CC /* transport-trolleybus.png in Resources */ = {isa = PBXBuildFile; fileRef = 680740BA6F8458D454065F88 /* transport-trolleybus.png */; };
 		364981AF039B10D54F737831 /* transport-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA0527ABD175D5E1C55025B /* transport-truck.png */; };
 		E12655632710274C000CBDEA /* transport-tugboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 10159FDD99C894B2CDB20466 /* transport-tugboat.png */; };
+		D80FB050481A5B7F6D38814D /* alphabet-word-042d5303a632.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AA24D8A5537F9CF8C390571 /* alphabet-word-042d5303a632.wav */; };
+		0FBAD4D72328B743B732D450 /* alphabet-word-0afbccd14c33.wav in Resources */ = {isa = PBXBuildFile; fileRef = E6E1B6860343C5275C41EBBB /* alphabet-word-0afbccd14c33.wav */; };
+		5F3FB6265EFA11D8196A5554 /* alphabet-word-1466ade22481.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFFDC771F6B342F918666BD8 /* alphabet-word-1466ade22481.wav */; };
+		5C76B01220553A70494C0694 /* alphabet-word-1715cc5e00bf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35081E4764ED08AE5C976A55 /* alphabet-word-1715cc5e00bf.wav */; };
+		185C7D0707234FFA04BF47D7 /* alphabet-word-1976031f91d4.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF6021FD109C5DBE4A593EA3 /* alphabet-word-1976031f91d4.wav */; };
+		D4B3E944504A016EDA3E82C4 /* alphabet-word-253173d359f3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92A424A0B02F2B0DD7167CA3 /* alphabet-word-253173d359f3.wav */; };
+		243EC47AB649B497C4E4E593 /* alphabet-word-26e03e963a14.wav in Resources */ = {isa = PBXBuildFile; fileRef = A7A4E0CB927351E34F10DBD8 /* alphabet-word-26e03e963a14.wav */; };
+		AD01CEEE0106066C0FDFD98A /* alphabet-word-309ff11850f5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 834574624828A59FC2286A66 /* alphabet-word-309ff11850f5.wav */; };
+		4A766999604CF0A2965E5FDB /* alphabet-word-3171afd0741b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6679F165CCE8B563D9AF5A46 /* alphabet-word-3171afd0741b.wav */; };
+		2599F4B0629B408183916D9B /* alphabet-word-38dd1d21ce98.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AEDBE7A3DBB88EEB3907D75 /* alphabet-word-38dd1d21ce98.wav */; };
+		42F70B0379DD4E08C6D786F5 /* alphabet-word-39ba4eadd4cc.wav in Resources */ = {isa = PBXBuildFile; fileRef = 512129BC21B0E38F18EBE7F3 /* alphabet-word-39ba4eadd4cc.wav */; };
+		992974838A5C8F11267C9594 /* alphabet-word-3a0ffa326b27.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04C779D67112A71F6458326C /* alphabet-word-3a0ffa326b27.wav */; };
+		526BDDAA90C04D52D50594CF /* alphabet-word-3e70a8cfd59e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45CC86ED23C021B4B208DD9F /* alphabet-word-3e70a8cfd59e.wav */; };
+		DEA4622BE38B8C6C664B6D79 /* alphabet-word-6182fbc92d4f.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3BC271EC6C1BEBAC2CAD316 /* alphabet-word-6182fbc92d4f.wav */; };
+		CED9253C84376E1C7FC35342 /* alphabet-word-61998b44f987.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F545184078427C064CC0BC9 /* alphabet-word-61998b44f987.wav */; };
+		5CC070945ACEC8E592233FBD /* alphabet-word-67051f52366f.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D3E77F1EC380ED2D964C /* alphabet-word-67051f52366f.wav */; };
+		EFEA4DC2DC6A7E9B828BA41E /* alphabet-word-6c351a82b5b1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6669F38BCAB8D900D91B88DF /* alphabet-word-6c351a82b5b1.wav */; };
+		EF12B19B47BAC9F412E0818A /* alphabet-word-83722f041ea2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18240234B61621BE1706CDF7 /* alphabet-word-83722f041ea2.wav */; };
+		47FDB04C8B2AAE6A308436EC /* alphabet-word-90c2bcc657e5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DB36553DEE490A796D0F70 /* alphabet-word-90c2bcc657e5.wav */; };
+		72530C7A89F32ECD7DCB02B1 /* alphabet-word-932b50628eca.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD9383CFDF805E5FB45912AE /* alphabet-word-932b50628eca.wav */; };
+		72A037871EDF2D6A7862B661 /* alphabet-word-95a89b6820bc.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09C2B0302E240B226375054E /* alphabet-word-95a89b6820bc.wav */; };
+		D1899EBE2670D241FB0749D5 /* alphabet-word-9e35c680da9b.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1BEC89749F95CF9AC6D1E9F /* alphabet-word-9e35c680da9b.wav */; };
+		BD6ABE40E00046EA1029213A /* alphabet-word-a0843be54acb.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0F67C1D22291D8ACD495AE7 /* alphabet-word-a0843be54acb.wav */; };
+		9E5EED3FDC455EE2361CD714 /* alphabet-word-ad862cf2d4b5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B9358BF93B012B73B49334E /* alphabet-word-ad862cf2d4b5.wav */; };
+		299D79450AC40C2535557C22 /* alphabet-word-b0e823d77aba.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7862C25E98ECC0B1AE89F8F5 /* alphabet-word-b0e823d77aba.wav */; };
+		4B4318C0874A012D92B23FF7 /* alphabet-word-b7855d13b934.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E500B9CAA2B5159C50D182B /* alphabet-word-b7855d13b934.wav */; };
+		67822C13247C36BC431A100B /* alphabet-word-c0cbec0ef9a9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6C4F7FB256F08BA191B7BB46 /* alphabet-word-c0cbec0ef9a9.wav */; };
+		F466D02ED17E2351CB668B1E /* alphabet-word-c10ee5bb27d2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 206228EB776CBE87DDF4CD60 /* alphabet-word-c10ee5bb27d2.wav */; };
+		ABCCA2663C5627613E04E051 /* alphabet-word-c2dd04104f25.wav in Resources */ = {isa = PBXBuildFile; fileRef = 630E03B26F59D8B002948965 /* alphabet-word-c2dd04104f25.wav */; };
+		7D9E2633BDB0364FC9C37E69 /* alphabet-word-c6fc74635eaa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31AEDC0EE49701595C467D54 /* alphabet-word-c6fc74635eaa.wav */; };
+		D545B3F9085B1EB6EF62753B /* alphabet-word-cb36c0ce0bc4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 239F4359CC4DB133EFA9C0C1 /* alphabet-word-cb36c0ce0bc4.wav */; };
+		27E359150BF5590D27A16D47 /* alphabet-word-d396f65df8c8.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD940BC565D32313DD6362D9 /* alphabet-word-d396f65df8c8.wav */; };
+		E429EA30D811841D97E1F73C /* alphabet-word-d8c137ce19d5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 071A76D5464EE8F6B701FE0E /* alphabet-word-d8c137ce19d5.wav */; };
+		52D40F672A2C538B28FF0A11 /* alphabet-word-de191f102168.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA100C0B48D7218D4241E947 /* alphabet-word-de191f102168.wav */; };
+		0CE3332BB8F916C7ECD293CF /* alphabet-word-e247d0d5ecd3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B896EBCFE44F234D7F69B2BC /* alphabet-word-e247d0d5ecd3.wav */; };
+		879538C802702398C1ABCCC0 /* alphabet-word-ef633f7569b3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 39C33E29F99DB49D1AF8B092 /* alphabet-word-ef633f7569b3.wav */; };
+		7CCCFA440144CC0F8D6808DE /* alphabet-word-f5b3d757a732.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D26A2DBF66A1C8293C01234 /* alphabet-word-f5b3d757a732.wav */; };
+		DA33CDDAEBC303C4E9150D0C /* alphabet-word-fdbb3ec43ec3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1446B3D68330744730707 /* alphabet-word-fdbb3ec43ec3.wav */; };
+		C6A0CBF012E6B6FF6B5FD372 /* alphabet-word-fe9aedbc1b34.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49028E4963A3E0E7974A0F3C /* alphabet-word-fe9aedbc1b34.wav */; };
 		61F13C2DD67DFA62640DA34A /* animal-alpaca.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3E1B66FECFCACC82ACE797D5 /* animal-alpaca.wav */; };
 		C536536622D34EF16F980616 /* animal-ant.wav in Resources */ = {isa = PBXBuildFile; fileRef = D14067DFECE67509A26A4BC3 /* animal-ant.wav */; };
 		62BFC1FF9BC968DCE8744BAB /* animal-badger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC714512E316F0AF7EFADF /* animal-badger.wav */; };
@@ -450,6 +493,42 @@
 		735487BFD83C70C189EBF574 /* transport-truck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7FCD562A635F137FEEA5C0 /* transport-truck.wav */; };
 		E4132F5E74D38ABA79C4AAB3 /* transport-tugboat.wav in Resources */ = {isa = PBXBuildFile; fileRef = C40AB8E6E897D79991BCAD4E /* transport-tugboat.wav */; };
 		FF168031CBB1CC0159C87D49 /* voice-preview.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CD3176228A657773535FE0F /* voice-preview.wav */; };
+		71E9207940B3407DAC925BE5 /* alphabet-anchor.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A584CD5BED4DB253016DC1 /* alphabet-anchor.png */; };
+		59E2EFBE122C9E4F91E0F8AA /* alphabet-apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6DCD4CD5F534F45C80CF7 /* alphabet-apple.png */; };
+		F286957ED757A657B6810C88 /* alphabet-banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 191D0F0E602E8EFACBB990B4 /* alphabet-banana.png */; };
+		EA5421B5FA6AC6792E5F0795 /* alphabet-berries.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FE7D4CCB8EF5E1D32FBFA7 /* alphabet-berries.png */; };
+		14F5D8D13E22EB2BCD9CFB09 /* alphabet-blackberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E888D4B26AEC6DE3FED14 /* alphabet-blackberry.png */; };
+		59604ABB29E94B333B097BCA /* alphabet-bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 1125941CD8D9F1C403EECA8D /* alphabet-bread.png */; };
+		6331B02163205082C221F425 /* alphabet-brush.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5F9325E79605606060D2E3 /* alphabet-brush.png */; };
+		798302CF0F88BECECD0BE166 /* alphabet-cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 935BE07D3007E254D04E09C2 /* alphabet-cheese.png */; };
+		83D81FB77B179DCEDDC6A4BB /* alphabet-chick.png in Resources */ = {isa = PBXBuildFile; fileRef = AD616B565983B600EDF07217 /* alphabet-chick.png */; };
+		C29CAADB58C2BB4EC1FB201B /* alphabet-christmas-tree.png in Resources */ = {isa = PBXBuildFile; fileRef = C81430EFE708067468BABD44 /* alphabet-christmas-tree.png */; };
+		4D24A294C4AB34BC2958D52A /* alphabet-circus.png in Resources */ = {isa = PBXBuildFile; fileRef = 055AA053E012ED1F0E42E258 /* alphabet-circus.png */; };
+		8A0F81CA38460DCA19681F55 /* alphabet-cucumber.png in Resources */ = {isa = PBXBuildFile; fileRef = C21B7FA5C3FD2C37C95E7745 /* alphabet-cucumber.png */; };
+		46E698602CF9F4333FBAF5F4 /* alphabet-entrance.png in Resources */ = {isa = PBXBuildFile; fileRef = BE75F2079D7D115FE507FF93 /* alphabet-entrance.png */; };
+		AD3D6C2506AE4989F31A67D5 /* alphabet-flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0DD303CCAC825E1EFC30C9 /* alphabet-flower.png */; };
+		8304A35399D9CE2903CDF93B /* alphabet-house.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F8B45CEF44BCFDAD64F13 /* alphabet-house.png */; };
+		66DD4E86B1A69B8CAA7D529B /* alphabet-ice-cream.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A4E3026FA65F233251BEB2 /* alphabet-ice-cream.png */; };
+		29B7B89B67597A9B5D77F987 /* alphabet-iron.png in Resources */ = {isa = PBXBuildFile; fileRef = FA887352A8AB692114F00B3A /* alphabet-iron.png */; };
+		D61602494D80B2CA834A3582 /* alphabet-lantern.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C32400295DA3BBFC4BFBB0C /* alphabet-lantern.png */; };
+		267D1C641AF12FBC3FF22503 /* alphabet-mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B246040B0EFDEBB251A963 /* alphabet-mushroom.png */; };
+		D222D5C34FB22F983F455B53 /* alphabet-notice.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA79F7826A953A263F5A8C /* alphabet-notice.png */; };
+		DBF73E54A8BC3C1C1D691B9D /* alphabet-puppy.png in Resources */ = {isa = PBXBuildFile; fileRef = D86BDFC8A7DA27C2CC3B9332 /* alphabet-puppy.png */; };
+		B6D0879F57F2FF7F196AC8BC /* alphabet-raisins.png in Resources */ = {isa = PBXBuildFile; fileRef = B181E3C7062CA9087E3840A9 /* alphabet-raisins.png */; };
+		BFD0F7C789D0352979DFFDC6 /* alphabet-ruffe.png in Resources */ = {isa = PBXBuildFile; fileRef = DF930CF66F070B65B917B266 /* alphabet-ruffe.png */; };
+		22859B905876DA9A3489318C /* alphabet-scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D4EBA3E937C421AAE7F018 /* alphabet-scissors.png */; };
+		DF7171578A9453EE4D4886B8 /* alphabet-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9787C19098D94F55A9E8A852 /* alphabet-screen.png */; };
+		9F43B2D8DCF2D57728F54547 /* alphabet-skirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A81564B25957F9FCFE1D1 /* alphabet-skirt.png */; };
+		5D6A301CA8E4372F920C314B /* alphabet-socks.png in Resources */ = {isa = PBXBuildFile; fileRef = B0966F5C2F57D13CB5709573 /* alphabet-socks.png */; };
+		236D876C12262D7082435683 /* alphabet-sofa.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AA24042B42321A5908B49D /* alphabet-sofa.png */; };
+		F4A62BAC87C2840262F295BB /* alphabet-spinning-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 1364222EC8A459DB515B91CD /* alphabet-spinning-top.png */; };
+		A38C2BE67728C5D3D3E402D6 /* alphabet-spruce.png in Resources */ = {isa = PBXBuildFile; fileRef = C91EADEF6CA075D3E5F25C8B /* alphabet-spruce.png */; };
+		03AE2BE560290C147DE21788 /* alphabet-toad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D554ED9814B5B7CB4BFBC61 /* alphabet-toad.png */; };
+		0423A1A69E223443CC50DFB9 /* alphabet-toy.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F58D3E7E383ADBD50F75E9 /* alphabet-toy.png */; };
+		3DE3927FFC82085852D37581 /* alphabet-wardrobe.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BAD93CE1F90EAF5BFF160 /* alphabet-wardrobe.png */; };
+		968BB920B6AF2D706163D73A /* alphabet-watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 352672101987F5D5D4BFCADA /* alphabet-watermelon.png */; };
+		EC8A8FE810D3DFD94555977A /* alphabet-yogurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 60057A400D1F726CE903B975 /* alphabet-yogurt.png */; };
+		688F6C202CD20DA2FEDD4DA5 /* alphabet-yurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6F0DDCE20B0FA0F56097F /* alphabet-yurt.png */; };
 		6C61552DC6670A50FC25765E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B218FB64174136C14AE6BB /* AppKit.framework */; };
 		112B820D330936A7D4320258 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E316B22C9C9CA53DC7CB202 /* SpriteKit.framework */; };
 		8A574D44D01D2536468B4FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0C6800A838F359482B740 /* CoreGraphics.framework */; };
@@ -478,6 +557,10 @@
 		266EDD4DB3465982CD23FB1A /* RussianAlphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/RussianAlphabet.swift"; sourceTree = "<group>"; };
 		8001B4147A38E7C9ACB2F133 /* StorybookArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/StorybookArt.swift"; sourceTree = "<group>"; };
 		AAB443C2E2DF83347A8DB276 /* LettersMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/LettersMode.swift"; sourceTree = "<group>"; };
+		EA94D37BC6CF932D4CDD8387 /* AlphabetMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/AlphabetMode.swift"; sourceTree = "<group>"; };
+		DCED170D7BD0CBEEFEB8C561 /* AlphabetCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/AlphabetCards.swift"; sourceTree = "<group>"; };
+		43E8676EF1CF5EA80A210473 /* AlphabetProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/AlphabetProgress.swift"; sourceTree = "<group>"; };
+		C0B2ECDE66D7AF8B5A629546 /* PacedPlayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/PacedPlayMode.swift"; sourceTree = "<group>"; };
 		204B7B52C2C440717FC5E911 /* PictureMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/PictureMode.swift"; sourceTree = "<group>"; };
 		1EA2631EAED7F08A909C02BC /* MusicMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modes/MusicMode.swift"; sourceTree = "<group>"; };
 		11DEEAF5219F1BACB36A6323 /* PermissionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Permissions/PermissionChecker.swift"; sourceTree = "<group>"; };
@@ -677,6 +760,45 @@
 		680740BA6F8458D454065F88 /* transport-trolleybus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-trolleybus.png"; sourceTree = "<group>"; };
 		EFA0527ABD175D5E1C55025B /* transport-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-truck.png"; sourceTree = "<group>"; };
 		10159FDD99C894B2CDB20466 /* transport-tugboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tugboat.png"; sourceTree = "<group>"; };
+		8AA24D8A5537F9CF8C390571 /* alphabet-word-042d5303a632.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-042d5303a632.wav"; sourceTree = "<group>"; };
+		E6E1B6860343C5275C41EBBB /* alphabet-word-0afbccd14c33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-0afbccd14c33.wav"; sourceTree = "<group>"; };
+		CFFDC771F6B342F918666BD8 /* alphabet-word-1466ade22481.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-1466ade22481.wav"; sourceTree = "<group>"; };
+		35081E4764ED08AE5C976A55 /* alphabet-word-1715cc5e00bf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-1715cc5e00bf.wav"; sourceTree = "<group>"; };
+		DF6021FD109C5DBE4A593EA3 /* alphabet-word-1976031f91d4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-1976031f91d4.wav"; sourceTree = "<group>"; };
+		92A424A0B02F2B0DD7167CA3 /* alphabet-word-253173d359f3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-253173d359f3.wav"; sourceTree = "<group>"; };
+		A7A4E0CB927351E34F10DBD8 /* alphabet-word-26e03e963a14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-26e03e963a14.wav"; sourceTree = "<group>"; };
+		834574624828A59FC2286A66 /* alphabet-word-309ff11850f5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-309ff11850f5.wav"; sourceTree = "<group>"; };
+		6679F165CCE8B563D9AF5A46 /* alphabet-word-3171afd0741b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-3171afd0741b.wav"; sourceTree = "<group>"; };
+		2AEDBE7A3DBB88EEB3907D75 /* alphabet-word-38dd1d21ce98.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-38dd1d21ce98.wav"; sourceTree = "<group>"; };
+		512129BC21B0E38F18EBE7F3 /* alphabet-word-39ba4eadd4cc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-39ba4eadd4cc.wav"; sourceTree = "<group>"; };
+		04C779D67112A71F6458326C /* alphabet-word-3a0ffa326b27.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-3a0ffa326b27.wav"; sourceTree = "<group>"; };
+		45CC86ED23C021B4B208DD9F /* alphabet-word-3e70a8cfd59e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-3e70a8cfd59e.wav"; sourceTree = "<group>"; };
+		F3BC271EC6C1BEBAC2CAD316 /* alphabet-word-6182fbc92d4f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-6182fbc92d4f.wav"; sourceTree = "<group>"; };
+		3F545184078427C064CC0BC9 /* alphabet-word-61998b44f987.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-61998b44f987.wav"; sourceTree = "<group>"; };
+		E9E6D3E77F1EC380ED2D964C /* alphabet-word-67051f52366f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-67051f52366f.wav"; sourceTree = "<group>"; };
+		6669F38BCAB8D900D91B88DF /* alphabet-word-6c351a82b5b1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-6c351a82b5b1.wav"; sourceTree = "<group>"; };
+		18240234B61621BE1706CDF7 /* alphabet-word-83722f041ea2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-83722f041ea2.wav"; sourceTree = "<group>"; };
+		18DB36553DEE490A796D0F70 /* alphabet-word-90c2bcc657e5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-90c2bcc657e5.wav"; sourceTree = "<group>"; };
+		AD9383CFDF805E5FB45912AE /* alphabet-word-932b50628eca.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-932b50628eca.wav"; sourceTree = "<group>"; };
+		09C2B0302E240B226375054E /* alphabet-word-95a89b6820bc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-95a89b6820bc.wav"; sourceTree = "<group>"; };
+		F1BEC89749F95CF9AC6D1E9F /* alphabet-word-9e35c680da9b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-9e35c680da9b.wav"; sourceTree = "<group>"; };
+		F0F67C1D22291D8ACD495AE7 /* alphabet-word-a0843be54acb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-a0843be54acb.wav"; sourceTree = "<group>"; };
+		7B9358BF93B012B73B49334E /* alphabet-word-ad862cf2d4b5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-ad862cf2d4b5.wav"; sourceTree = "<group>"; };
+		7862C25E98ECC0B1AE89F8F5 /* alphabet-word-b0e823d77aba.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-b0e823d77aba.wav"; sourceTree = "<group>"; };
+		6E500B9CAA2B5159C50D182B /* alphabet-word-b7855d13b934.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-b7855d13b934.wav"; sourceTree = "<group>"; };
+		6C4F7FB256F08BA191B7BB46 /* alphabet-word-c0cbec0ef9a9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-c0cbec0ef9a9.wav"; sourceTree = "<group>"; };
+		206228EB776CBE87DDF4CD60 /* alphabet-word-c10ee5bb27d2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-c10ee5bb27d2.wav"; sourceTree = "<group>"; };
+		630E03B26F59D8B002948965 /* alphabet-word-c2dd04104f25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-c2dd04104f25.wav"; sourceTree = "<group>"; };
+		31AEDC0EE49701595C467D54 /* alphabet-word-c6fc74635eaa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-c6fc74635eaa.wav"; sourceTree = "<group>"; };
+		239F4359CC4DB133EFA9C0C1 /* alphabet-word-cb36c0ce0bc4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-cb36c0ce0bc4.wav"; sourceTree = "<group>"; };
+		FD940BC565D32313DD6362D9 /* alphabet-word-d396f65df8c8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-d396f65df8c8.wav"; sourceTree = "<group>"; };
+		071A76D5464EE8F6B701FE0E /* alphabet-word-d8c137ce19d5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-d8c137ce19d5.wav"; sourceTree = "<group>"; };
+		AA100C0B48D7218D4241E947 /* alphabet-word-de191f102168.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-de191f102168.wav"; sourceTree = "<group>"; };
+		B896EBCFE44F234D7F69B2BC /* alphabet-word-e247d0d5ecd3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-e247d0d5ecd3.wav"; sourceTree = "<group>"; };
+		39C33E29F99DB49D1AF8B092 /* alphabet-word-ef633f7569b3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-ef633f7569b3.wav"; sourceTree = "<group>"; };
+		0D26A2DBF66A1C8293C01234 /* alphabet-word-f5b3d757a732.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-f5b3d757a732.wav"; sourceTree = "<group>"; };
+		0FC1446B3D68330744730707 /* alphabet-word-fdbb3ec43ec3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-fdbb3ec43ec3.wav"; sourceTree = "<group>"; };
+		49028E4963A3E0E7974A0F3C /* alphabet-word-fe9aedbc1b34.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-fe9aedbc1b34.wav"; sourceTree = "<group>"; };
 		3E1B66FECFCACC82ACE797D5 /* animal-alpaca.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-alpaca.wav"; sourceTree = "<group>"; };
 		D14067DFECE67509A26A4BC3 /* animal-ant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-ant.wav"; sourceTree = "<group>"; };
 		3FEC714512E316F0AF7EFADF /* animal-badger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-badger.wav"; sourceTree = "<group>"; };
@@ -902,6 +1024,42 @@
 		0A7FCD562A635F137FEEA5C0 /* transport-truck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-truck.wav"; sourceTree = "<group>"; };
 		C40AB8E6E897D79991BCAD4E /* transport-tugboat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/transport-tugboat.wav"; sourceTree = "<group>"; };
 		6CD3176228A657773535FE0F /* voice-preview.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/voice-preview.wav"; sourceTree = "<group>"; };
+		08A584CD5BED4DB253016DC1 /* alphabet-anchor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-anchor.png"; sourceTree = "<group>"; };
+		1EA6DCD4CD5F534F45C80CF7 /* alphabet-apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-apple.png"; sourceTree = "<group>"; };
+		191D0F0E602E8EFACBB990B4 /* alphabet-banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-banana.png"; sourceTree = "<group>"; };
+		04FE7D4CCB8EF5E1D32FBFA7 /* alphabet-berries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-berries.png"; sourceTree = "<group>"; };
+		0A5E888D4B26AEC6DE3FED14 /* alphabet-blackberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-blackberry.png"; sourceTree = "<group>"; };
+		1125941CD8D9F1C403EECA8D /* alphabet-bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-bread.png"; sourceTree = "<group>"; };
+		4D5F9325E79605606060D2E3 /* alphabet-brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-brush.png"; sourceTree = "<group>"; };
+		935BE07D3007E254D04E09C2 /* alphabet-cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-cheese.png"; sourceTree = "<group>"; };
+		AD616B565983B600EDF07217 /* alphabet-chick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-chick.png"; sourceTree = "<group>"; };
+		C81430EFE708067468BABD44 /* alphabet-christmas-tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-christmas-tree.png"; sourceTree = "<group>"; };
+		055AA053E012ED1F0E42E258 /* alphabet-circus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-circus.png"; sourceTree = "<group>"; };
+		C21B7FA5C3FD2C37C95E7745 /* alphabet-cucumber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-cucumber.png"; sourceTree = "<group>"; };
+		BE75F2079D7D115FE507FF93 /* alphabet-entrance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-entrance.png"; sourceTree = "<group>"; };
+		7F0DD303CCAC825E1EFC30C9 /* alphabet-flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-flower.png"; sourceTree = "<group>"; };
+		6D3F8B45CEF44BCFDAD64F13 /* alphabet-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-house.png"; sourceTree = "<group>"; };
+		E7A4E3026FA65F233251BEB2 /* alphabet-ice-cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-ice-cream.png"; sourceTree = "<group>"; };
+		FA887352A8AB692114F00B3A /* alphabet-iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-iron.png"; sourceTree = "<group>"; };
+		9C32400295DA3BBFC4BFBB0C /* alphabet-lantern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-lantern.png"; sourceTree = "<group>"; };
+		42B246040B0EFDEBB251A963 /* alphabet-mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-mushroom.png"; sourceTree = "<group>"; };
+		2DAA79F7826A953A263F5A8C /* alphabet-notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-notice.png"; sourceTree = "<group>"; };
+		D86BDFC8A7DA27C2CC3B9332 /* alphabet-puppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-puppy.png"; sourceTree = "<group>"; };
+		B181E3C7062CA9087E3840A9 /* alphabet-raisins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-raisins.png"; sourceTree = "<group>"; };
+		DF930CF66F070B65B917B266 /* alphabet-ruffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-ruffe.png"; sourceTree = "<group>"; };
+		F3D4EBA3E937C421AAE7F018 /* alphabet-scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-scissors.png"; sourceTree = "<group>"; };
+		9787C19098D94F55A9E8A852 /* alphabet-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-screen.png"; sourceTree = "<group>"; };
+		5A4A81564B25957F9FCFE1D1 /* alphabet-skirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-skirt.png"; sourceTree = "<group>"; };
+		B0966F5C2F57D13CB5709573 /* alphabet-socks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-socks.png"; sourceTree = "<group>"; };
+		79AA24042B42321A5908B49D /* alphabet-sofa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-sofa.png"; sourceTree = "<group>"; };
+		1364222EC8A459DB515B91CD /* alphabet-spinning-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-spinning-top.png"; sourceTree = "<group>"; };
+		C91EADEF6CA075D3E5F25C8B /* alphabet-spruce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-spruce.png"; sourceTree = "<group>"; };
+		8D554ED9814B5B7CB4BFBC61 /* alphabet-toad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-toad.png"; sourceTree = "<group>"; };
+		E0F58D3E7E383ADBD50F75E9 /* alphabet-toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-toy.png"; sourceTree = "<group>"; };
+		0A9BAD93CE1F90EAF5BFF160 /* alphabet-wardrobe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-wardrobe.png"; sourceTree = "<group>"; };
+		352672101987F5D5D4BFCADA /* alphabet-watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-watermelon.png"; sourceTree = "<group>"; };
+		60057A400D1F726CE903B975 /* alphabet-yogurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-yogurt.png"; sourceTree = "<group>"; };
+		3DA6F0DDCE20B0FA0F56097F /* alphabet-yurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Alphabet/alphabet-yurt.png"; sourceTree = "<group>"; };
 		E7E7CA9F4DF8A3E05631F826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
 		86B3BC083DF59791BE56CFAE /* ToddlerLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "App/ToddlerLock.entitlements"; sourceTree = "<group>"; };
 		71CCD365E3A654DA84DBA191 /* ToddlerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1019,6 +1177,10 @@
 				266EDD4DB3465982CD23FB1A /* RussianAlphabet.swift */,
 				8001B4147A38E7C9ACB2F133 /* StorybookArt.swift */,
 				AAB443C2E2DF83347A8DB276 /* LettersMode.swift */,
+				EA94D37BC6CF932D4CDD8387 /* AlphabetMode.swift */,
+				DCED170D7BD0CBEEFEB8C561 /* AlphabetCards.swift */,
+				43E8676EF1CF5EA80A210473 /* AlphabetProgress.swift */,
+				C0B2ECDE66D7AF8B5A629546 /* PacedPlayMode.swift */,
 				204B7B52C2C440717FC5E911 /* PictureMode.swift */,
 				1EA2631EAED7F08A909C02BC /* MusicMode.swift */,
 			);
@@ -1239,6 +1401,45 @@
 				680740BA6F8458D454065F88 /* transport-trolleybus.png */,
 				EFA0527ABD175D5E1C55025B /* transport-truck.png */,
 				10159FDD99C894B2CDB20466 /* transport-tugboat.png */,
+				8AA24D8A5537F9CF8C390571 /* alphabet-word-042d5303a632.wav */,
+				E6E1B6860343C5275C41EBBB /* alphabet-word-0afbccd14c33.wav */,
+				CFFDC771F6B342F918666BD8 /* alphabet-word-1466ade22481.wav */,
+				35081E4764ED08AE5C976A55 /* alphabet-word-1715cc5e00bf.wav */,
+				DF6021FD109C5DBE4A593EA3 /* alphabet-word-1976031f91d4.wav */,
+				92A424A0B02F2B0DD7167CA3 /* alphabet-word-253173d359f3.wav */,
+				A7A4E0CB927351E34F10DBD8 /* alphabet-word-26e03e963a14.wav */,
+				834574624828A59FC2286A66 /* alphabet-word-309ff11850f5.wav */,
+				6679F165CCE8B563D9AF5A46 /* alphabet-word-3171afd0741b.wav */,
+				2AEDBE7A3DBB88EEB3907D75 /* alphabet-word-38dd1d21ce98.wav */,
+				512129BC21B0E38F18EBE7F3 /* alphabet-word-39ba4eadd4cc.wav */,
+				04C779D67112A71F6458326C /* alphabet-word-3a0ffa326b27.wav */,
+				45CC86ED23C021B4B208DD9F /* alphabet-word-3e70a8cfd59e.wav */,
+				F3BC271EC6C1BEBAC2CAD316 /* alphabet-word-6182fbc92d4f.wav */,
+				3F545184078427C064CC0BC9 /* alphabet-word-61998b44f987.wav */,
+				E9E6D3E77F1EC380ED2D964C /* alphabet-word-67051f52366f.wav */,
+				6669F38BCAB8D900D91B88DF /* alphabet-word-6c351a82b5b1.wav */,
+				18240234B61621BE1706CDF7 /* alphabet-word-83722f041ea2.wav */,
+				18DB36553DEE490A796D0F70 /* alphabet-word-90c2bcc657e5.wav */,
+				AD9383CFDF805E5FB45912AE /* alphabet-word-932b50628eca.wav */,
+				09C2B0302E240B226375054E /* alphabet-word-95a89b6820bc.wav */,
+				F1BEC89749F95CF9AC6D1E9F /* alphabet-word-9e35c680da9b.wav */,
+				F0F67C1D22291D8ACD495AE7 /* alphabet-word-a0843be54acb.wav */,
+				7B9358BF93B012B73B49334E /* alphabet-word-ad862cf2d4b5.wav */,
+				7862C25E98ECC0B1AE89F8F5 /* alphabet-word-b0e823d77aba.wav */,
+				6E500B9CAA2B5159C50D182B /* alphabet-word-b7855d13b934.wav */,
+				6C4F7FB256F08BA191B7BB46 /* alphabet-word-c0cbec0ef9a9.wav */,
+				206228EB776CBE87DDF4CD60 /* alphabet-word-c10ee5bb27d2.wav */,
+				630E03B26F59D8B002948965 /* alphabet-word-c2dd04104f25.wav */,
+				31AEDC0EE49701595C467D54 /* alphabet-word-c6fc74635eaa.wav */,
+				239F4359CC4DB133EFA9C0C1 /* alphabet-word-cb36c0ce0bc4.wav */,
+				FD940BC565D32313DD6362D9 /* alphabet-word-d396f65df8c8.wav */,
+				071A76D5464EE8F6B701FE0E /* alphabet-word-d8c137ce19d5.wav */,
+				AA100C0B48D7218D4241E947 /* alphabet-word-de191f102168.wav */,
+				B896EBCFE44F234D7F69B2BC /* alphabet-word-e247d0d5ecd3.wav */,
+				39C33E29F99DB49D1AF8B092 /* alphabet-word-ef633f7569b3.wav */,
+				0D26A2DBF66A1C8293C01234 /* alphabet-word-f5b3d757a732.wav */,
+				0FC1446B3D68330744730707 /* alphabet-word-fdbb3ec43ec3.wav */,
+				49028E4963A3E0E7974A0F3C /* alphabet-word-fe9aedbc1b34.wav */,
 				3E1B66FECFCACC82ACE797D5 /* animal-alpaca.wav */,
 				D14067DFECE67509A26A4BC3 /* animal-ant.wav */,
 				3FEC714512E316F0AF7EFADF /* animal-badger.wav */,
@@ -1464,6 +1665,42 @@
 				0A7FCD562A635F137FEEA5C0 /* transport-truck.wav */,
 				C40AB8E6E897D79991BCAD4E /* transport-tugboat.wav */,
 				6CD3176228A657773535FE0F /* voice-preview.wav */,
+				08A584CD5BED4DB253016DC1 /* alphabet-anchor.png */,
+				1EA6DCD4CD5F534F45C80CF7 /* alphabet-apple.png */,
+				191D0F0E602E8EFACBB990B4 /* alphabet-banana.png */,
+				04FE7D4CCB8EF5E1D32FBFA7 /* alphabet-berries.png */,
+				0A5E888D4B26AEC6DE3FED14 /* alphabet-blackberry.png */,
+				1125941CD8D9F1C403EECA8D /* alphabet-bread.png */,
+				4D5F9325E79605606060D2E3 /* alphabet-brush.png */,
+				935BE07D3007E254D04E09C2 /* alphabet-cheese.png */,
+				AD616B565983B600EDF07217 /* alphabet-chick.png */,
+				C81430EFE708067468BABD44 /* alphabet-christmas-tree.png */,
+				055AA053E012ED1F0E42E258 /* alphabet-circus.png */,
+				C21B7FA5C3FD2C37C95E7745 /* alphabet-cucumber.png */,
+				BE75F2079D7D115FE507FF93 /* alphabet-entrance.png */,
+				7F0DD303CCAC825E1EFC30C9 /* alphabet-flower.png */,
+				6D3F8B45CEF44BCFDAD64F13 /* alphabet-house.png */,
+				E7A4E3026FA65F233251BEB2 /* alphabet-ice-cream.png */,
+				FA887352A8AB692114F00B3A /* alphabet-iron.png */,
+				9C32400295DA3BBFC4BFBB0C /* alphabet-lantern.png */,
+				42B246040B0EFDEBB251A963 /* alphabet-mushroom.png */,
+				2DAA79F7826A953A263F5A8C /* alphabet-notice.png */,
+				D86BDFC8A7DA27C2CC3B9332 /* alphabet-puppy.png */,
+				B181E3C7062CA9087E3840A9 /* alphabet-raisins.png */,
+				DF930CF66F070B65B917B266 /* alphabet-ruffe.png */,
+				F3D4EBA3E937C421AAE7F018 /* alphabet-scissors.png */,
+				9787C19098D94F55A9E8A852 /* alphabet-screen.png */,
+				5A4A81564B25957F9FCFE1D1 /* alphabet-skirt.png */,
+				B0966F5C2F57D13CB5709573 /* alphabet-socks.png */,
+				79AA24042B42321A5908B49D /* alphabet-sofa.png */,
+				1364222EC8A459DB515B91CD /* alphabet-spinning-top.png */,
+				C91EADEF6CA075D3E5F25C8B /* alphabet-spruce.png */,
+				8D554ED9814B5B7CB4BFBC61 /* alphabet-toad.png */,
+				E0F58D3E7E383ADBD50F75E9 /* alphabet-toy.png */,
+				0A9BAD93CE1F90EAF5BFF160 /* alphabet-wardrobe.png */,
+				352672101987F5D5D4BFCADA /* alphabet-watermelon.png */,
+				60057A400D1F726CE903B975 /* alphabet-yogurt.png */,
+				3DA6F0DDCE20B0FA0F56097F /* alphabet-yurt.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1535,6 +1772,10 @@
 				D7B7F9F4698E9AF0CEF23CDC /* RussianAlphabet.swift in Sources */,
 				7D6292EC6994ACF1884C829A /* StorybookArt.swift in Sources */,
 				7918897ED39D94E1929A2E34 /* LettersMode.swift in Sources */,
+				1815B1C1EA19F3553D084C6A /* AlphabetMode.swift in Sources */,
+				3E1304A59E69B8831932AA68 /* AlphabetCards.swift in Sources */,
+				48D2FF8655CDA2A747DC5109 /* AlphabetProgress.swift in Sources */,
+				6B5D390DD82CFAB348C7A8EF /* PacedPlayMode.swift in Sources */,
 				E159DE4B5F0BFCDD960B173C /* PictureMode.swift in Sources */,
 				E1643EDD3D1B7B6FBC6E28E5 /* MusicMode.swift in Sources */,
 				ECF3C770AA263EDB6C73F618 /* PermissionChecker.swift in Sources */,
@@ -1760,6 +2001,45 @@
 				BDA9F8B7A4CBDA26472636CC /* transport-trolleybus.png in Resources */,
 				364981AF039B10D54F737831 /* transport-truck.png in Resources */,
 				E12655632710274C000CBDEA /* transport-tugboat.png in Resources */,
+				D80FB050481A5B7F6D38814D /* alphabet-word-042d5303a632.wav in Resources */,
+				0FBAD4D72328B743B732D450 /* alphabet-word-0afbccd14c33.wav in Resources */,
+				5F3FB6265EFA11D8196A5554 /* alphabet-word-1466ade22481.wav in Resources */,
+				5C76B01220553A70494C0694 /* alphabet-word-1715cc5e00bf.wav in Resources */,
+				185C7D0707234FFA04BF47D7 /* alphabet-word-1976031f91d4.wav in Resources */,
+				D4B3E944504A016EDA3E82C4 /* alphabet-word-253173d359f3.wav in Resources */,
+				243EC47AB649B497C4E4E593 /* alphabet-word-26e03e963a14.wav in Resources */,
+				AD01CEEE0106066C0FDFD98A /* alphabet-word-309ff11850f5.wav in Resources */,
+				4A766999604CF0A2965E5FDB /* alphabet-word-3171afd0741b.wav in Resources */,
+				2599F4B0629B408183916D9B /* alphabet-word-38dd1d21ce98.wav in Resources */,
+				42F70B0379DD4E08C6D786F5 /* alphabet-word-39ba4eadd4cc.wav in Resources */,
+				992974838A5C8F11267C9594 /* alphabet-word-3a0ffa326b27.wav in Resources */,
+				526BDDAA90C04D52D50594CF /* alphabet-word-3e70a8cfd59e.wav in Resources */,
+				DEA4622BE38B8C6C664B6D79 /* alphabet-word-6182fbc92d4f.wav in Resources */,
+				CED9253C84376E1C7FC35342 /* alphabet-word-61998b44f987.wav in Resources */,
+				5CC070945ACEC8E592233FBD /* alphabet-word-67051f52366f.wav in Resources */,
+				EFEA4DC2DC6A7E9B828BA41E /* alphabet-word-6c351a82b5b1.wav in Resources */,
+				EF12B19B47BAC9F412E0818A /* alphabet-word-83722f041ea2.wav in Resources */,
+				47FDB04C8B2AAE6A308436EC /* alphabet-word-90c2bcc657e5.wav in Resources */,
+				72530C7A89F32ECD7DCB02B1 /* alphabet-word-932b50628eca.wav in Resources */,
+				72A037871EDF2D6A7862B661 /* alphabet-word-95a89b6820bc.wav in Resources */,
+				D1899EBE2670D241FB0749D5 /* alphabet-word-9e35c680da9b.wav in Resources */,
+				BD6ABE40E00046EA1029213A /* alphabet-word-a0843be54acb.wav in Resources */,
+				9E5EED3FDC455EE2361CD714 /* alphabet-word-ad862cf2d4b5.wav in Resources */,
+				299D79450AC40C2535557C22 /* alphabet-word-b0e823d77aba.wav in Resources */,
+				4B4318C0874A012D92B23FF7 /* alphabet-word-b7855d13b934.wav in Resources */,
+				67822C13247C36BC431A100B /* alphabet-word-c0cbec0ef9a9.wav in Resources */,
+				F466D02ED17E2351CB668B1E /* alphabet-word-c10ee5bb27d2.wav in Resources */,
+				ABCCA2663C5627613E04E051 /* alphabet-word-c2dd04104f25.wav in Resources */,
+				7D9E2633BDB0364FC9C37E69 /* alphabet-word-c6fc74635eaa.wav in Resources */,
+				D545B3F9085B1EB6EF62753B /* alphabet-word-cb36c0ce0bc4.wav in Resources */,
+				27E359150BF5590D27A16D47 /* alphabet-word-d396f65df8c8.wav in Resources */,
+				E429EA30D811841D97E1F73C /* alphabet-word-d8c137ce19d5.wav in Resources */,
+				52D40F672A2C538B28FF0A11 /* alphabet-word-de191f102168.wav in Resources */,
+				0CE3332BB8F916C7ECD293CF /* alphabet-word-e247d0d5ecd3.wav in Resources */,
+				879538C802702398C1ABCCC0 /* alphabet-word-ef633f7569b3.wav in Resources */,
+				7CCCFA440144CC0F8D6808DE /* alphabet-word-f5b3d757a732.wav in Resources */,
+				DA33CDDAEBC303C4E9150D0C /* alphabet-word-fdbb3ec43ec3.wav in Resources */,
+				C6A0CBF012E6B6FF6B5FD372 /* alphabet-word-fe9aedbc1b34.wav in Resources */,
 				61F13C2DD67DFA62640DA34A /* animal-alpaca.wav in Resources */,
 				C536536622D34EF16F980616 /* animal-ant.wav in Resources */,
 				62BFC1FF9BC968DCE8744BAB /* animal-badger.wav in Resources */,
@@ -1985,6 +2265,42 @@
 				735487BFD83C70C189EBF574 /* transport-truck.wav in Resources */,
 				E4132F5E74D38ABA79C4AAB3 /* transport-tugboat.wav in Resources */,
 				FF168031CBB1CC0159C87D49 /* voice-preview.wav in Resources */,
+				71E9207940B3407DAC925BE5 /* alphabet-anchor.png in Resources */,
+				59E2EFBE122C9E4F91E0F8AA /* alphabet-apple.png in Resources */,
+				F286957ED757A657B6810C88 /* alphabet-banana.png in Resources */,
+				EA5421B5FA6AC6792E5F0795 /* alphabet-berries.png in Resources */,
+				14F5D8D13E22EB2BCD9CFB09 /* alphabet-blackberry.png in Resources */,
+				59604ABB29E94B333B097BCA /* alphabet-bread.png in Resources */,
+				6331B02163205082C221F425 /* alphabet-brush.png in Resources */,
+				798302CF0F88BECECD0BE166 /* alphabet-cheese.png in Resources */,
+				83D81FB77B179DCEDDC6A4BB /* alphabet-chick.png in Resources */,
+				C29CAADB58C2BB4EC1FB201B /* alphabet-christmas-tree.png in Resources */,
+				4D24A294C4AB34BC2958D52A /* alphabet-circus.png in Resources */,
+				8A0F81CA38460DCA19681F55 /* alphabet-cucumber.png in Resources */,
+				46E698602CF9F4333FBAF5F4 /* alphabet-entrance.png in Resources */,
+				AD3D6C2506AE4989F31A67D5 /* alphabet-flower.png in Resources */,
+				8304A35399D9CE2903CDF93B /* alphabet-house.png in Resources */,
+				66DD4E86B1A69B8CAA7D529B /* alphabet-ice-cream.png in Resources */,
+				29B7B89B67597A9B5D77F987 /* alphabet-iron.png in Resources */,
+				D61602494D80B2CA834A3582 /* alphabet-lantern.png in Resources */,
+				267D1C641AF12FBC3FF22503 /* alphabet-mushroom.png in Resources */,
+				D222D5C34FB22F983F455B53 /* alphabet-notice.png in Resources */,
+				DBF73E54A8BC3C1C1D691B9D /* alphabet-puppy.png in Resources */,
+				B6D0879F57F2FF7F196AC8BC /* alphabet-raisins.png in Resources */,
+				BFD0F7C789D0352979DFFDC6 /* alphabet-ruffe.png in Resources */,
+				22859B905876DA9A3489318C /* alphabet-scissors.png in Resources */,
+				DF7171578A9453EE4D4886B8 /* alphabet-screen.png in Resources */,
+				9F43B2D8DCF2D57728F54547 /* alphabet-skirt.png in Resources */,
+				5D6A301CA8E4372F920C314B /* alphabet-socks.png in Resources */,
+				236D876C12262D7082435683 /* alphabet-sofa.png in Resources */,
+				F4A62BAC87C2840262F295BB /* alphabet-spinning-top.png in Resources */,
+				A38C2BE67728C5D3D3E402D6 /* alphabet-spruce.png in Resources */,
+				03AE2BE560290C147DE21788 /* alphabet-toad.png in Resources */,
+				0423A1A69E223443CC50DFB9 /* alphabet-toy.png in Resources */,
+				3DE3927FFC82085852D37581 /* alphabet-wardrobe.png in Resources */,
+				968BB920B6AF2D706163D73A /* alphabet-watermelon.png in Resources */,
+				EC8A8FE810D3DFD94555977A /* alphabet-yogurt.png in Resources */,
+				688F6C202CD20DA2FEDD4DA5 /* alphabet-yurt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2046,7 +2362,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.4.0;
+				MARKETING_VERSION = 0.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2068,7 +2384,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.4.0;
+				MARKETING_VERSION = 0.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;
 				PRODUCT_NAME = "Тык";
 				SWIFT_EMIT_LOC_STRINGS = YES;

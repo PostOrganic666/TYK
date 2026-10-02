@@ -7,6 +7,7 @@ struct SettingsView: View {
     @State private var soundEnabled = SettingsStore.shared.soundEnabled
     @State private var maxVolume = SettingsStore.shared.maxVolume
     @State private var speechVoiceIdentifier = SettingsStore.shared.speechVoiceIdentifier
+    @State private var interactionPauseSeconds = SettingsStore.shared.interactionPauseSeconds
     @State private var sessionLimitMinutes = SettingsStore.shared.sessionLimitMinutes
     @State private var exitKeyCode = SettingsStore.shared.exitKeyCode
     @State private var exitModifiers = SettingsStore.shared.exitModifiers
@@ -17,7 +18,7 @@ struct SettingsView: View {
 
     var onLockNow: (() -> Void)?
 
-    static let contentSize = NSSize(width: 720, height: 520)
+    static let contentSize = NSSize(width: 780, height: 580)
 
     var body: some View {
         VStack(spacing: 0) {
@@ -59,13 +60,13 @@ struct SettingsView: View {
             .padding(.vertical, 12)
         }
         .controlSize(.small)
-        .frame(minWidth: 680, minHeight: 500)
+        .frame(minWidth: 740, minHeight: 560)
         .background(WindowConfigurator(contentSize: Self.contentSize,
-                                       minSize: NSSize(width: 680, height: 500)))
+                                       minSize: NSSize(width: 740, height: 560)))
     }
 
     private var modeGrid: some View {
-        LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 9), count: 5), spacing: 9) {
+        LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 9), count: 6), spacing: 9) {
             ForEach(PlayModeType.featured, id: \.self) { mode in
                 Button {
                     withAnimation(.easeInOut(duration: 0.16)) { selectedMode = mode }
@@ -130,6 +131,17 @@ struct SettingsView: View {
                 .help("Послушать голос")
                 .disabled(!soundEnabled)
             }
+            SettingRow(label: "Пауза") {
+                Stepper(value: $interactionPauseSeconds, in: 0...10, step: 0.5) {
+                    Text("\(interactionPauseSeconds, specifier: "%.1f") сек")
+                        .font(.callout.monospacedDigit())
+                }
+                .frame(width: 160)
+            }
+            Text("Между тыками во всех режимах, кроме музыки. Озвучку всегда дослушиваем; 0 — только до конца речи.")
+                .font(.caption)
+                .foregroundColor(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
             SettingRow(label: "Перерыв") {
                 Picker("Перерыв", selection: $sessionLimitMinutes) {
                     Text("Выкл.").tag(0)
@@ -176,6 +188,7 @@ struct SettingsView: View {
         store.soundEnabled = soundEnabled
         store.maxVolume = maxVolume
         store.speechVoiceIdentifier = speechVoiceIdentifier
+        store.interactionPauseSeconds = interactionPauseSeconds
         store.sessionLimitMinutes = sessionLimitMinutes
         store.exitKeyCode = exitKeyCode
         store.exitModifiers = exitModifiers
@@ -231,6 +244,7 @@ struct SettingRow<Content: View>: View {
 private extension PlayModeType {
     var detail: String {
         switch self {
+        case .alphabet: return "Все 33 буквы по порядку. Буква звучит при появлении, затем три тыка добавляют три знакомые картинки с голосом Kore. Предыдущие картинки остаются на экране. После третьей переходим к следующей букве."
         case .letters: return "Все 33 буквы. Если включена русская раскладка, на экране появляется именно нажатая буква; иначе клавиши распределены по алфавиту. Голос работает офлайн."
         case .animals: return "Девяносто рисованных животных, птиц, насекомых и морских обитателей появляются по одному в случайном порядке. Голос произносит название, без очков, таймеров и конфетти."
         case .transport: return "Пятьдесят видов транспорта в том же книжном стиле и случайном порядке. Каждое нажатие меняет объект и называет его."

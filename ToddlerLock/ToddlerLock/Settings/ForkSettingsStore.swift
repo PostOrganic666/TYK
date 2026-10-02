@@ -73,6 +73,17 @@ final class SettingsStore {
         set { defaults.set(newValue, forKey: "speechVoiceIdentifier") }
     }
 
+    /// Minimum time between accepted presses; voice completion is always required.
+    var interactionPauseSeconds: Double {
+        get {
+            guard defaults.object(forKey: "interactionPauseSeconds") != nil else { return 2 }
+            let value = defaults.double(forKey: "interactionPauseSeconds")
+            return value.isFinite ? min(max(value, 0), 10) : 2
+        }
+        set { defaults.set(newValue.isFinite ? min(max(newValue, 0), 10) : 2,
+                           forKey: "interactionPauseSeconds") }
+    }
+
     var sessionLimitMinutes: Int {
         get { defaults.integer(forKey: "sessionLimitMinutes") }
         set { defaults.set(newValue, forKey: "sessionLimitMinutes") }

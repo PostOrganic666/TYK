@@ -11,7 +11,41 @@ MODEL = 'google/gemini-3.8-flash-tts'
 VOICE = 'Kore'
 RATE = 24000
 
+def validate_alphabet(root, require_resources=False):
+    path = root / 'catalog/alphabet.json'
+    if not path.exists():
+        return
+    cards = json.loads(path.read_text())
+    source = root / 'ToddlerLock/Modes'
+    glyphs = re.findall(r'\.init\(glyph: "([^"]+)"', (source / 'RussianAlphabet.swift').read_text())
+    if [card['glyph'] for card in cards] != glyphs:
+        raise ValueError('Alphabet catalogue must contain all 33 letters in order')
+    expected = []
+    for card in cards:
+        if len(card['pictures']) != 3 or len({p['name'] for p in card['pictures']}) != 3:
+            raise ValueError('Each letter needs three distinct examples')
+        for picture in card['pictures']:
+            if card['glyph'].lower() not in picture['name'].lower():
+                raise ValueError('Example does not contain its letter: ' + picture['name'])
+            expected.append((picture['name'], picture['assetName']))
+    runtime = re.findall(r'\.init\(name: "([^"]+)", assetName: "([^"]+)"\)',
+                         (source / 'AlphabetCards.swift').read_text())
+    if runtime != expected:
+        raise ValueError('Alphabet catalogue and runtime examples differ')
+    if require_resources:
+        resources = root / 'ToddlerLock/Resources'
+        paths = list((resources / 'Pictures').rglob('*.png')) + list((resources / 'Alphabet').glob('*.png'))
+        files = {path.stem:path for path in paths}
+        project = (root / 'ToddlerLock.xcodeproj/project.pbxproj').read_text()
+        for _, asset in expected:
+            if asset not in files:
+                raise ValueError('Missing alphabet picture: ' + asset)
+            if str(files[asset].relative_to(root / 'ToddlerLock')) not in project:
+                raise ValueError('Unbundled alphabet picture: ' + asset)
+
+
 def current_items(root):
+    validate_alphabet(root)
     pictures = json.loads((root / 'catalog/pictures.json').read_text())
     source = root / 'ToddlerLock'
     runtime = re.findall(r'\.init\(name: "([^"]+)", assetName: "([^"]+)"\)', (source / 'Modes/PictureMode.swift').read_text())
@@ -20,6 +54,17 @@ def current_items(root):
     items = [{'id': p['asset'], 'kind': 'picture', 'text': p['name']} for p in pictures]
     letters = re.findall(r'\.init\(glyph: "([^"]+)", spokenName: "([^"]+)"\)', (source / 'Modes/RussianAlphabet.swift').read_text())
     items += [{'id': f'letter-{ord(glyph):04x}', 'kind': 'letter', 'glyph': glyph, 'text': text} for glyph, text in letters]
+    # Reuse existing recordings for shared words, including repeated alphabet examples.
+    alphabet_path = root / 'catalog/alphabet.json'
+    known_texts = {item['text'] for item in items}
+    if alphabet_path.exists():
+        for card in json.loads(alphabet_path.read_text()):
+            for picture in card['pictures']:
+                text = picture['name']
+                if text not in known_texts:
+                    word_id = 'alphabet-word-' + hashlib.sha256(text.encode()).hexdigest()[:12]
+                    items.append({'id': word_id, 'kind': 'alphabet-word', 'text': text})
+                    known_texts.add(text)
     items += [{'id': 'voice-preview', 'kind': 'preview', 'text': 'Привет! Давай играть!'}]
     if len({i['id'] for i in items}) != len(items) or len({i['text'] for i in items}) != len(items):
         raise ValueError('Duplicate speech IDs or texts')
@@ -87,6 +132,7 @@ def save_manifest(path, entries):
     temp.replace(path)
 
 def check_bundle(root, items, done):
+    validate_alphabet(root, require_resources=True)
     index_path = root / 'ToddlerLock/Resources/Speech/speech-index.json'
     expected = {i['text']:Path(done[i['id']]['file']).stem for i in items}
     if not index_path.exists() or json.loads(index_path.read_text()) != expected:
@@ -133,6 +179,7 @@ def update_readable_catalog(root, items, done):
 
 Все {picture_count} картинок и {letter_count} буквы озвучены по отдельности женским голосом Kore
 модели `google/gemini-3.8-flash-tts`; также записано «Привет! Давай играть!».
+Слова нового режима «Алфавит» также записаны отдельно; общие названия используют прежние записи.
 Записи хранятся в `../ToddlerLock/Resources/Speech/` и работают без сети.
 Формат — WAV, PCM 24 кГц / 16 бит / моно; начальная и конечная тишина обрезаны.
 

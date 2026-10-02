@@ -1,0 +1,182 @@
+[
+  {
+    "name": "арбуз",
+    "asset": "alphabet-watermelon",
+    "subject": "round green striped watermelon with one red slice"
+  },
+  {
+    "name": "банан",
+    "asset": "alphabet-banana",
+    "subject": "a yellow banana with peel partly open"
+  },
+  {
+    "name": "гриб",
+    "asset": "alphabet-mushroom",
+    "subject": "a single brown edible mushroom"
+  },
+  {
+    "name": "дом",
+    "asset": "alphabet-house",
+    "subject": "a cozy small house with roof windows and door"
+  },
+  {
+    "name": "диван",
+    "asset": "alphabet-sofa",
+    "subject": "a comfortable two seat sofa"
+  },
+  {
+    "name": "ель",
+    "asset": "alphabet-spruce",
+    "subject": "a plain green spruce tree without decorations"
+  },
+  {
+    "name": "ежевика",
+    "asset": "alphabet-blackberry",
+    "subject": "a little cluster of ripe blackberries with a green leaf"
+  },
+  {
+    "name": "ёлка",
+    "asset": "alphabet-christmas-tree",
+    "subject": "a green Christmas tree with simple colorful baubles and a star"
+  },
+  {
+    "name": "ёрш",
+    "asset": "alphabet-ruffe",
+    "subject": "a small ruffe fish with large spiny dorsal fin and mottled brown body"
+  },
+  {
+    "name": "жаба",
+    "asset": "alphabet-toad",
+    "subject": "a friendly squat brown toad with bumpy skin"
+  },
+  {
+    "name": "игрушка",
+    "asset": "alphabet-toy",
+    "subject": "a plush teddy bear toy with visible seams"
+  },
+  {
+    "name": "изюм",
+    "asset": "alphabet-raisins",
+    "subject": "a small white bowl containing raisins"
+  },
+  {
+    "name": "йогурт",
+    "asset": "alphabet-yogurt",
+    "subject": "a small yogurt cup with foil lid partly peeled and no label"
+  },
+  {
+    "name": "ножницы",
+    "asset": "alphabet-scissors",
+    "subject": "rounded child craft scissors with closed blades"
+  },
+  {
+    "name": "носки",
+    "asset": "alphabet-socks",
+    "subject": "a matching pair of toddler socks"
+  },
+  {
+    "name": "огурец",
+    "asset": "alphabet-cucumber",
+    "subject": "a green cucumber"
+  },
+  {
+    "name": "утюг",
+    "asset": "alphabet-iron",
+    "subject": "a household iron"
+  },
+  {
+    "name": "фонарь",
+    "asset": "alphabet-lantern",
+    "subject": "a simple handheld flashlight"
+  },
+  {
+    "name": "хлеб",
+    "asset": "alphabet-bread",
+    "subject": "a golden loaf of bread with one slice"
+  },
+  {
+    "name": "цыплёнок",
+    "asset": "alphabet-chick",
+    "subject": "a fluffy yellow chick with orange feet"
+  },
+  {
+    "name": "цветок",
+    "asset": "alphabet-flower",
+    "subject": "a single daisy flower with stem and two leaves"
+  },
+  {
+    "name": "цирк",
+    "asset": "alphabet-circus",
+    "subject": "a red and cream striped circus tent with small flags"
+  },
+  {
+    "name": "шкаф",
+    "asset": "alphabet-wardrobe",
+    "subject": "a simple closed wooden wardrobe"
+  },
+  {
+    "name": "щётка",
+    "asset": "alphabet-brush",
+    "subject": "a small wooden clothes brush with visible soft bristles"
+  },
+  {
+    "name": "щенок",
+    "asset": "alphabet-puppy",
+    "subject": "a small adorable brown and white puppy"
+  },
+  {
+    "name": "подъезд",
+    "asset": "alphabet-entrance",
+    "subject": "an apartment building entrance with a door small roof two steps and part of brick wall, one isolated illustration"
+  },
+  {
+    "name": "объявление",
+    "asset": "alphabet-notice",
+    "subject": "a single paper notice pinned to small cork board, pictorial drawing of a cat and abstract line marks only, absolutely no readable text"
+  },
+  {
+    "name": "сыр",
+    "asset": "alphabet-cheese",
+    "subject": "a yellow wedge of cheese with round holes"
+  },
+  {
+    "name": "экран",
+    "asset": "alphabet-screen",
+    "subject": "a simple computer monitor with a pastel empty screen"
+  },
+  {
+    "name": "эскимо",
+    "asset": "alphabet-ice-cream",
+    "subject": "a chocolate covered ice cream bar on a wooden stick"
+  },
+  {
+    "name": "юла",
+    "asset": "alphabet-spinning-top",
+    "subject": "a colorful classic spinning top toy"
+  },
+  {
+    "name": "юбка",
+    "asset": "alphabet-skirt",
+    "subject": "a toddler skirt"
+  },
+  {
+    "name": "юрта",
+    "asset": "alphabet-yurt",
+    "subject": "a round traditional yurt with domed felt roof and visible door"
+  },
+  {
+    "name": "яблоко",
+    "asset": "alphabet-apple",
+    "subject": "a red apple with green leaf"
+  },
+  {
+    "name": "якорь",
+    "asset": "alphabet-anchor",
+    "subject": "a simple recognizable ship anchor"
+  },
+  {
+    "name": "ягоды",
+    "asset": "alphabet-berries",
+    "subject": "a cluster of strawberries raspberries and blueberries with one leaf"
+  }
+]

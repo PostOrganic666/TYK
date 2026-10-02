@@ -23,6 +23,14 @@ jobs:
       - name: Check offline speech coverage
         run: python3 ToddlerLock/tools/generate_speech.py --check
 
+      - name: Test alphabet progression and input pacing
+        run: |
+          swiftc ToddlerLock/ToddlerLock/Modes/RussianAlphabet.swift \
+            ToddlerLock/ToddlerLock/Modes/AlphabetProgress.swift \
+            ToddlerLock/tests/AlphabetProgressTests.swift \
+            -o "$RUNNER_TEMP/alphabet-tests"
+          "$RUNNER_TEMP/alphabet-tests"
+
       - name: Build unsigned release
         run: |
           set +e
@@ -70,17 +78,17 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
-      - name: Publish v0.4.0 prerelease
+      - name: Publish v0.5.0 prerelease
         if: github.ref == 'refs/heads/codex/toddler-fork'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.4.0 >/dev/null 2>&1; then
-            gh release upload v0.4.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
+          if gh release view v0.5.0 >/dev/null 2>&1; then
+            gh release upload v0.5.0 "$RUNNER_TEMP/Tyk-macOS.zip" --clobber
           else
-            gh release create v0.4.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
+            gh release create v0.5.0 "$RUNNER_TEMP/Tyk-macOS.zip" \
               --target "$GITHUB_SHA" \
-              --title "Тык 0.4.0 — 190 картинок и офлайн-голос Kore" \
-              --notes "90 животных, 50 видов транспорта и новый режим «Дома» с 50 предметами. Женский голос Kore: 224 готовые записи работают офлайн. Каталог отмечает покрытие озвучки; её проверка выполняется перед сборкой. Universal-приложение для Apple Silicon и Intel." \
+              --title "Тык 0.5.0 — алфавит с картинками и пауза между тыками" \
+              --notes "Новый режим «Алфавит»: 33 буквы и 99 примеров, по три картинки на букву. Четыре последовательные озвучки Kore. Общая пауза между нажатиями: 0–10 секунд, по умолчанию 2; музыка без задержки. Голос всегда дослушивается до конца. Все 263 записи работают офлайн. Universal-приложение для Apple Silicon и Intel." \
               --prerelease
           fi

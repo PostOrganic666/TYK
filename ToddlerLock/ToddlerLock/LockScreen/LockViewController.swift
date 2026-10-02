@@ -68,13 +68,16 @@ final class LockViewController: NSViewController {
     // MARK: - Mode hosting
 
     static func makeMode(_ type: PlayModeType, size: CGSize) -> PlayMode {
+        let mode: PlayMode
         switch type {
-        case .letters: return LettersMode(size: size)
-        case .animals: return PictureMode(size: size, collection: .animals)
-        case .transport: return PictureMode(size: size, collection: .transport)
-        case .household: return PictureMode(size: size, collection: .household)
+        case .letters: mode = LettersMode(size: size)
+        case .alphabet: mode = AlphabetMode(size: size)
+        case .animals: mode = PictureMode(size: size, collection: .animals)
+        case .transport: mode = PictureMode(size: size, collection: .transport)
+        case .household: mode = PictureMode(size: size, collection: .household)
         case .musicStudio: return MusicMode(size: size)
         }
+        return PacedPlayMode(mode, startWithPause: type == .alphabet)
     }
 
     private func setupMode() {

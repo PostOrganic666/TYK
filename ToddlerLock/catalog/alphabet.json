@@ -1,0 +1,563 @@
+[
+  {
+    "glyph": "А",
+    "pictures": [
+      {
+        "name": "арбуз",
+        "assetName": "alphabet-watermelon"
+      },
+      {
+        "name": "автобус",
+        "assetName": "transport-bus"
+      },
+      {
+        "name": "аист",
+        "assetName": "animal-stork"
+      }
+    ]
+  },
+  {
+    "glyph": "Б",
+    "pictures": [
+      {
+        "name": "бабочка",
+        "assetName": "animal-butterfly"
+      },
+      {
+        "name": "белка",
+        "assetName": "animal-squirrel"
+      },
+      {
+        "name": "банан",
+        "assetName": "alphabet-banana"
+      }
+    ]
+  },
+  {
+    "glyph": "В",
+    "pictures": [
+      {
+        "name": "ванна",
+        "assetName": "home-bathtub"
+      },
+      {
+        "name": "воробей",
+        "assetName": "animal-sparrow"
+      },
+      {
+        "name": "велосипед",
+        "assetName": "transport-bicycle"
+      }
+    ]
+  },
+  {
+    "glyph": "Г",
+    "pictures": [
+      {
+        "name": "гусь",
+        "assetName": "animal-goose"
+      },
+      {
+        "name": "гриб",
+        "assetName": "alphabet-mushroom"
+      },
+      {
+        "name": "грузовик",
+        "assetName": "transport-truck"
+      }
+    ]
+  },
+  {
+    "glyph": "Д",
+    "pictures": [
+      {
+        "name": "дом",
+        "assetName": "alphabet-house"
+      },
+      {
+        "name": "дятел",
+        "assetName": "animal-woodpecker"
+      },
+      {
+        "name": "диван",
+        "assetName": "alphabet-sofa"
+      }
+    ]
+  },
+  {
+    "glyph": "Е",
+    "pictures": [
+      {
+        "name": "енот",
+        "assetName": "animal-raccoon"
+      },
+      {
+        "name": "ель",
+        "assetName": "alphabet-spruce"
+      },
+      {
+        "name": "ежевика",
+        "assetName": "alphabet-blackberry"
+      }
+    ]
+  },
+  {
+    "glyph": "Ё",
+    "pictures": [
+      {
+        "name": "ёжик",
+        "assetName": "animal-hedgehog"
+      },
+      {
+        "name": "ёлка",
+        "assetName": "alphabet-christmas-tree"
+      },
+      {
+        "name": "ёрш",
+        "assetName": "alphabet-ruffe"
+      }
+    ]
+  },
+  {
+    "glyph": "Ж",
+    "pictures": [
+      {
+        "name": "жираф",
+        "assetName": "animal-giraffe"
+      },
+      {
+        "name": "жук",
+        "assetName": "animal-beetle"
+      },
+      {
+        "name": "жаба",
+        "assetName": "alphabet-toad"
+      }
+    ]
+  },
+  {
+    "glyph": "З",
+    "pictures": [
+      {
+        "name": "заяц",
+        "assetName": "animal-hare"
+      },
+      {
+        "name": "зебра",
+        "assetName": "animal-zebra"
+      },
+      {
+        "name": "зонтик",
+        "assetName": "home-umbrella"
+      }
+    ]
+  },
+  {
+    "glyph": "И",
+    "pictures": [
+      {
+        "name": "индюк",
+        "assetName": "animal-turkey"
+      },
+      {
+        "name": "игрушка",
+        "assetName": "alphabet-toy"
+      },
+      {
+        "name": "изюм",
+        "assetName": "alphabet-raisins"
+      }
+    ]
+  },
+  {
+    "glyph": "Й",
+    "pictures": [
+      {
+        "name": "йогурт",
+        "assetName": "alphabet-yogurt"
+      },
+      {
+        "name": "чайник",
+        "assetName": "home-kettle"
+      },
+      {
+        "name": "трамвай",
+        "assetName": "transport-tram"
+      }
+    ]
+  },
+  {
+    "glyph": "К",
+    "pictures": [
+      {
+        "name": "кот",
+        "assetName": "animal-cat"
+      },
+      {
+        "name": "корова",
+        "assetName": "animal-cow"
+      },
+      {
+        "name": "корабль",
+        "assetName": "transport-ship"
+      }
+    ]
+  },
+  {
+    "glyph": "Л",
+    "pictures": [
+      {
+        "name": "лиса",
+        "assetName": "animal-fox"
+      },
+      {
+        "name": "лев",
+        "assetName": "animal-lion"
+      },
+      {
+        "name": "ложка",
+        "assetName": "home-spoon"
+      }
+    ]
+  },
+  {
+    "glyph": "М",
+    "pictures": [
+      {
+        "name": "мыло",
+        "assetName": "home-soap"
+      },
+      {
+        "name": "машина",
+        "assetName": "transport-car"
+      },
+      {
+        "name": "медведь",
+        "assetName": "animal-bear"
+      }
+    ]
+  },
+  {
+    "glyph": "Н",
+    "pictures": [
+      {
+        "name": "носорог",
+        "assetName": "animal-rhinoceros"
+      },
+      {
+        "name": "ножницы",
+        "assetName": "alphabet-scissors"
+      },
+      {
+        "name": "носки",
+        "assetName": "alphabet-socks"
+      }
+    ]
+  },
+  {
+    "glyph": "О",
+    "pictures": [
+      {
+        "name": "осёл",
+        "assetName": "animal-donkey"
+      },
+      {
+        "name": "овечка",
+        "assetName": "animal-sheep"
+      },
+      {
+        "name": "огурец",
+        "assetName": "alphabet-cucumber"
+      }
+    ]
+  },
+  {
+    "glyph": "П",
+    "pictures": [
+      {
+        "name": "попугай",
+        "assetName": "animal-parrot"
+      },
+      {
+        "name": "поезд",
+        "assetName": "transport-train"
+      },
+      {
+        "name": "подушка",
+        "assetName": "home-pillow"
+      }
+    ]
+  },
+  {
+    "glyph": "Р",
+    "pictures": [
+      {
+        "name": "рыба",
+        "assetName": "animal-goldfish"
+      },
+      {
+        "name": "ракета",
+        "assetName": "transport-rocket"
+      },
+      {
+        "name": "расчёска",
+        "assetName": "home-comb"
+      }
+    ]
+  },
+  {
+    "glyph": "С",
+    "pictures": [
+      {
+        "name": "слон",
+        "assetName": "animal-elephant"
+      },
+      {
+        "name": "собака",
+        "assetName": "animal-dog"
+      },
+      {
+        "name": "самокат",
+        "assetName": "transport-scooter"
+      }
+    ]
+  },
+  {
+    "glyph": "Т",
+    "pictures": [
+      {
+        "name": "трактор",
+        "assetName": "transport-tractor"
+      },
+      {
+        "name": "тигр",
+        "assetName": "animal-tiger"
+      },
+      {
+        "name": "тарелка",
+        "assetName": "home-plate"
+      }
+    ]
+  },
+  {
+    "glyph": "У",
+    "pictures": [
+      {
+        "name": "утка",
+        "assetName": "animal-duck"
+      },
+      {
+        "name": "улитка",
+        "assetName": "animal-snail"
+      },
+      {
+        "name": "утюг",
+        "assetName": "alphabet-iron"
+      }
+    ]
+  },
+  {
+    "glyph": "Ф",
+    "pictures": [
+      {
+        "name": "фламинго",
+        "assetName": "animal-flamingo"
+      },
+      {
+        "name": "фургон",
+        "assetName": "transport-delivery-van"
+      },
+      {
+        "name": "фонарь",
+        "assetName": "alphabet-lantern"
+      }
+    ]
+  },
+  {
+    "glyph": "Х",
+    "pictures": [
+      {
+        "name": "хомяк",
+        "assetName": "animal-hamster"
+      },
+      {
+        "name": "хлеб",
+        "assetName": "alphabet-bread"
+      },
+      {
+        "name": "холодильник",
+        "assetName": "home-fridge"
+      }
+    ]
+  },
+  {
+    "glyph": "Ц",
+    "pictures": [
+      {
+        "name": "цыплёнок",
+        "assetName": "alphabet-chick"
+      },
+      {
+        "name": "цветок",
+        "assetName": "alphabet-flower"
+      },
+      {
+        "name": "цирк",
+        "assetName": "alphabet-circus"
+      }
+    ]
+  },
+  {
+    "glyph": "Ч",
+    "pictures": [
+      {
+        "name": "чашка",
+        "assetName": "home-cup"
+      },
+      {
+        "name": "часы",
+        "assetName": "home-clock"
+      },
+      {
+        "name": "черепаха",
+        "assetName": "animal-turtle"
+      }
+    ]
+  },
+  {
+    "glyph": "Ш",
+    "pictures": [
+      {
+        "name": "шапка",
+        "assetName": "home-hat"
+      },
+      {
+        "name": "шарф",
+        "assetName": "home-scarf"
+      },
+      {
+        "name": "шкаф",
+        "assetName": "alphabet-wardrobe"
+      }
+    ]
+  },
+  {
+    "glyph": "Щ",
+    "pictures": [
+      {
+        "name": "щука",
+        "assetName": "animal-pike"
+      },
+      {
+        "name": "щётка",
+        "assetName": "alphabet-brush"
+      },
+      {
+        "name": "щенок",
+        "assetName": "alphabet-puppy"
+      }
+    ]
+  },
+  {
+    "glyph": "Ъ",
+    "pictures": [
+      {
+        "name": "подъезд",
+        "assetName": "alphabet-entrance"
+      },
+      {
+        "name": "объявление",
+        "assetName": "alphabet-notice"
+      },
+      {
+        "name": "подъёмный кран",
+        "assetName": "transport-crane-truck"
+      }
+    ]
+  },
+  {
+    "glyph": "Ы",
+    "pictures": [
+      {
+        "name": "сыр",
+        "assetName": "alphabet-cheese"
+      },
+      {
+        "name": "мышка",
+        "assetName": "animal-mouse"
+      },
+      {
+        "name": "рыба",
+        "assetName": "animal-goldfish"
+      }
+    ]
+  },
+  {
+    "glyph": "Ь",
+    "pictures": [
+      {
+        "name": "конь",
+        "assetName": "animal-horse"
+      },
+      {
+        "name": "дверь",
+        "assetName": "home-door"
+      },
+      {
+        "name": "тюлень",
+        "assetName": "animal-seal"
+      }
+    ]
+  },
+  {
+    "glyph": "Э",
+    "pictures": [
+      {
+        "name": "экскаватор",
+        "assetName": "transport-excavator"
+      },
+      {
+        "name": "экран",
+        "assetName": "alphabet-screen"
+      },
+      {
+        "name": "эскимо",
+        "assetName": "alphabet-ice-cream"
+      }
+    ]
+  },
+  {
+    "glyph": "Ю",
+    "pictures": [
+      {
+        "name": "юла",
+        "assetName": "alphabet-spinning-top"
+      },
+      {
+        "name": "юбка",
+        "assetName": "alphabet-skirt"
+      },
+      {
+        "name": "юрта",
+        "assetName": "alphabet-yurt"
+      }
+    ]
+  },
+  {
+    "glyph": "Я",
+    "pictures": [
+      {
+        "name": "яблоко",
+        "assetName": "alphabet-apple"
+      },
+      {
+        "name": "якорь",
+        "assetName": "alphabet-anchor"
+      },
+      {
+        "name": "ягоды",
+        "assetName": "alphabet-berries"
+      }
+    ]
+  }
+]

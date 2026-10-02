@@ -5,6 +5,7 @@ import SpriteKit
 /// Case order drives the order of the mode cards in Settings.
 enum PlayModeType: String, CaseIterable {
     case letters = "Буквы"
+    case alphabet = "Алфавит"
     case animals = "Животные"
     case transport = "Транспорт"
     case household = "Дома"
@@ -15,6 +16,7 @@ enum PlayModeType: String, CaseIterable {
     var symbolName: String {
         switch self {
         case .letters: return "textformat"
+        case .alphabet: return "text.book.closed.fill"
         case .animals: return "pawprint.fill"
         case .transport: return "car.side.fill"
         case .household: return "house.fill"
@@ -25,6 +27,7 @@ enum PlayModeType: String, CaseIterable {
     var blurb: String {
         switch self {
         case .letters: return "Все 33 русские буквы с чётким произношением"
+        case .alphabet: return "Буква и три картинки: открываем по одному тыку"
         case .animals: return "Звери, птицы, насекомые и рыбы называют себя"
         case .transport: return "Поезд, трактор, автобус и другая техника"
         case .household: return "Знакомые предметы кухни, ванной, прихожей и комнаты"

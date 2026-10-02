@@ -5,8 +5,8 @@ struct RussianVoiceChoice: Identifiable {
     let title: String
 }
 
-/// Bundled Russian Kore recordings. Debounce keeps rapid key presses from
-/// building a queue; an unknown/new label uses the offline system voice.
+/// Bundled Russian Kore recordings. The shared input gate lets each clip finish;
+/// an unknown/new label uses the offline system voice.
 final class RussianSpeech {
     static let shared = RussianSpeech()
     static let preferredVoiceIdentifier = "gemini-kore"
@@ -27,11 +27,17 @@ final class RussianSpeech {
 
     private init() {}
 
+    /// Includes the short scheduled start, so a second press cannot cancel it.
+    var isBusy: Bool {
+        pending != nil || player?.isPlaying == true || synthesizer.isSpeaking || synthesizer.isPaused
+    }
+
     func speak(_ text: String) {
         guard SettingsStore.shared.soundEnabled else { return }
         pending?.cancel()
         let item = DispatchWorkItem { [weak self] in
             guard let self else { return }
+            self.pending = nil
             self.play(text, volume: SettingsStore.shared.maxVolume)
         }
         pending = item

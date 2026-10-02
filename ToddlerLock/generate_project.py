@@ -31,6 +31,10 @@ sources = [
     ("Modes/RussianAlphabet.swift", "RussianAlphabet.swift"),
     ("Modes/StorybookArt.swift", "StorybookArt.swift"),
     ("Modes/LettersMode.swift", "LettersMode.swift"),
+    ("Modes/AlphabetMode.swift", "AlphabetMode.swift"),
+    ("Modes/AlphabetCards.swift", "AlphabetCards.swift"),
+    ("Modes/AlphabetProgress.swift", "AlphabetProgress.swift"),
+    ("Modes/PacedPlayMode.swift", "PacedPlayMode.swift"),
     ("Modes/PictureMode.swift", "PictureMode.swift"),
     ("Modes/MusicMode.swift", "MusicMode.swift"),
     ("Permissions/PermissionChecker.swift", "PermissionChecker.swift"),
@@ -51,7 +55,11 @@ speech_resources = [
     for path in sorted((source_root / "Resources" / "Speech").glob("*"))
     if path.suffix in {".wav", ".json"}
 ]
-resources = [("Resources/TykIcon.icns", "TykIcon.icns")] + picture_resources + speech_resources
+alphabet_resources = [
+    (str(path.relative_to(source_root)), path.name)
+    for path in sorted((source_root / "Resources" / "Alphabet").glob("*.png"))
+]
+resources = [("Resources/TykIcon.icns", "TykIcon.icns")] + picture_resources + speech_resources + alphabet_resources
 
 # Groups
 groups = {
@@ -73,7 +81,8 @@ groups = {
         "LockScreen/PasswordOverlayView.swift",
     ],
     "Modes": ["Modes/ModeProtocol.swift", "Modes/RussianAlphabet.swift", "Modes/StorybookArt.swift",
-              "Modes/LettersMode.swift", "Modes/PictureMode.swift", "Modes/MusicMode.swift"],
+              "Modes/LettersMode.swift", "Modes/AlphabetMode.swift", "Modes/AlphabetCards.swift",
+              "Modes/AlphabetProgress.swift", "Modes/PacedPlayMode.swift", "Modes/PictureMode.swift", "Modes/MusicMode.swift"],
     "Permissions": ["Permissions/PermissionChecker.swift"],
     "Settings": ["Settings/KeychainManager.swift", "Settings/ShortcutRecorderView.swift", "Settings/ForkSettingsStore.swift", "Settings/ForkSettingsView.swift", "Settings/StatusItemIcon.swift"],
     "Resources": [path for path, _ in resources],
@@ -379,7 +388,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.4.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.5.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
@@ -403,7 +412,7 @@ def gen():
     a('\t\t\t\t\t"$(inherited)",')
     a('\t\t\t\t\t"@executable_path/../Frameworks",')
     a('\t\t\t\t);')
-    a('\t\t\t\tMARKETING_VERSION = 0.4.0;')
+    a('\t\t\t\tMARKETING_VERSION = 0.5.0;')
     a('\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = local.tyk.app;')
     a('\t\t\t\tPRODUCT_NAME = "Тык";')
     a('\t\t\t\tSWIFT_EMIT_LOC_STRINGS = YES;')
