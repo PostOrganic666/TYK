@@ -129,56 +129,86 @@
 		D0E431F841C4318A3730393B /* animal-wolf.png in Resources */ = {isa = PBXBuildFile; fileRef = B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */; };
 		3DAABAB0CB8B51AEDD7CA8D7 /* animal-woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */; };
 		EF700F744054D48FF452AAD7 /* animal-zebra.png in Resources */ = {isa = PBXBuildFile; fileRef = 89012E78C45B9BD387F0D484 /* animal-zebra.png */; };
+		8E36D2BA3EEACD8FFD902E22 /* home-armchair.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A893E749FFBD792F0969CF3 /* home-armchair.png */; };
 		993DB9EA033EED0865F2858F /* home-backpack.png in Resources */ = {isa = PBXBuildFile; fileRef = 60042B0A5BDC73F184D9F743 /* home-backpack.png */; };
+		AE8090951175F350AB6F562A /* home-bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 40706013EA72A5918AC87A74 /* home-bag.png */; };
+		6248F09A190A430DC0A067AB /* home-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = F39391C135A42D2DE4F67143 /* home-ball.png */; };
 		AFFA9BA9442317789FC28719 /* home-bath-towel.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFB999392C9A7FAAC84976B /* home-bath-towel.png */; };
 		2B4B9D581A697D487C0235BD /* home-bathtub.png in Resources */ = {isa = PBXBuildFile; fileRef = F36399F776A3952E3ECC1509 /* home-bathtub.png */; };
 		EFE3FF48326796E8C093FE86 /* home-bed.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF484FC7F896533CB3F096E /* home-bed.png */; };
 		76D0B6251FBEC14BDBAF780B /* home-bib.png in Resources */ = {isa = PBXBuildFile; fileRef = E15FBF7CFD03F1C67604F4F5 /* home-bib.png */; };
 		A14F1C408D5978AAB1C17CE7 /* home-blanket.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC66F5977659DBD224C6863 /* home-blanket.png */; };
+		F7CBF0F8F57C827E2CF35B35 /* home-blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 148A4A630484D465FB78C51C /* home-blocks.png */; };
 		6197059874BE4F91DB6B3BA5 /* home-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C00174980478789B8BFDB55 /* home-book.png */; };
 		68A368EFF70E566AD5B06BDC /* home-bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3544E47EE08FB0DEA4DB332B /* home-bottle.png */; };
 		728C5FF9CA53AFB6012F2226 /* home-bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B91C7118FFDBE3AC14FD0 /* home-bowl.png */; };
+		2240814D2527FB1294FCB3C5 /* home-bread-box.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2635E6A9F7069F946A06E2 /* home-bread-box.png */; };
+		D29A9A242FA43F21FFB4DEEE /* home-cap.png in Resources */ = {isa = PBXBuildFile; fileRef = AA772805132ECDAB53F09DA2 /* home-cap.png */; };
 		C9B32BC0953E7C92998280D3 /* home-chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 2043CD086A7A0D178738677F /* home-chair.png */; };
 		56600008C647E470628B0046 /* home-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 053E87C2D5C8513F7B039B88 /* home-clock.png */; };
+		5208934ACD040B9AE6C6DBCF /* home-coat-hanger.png in Resources */ = {isa = PBXBuildFile; fileRef = D2476E1E396BF6B2EFF325D0 /* home-coat-hanger.png */; };
 		EBA886C281B295C1F2EE23D3 /* home-coat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF7E85DD8FC51C7B164E53 /* home-coat.png */; };
 		F0C325C5378D350C8AEF503B /* home-comb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6354C8BDE985D67AECC272 /* home-comb.png */; };
 		60825EB3393D5E0B50A98D21 /* home-cup.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A69CA741A438A0B4A6104 /* home-cup.png */; };
+		BBEB3E633496CA82A5E1610E /* home-curtains.png in Resources */ = {isa = PBXBuildFile; fileRef = 571047C13844F5F670CD9C4A /* home-curtains.png */; };
 		400672E8F292ACC672849BF9 /* home-cutting-board.png in Resources */ = {isa = PBXBuildFile; fileRef = FC17545048F3ACAB2FC42D02 /* home-cutting-board.png */; };
 		2B27CC94F4FAEE63FD5FB557 /* home-door.png in Resources */ = {isa = PBXBuildFile; fileRef = B79B58657D5E4E6CB0BE344A /* home-door.png */; };
+		AED6C1E5764C118F3D1207A1 /* home-dresser.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E347202757A59C90CBC706 /* home-dresser.png */; };
+		6D05BB93CAEF4522938764C5 /* home-fan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1239CBD6C5646F4D723D2EEF /* home-fan.png */; };
 		859525C3C17B13833E9B22A1 /* home-faucet.png in Resources */ = {isa = PBXBuildFile; fileRef = A2ECF5CFD1A94765F3ABA062 /* home-faucet.png */; };
 		9B548A62FC4093056406DD93 /* home-fork.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB06907EBB0BA219934C0EE /* home-fork.png */; };
 		A7759FD99B2C3DDB59BDD61E /* home-fridge.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C3CB6A5B553FD54B9A158B /* home-fridge.png */; };
 		5CB3378B787442C0570C0E82 /* home-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = C43A1454169A6A5DA0847A3B /* home-glass.png */; };
+		9FFFE2D7E28E3555FD4F1134 /* home-grater.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C1880D27241A8A8B69FDBA /* home-grater.png */; };
+		D42BF13CD7E4969317BD25BA /* home-hair-dryer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56B0EB271E777B6C34545C /* home-hair-dryer.png */; };
 		0F912C37D84B7400118A8BCA /* home-hat.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDB7C48C91515D290570154 /* home-hat.png */; };
 		499AA23900CFA94C39B33197 /* home-high-chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 42230B7B8FB4F2D977F6539B /* home-high-chair.png */; };
 		1942A8342E3F0D0BAF441A61 /* home-jug.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9CE232582D420CC1F452A /* home-jug.png */; };
 		4CC79DD00B0F1D2CE342706C /* home-kettle.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2682F634671AC097C1A57 /* home-kettle.png */; };
 		59739BC478DC980A802E42A4 /* home-keys.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D36A8911B408237730502F /* home-keys.png */; };
+		D0B5052779565CA89E54B980 /* home-ladle.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EEB7D42A23315F8989D0DD /* home-ladle.png */; };
 		5CCC01609713438A2A7A7289 /* home-lamp.png in Resources */ = {isa = PBXBuildFile; fileRef = A56AA985B23A9D80F7AF82AC /* home-lamp.png */; };
 		E6785A29587B5049F5E13E52 /* home-laundry-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 9108C51B4DFF58E9714A16FE /* home-laundry-basket.png */; };
+		B33C053DC569938956B2CCFC /* home-microwave.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8329448DCCA77EBAE9E503 /* home-microwave.png */; };
+		EF019FC5685327BD58E5FDDD /* home-mirror.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF7F903ABA1BED2CB89976 /* home-mirror.png */; };
+		4582E81125D8A75DF57755EA /* home-mittens.png in Resources */ = {isa = PBXBuildFile; fileRef = B476D0351912127F4BC76A60 /* home-mittens.png */; };
 		5FE9D6F49C6039D6BE4457BC /* home-napkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B8925B7664F2CC0FE74114 /* home-napkin.png */; };
 		1A8B04514BF474AFCC44DA1C /* home-pan.png in Resources */ = {isa = PBXBuildFile; fileRef = 336359F63AD9DFF81F838904 /* home-pan.png */; };
+		8CF65F8EF25947DCD1A18E1E /* home-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B7A4771D71968B237D9FA /* home-phone.png */; };
 		CF4E8458E14BAE701DFA9B02 /* home-pillow.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A7FEA4132073292A9205B /* home-pillow.png */; };
 		8B9D2911B1FF34427FC77876 /* home-plate.png in Resources */ = {isa = PBXBuildFile; fileRef = B15F090C5CF870B30FE10D56 /* home-plate.png */; };
 		56A4992F121F58C5B909BE2B /* home-pot.png in Resources */ = {isa = PBXBuildFile; fileRef = E437531CE6CF4891F99FA814 /* home-pot.png */; };
 		C6FD465D6F1BFCD0DF0A5FF0 /* home-potty.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA2B4C747958F0B8A7F061C /* home-potty.png */; };
+		2EBDE7A22B0FD16C201AC429 /* home-rolling-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A4A66E74D66A10B67B112F /* home-rolling-pin.png */; };
 		F09392004356E0A32D15953C /* home-rubber-duck.png in Resources */ = {isa = PBXBuildFile; fileRef = 538869D4796F295988D87593 /* home-rubber-duck.png */; };
+		DDE85CFE33CBA495F40CA7E5 /* home-rug.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A58D763D11A6645F919C3B /* home-rug.png */; };
 		5DC9D9F11951F1D2096E8CAB /* home-scarf.png in Resources */ = {isa = PBXBuildFile; fileRef = D297C28A5D2FA92214B47A26 /* home-scarf.png */; };
 		613DEF4CA69297F5165A247C /* home-shampoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C567D970F888E4CDE72317E /* home-shampoo.png */; };
+		295DBFB5AF538D9CCF30EC5E /* home-shoehorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DB27A4AF0837A6BEF49E30 /* home-shoehorn.png */; };
 		5D792BEE9D3774A44299772F /* home-shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = E97F618C6BD69816C7A09AFA /* home-shoes.png */; };
 		88DCABD491E78AD79DBD7471 /* home-sink.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF78ADB80B937979AE8ABC1 /* home-sink.png */; };
 		45897794A1DD136156E32709 /* home-slippers.png in Resources */ = {isa = PBXBuildFile; fileRef = F2006CDB92F657ABA248B619 /* home-slippers.png */; };
 		00FD5CDAC955EAB81ECDF555 /* home-soap.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDA93BE840543A103638A /* home-soap.png */; };
+		2AE3EABBEDD1754CEA6C307D /* home-spatula.png in Resources */ = {isa = PBXBuildFile; fileRef = D736EE6DC8D9EB251C82B164 /* home-spatula.png */; };
 		B1E726EFED1F743FFD20FCDB /* home-sponge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A09C33252A119D0749E9964 /* home-sponge.png */; };
 		1426AFF66835853283EED21A /* home-spoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 261922EA6B14E88E549D4BFB /* home-spoon.png */; };
+		E0C48F88EE9FA178E69D98C4 /* home-stacking-rings.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCB3551D83E8784A194577 /* home-stacking-rings.png */; };
 		0C2EED4E07D6AADB101EB458 /* home-stove.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A5C07B9C4E1E86592E4258 /* home-stove.png */; };
 		086158D59662A7939756CAC2 /* home-strainer.png in Resources */ = {isa = PBXBuildFile; fileRef = B797BDB15954DF6680D965FF /* home-strainer.png */; };
 		C6ED9A670549E890C9BE5828 /* home-stroller.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013615178898D958B626EDD /* home-stroller.png */; };
+		A2B515319C49BFC35C92B675 /* home-sugar-bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAE0EA78DE36BFA31B86C8C /* home-sugar-bowl.png */; };
 		C727A61EBFB180E802B31914 /* home-table.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC8A63A14FB9AA1EBE3C97A /* home-table.png */; };
+		043D1B115FE741E062404FCB /* home-toaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F09BCDC746B8A3CC91CFD8 /* home-toaster.png */; };
+		B2445AAA145C51883663ADDF /* home-toilet-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = C94B81A2D73A9DA61B4F440C /* home-toilet-paper.png */; };
+		67BA6F0582ED9CCA6CF9C9CF /* home-toilet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C0AB94ACD8699D9783266 /* home-toilet.png */; };
 		6290B8E767E80100CAAF87F7 /* home-toothbrush.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9C618DA86A2F27999B879C /* home-toothbrush.png */; };
 		50342AC8FE9634902E50FC68 /* home-toothpaste.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0664384F8036EE1A549D0 /* home-toothpaste.png */; };
+		3F00EB78D679ED0BD70BF5D2 /* home-tray.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C52DD378B2824AA08C9ADF /* home-tray.png */; };
 		917CDD2393C59E029571F1D7 /* home-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A8133CFF8F084BCD8430B86 /* home-umbrella.png */; };
+		66715B761F3F6BB471BC4A50 /* home-vacuum.png in Resources */ = {isa = PBXBuildFile; fileRef = 316D6014093CABF44793232C /* home-vacuum.png */; };
+		6C856F9BC466A597E1603CA7 /* home-wash-basin.png in Resources */ = {isa = PBXBuildFile; fileRef = BC25EEF7DA238B6303A09FD6 /* home-wash-basin.png */; };
 		0D9E8F2CD9CD128F69A06A4E /* home-washing-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8570FB6B47E6F88C2EEB73FC /* home-washing-machine.png */; };
+		DE46D51A9AC9014D7313A773 /* home-whisk.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB3193A73C2A7B2A2597D8 /* home-whisk.png */; };
 		F15E336979FE8CF36E05C618 /* transport-airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */; };
 		06F55BA1A070D56BE16CB036 /* transport-airship.png in Resources */ = {isa = PBXBuildFile; fileRef = 920222F15718C386A41BCFF0 /* transport-airship.png */; };
 		C348048DE9C52CDD73FDBAA8 /* transport-ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FA82FEE06897A630CB1E79 /* transport-ambulance.png */; };
@@ -229,6 +259,39 @@
 		BDA9F8B7A4CBDA26472636CC /* transport-trolleybus.png in Resources */ = {isa = PBXBuildFile; fileRef = 680740BA6F8458D454065F88 /* transport-trolleybus.png */; };
 		364981AF039B10D54F737831 /* transport-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA0527ABD175D5E1C55025B /* transport-truck.png */; };
 		E12655632710274C000CBDEA /* transport-tugboat.png in Resources */ = {isa = PBXBuildFile; fileRef = 10159FDD99C894B2CDB20466 /* transport-tugboat.png */; };
+		FCFA5E643C7C837AE9DF1AB3 /* alphabet-letter-0401.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75611E4F21768ABF6FB01E11 /* alphabet-letter-0401.wav */; };
+		E91B75BBBC0A296E13D80721 /* alphabet-letter-0410.wav in Resources */ = {isa = PBXBuildFile; fileRef = E664E72E067CF47F9D33F5F2 /* alphabet-letter-0410.wav */; };
+		AB75E0D710ED27FB2F1724A3 /* alphabet-letter-0411.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA2A9ADC112F33610CE00CF7 /* alphabet-letter-0411.wav */; };
+		3AAEC2B04BC7163583903276 /* alphabet-letter-0412.wav in Resources */ = {isa = PBXBuildFile; fileRef = A878C4778FA94E47AD1DC889 /* alphabet-letter-0412.wav */; };
+		625C2BD8E5019BD8B9F2F9D2 /* alphabet-letter-0413.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB428D1BAC69F41493D21946 /* alphabet-letter-0413.wav */; };
+		EECB1EB06FC06B8A4FE84A18 /* alphabet-letter-0414.wav in Resources */ = {isa = PBXBuildFile; fileRef = C34E64C106CB8E925A81B147 /* alphabet-letter-0414.wav */; };
+		FC13F2B900CD94B1D56D2B26 /* alphabet-letter-0415.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6984CE8C0AFBD5F7B904DCE0 /* alphabet-letter-0415.wav */; };
+		F3BB21CE1DB4738258BD7B02 /* alphabet-letter-0416.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5231E4EEFD0613634B4130A0 /* alphabet-letter-0416.wav */; };
+		59E041A84BC8B6665E82F4D2 /* alphabet-letter-0417.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFA6ADBB3F44822FF138FD /* alphabet-letter-0417.wav */; };
+		19D15F9950D621BE7AB5398F /* alphabet-letter-0418.wav in Resources */ = {isa = PBXBuildFile; fileRef = 436ADBF6FD3A2326B7B9093B /* alphabet-letter-0418.wav */; };
+		689BCAAF04FFB24C53568615 /* alphabet-letter-0419.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CF45877A26A2A38DA4A2703 /* alphabet-letter-0419.wav */; };
+		1CACDF467C099536438F6EC4 /* alphabet-letter-041a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 217B014038C52C0412448765 /* alphabet-letter-041a.wav */; };
+		7AD0B94FEB6D8C9740D127A1 /* alphabet-letter-041b.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3714D6ABAEE081F43A739CE /* alphabet-letter-041b.wav */; };
+		B8AA950DEC5FC0C789FB7920 /* alphabet-letter-041c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 05769533F8F95AEBEE806AA0 /* alphabet-letter-041c.wav */; };
+		D361A7142CD6FCCEBA19C5FC /* alphabet-letter-041d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 987B6653B5D1C511C319758D /* alphabet-letter-041d.wav */; };
+		B8621F573E3652BB0B44DB6C /* alphabet-letter-041e.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF21BAD96787AA692FDD70B4 /* alphabet-letter-041e.wav */; };
+		8A8E4C58D6998968E803162D /* alphabet-letter-041f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 093B0E4B4E2378D832D4D4B5 /* alphabet-letter-041f.wav */; };
+		FDCCA30440CE1315E069B1F1 /* alphabet-letter-0420.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4F7B06994BB99ED443FD865 /* alphabet-letter-0420.wav */; };
+		2ACF81BE38AE9828062F7CC1 /* alphabet-letter-0421.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2865C15ADC04A8D82C4CCE50 /* alphabet-letter-0421.wav */; };
+		E2E0B440B4CF3D539D73542C /* alphabet-letter-0422.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41226EF089E8D2D2BDE94E2C /* alphabet-letter-0422.wav */; };
+		485DCC27EA642E862112270C /* alphabet-letter-0423.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BCDC711CD84B1543C846B /* alphabet-letter-0423.wav */; };
+		A3A411E7C7F7C8467EF94908 /* alphabet-letter-0424.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81DEC8144CACDF9397CE6B35 /* alphabet-letter-0424.wav */; };
+		024FA1DF303AF71CC561DD6E /* alphabet-letter-0425.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE67B6574009D830C4267E29 /* alphabet-letter-0425.wav */; };
+		8085CA9742340BD52C818586 /* alphabet-letter-0426.wav in Resources */ = {isa = PBXBuildFile; fileRef = 894EB20F78637B6D26A87007 /* alphabet-letter-0426.wav */; };
+		FC3CA0A481C1B12B33B54218 /* alphabet-letter-0427.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50A4A69DEFAA991D6FBECD3A /* alphabet-letter-0427.wav */; };
+		11CADDFE489010E48B489736 /* alphabet-letter-0428.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3704108336C50966D557757 /* alphabet-letter-0428.wav */; };
+		FEBF13D07536D32FA1746584 /* alphabet-letter-0429.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E8BC2FE95FA52D36399B667 /* alphabet-letter-0429.wav */; };
+		AFDCAF0F42C7FFB137266EA0 /* alphabet-letter-042a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7FBDC7F51FCF2F00F8F5CB45 /* alphabet-letter-042a.wav */; };
+		8712D5CBCCB9FFD8C54CFEF3 /* alphabet-letter-042b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99D4C80DC649977B5D9DC0F4 /* alphabet-letter-042b.wav */; };
+		D1A41E6D22EA07FC873B0CAE /* alphabet-letter-042c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 47DB5D4412C4F91BAD3D3AE0 /* alphabet-letter-042c.wav */; };
+		6B440E88731921CBA3B76B87 /* alphabet-letter-042d.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02674FC25A47C8B6502EC39 /* alphabet-letter-042d.wav */; };
+		136019B3B4B0BE4A1137FE27 /* alphabet-letter-042e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E9AF36E4D2C3F9AAFE8DD29 /* alphabet-letter-042e.wav */; };
+		87A262C83B8ADF74F65EDD2B /* alphabet-letter-042f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 141A497B188FD40AD35478AD /* alphabet-letter-042f.wav */; };
 		D80FB050481A5B7F6D38814D /* alphabet-word-042d5303a632.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AA24D8A5537F9CF8C390571 /* alphabet-word-042d5303a632.wav */; };
 		0FBAD4D72328B743B732D450 /* alphabet-word-0afbccd14c33.wav in Resources */ = {isa = PBXBuildFile; fileRef = E6E1B6860343C5275C41EBBB /* alphabet-word-0afbccd14c33.wav */; };
 		5F3FB6265EFA11D8196A5554 /* alphabet-word-1466ade22481.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFFDC771F6B342F918666BD8 /* alphabet-word-1466ade22481.wav */; };
@@ -358,56 +421,86 @@
 		7237C3458ABB6F198209A6E9 /* animal-wolf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BF568A131A5B22716D8B1D8 /* animal-wolf.wav */; };
 		792799C9C08C14C8B439885A /* animal-woodpecker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B7416E446167DB3335529 /* animal-woodpecker.wav */; };
 		3507A12D54725D12BC018C76 /* animal-zebra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */; };
+		C043C831B294264B00FE6370 /* home-armchair.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE14F367FBF238157CADC5 /* home-armchair.wav */; };
 		E10FBE7AA36F7380CCD64075 /* home-backpack.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE61A900E74126F399C84137 /* home-backpack.wav */; };
+		AEDFA24D651B98A221B624F7 /* home-bag.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57C88C99081F9900687B5B1B /* home-bag.wav */; };
+		7A8C6652D4F9A41FB0ADEB17 /* home-ball.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEFAF051D527E39CBA752014 /* home-ball.wav */; };
 		02A1AADD0F561B4942C864FD /* home-bath-towel.wav in Resources */ = {isa = PBXBuildFile; fileRef = B86D0FA74F87AE87194E5378 /* home-bath-towel.wav */; };
 		5F18BDA197DC243F955D4930 /* home-bathtub.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABD2D55E4EDFF38825337B3D /* home-bathtub.wav */; };
 		3337BACD3DF0BE71761826C0 /* home-bed.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF4DEC257BB0B1FD94BF5180 /* home-bed.wav */; };
 		2C9A4D0DF0E144EF0E8743D0 /* home-bib.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6E390AB69380CF9E90292 /* home-bib.wav */; };
 		FF40826C1194ACF0E6B79B42 /* home-blanket.wav in Resources */ = {isa = PBXBuildFile; fileRef = C18E98BFF91948F3C9E076B8 /* home-blanket.wav */; };
+		01808531DD8048BAF6B25D4C /* home-blocks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5255D41A6EC47245333E3DF6 /* home-blocks.wav */; };
 		7F75C30D4513C31E152C5DFD /* home-book.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4799D8D8E7CDDF8D428B4D25 /* home-book.wav */; };
 		374D42E8671AB4BB91681D43 /* home-bottle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 336D1E1F05404D2A7621EE54 /* home-bottle.wav */; };
 		FABC592DFCECDF72B2A4DCCF /* home-bowl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A60945398FB875DE7952BA3 /* home-bowl.wav */; };
+		3E7E8F55A4C867FDBAD66184 /* home-bread-box.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5834FDAE75DFAB7B3D782D36 /* home-bread-box.wav */; };
+		CB0FEB079C438DD825B9896E /* home-cap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BE9F5040B5825220C603A34 /* home-cap.wav */; };
 		943AB4A0B6801C8DB5E00E1B /* home-chair.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEAB1DC0FC4AA1834BAAAF3A /* home-chair.wav */; };
 		1129EDB00059592D1B9F0A53 /* home-clock.wav in Resources */ = {isa = PBXBuildFile; fileRef = C12EE71DC33F8D9F7A46BD08 /* home-clock.wav */; };
+		3205F0FCE6E559ABA61E2F18 /* home-coat-hanger.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE4FF38B990B7BBDD00D5320 /* home-coat-hanger.wav */; };
 		BB95359A431F487B1574FE67 /* home-coat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B30C103EC23089B91FD1F /* home-coat.wav */; };
 		2B8F1C78813C06AC8BC03DAC /* home-comb.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6DE40B3E8C7A4941CD5A632 /* home-comb.wav */; };
 		8CA810ABFDFC787FA8B1B8EC /* home-cup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFD5387F96D8DB4F4D06DF /* home-cup.wav */; };
+		1B3F502C932F38E84E7EC8FF /* home-curtains.wav in Resources */ = {isa = PBXBuildFile; fileRef = F34768A36D16D1CE8B07B913 /* home-curtains.wav */; };
 		9A15C3CB84855470DD931FA7 /* home-cutting-board.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0D157AA3F44E8454CE02B9E /* home-cutting-board.wav */; };
 		59CD8BA4B0046D213EE8D962 /* home-door.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6D569B70D74457F1C2D302E1 /* home-door.wav */; };
+		9A1901A180C1D1B534BA9BD0 /* home-dresser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FA638DC15649B8DC99A62 /* home-dresser.wav */; };
+		CC6A154F339664FF2A882336 /* home-fan.wav in Resources */ = {isa = PBXBuildFile; fileRef = D20B4D7355D229A76DBDE8D8 /* home-fan.wav */; };
 		4441441A5E742B2D9C4300DD /* home-faucet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 072AA968C87B0B61FB701872 /* home-faucet.wav */; };
 		09BDF80A9A36F7DC7E5E7741 /* home-fork.wav in Resources */ = {isa = PBXBuildFile; fileRef = C897248F915DF217C2EF8DD1 /* home-fork.wav */; };
 		AB8B94DE368BD1F21B6216CA /* home-fridge.wav in Resources */ = {isa = PBXBuildFile; fileRef = B923EE213790284A05954F4D /* home-fridge.wav */; };
 		D09E118FDEAAB6DE1F5B2796 /* home-glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D0F56B4B88A1268A91A16 /* home-glass.wav */; };
+		62EC890DDD247A3F44D5DBD8 /* home-grater.wav in Resources */ = {isa = PBXBuildFile; fileRef = B42D85AE6B9AC422B57AF793 /* home-grater.wav */; };
+		4E6FC35C7D466D973660A3BF /* home-hair-dryer.wav in Resources */ = {isa = PBXBuildFile; fileRef = E01377980E53B2C57152F369 /* home-hair-dryer.wav */; };
 		97BF23C8509F253AC06271C0 /* home-hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80E704A638A7BDE47EDB7222 /* home-hat.wav */; };
 		89DBB9114130725C956D93D1 /* home-high-chair.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBE3256ADDFA1BD0D9B65A82 /* home-high-chair.wav */; };
 		A67829A9CB51C6F5A4387E54 /* home-jug.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AFA2BAD0DC50AD24F9B6DD8 /* home-jug.wav */; };
 		42A401A670F0C10B36EBB8CA /* home-kettle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 398C7C55EBE7C9BA3470B75A /* home-kettle.wav */; };
 		EEF53D812B8AB1209DB1B9D0 /* home-keys.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7AC4363F180686A2A935315 /* home-keys.wav */; };
+		983C26D52BFCE4237654851B /* home-ladle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E77B4B6A4D00AB1BF786F7E /* home-ladle.wav */; };
 		F243051D61088F749EC9339C /* home-lamp.wav in Resources */ = {isa = PBXBuildFile; fileRef = C66D6E546DD656DCD76F485A /* home-lamp.wav */; };
 		4193CC3E49D346D2946C79D8 /* home-laundry-basket.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5082C79E47655E387628B590 /* home-laundry-basket.wav */; };
+		F53EB98AF76BF6637C3C07BF /* home-microwave.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66BC4F4D6244A4477866C061 /* home-microwave.wav */; };
+		F9EB14B35784ADDB832BCCE9 /* home-mirror.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C2380666ED2DC3E810EBE1D /* home-mirror.wav */; };
+		960EEB30C947F3E7F85E8ECE /* home-mittens.wav in Resources */ = {isa = PBXBuildFile; fileRef = 54D215FB434CFE60F4FD0BA1 /* home-mittens.wav */; };
 		9711FE56FF34A211892A59F0 /* home-napkin.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7FB1FEA8224561D4C872BB5 /* home-napkin.wav */; };
 		C807014E92DCBAAC0132C1F6 /* home-pan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95805C1CDC9FEFF91249D19D /* home-pan.wav */; };
+		3C72109B7D701FEC9A2DA2C8 /* home-phone.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5872A68FBAE5412CA229A2C /* home-phone.wav */; };
 		F12C784AC8F578F3298970BB /* home-pillow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E83006C46D9082659B52FE6 /* home-pillow.wav */; };
 		D000655DC095CA7F462D1D93 /* home-plate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BA67F98E63C2FB334AC37 /* home-plate.wav */; };
 		60CB870BF877B65790AA3CF1 /* home-pot.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1BF326555EDC1D7EAF52331 /* home-pot.wav */; };
 		ACAF3ED2F7E1CC7F4B4C8F6E /* home-potty.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCC17B365E0113BBACBEB87E /* home-potty.wav */; };
+		5BD978F9FA48CE954B7C117C /* home-rolling-pin.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6C9E9D495F1752E32699CE5 /* home-rolling-pin.wav */; };
 		E972D62FE2CD43537D9F357E /* home-rubber-duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88C74ED6E8AE6B44961BAD81 /* home-rubber-duck.wav */; };
+		B4DEAAF8A4651E46352AB728 /* home-rug.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0657EECFC2F8ADBCE8FCB52F /* home-rug.wav */; };
 		390AEE39A57F46B3A8FCB895 /* home-scarf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C48D7493C6879300B627961 /* home-scarf.wav */; };
 		3B5FAFCAAC510873261F8DE6 /* home-shampoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B65693FC100FC5305387065 /* home-shampoo.wav */; };
+		1D049D0A6707AC9296935DC6 /* home-shoehorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = ADBE9DD35D1375668F604B1F /* home-shoehorn.wav */; };
 		D9DB82168CF0CB627C1FB96D /* home-shoes.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFFC3108AA3A4B8ECFD8F193 /* home-shoes.wav */; };
 		79E7D25A9978B7AD8747E369 /* home-sink.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA7B00B17E7B590C412E7960 /* home-sink.wav */; };
 		6371CB30E51A8AB646A233BA /* home-slippers.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC1BBDE82D5214CDDA9EAED /* home-slippers.wav */; };
 		FC421141C310BFB77E67FC01 /* home-soap.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD09BB3EF1CA53129B0698F9 /* home-soap.wav */; };
+		EA07EA75CB23F4C87D03341F /* home-spatula.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6F95CC4C75A4B2517DDD486 /* home-spatula.wav */; };
 		D5BA97C7A929BC21262ABA05 /* home-sponge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92EBC6E8B462EA63E53097CF /* home-sponge.wav */; };
 		10AEBB308F4172393E24F87B /* home-spoon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 531D1CE51193E315DC4E8AD4 /* home-spoon.wav */; };
+		078D76DD44447BAD90CDC1CA /* home-stacking-rings.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7DCBC72252EA42BBCCE1133 /* home-stacking-rings.wav */; };
 		8CB78A9A4E1B6015B9D49136 /* home-stove.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7853D201F93AE80AA0B59A5 /* home-stove.wav */; };
 		724EEFEBCDE638D5007E4D71 /* home-strainer.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC6AF4021210EC8B08DAA72B /* home-strainer.wav */; };
 		8BC3B8B353B6DB5F672456CC /* home-stroller.wav in Resources */ = {isa = PBXBuildFile; fileRef = D062A7072504DCE0CF2230FD /* home-stroller.wav */; };
+		F1892D3668E365E991F4E6F6 /* home-sugar-bowl.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE8EDDAD9AC8F5EB3CEE22C8 /* home-sugar-bowl.wav */; };
 		FAF110DE408BAA60D6B3EAC2 /* home-table.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C70F98B5EF5AE233AC81429 /* home-table.wav */; };
+		25C598F8248C06BBCE7E9E25 /* home-toaster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 909BCCB263E67FA238261CCD /* home-toaster.wav */; };
+		8D99A5D07394C025AB434D29 /* home-toilet-paper.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31B4F55EACC9985180995F51 /* home-toilet-paper.wav */; };
+		14CEEDBA500BB8096F1396A8 /* home-toilet.wav in Resources */ = {isa = PBXBuildFile; fileRef = F65C7B11D4C0D07AF2620AA6 /* home-toilet.wav */; };
 		F38D569426715A8934C0F337 /* home-toothbrush.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0025289EE3E2F2637C27453E /* home-toothbrush.wav */; };
 		CF49FF64D1D86EF0F1890F09 /* home-toothpaste.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25F029017CF5A6BFA974AE81 /* home-toothpaste.wav */; };
+		42966FC40D923728BBC8E4C4 /* home-tray.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BD8F2796D3E30AFFD64DFE3 /* home-tray.wav */; };
 		D69AA680F954CB173E359CB1 /* home-umbrella.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25BB162AFAF35C30F10FCF47 /* home-umbrella.wav */; };
+		8BA67215C61409B0F6768BD6 /* home-vacuum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DF09CA037E60F936C5F7460 /* home-vacuum.wav */; };
+		DAC3EED38AB0A10A89C23D1A /* home-wash-basin.wav in Resources */ = {isa = PBXBuildFile; fileRef = EFBF7308717D88521CC2D69E /* home-wash-basin.wav */; };
 		E1946ECD3AF6D05EFE6ED24B /* home-washing-machine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C8912372534113E753D29DD /* home-washing-machine.wav */; };
+		AD86EF090B74233BED13E0B1 /* home-whisk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A7D3310D742D2F831AC6E98 /* home-whisk.wav */; };
 		5D9B1CBA058BEB7F505999AF /* letter-0401.wav in Resources */ = {isa = PBXBuildFile; fileRef = 359FE0EE063DF15B7F2DEE67 /* letter-0401.wav */; };
 		86B66D84DA6EBC67C9A7F75A /* letter-0410.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2FD87431B550B2E2F706BF6 /* letter-0410.wav */; };
 		BA686A923A73ED787E3CE390 /* letter-0411.wav in Resources */ = {isa = PBXBuildFile; fileRef = 775D45CB3186A9176E77A24C /* letter-0411.wav */; };
@@ -660,56 +753,86 @@
 		B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-wolf.png"; sourceTree = "<group>"; };
 		5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-woodpecker.png"; sourceTree = "<group>"; };
 		89012E78C45B9BD387F0D484 /* animal-zebra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Animals/animal-zebra.png"; sourceTree = "<group>"; };
+		2A893E749FFBD792F0969CF3 /* home-armchair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-armchair.png"; sourceTree = "<group>"; };
 		60042B0A5BDC73F184D9F743 /* home-backpack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-backpack.png"; sourceTree = "<group>"; };
+		40706013EA72A5918AC87A74 /* home-bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bag.png"; sourceTree = "<group>"; };
+		F39391C135A42D2DE4F67143 /* home-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-ball.png"; sourceTree = "<group>"; };
 		CFFB999392C9A7FAAC84976B /* home-bath-towel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bath-towel.png"; sourceTree = "<group>"; };
 		F36399F776A3952E3ECC1509 /* home-bathtub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bathtub.png"; sourceTree = "<group>"; };
 		BEF484FC7F896533CB3F096E /* home-bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bed.png"; sourceTree = "<group>"; };
 		E15FBF7CFD03F1C67604F4F5 /* home-bib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bib.png"; sourceTree = "<group>"; };
 		FEC66F5977659DBD224C6863 /* home-blanket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-blanket.png"; sourceTree = "<group>"; };
+		148A4A630484D465FB78C51C /* home-blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-blocks.png"; sourceTree = "<group>"; };
 		6C00174980478789B8BFDB55 /* home-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-book.png"; sourceTree = "<group>"; };
 		3544E47EE08FB0DEA4DB332B /* home-bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bottle.png"; sourceTree = "<group>"; };
 		5B4B91C7118FFDBE3AC14FD0 /* home-bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bowl.png"; sourceTree = "<group>"; };
+		DF2635E6A9F7069F946A06E2 /* home-bread-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-bread-box.png"; sourceTree = "<group>"; };
+		AA772805132ECDAB53F09DA2 /* home-cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-cap.png"; sourceTree = "<group>"; };
 		2043CD086A7A0D178738677F /* home-chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-chair.png"; sourceTree = "<group>"; };
 		053E87C2D5C8513F7B039B88 /* home-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-clock.png"; sourceTree = "<group>"; };
+		D2476E1E396BF6B2EFF325D0 /* home-coat-hanger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-coat-hanger.png"; sourceTree = "<group>"; };
 		7BCF7E85DD8FC51C7B164E53 /* home-coat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-coat.png"; sourceTree = "<group>"; };
 		3B6354C8BDE985D67AECC272 /* home-comb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-comb.png"; sourceTree = "<group>"; };
 		B49A69CA741A438A0B4A6104 /* home-cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-cup.png"; sourceTree = "<group>"; };
+		571047C13844F5F670CD9C4A /* home-curtains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-curtains.png"; sourceTree = "<group>"; };
 		FC17545048F3ACAB2FC42D02 /* home-cutting-board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-cutting-board.png"; sourceTree = "<group>"; };
 		B79B58657D5E4E6CB0BE344A /* home-door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-door.png"; sourceTree = "<group>"; };
+		51E347202757A59C90CBC706 /* home-dresser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-dresser.png"; sourceTree = "<group>"; };
+		1239CBD6C5646F4D723D2EEF /* home-fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-fan.png"; sourceTree = "<group>"; };
 		A2ECF5CFD1A94765F3ABA062 /* home-faucet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-faucet.png"; sourceTree = "<group>"; };
 		ACB06907EBB0BA219934C0EE /* home-fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-fork.png"; sourceTree = "<group>"; };
 		E0C3CB6A5B553FD54B9A158B /* home-fridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-fridge.png"; sourceTree = "<group>"; };
 		C43A1454169A6A5DA0847A3B /* home-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-glass.png"; sourceTree = "<group>"; };
+		87C1880D27241A8A8B69FDBA /* home-grater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-grater.png"; sourceTree = "<group>"; };
+		7E56B0EB271E777B6C34545C /* home-hair-dryer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-hair-dryer.png"; sourceTree = "<group>"; };
 		CCDB7C48C91515D290570154 /* home-hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-hat.png"; sourceTree = "<group>"; };
 		42230B7B8FB4F2D977F6539B /* home-high-chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-high-chair.png"; sourceTree = "<group>"; };
 		F5D9CE232582D420CC1F452A /* home-jug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-jug.png"; sourceTree = "<group>"; };
 		13D2682F634671AC097C1A57 /* home-kettle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-kettle.png"; sourceTree = "<group>"; };
 		B9D36A8911B408237730502F /* home-keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-keys.png"; sourceTree = "<group>"; };
+		C7EEB7D42A23315F8989D0DD /* home-ladle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-ladle.png"; sourceTree = "<group>"; };
 		A56AA985B23A9D80F7AF82AC /* home-lamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-lamp.png"; sourceTree = "<group>"; };
 		9108C51B4DFF58E9714A16FE /* home-laundry-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-laundry-basket.png"; sourceTree = "<group>"; };
+		9E8329448DCCA77EBAE9E503 /* home-microwave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-microwave.png"; sourceTree = "<group>"; };
+		AFEF7F903ABA1BED2CB89976 /* home-mirror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-mirror.png"; sourceTree = "<group>"; };
+		B476D0351912127F4BC76A60 /* home-mittens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-mittens.png"; sourceTree = "<group>"; };
 		42B8925B7664F2CC0FE74114 /* home-napkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-napkin.png"; sourceTree = "<group>"; };
 		336359F63AD9DFF81F838904 /* home-pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-pan.png"; sourceTree = "<group>"; };
+		DE4B7A4771D71968B237D9FA /* home-phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-phone.png"; sourceTree = "<group>"; };
 		D83A7FEA4132073292A9205B /* home-pillow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-pillow.png"; sourceTree = "<group>"; };
 		B15F090C5CF870B30FE10D56 /* home-plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-plate.png"; sourceTree = "<group>"; };
 		E437531CE6CF4891F99FA814 /* home-pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-pot.png"; sourceTree = "<group>"; };
 		CCA2B4C747958F0B8A7F061C /* home-potty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-potty.png"; sourceTree = "<group>"; };
+		A5A4A66E74D66A10B67B112F /* home-rolling-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-rolling-pin.png"; sourceTree = "<group>"; };
 		538869D4796F295988D87593 /* home-rubber-duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-rubber-duck.png"; sourceTree = "<group>"; };
+		B5A58D763D11A6645F919C3B /* home-rug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-rug.png"; sourceTree = "<group>"; };
 		D297C28A5D2FA92214B47A26 /* home-scarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-scarf.png"; sourceTree = "<group>"; };
 		2C567D970F888E4CDE72317E /* home-shampoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-shampoo.png"; sourceTree = "<group>"; };
+		05DB27A4AF0837A6BEF49E30 /* home-shoehorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-shoehorn.png"; sourceTree = "<group>"; };
 		E97F618C6BD69816C7A09AFA /* home-shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-shoes.png"; sourceTree = "<group>"; };
 		6BF78ADB80B937979AE8ABC1 /* home-sink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-sink.png"; sourceTree = "<group>"; };
 		F2006CDB92F657ABA248B619 /* home-slippers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-slippers.png"; sourceTree = "<group>"; };
 		B6AEDA93BE840543A103638A /* home-soap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-soap.png"; sourceTree = "<group>"; };
+		D736EE6DC8D9EB251C82B164 /* home-spatula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-spatula.png"; sourceTree = "<group>"; };
 		6A09C33252A119D0749E9964 /* home-sponge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-sponge.png"; sourceTree = "<group>"; };
 		261922EA6B14E88E549D4BFB /* home-spoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-spoon.png"; sourceTree = "<group>"; };
+		81DCB3551D83E8784A194577 /* home-stacking-rings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-stacking-rings.png"; sourceTree = "<group>"; };
 		E1A5C07B9C4E1E86592E4258 /* home-stove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-stove.png"; sourceTree = "<group>"; };
 		B797BDB15954DF6680D965FF /* home-strainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-strainer.png"; sourceTree = "<group>"; };
 		5013615178898D958B626EDD /* home-stroller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-stroller.png"; sourceTree = "<group>"; };
+		BFAE0EA78DE36BFA31B86C8C /* home-sugar-bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-sugar-bowl.png"; sourceTree = "<group>"; };
 		DDC8A63A14FB9AA1EBE3C97A /* home-table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-table.png"; sourceTree = "<group>"; };
+		07F09BCDC746B8A3CC91CFD8 /* home-toaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toaster.png"; sourceTree = "<group>"; };
+		C94B81A2D73A9DA61B4F440C /* home-toilet-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toilet-paper.png"; sourceTree = "<group>"; };
+		1F4C0AB94ACD8699D9783266 /* home-toilet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toilet.png"; sourceTree = "<group>"; };
 		FD9C618DA86A2F27999B879C /* home-toothbrush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toothbrush.png"; sourceTree = "<group>"; };
 		3AE0664384F8036EE1A549D0 /* home-toothpaste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-toothpaste.png"; sourceTree = "<group>"; };
+		34C52DD378B2824AA08C9ADF /* home-tray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-tray.png"; sourceTree = "<group>"; };
 		7A8133CFF8F084BCD8430B86 /* home-umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-umbrella.png"; sourceTree = "<group>"; };
+		316D6014093CABF44793232C /* home-vacuum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-vacuum.png"; sourceTree = "<group>"; };
+		BC25EEF7DA238B6303A09FD6 /* home-wash-basin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-wash-basin.png"; sourceTree = "<group>"; };
 		8570FB6B47E6F88C2EEB73FC /* home-washing-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-washing-machine.png"; sourceTree = "<group>"; };
+		0AEB3193A73C2A7B2A2597D8 /* home-whisk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Household/home-whisk.png"; sourceTree = "<group>"; };
 		F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-airplane.png"; sourceTree = "<group>"; };
 		920222F15718C386A41BCFF0 /* transport-airship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-airship.png"; sourceTree = "<group>"; };
 		26FA82FEE06897A630CB1E79 /* transport-ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-ambulance.png"; sourceTree = "<group>"; };
@@ -760,6 +883,39 @@
 		680740BA6F8458D454065F88 /* transport-trolleybus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-trolleybus.png"; sourceTree = "<group>"; };
 		EFA0527ABD175D5E1C55025B /* transport-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-truck.png"; sourceTree = "<group>"; };
 		10159FDD99C894B2CDB20466 /* transport-tugboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resources/Pictures/Transport/transport-tugboat.png"; sourceTree = "<group>"; };
+		75611E4F21768ABF6FB01E11 /* alphabet-letter-0401.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0401.wav"; sourceTree = "<group>"; };
+		E664E72E067CF47F9D33F5F2 /* alphabet-letter-0410.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0410.wav"; sourceTree = "<group>"; };
+		CA2A9ADC112F33610CE00CF7 /* alphabet-letter-0411.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0411.wav"; sourceTree = "<group>"; };
+		A878C4778FA94E47AD1DC889 /* alphabet-letter-0412.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0412.wav"; sourceTree = "<group>"; };
+		AB428D1BAC69F41493D21946 /* alphabet-letter-0413.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0413.wav"; sourceTree = "<group>"; };
+		C34E64C106CB8E925A81B147 /* alphabet-letter-0414.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0414.wav"; sourceTree = "<group>"; };
+		6984CE8C0AFBD5F7B904DCE0 /* alphabet-letter-0415.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0415.wav"; sourceTree = "<group>"; };
+		5231E4EEFD0613634B4130A0 /* alphabet-letter-0416.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0416.wav"; sourceTree = "<group>"; };
+		4DBFA6ADBB3F44822FF138FD /* alphabet-letter-0417.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0417.wav"; sourceTree = "<group>"; };
+		436ADBF6FD3A2326B7B9093B /* alphabet-letter-0418.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0418.wav"; sourceTree = "<group>"; };
+		4CF45877A26A2A38DA4A2703 /* alphabet-letter-0419.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0419.wav"; sourceTree = "<group>"; };
+		217B014038C52C0412448765 /* alphabet-letter-041a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-041a.wav"; sourceTree = "<group>"; };
+		F3714D6ABAEE081F43A739CE /* alphabet-letter-041b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-041b.wav"; sourceTree = "<group>"; };
+		05769533F8F95AEBEE806AA0 /* alphabet-letter-041c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-041c.wav"; sourceTree = "<group>"; };
+		987B6653B5D1C511C319758D /* alphabet-letter-041d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-041d.wav"; sourceTree = "<group>"; };
+		CF21BAD96787AA692FDD70B4 /* alphabet-letter-041e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-041e.wav"; sourceTree = "<group>"; };
+		093B0E4B4E2378D832D4D4B5 /* alphabet-letter-041f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-041f.wav"; sourceTree = "<group>"; };
+		F4F7B06994BB99ED443FD865 /* alphabet-letter-0420.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0420.wav"; sourceTree = "<group>"; };
+		2865C15ADC04A8D82C4CCE50 /* alphabet-letter-0421.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0421.wav"; sourceTree = "<group>"; };
+		41226EF089E8D2D2BDE94E2C /* alphabet-letter-0422.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0422.wav"; sourceTree = "<group>"; };
+		7B8BCDC711CD84B1543C846B /* alphabet-letter-0423.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0423.wav"; sourceTree = "<group>"; };
+		81DEC8144CACDF9397CE6B35 /* alphabet-letter-0424.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0424.wav"; sourceTree = "<group>"; };
+		FE67B6574009D830C4267E29 /* alphabet-letter-0425.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0425.wav"; sourceTree = "<group>"; };
+		894EB20F78637B6D26A87007 /* alphabet-letter-0426.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0426.wav"; sourceTree = "<group>"; };
+		50A4A69DEFAA991D6FBECD3A /* alphabet-letter-0427.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0427.wav"; sourceTree = "<group>"; };
+		D3704108336C50966D557757 /* alphabet-letter-0428.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0428.wav"; sourceTree = "<group>"; };
+		5E8BC2FE95FA52D36399B667 /* alphabet-letter-0429.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-0429.wav"; sourceTree = "<group>"; };
+		7FBDC7F51FCF2F00F8F5CB45 /* alphabet-letter-042a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-042a.wav"; sourceTree = "<group>"; };
+		99D4C80DC649977B5D9DC0F4 /* alphabet-letter-042b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-042b.wav"; sourceTree = "<group>"; };
+		47DB5D4412C4F91BAD3D3AE0 /* alphabet-letter-042c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-042c.wav"; sourceTree = "<group>"; };
+		F02674FC25A47C8B6502EC39 /* alphabet-letter-042d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-042d.wav"; sourceTree = "<group>"; };
+		9E9AF36E4D2C3F9AAFE8DD29 /* alphabet-letter-042e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-042e.wav"; sourceTree = "<group>"; };
+		141A497B188FD40AD35478AD /* alphabet-letter-042f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-letter-042f.wav"; sourceTree = "<group>"; };
 		8AA24D8A5537F9CF8C390571 /* alphabet-word-042d5303a632.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-042d5303a632.wav"; sourceTree = "<group>"; };
 		E6E1B6860343C5275C41EBBB /* alphabet-word-0afbccd14c33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-0afbccd14c33.wav"; sourceTree = "<group>"; };
 		CFFDC771F6B342F918666BD8 /* alphabet-word-1466ade22481.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/alphabet-word-1466ade22481.wav"; sourceTree = "<group>"; };
@@ -889,56 +1045,86 @@
 		0BF568A131A5B22716D8B1D8 /* animal-wolf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-wolf.wav"; sourceTree = "<group>"; };
 		4F5B7416E446167DB3335529 /* animal-woodpecker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-woodpecker.wav"; sourceTree = "<group>"; };
 		91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-zebra.wav"; sourceTree = "<group>"; };
+		5BBE14F367FBF238157CADC5 /* home-armchair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-armchair.wav"; sourceTree = "<group>"; };
 		FE61A900E74126F399C84137 /* home-backpack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-backpack.wav"; sourceTree = "<group>"; };
+		57C88C99081F9900687B5B1B /* home-bag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bag.wav"; sourceTree = "<group>"; };
+		CEFAF051D527E39CBA752014 /* home-ball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-ball.wav"; sourceTree = "<group>"; };
 		B86D0FA74F87AE87194E5378 /* home-bath-towel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bath-towel.wav"; sourceTree = "<group>"; };
 		ABD2D55E4EDFF38825337B3D /* home-bathtub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bathtub.wav"; sourceTree = "<group>"; };
 		CF4DEC257BB0B1FD94BF5180 /* home-bed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bed.wav"; sourceTree = "<group>"; };
 		7CA6E390AB69380CF9E90292 /* home-bib.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bib.wav"; sourceTree = "<group>"; };
 		C18E98BFF91948F3C9E076B8 /* home-blanket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-blanket.wav"; sourceTree = "<group>"; };
+		5255D41A6EC47245333E3DF6 /* home-blocks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-blocks.wav"; sourceTree = "<group>"; };
 		4799D8D8E7CDDF8D428B4D25 /* home-book.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-book.wav"; sourceTree = "<group>"; };
 		336D1E1F05404D2A7621EE54 /* home-bottle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bottle.wav"; sourceTree = "<group>"; };
 		4A60945398FB875DE7952BA3 /* home-bowl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bowl.wav"; sourceTree = "<group>"; };
+		5834FDAE75DFAB7B3D782D36 /* home-bread-box.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-bread-box.wav"; sourceTree = "<group>"; };
+		5BE9F5040B5825220C603A34 /* home-cap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-cap.wav"; sourceTree = "<group>"; };
 		EEAB1DC0FC4AA1834BAAAF3A /* home-chair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-chair.wav"; sourceTree = "<group>"; };
 		C12EE71DC33F8D9F7A46BD08 /* home-clock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-clock.wav"; sourceTree = "<group>"; };
+		FE4FF38B990B7BBDD00D5320 /* home-coat-hanger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-coat-hanger.wav"; sourceTree = "<group>"; };
 		0D0B30C103EC23089B91FD1F /* home-coat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-coat.wav"; sourceTree = "<group>"; };
 		F6DE40B3E8C7A4941CD5A632 /* home-comb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-comb.wav"; sourceTree = "<group>"; };
 		5EDFD5387F96D8DB4F4D06DF /* home-cup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-cup.wav"; sourceTree = "<group>"; };
+		F34768A36D16D1CE8B07B913 /* home-curtains.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-curtains.wav"; sourceTree = "<group>"; };
 		D0D157AA3F44E8454CE02B9E /* home-cutting-board.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-cutting-board.wav"; sourceTree = "<group>"; };
 		6D569B70D74457F1C2D302E1 /* home-door.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-door.wav"; sourceTree = "<group>"; };
+		4B3FA638DC15649B8DC99A62 /* home-dresser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-dresser.wav"; sourceTree = "<group>"; };
+		D20B4D7355D229A76DBDE8D8 /* home-fan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-fan.wav"; sourceTree = "<group>"; };
 		072AA968C87B0B61FB701872 /* home-faucet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-faucet.wav"; sourceTree = "<group>"; };
 		C897248F915DF217C2EF8DD1 /* home-fork.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-fork.wav"; sourceTree = "<group>"; };
 		B923EE213790284A05954F4D /* home-fridge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-fridge.wav"; sourceTree = "<group>"; };
 		4B5D0F56B4B88A1268A91A16 /* home-glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-glass.wav"; sourceTree = "<group>"; };
+		B42D85AE6B9AC422B57AF793 /* home-grater.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-grater.wav"; sourceTree = "<group>"; };
+		E01377980E53B2C57152F369 /* home-hair-dryer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-hair-dryer.wav"; sourceTree = "<group>"; };
 		80E704A638A7BDE47EDB7222 /* home-hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-hat.wav"; sourceTree = "<group>"; };
 		FBE3256ADDFA1BD0D9B65A82 /* home-high-chair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-high-chair.wav"; sourceTree = "<group>"; };
 		8AFA2BAD0DC50AD24F9B6DD8 /* home-jug.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-jug.wav"; sourceTree = "<group>"; };
 		398C7C55EBE7C9BA3470B75A /* home-kettle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-kettle.wav"; sourceTree = "<group>"; };
 		E7AC4363F180686A2A935315 /* home-keys.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-keys.wav"; sourceTree = "<group>"; };
+		0E77B4B6A4D00AB1BF786F7E /* home-ladle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-ladle.wav"; sourceTree = "<group>"; };
 		C66D6E546DD656DCD76F485A /* home-lamp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-lamp.wav"; sourceTree = "<group>"; };
 		5082C79E47655E387628B590 /* home-laundry-basket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-laundry-basket.wav"; sourceTree = "<group>"; };
+		66BC4F4D6244A4477866C061 /* home-microwave.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-microwave.wav"; sourceTree = "<group>"; };
+		9C2380666ED2DC3E810EBE1D /* home-mirror.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-mirror.wav"; sourceTree = "<group>"; };
+		54D215FB434CFE60F4FD0BA1 /* home-mittens.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-mittens.wav"; sourceTree = "<group>"; };
 		C7FB1FEA8224561D4C872BB5 /* home-napkin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-napkin.wav"; sourceTree = "<group>"; };
 		95805C1CDC9FEFF91249D19D /* home-pan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-pan.wav"; sourceTree = "<group>"; };
+		E5872A68FBAE5412CA229A2C /* home-phone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-phone.wav"; sourceTree = "<group>"; };
 		9E83006C46D9082659B52FE6 /* home-pillow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-pillow.wav"; sourceTree = "<group>"; };
 		4B5BA67F98E63C2FB334AC37 /* home-plate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-plate.wav"; sourceTree = "<group>"; };
 		F1BF326555EDC1D7EAF52331 /* home-pot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-pot.wav"; sourceTree = "<group>"; };
 		BCC17B365E0113BBACBEB87E /* home-potty.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-potty.wav"; sourceTree = "<group>"; };
+		D6C9E9D495F1752E32699CE5 /* home-rolling-pin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-rolling-pin.wav"; sourceTree = "<group>"; };
 		88C74ED6E8AE6B44961BAD81 /* home-rubber-duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-rubber-duck.wav"; sourceTree = "<group>"; };
+		0657EECFC2F8ADBCE8FCB52F /* home-rug.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-rug.wav"; sourceTree = "<group>"; };
 		9C48D7493C6879300B627961 /* home-scarf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-scarf.wav"; sourceTree = "<group>"; };
 		5B65693FC100FC5305387065 /* home-shampoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-shampoo.wav"; sourceTree = "<group>"; };
+		ADBE9DD35D1375668F604B1F /* home-shoehorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-shoehorn.wav"; sourceTree = "<group>"; };
 		FFFC3108AA3A4B8ECFD8F193 /* home-shoes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-shoes.wav"; sourceTree = "<group>"; };
 		FA7B00B17E7B590C412E7960 /* home-sink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-sink.wav"; sourceTree = "<group>"; };
 		FAC1BBDE82D5214CDDA9EAED /* home-slippers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-slippers.wav"; sourceTree = "<group>"; };
 		FD09BB3EF1CA53129B0698F9 /* home-soap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-soap.wav"; sourceTree = "<group>"; };
+		A6F95CC4C75A4B2517DDD486 /* home-spatula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-spatula.wav"; sourceTree = "<group>"; };
 		92EBC6E8B462EA63E53097CF /* home-sponge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-sponge.wav"; sourceTree = "<group>"; };
 		531D1CE51193E315DC4E8AD4 /* home-spoon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-spoon.wav"; sourceTree = "<group>"; };
+		F7DCBC72252EA42BBCCE1133 /* home-stacking-rings.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-stacking-rings.wav"; sourceTree = "<group>"; };
 		E7853D201F93AE80AA0B59A5 /* home-stove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-stove.wav"; sourceTree = "<group>"; };
 		CC6AF4021210EC8B08DAA72B /* home-strainer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-strainer.wav"; sourceTree = "<group>"; };
 		D062A7072504DCE0CF2230FD /* home-stroller.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-stroller.wav"; sourceTree = "<group>"; };
+		FE8EDDAD9AC8F5EB3CEE22C8 /* home-sugar-bowl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-sugar-bowl.wav"; sourceTree = "<group>"; };
 		8C70F98B5EF5AE233AC81429 /* home-table.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-table.wav"; sourceTree = "<group>"; };
+		909BCCB263E67FA238261CCD /* home-toaster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toaster.wav"; sourceTree = "<group>"; };
+		31B4F55EACC9985180995F51 /* home-toilet-paper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toilet-paper.wav"; sourceTree = "<group>"; };
+		F65C7B11D4C0D07AF2620AA6 /* home-toilet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toilet.wav"; sourceTree = "<group>"; };
 		0025289EE3E2F2637C27453E /* home-toothbrush.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toothbrush.wav"; sourceTree = "<group>"; };
 		25F029017CF5A6BFA974AE81 /* home-toothpaste.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-toothpaste.wav"; sourceTree = "<group>"; };
+		1BD8F2796D3E30AFFD64DFE3 /* home-tray.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-tray.wav"; sourceTree = "<group>"; };
 		25BB162AFAF35C30F10FCF47 /* home-umbrella.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-umbrella.wav"; sourceTree = "<group>"; };
+		3DF09CA037E60F936C5F7460 /* home-vacuum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-vacuum.wav"; sourceTree = "<group>"; };
+		EFBF7308717D88521CC2D69E /* home-wash-basin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-wash-basin.wav"; sourceTree = "<group>"; };
 		9C8912372534113E753D29DD /* home-washing-machine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-washing-machine.wav"; sourceTree = "<group>"; };
+		7A7D3310D742D2F831AC6E98 /* home-whisk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-whisk.wav"; sourceTree = "<group>"; };
 		359FE0EE063DF15B7F2DEE67 /* letter-0401.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0401.wav"; sourceTree = "<group>"; };
 		B2FD87431B550B2E2F706BF6 /* letter-0410.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0410.wav"; sourceTree = "<group>"; };
 		775D45CB3186A9176E77A24C /* letter-0411.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/letter-0411.wav"; sourceTree = "<group>"; };
@@ -1301,56 +1487,86 @@
 				B49F3F1DA50BBF1B996C5F23 /* animal-wolf.png */,
 				5E1EFE07BFF03B4D8A1BDF7F /* animal-woodpecker.png */,
 				89012E78C45B9BD387F0D484 /* animal-zebra.png */,
+				2A893E749FFBD792F0969CF3 /* home-armchair.png */,
 				60042B0A5BDC73F184D9F743 /* home-backpack.png */,
+				40706013EA72A5918AC87A74 /* home-bag.png */,
+				F39391C135A42D2DE4F67143 /* home-ball.png */,
 				CFFB999392C9A7FAAC84976B /* home-bath-towel.png */,
 				F36399F776A3952E3ECC1509 /* home-bathtub.png */,
 				BEF484FC7F896533CB3F096E /* home-bed.png */,
 				E15FBF7CFD03F1C67604F4F5 /* home-bib.png */,
 				FEC66F5977659DBD224C6863 /* home-blanket.png */,
+				148A4A630484D465FB78C51C /* home-blocks.png */,
 				6C00174980478789B8BFDB55 /* home-book.png */,
 				3544E47EE08FB0DEA4DB332B /* home-bottle.png */,
 				5B4B91C7118FFDBE3AC14FD0 /* home-bowl.png */,
+				DF2635E6A9F7069F946A06E2 /* home-bread-box.png */,
+				AA772805132ECDAB53F09DA2 /* home-cap.png */,
 				2043CD086A7A0D178738677F /* home-chair.png */,
 				053E87C2D5C8513F7B039B88 /* home-clock.png */,
+				D2476E1E396BF6B2EFF325D0 /* home-coat-hanger.png */,
 				7BCF7E85DD8FC51C7B164E53 /* home-coat.png */,
 				3B6354C8BDE985D67AECC272 /* home-comb.png */,
 				B49A69CA741A438A0B4A6104 /* home-cup.png */,
+				571047C13844F5F670CD9C4A /* home-curtains.png */,
 				FC17545048F3ACAB2FC42D02 /* home-cutting-board.png */,
 				B79B58657D5E4E6CB0BE344A /* home-door.png */,
+				51E347202757A59C90CBC706 /* home-dresser.png */,
+				1239CBD6C5646F4D723D2EEF /* home-fan.png */,
 				A2ECF5CFD1A94765F3ABA062 /* home-faucet.png */,
 				ACB06907EBB0BA219934C0EE /* home-fork.png */,
 				E0C3CB6A5B553FD54B9A158B /* home-fridge.png */,
 				C43A1454169A6A5DA0847A3B /* home-glass.png */,
+				87C1880D27241A8A8B69FDBA /* home-grater.png */,
+				7E56B0EB271E777B6C34545C /* home-hair-dryer.png */,
 				CCDB7C48C91515D290570154 /* home-hat.png */,
 				42230B7B8FB4F2D977F6539B /* home-high-chair.png */,
 				F5D9CE232582D420CC1F452A /* home-jug.png */,
 				13D2682F634671AC097C1A57 /* home-kettle.png */,
 				B9D36A8911B408237730502F /* home-keys.png */,
+				C7EEB7D42A23315F8989D0DD /* home-ladle.png */,
 				A56AA985B23A9D80F7AF82AC /* home-lamp.png */,
 				9108C51B4DFF58E9714A16FE /* home-laundry-basket.png */,
+				9E8329448DCCA77EBAE9E503 /* home-microwave.png */,
+				AFEF7F903ABA1BED2CB89976 /* home-mirror.png */,
+				B476D0351912127F4BC76A60 /* home-mittens.png */,
 				42B8925B7664F2CC0FE74114 /* home-napkin.png */,
 				336359F63AD9DFF81F838904 /* home-pan.png */,
+				DE4B7A4771D71968B237D9FA /* home-phone.png */,
 				D83A7FEA4132073292A9205B /* home-pillow.png */,
 				B15F090C5CF870B30FE10D56 /* home-plate.png */,
 				E437531CE6CF4891F99FA814 /* home-pot.png */,
 				CCA2B4C747958F0B8A7F061C /* home-potty.png */,
+				A5A4A66E74D66A10B67B112F /* home-rolling-pin.png */,
 				538869D4796F295988D87593 /* home-rubber-duck.png */,
+				B5A58D763D11A6645F919C3B /* home-rug.png */,
 				D297C28A5D2FA92214B47A26 /* home-scarf.png */,
 				2C567D970F888E4CDE72317E /* home-shampoo.png */,
+				05DB27A4AF0837A6BEF49E30 /* home-shoehorn.png */,
 				E97F618C6BD69816C7A09AFA /* home-shoes.png */,
 				6BF78ADB80B937979AE8ABC1 /* home-sink.png */,
 				F2006CDB92F657ABA248B619 /* home-slippers.png */,
 				B6AEDA93BE840543A103638A /* home-soap.png */,
+				D736EE6DC8D9EB251C82B164 /* home-spatula.png */,
 				6A09C33252A119D0749E9964 /* home-sponge.png */,
 				261922EA6B14E88E549D4BFB /* home-spoon.png */,
+				81DCB3551D83E8784A194577 /* home-stacking-rings.png */,
 				E1A5C07B9C4E1E86592E4258 /* home-stove.png */,
 				B797BDB15954DF6680D965FF /* home-strainer.png */,
 				5013615178898D958B626EDD /* home-stroller.png */,
+				BFAE0EA78DE36BFA31B86C8C /* home-sugar-bowl.png */,
 				DDC8A63A14FB9AA1EBE3C97A /* home-table.png */,
+				07F09BCDC746B8A3CC91CFD8 /* home-toaster.png */,
+				C94B81A2D73A9DA61B4F440C /* home-toilet-paper.png */,
+				1F4C0AB94ACD8699D9783266 /* home-toilet.png */,
 				FD9C618DA86A2F27999B879C /* home-toothbrush.png */,
 				3AE0664384F8036EE1A549D0 /* home-toothpaste.png */,
+				34C52DD378B2824AA08C9ADF /* home-tray.png */,
 				7A8133CFF8F084BCD8430B86 /* home-umbrella.png */,
+				316D6014093CABF44793232C /* home-vacuum.png */,
+				BC25EEF7DA238B6303A09FD6 /* home-wash-basin.png */,
 				8570FB6B47E6F88C2EEB73FC /* home-washing-machine.png */,
+				0AEB3193A73C2A7B2A2597D8 /* home-whisk.png */,
 				F1A6E5D73E37ADF2ACD2D599 /* transport-airplane.png */,
 				920222F15718C386A41BCFF0 /* transport-airship.png */,
 				26FA82FEE06897A630CB1E79 /* transport-ambulance.png */,
@@ -1401,6 +1617,39 @@
 				680740BA6F8458D454065F88 /* transport-trolleybus.png */,
 				EFA0527ABD175D5E1C55025B /* transport-truck.png */,
 				10159FDD99C894B2CDB20466 /* transport-tugboat.png */,
+				75611E4F21768ABF6FB01E11 /* alphabet-letter-0401.wav */,
+				E664E72E067CF47F9D33F5F2 /* alphabet-letter-0410.wav */,
+				CA2A9ADC112F33610CE00CF7 /* alphabet-letter-0411.wav */,
+				A878C4778FA94E47AD1DC889 /* alphabet-letter-0412.wav */,
+				AB428D1BAC69F41493D21946 /* alphabet-letter-0413.wav */,
+				C34E64C106CB8E925A81B147 /* alphabet-letter-0414.wav */,
+				6984CE8C0AFBD5F7B904DCE0 /* alphabet-letter-0415.wav */,
+				5231E4EEFD0613634B4130A0 /* alphabet-letter-0416.wav */,
+				4DBFA6ADBB3F44822FF138FD /* alphabet-letter-0417.wav */,
+				436ADBF6FD3A2326B7B9093B /* alphabet-letter-0418.wav */,
+				4CF45877A26A2A38DA4A2703 /* alphabet-letter-0419.wav */,
+				217B014038C52C0412448765 /* alphabet-letter-041a.wav */,
+				F3714D6ABAEE081F43A739CE /* alphabet-letter-041b.wav */,
+				05769533F8F95AEBEE806AA0 /* alphabet-letter-041c.wav */,
+				987B6653B5D1C511C319758D /* alphabet-letter-041d.wav */,
+				CF21BAD96787AA692FDD70B4 /* alphabet-letter-041e.wav */,
+				093B0E4B4E2378D832D4D4B5 /* alphabet-letter-041f.wav */,
+				F4F7B06994BB99ED443FD865 /* alphabet-letter-0420.wav */,
+				2865C15ADC04A8D82C4CCE50 /* alphabet-letter-0421.wav */,
+				41226EF089E8D2D2BDE94E2C /* alphabet-letter-0422.wav */,
+				7B8BCDC711CD84B1543C846B /* alphabet-letter-0423.wav */,
+				81DEC8144CACDF9397CE6B35 /* alphabet-letter-0424.wav */,
+				FE67B6574009D830C4267E29 /* alphabet-letter-0425.wav */,
+				894EB20F78637B6D26A87007 /* alphabet-letter-0426.wav */,
+				50A4A69DEFAA991D6FBECD3A /* alphabet-letter-0427.wav */,
+				D3704108336C50966D557757 /* alphabet-letter-0428.wav */,
+				5E8BC2FE95FA52D36399B667 /* alphabet-letter-0429.wav */,
+				7FBDC7F51FCF2F00F8F5CB45 /* alphabet-letter-042a.wav */,
+				99D4C80DC649977B5D9DC0F4 /* alphabet-letter-042b.wav */,
+				47DB5D4412C4F91BAD3D3AE0 /* alphabet-letter-042c.wav */,
+				F02674FC25A47C8B6502EC39 /* alphabet-letter-042d.wav */,
+				9E9AF36E4D2C3F9AAFE8DD29 /* alphabet-letter-042e.wav */,
+				141A497B188FD40AD35478AD /* alphabet-letter-042f.wav */,
 				8AA24D8A5537F9CF8C390571 /* alphabet-word-042d5303a632.wav */,
 				E6E1B6860343C5275C41EBBB /* alphabet-word-0afbccd14c33.wav */,
 				CFFDC771F6B342F918666BD8 /* alphabet-word-1466ade22481.wav */,
@@ -1530,56 +1779,86 @@
 				0BF568A131A5B22716D8B1D8 /* animal-wolf.wav */,
 				4F5B7416E446167DB3335529 /* animal-woodpecker.wav */,
 				91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */,
+				5BBE14F367FBF238157CADC5 /* home-armchair.wav */,
 				FE61A900E74126F399C84137 /* home-backpack.wav */,
+				57C88C99081F9900687B5B1B /* home-bag.wav */,
+				CEFAF051D527E39CBA752014 /* home-ball.wav */,
 				B86D0FA74F87AE87194E5378 /* home-bath-towel.wav */,
 				ABD2D55E4EDFF38825337B3D /* home-bathtub.wav */,
 				CF4DEC257BB0B1FD94BF5180 /* home-bed.wav */,
 				7CA6E390AB69380CF9E90292 /* home-bib.wav */,
 				C18E98BFF91948F3C9E076B8 /* home-blanket.wav */,
+				5255D41A6EC47245333E3DF6 /* home-blocks.wav */,
 				4799D8D8E7CDDF8D428B4D25 /* home-book.wav */,
 				336D1E1F05404D2A7621EE54 /* home-bottle.wav */,
 				4A60945398FB875DE7952BA3 /* home-bowl.wav */,
+				5834FDAE75DFAB7B3D782D36 /* home-bread-box.wav */,
+				5BE9F5040B5825220C603A34 /* home-cap.wav */,
 				EEAB1DC0FC4AA1834BAAAF3A /* home-chair.wav */,
 				C12EE71DC33F8D9F7A46BD08 /* home-clock.wav */,
+				FE4FF38B990B7BBDD00D5320 /* home-coat-hanger.wav */,
 				0D0B30C103EC23089B91FD1F /* home-coat.wav */,
 				F6DE40B3E8C7A4941CD5A632 /* home-comb.wav */,
 				5EDFD5387F96D8DB4F4D06DF /* home-cup.wav */,
+				F34768A36D16D1CE8B07B913 /* home-curtains.wav */,
 				D0D157AA3F44E8454CE02B9E /* home-cutting-board.wav */,
 				6D569B70D74457F1C2D302E1 /* home-door.wav */,
+				4B3FA638DC15649B8DC99A62 /* home-dresser.wav */,
+				D20B4D7355D229A76DBDE8D8 /* home-fan.wav */,
 				072AA968C87B0B61FB701872 /* home-faucet.wav */,
 				C897248F915DF217C2EF8DD1 /* home-fork.wav */,
 				B923EE213790284A05954F4D /* home-fridge.wav */,
 				4B5D0F56B4B88A1268A91A16 /* home-glass.wav */,
+				B42D85AE6B9AC422B57AF793 /* home-grater.wav */,
+				E01377980E53B2C57152F369 /* home-hair-dryer.wav */,
 				80E704A638A7BDE47EDB7222 /* home-hat.wav */,
 				FBE3256ADDFA1BD0D9B65A82 /* home-high-chair.wav */,
 				8AFA2BAD0DC50AD24F9B6DD8 /* home-jug.wav */,
 				398C7C55EBE7C9BA3470B75A /* home-kettle.wav */,
 				E7AC4363F180686A2A935315 /* home-keys.wav */,
+				0E77B4B6A4D00AB1BF786F7E /* home-ladle.wav */,
 				C66D6E546DD656DCD76F485A /* home-lamp.wav */,
 				5082C79E47655E387628B590 /* home-laundry-basket.wav */,
+				66BC4F4D6244A4477866C061 /* home-microwave.wav */,
+				9C2380666ED2DC3E810EBE1D /* home-mirror.wav */,
+				54D215FB434CFE60F4FD0BA1 /* home-mittens.wav */,
 				C7FB1FEA8224561D4C872BB5 /* home-napkin.wav */,
 				95805C1CDC9FEFF91249D19D /* home-pan.wav */,
+				E5872A68FBAE5412CA229A2C /* home-phone.wav */,
 				9E83006C46D9082659B52FE6 /* home-pillow.wav */,
 				4B5BA67F98E63C2FB334AC37 /* home-plate.wav */,
 				F1BF326555EDC1D7EAF52331 /* home-pot.wav */,
 				BCC17B365E0113BBACBEB87E /* home-potty.wav */,
+				D6C9E9D495F1752E32699CE5 /* home-rolling-pin.wav */,
 				88C74ED6E8AE6B44961BAD81 /* home-rubber-duck.wav */,
+				0657EECFC2F8ADBCE8FCB52F /* home-rug.wav */,
 				9C48D7493C6879300B627961 /* home-scarf.wav */,
 				5B65693FC100FC5305387065 /* home-shampoo.wav */,
+				ADBE9DD35D1375668F604B1F /* home-shoehorn.wav */,
 				FFFC3108AA3A4B8ECFD8F193 /* home-shoes.wav */,
 				FA7B00B17E7B590C412E7960 /* home-sink.wav */,
 				FAC1BBDE82D5214CDDA9EAED /* home-slippers.wav */,
 				FD09BB3EF1CA53129B0698F9 /* home-soap.wav */,
+				A6F95CC4C75A4B2517DDD486 /* home-spatula.wav */,
 				92EBC6E8B462EA63E53097CF /* home-sponge.wav */,
 				531D1CE51193E315DC4E8AD4 /* home-spoon.wav */,
+				F7DCBC72252EA42BBCCE1133 /* home-stacking-rings.wav */,
 				E7853D201F93AE80AA0B59A5 /* home-stove.wav */,
 				CC6AF4021210EC8B08DAA72B /* home-strainer.wav */,
 				D062A7072504DCE0CF2230FD /* home-stroller.wav */,
+				FE8EDDAD9AC8F5EB3CEE22C8 /* home-sugar-bowl.wav */,
 				8C70F98B5EF5AE233AC81429 /* home-table.wav */,
+				909BCCB263E67FA238261CCD /* home-toaster.wav */,
+				31B4F55EACC9985180995F51 /* home-toilet-paper.wav */,
+				F65C7B11D4C0D07AF2620AA6 /* home-toilet.wav */,
 				0025289EE3E2F2637C27453E /* home-toothbrush.wav */,
 				25F029017CF5A6BFA974AE81 /* home-toothpaste.wav */,
+				1BD8F2796D3E30AFFD64DFE3 /* home-tray.wav */,
 				25BB162AFAF35C30F10FCF47 /* home-umbrella.wav */,
+				3DF09CA037E60F936C5F7460 /* home-vacuum.wav */,
+				EFBF7308717D88521CC2D69E /* home-wash-basin.wav */,
 				9C8912372534113E753D29DD /* home-washing-machine.wav */,
+				7A7D3310D742D2F831AC6E98 /* home-whisk.wav */,
 				359FE0EE063DF15B7F2DEE67 /* letter-0401.wav */,
 				B2FD87431B550B2E2F706BF6 /* letter-0410.wav */,
 				775D45CB3186A9176E77A24C /* letter-0411.wav */,
@@ -1901,56 +2180,86 @@
 				D0E431F841C4318A3730393B /* animal-wolf.png in Resources */,
 				3DAABAB0CB8B51AEDD7CA8D7 /* animal-woodpecker.png in Resources */,
 				EF700F744054D48FF452AAD7 /* animal-zebra.png in Resources */,
+				8E36D2BA3EEACD8FFD902E22 /* home-armchair.png in Resources */,
 				993DB9EA033EED0865F2858F /* home-backpack.png in Resources */,
+				AE8090951175F350AB6F562A /* home-bag.png in Resources */,
+				6248F09A190A430DC0A067AB /* home-ball.png in Resources */,
 				AFFA9BA9442317789FC28719 /* home-bath-towel.png in Resources */,
 				2B4B9D581A697D487C0235BD /* home-bathtub.png in Resources */,
 				EFE3FF48326796E8C093FE86 /* home-bed.png in Resources */,
 				76D0B6251FBEC14BDBAF780B /* home-bib.png in Resources */,
 				A14F1C408D5978AAB1C17CE7 /* home-blanket.png in Resources */,
+				F7CBF0F8F57C827E2CF35B35 /* home-blocks.png in Resources */,
 				6197059874BE4F91DB6B3BA5 /* home-book.png in Resources */,
 				68A368EFF70E566AD5B06BDC /* home-bottle.png in Resources */,
 				728C5FF9CA53AFB6012F2226 /* home-bowl.png in Resources */,
+				2240814D2527FB1294FCB3C5 /* home-bread-box.png in Resources */,
+				D29A9A242FA43F21FFB4DEEE /* home-cap.png in Resources */,
 				C9B32BC0953E7C92998280D3 /* home-chair.png in Resources */,
 				56600008C647E470628B0046 /* home-clock.png in Resources */,
+				5208934ACD040B9AE6C6DBCF /* home-coat-hanger.png in Resources */,
 				EBA886C281B295C1F2EE23D3 /* home-coat.png in Resources */,
 				F0C325C5378D350C8AEF503B /* home-comb.png in Resources */,
 				60825EB3393D5E0B50A98D21 /* home-cup.png in Resources */,
+				BBEB3E633496CA82A5E1610E /* home-curtains.png in Resources */,
 				400672E8F292ACC672849BF9 /* home-cutting-board.png in Resources */,
 				2B27CC94F4FAEE63FD5FB557 /* home-door.png in Resources */,
+				AED6C1E5764C118F3D1207A1 /* home-dresser.png in Resources */,
+				6D05BB93CAEF4522938764C5 /* home-fan.png in Resources */,
 				859525C3C17B13833E9B22A1 /* home-faucet.png in Resources */,
 				9B548A62FC4093056406DD93 /* home-fork.png in Resources */,
 				A7759FD99B2C3DDB59BDD61E /* home-fridge.png in Resources */,
 				5CB3378B787442C0570C0E82 /* home-glass.png in Resources */,
+				9FFFE2D7E28E3555FD4F1134 /* home-grater.png in Resources */,
+				D42BF13CD7E4969317BD25BA /* home-hair-dryer.png in Resources */,
 				0F912C37D84B7400118A8BCA /* home-hat.png in Resources */,
 				499AA23900CFA94C39B33197 /* home-high-chair.png in Resources */,
 				1942A8342E3F0D0BAF441A61 /* home-jug.png in Resources */,
 				4CC79DD00B0F1D2CE342706C /* home-kettle.png in Resources */,
 				59739BC478DC980A802E42A4 /* home-keys.png in Resources */,
+				D0B5052779565CA89E54B980 /* home-ladle.png in Resources */,
 				5CCC01609713438A2A7A7289 /* home-lamp.png in Resources */,
 				E6785A29587B5049F5E13E52 /* home-laundry-basket.png in Resources */,
+				B33C053DC569938956B2CCFC /* home-microwave.png in Resources */,
+				EF019FC5685327BD58E5FDDD /* home-mirror.png in Resources */,
+				4582E81125D8A75DF57755EA /* home-mittens.png in Resources */,
 				5FE9D6F49C6039D6BE4457BC /* home-napkin.png in Resources */,
 				1A8B04514BF474AFCC44DA1C /* home-pan.png in Resources */,
+				8CF65F8EF25947DCD1A18E1E /* home-phone.png in Resources */,
 				CF4E8458E14BAE701DFA9B02 /* home-pillow.png in Resources */,
 				8B9D2911B1FF34427FC77876 /* home-plate.png in Resources */,
 				56A4992F121F58C5B909BE2B /* home-pot.png in Resources */,
 				C6FD465D6F1BFCD0DF0A5FF0 /* home-potty.png in Resources */,
+				2EBDE7A22B0FD16C201AC429 /* home-rolling-pin.png in Resources */,
 				F09392004356E0A32D15953C /* home-rubber-duck.png in Resources */,
+				DDE85CFE33CBA495F40CA7E5 /* home-rug.png in Resources */,
 				5DC9D9F11951F1D2096E8CAB /* home-scarf.png in Resources */,
 				613DEF4CA69297F5165A247C /* home-shampoo.png in Resources */,
+				295DBFB5AF538D9CCF30EC5E /* home-shoehorn.png in Resources */,
 				5D792BEE9D3774A44299772F /* home-shoes.png in Resources */,
 				88DCABD491E78AD79DBD7471 /* home-sink.png in Resources */,
 				45897794A1DD136156E32709 /* home-slippers.png in Resources */,
 				00FD5CDAC955EAB81ECDF555 /* home-soap.png in Resources */,
+				2AE3EABBEDD1754CEA6C307D /* home-spatula.png in Resources */,
 				B1E726EFED1F743FFD20FCDB /* home-sponge.png in Resources */,
 				1426AFF66835853283EED21A /* home-spoon.png in Resources */,
+				E0C48F88EE9FA178E69D98C4 /* home-stacking-rings.png in Resources */,
 				0C2EED4E07D6AADB101EB458 /* home-stove.png in Resources */,
 				086158D59662A7939756CAC2 /* home-strainer.png in Resources */,
 				C6ED9A670549E890C9BE5828 /* home-stroller.png in Resources */,
+				A2B515319C49BFC35C92B675 /* home-sugar-bowl.png in Resources */,
 				C727A61EBFB180E802B31914 /* home-table.png in Resources */,
+				043D1B115FE741E062404FCB /* home-toaster.png in Resources */,
+				B2445AAA145C51883663ADDF /* home-toilet-paper.png in Resources */,
+				67BA6F0582ED9CCA6CF9C9CF /* home-toilet.png in Resources */,
 				6290B8E767E80100CAAF87F7 /* home-toothbrush.png in Resources */,
 				50342AC8FE9634902E50FC68 /* home-toothpaste.png in Resources */,
+				3F00EB78D679ED0BD70BF5D2 /* home-tray.png in Resources */,
 				917CDD2393C59E029571F1D7 /* home-umbrella.png in Resources */,
+				66715B761F3F6BB471BC4A50 /* home-vacuum.png in Resources */,
+				6C856F9BC466A597E1603CA7 /* home-wash-basin.png in Resources */,
 				0D9E8F2CD9CD128F69A06A4E /* home-washing-machine.png in Resources */,
+				DE46D51A9AC9014D7313A773 /* home-whisk.png in Resources */,
 				F15E336979FE8CF36E05C618 /* transport-airplane.png in Resources */,
 				06F55BA1A070D56BE16CB036 /* transport-airship.png in Resources */,
 				C348048DE9C52CDD73FDBAA8 /* transport-ambulance.png in Resources */,
@@ -2001,6 +2310,39 @@
 				BDA9F8B7A4CBDA26472636CC /* transport-trolleybus.png in Resources */,
 				364981AF039B10D54F737831 /* transport-truck.png in Resources */,
 				E12655632710274C000CBDEA /* transport-tugboat.png in Resources */,
+				FCFA5E643C7C837AE9DF1AB3 /* alphabet-letter-0401.wav in Resources */,
+				E91B75BBBC0A296E13D80721 /* alphabet-letter-0410.wav in Resources */,
+				AB75E0D710ED27FB2F1724A3 /* alphabet-letter-0411.wav in Resources */,
+				3AAEC2B04BC7163583903276 /* alphabet-letter-0412.wav in Resources */,
+				625C2BD8E5019BD8B9F2F9D2 /* alphabet-letter-0413.wav in Resources */,
+				EECB1EB06FC06B8A4FE84A18 /* alphabet-letter-0414.wav in Resources */,
+				FC13F2B900CD94B1D56D2B26 /* alphabet-letter-0415.wav in Resources */,
+				F3BB21CE1DB4738258BD7B02 /* alphabet-letter-0416.wav in Resources */,
+				59E041A84BC8B6665E82F4D2 /* alphabet-letter-0417.wav in Resources */,
+				19D15F9950D621BE7AB5398F /* alphabet-letter-0418.wav in Resources */,
+				689BCAAF04FFB24C53568615 /* alphabet-letter-0419.wav in Resources */,
+				1CACDF467C099536438F6EC4 /* alphabet-letter-041a.wav in Resources */,
+				7AD0B94FEB6D8C9740D127A1 /* alphabet-letter-041b.wav in Resources */,
+				B8AA950DEC5FC0C789FB7920 /* alphabet-letter-041c.wav in Resources */,
+				D361A7142CD6FCCEBA19C5FC /* alphabet-letter-041d.wav in Resources */,
+				B8621F573E3652BB0B44DB6C /* alphabet-letter-041e.wav in Resources */,
+				8A8E4C58D6998968E803162D /* alphabet-letter-041f.wav in Resources */,
+				FDCCA30440CE1315E069B1F1 /* alphabet-letter-0420.wav in Resources */,
+				2ACF81BE38AE9828062F7CC1 /* alphabet-letter-0421.wav in Resources */,
+				E2E0B440B4CF3D539D73542C /* alphabet-letter-0422.wav in Resources */,
+				485DCC27EA642E862112270C /* alphabet-letter-0423.wav in Resources */,
+				A3A411E7C7F7C8467EF94908 /* alphabet-letter-0424.wav in Resources */,
+				024FA1DF303AF71CC561DD6E /* alphabet-letter-0425.wav in Resources */,
+				8085CA9742340BD52C818586 /* alphabet-letter-0426.wav in Resources */,
+				FC3CA0A481C1B12B33B54218 /* alphabet-letter-0427.wav in Resources */,
+				11CADDFE489010E48B489736 /* alphabet-letter-0428.wav in Resources */,
+				FEBF13D07536D32FA1746584 /* alphabet-letter-0429.wav in Resources */,
+				AFDCAF0F42C7FFB137266EA0 /* alphabet-letter-042a.wav in Resources */,
+				8712D5CBCCB9FFD8C54CFEF3 /* alphabet-letter-042b.wav in Resources */,
+				D1A41E6D22EA07FC873B0CAE /* alphabet-letter-042c.wav in Resources */,
+				6B440E88731921CBA3B76B87 /* alphabet-letter-042d.wav in Resources */,
+				136019B3B4B0BE4A1137FE27 /* alphabet-letter-042e.wav in Resources */,
+				87A262C83B8ADF74F65EDD2B /* alphabet-letter-042f.wav in Resources */,
 				D80FB050481A5B7F6D38814D /* alphabet-word-042d5303a632.wav in Resources */,
 				0FBAD4D72328B743B732D450 /* alphabet-word-0afbccd14c33.wav in Resources */,
 				5F3FB6265EFA11D8196A5554 /* alphabet-word-1466ade22481.wav in Resources */,
@@ -2130,56 +2472,86 @@
 				7237C3458ABB6F198209A6E9 /* animal-wolf.wav in Resources */,
 				792799C9C08C14C8B439885A /* animal-woodpecker.wav in Resources */,
 				3507A12D54725D12BC018C76 /* animal-zebra.wav in Resources */,
+				C043C831B294264B00FE6370 /* home-armchair.wav in Resources */,
 				E10FBE7AA36F7380CCD64075 /* home-backpack.wav in Resources */,
+				AEDFA24D651B98A221B624F7 /* home-bag.wav in Resources */,
+				7A8C6652D4F9A41FB0ADEB17 /* home-ball.wav in Resources */,
 				02A1AADD0F561B4942C864FD /* home-bath-towel.wav in Resources */,
 				5F18BDA197DC243F955D4930 /* home-bathtub.wav in Resources */,
 				3337BACD3DF0BE71761826C0 /* home-bed.wav in Resources */,
 				2C9A4D0DF0E144EF0E8743D0 /* home-bib.wav in Resources */,
 				FF40826C1194ACF0E6B79B42 /* home-blanket.wav in Resources */,
+				01808531DD8048BAF6B25D4C /* home-blocks.wav in Resources */,
 				7F75C30D4513C31E152C5DFD /* home-book.wav in Resources */,
 				374D42E8671AB4BB91681D43 /* home-bottle.wav in Resources */,
 				FABC592DFCECDF72B2A4DCCF /* home-bowl.wav in Resources */,
+				3E7E8F55A4C867FDBAD66184 /* home-bread-box.wav in Resources */,
+				CB0FEB079C438DD825B9896E /* home-cap.wav in Resources */,
 				943AB4A0B6801C8DB5E00E1B /* home-chair.wav in Resources */,
 				1129EDB00059592D1B9F0A53 /* home-clock.wav in Resources */,
+				3205F0FCE6E559ABA61E2F18 /* home-coat-hanger.wav in Resources */,
 				BB95359A431F487B1574FE67 /* home-coat.wav in Resources */,
 				2B8F1C78813C06AC8BC03DAC /* home-comb.wav in Resources */,
 				8CA810ABFDFC787FA8B1B8EC /* home-cup.wav in Resources */,
+				1B3F502C932F38E84E7EC8FF /* home-curtains.wav in Resources */,
 				9A15C3CB84855470DD931FA7 /* home-cutting-board.wav in Resources */,
 				59CD8BA4B0046D213EE8D962 /* home-door.wav in Resources */,
+				9A1901A180C1D1B534BA9BD0 /* home-dresser.wav in Resources */,
+				CC6A154F339664FF2A882336 /* home-fan.wav in Resources */,
 				4441441A5E742B2D9C4300DD /* home-faucet.wav in Resources */,
 				09BDF80A9A36F7DC7E5E7741 /* home-fork.wav in Resources */,
 				AB8B94DE368BD1F21B6216CA /* home-fridge.wav in Resources */,
 				D09E118FDEAAB6DE1F5B2796 /* home-glass.wav in Resources */,
+				62EC890DDD247A3F44D5DBD8 /* home-grater.wav in Resources */,
+				4E6FC35C7D466D973660A3BF /* home-hair-dryer.wav in Resources */,
 				97BF23C8509F253AC06271C0 /* home-hat.wav in Resources */,
 				89DBB9114130725C956D93D1 /* home-high-chair.wav in Resources */,
 				A67829A9CB51C6F5A4387E54 /* home-jug.wav in Resources */,
 				42A401A670F0C10B36EBB8CA /* home-kettle.wav in Resources */,
 				EEF53D812B8AB1209DB1B9D0 /* home-keys.wav in Resources */,
+				983C26D52BFCE4237654851B /* home-ladle.wav in Resources */,
 				F243051D61088F749EC9339C /* home-lamp.wav in Resources */,
 				4193CC3E49D346D2946C79D8 /* home-laundry-basket.wav in Resources */,
+				F53EB98AF76BF6637C3C07BF /* home-microwave.wav in Resources */,
+				F9EB14B35784ADDB832BCCE9 /* home-mirror.wav in Resources */,
+				960EEB30C947F3E7F85E8ECE /* home-mittens.wav in Resources */,
 				9711FE56FF34A211892A59F0 /* home-napkin.wav in Resources */,
 				C807014E92DCBAAC0132C1F6 /* home-pan.wav in Resources */,
+				3C72109B7D701FEC9A2DA2C8 /* home-phone.wav in Resources */,
 				F12C784AC8F578F3298970BB /* home-pillow.wav in Resources */,
 				D000655DC095CA7F462D1D93 /* home-plate.wav in Resources */,
 				60CB870BF877B65790AA3CF1 /* home-pot.wav in Resources */,
 				ACAF3ED2F7E1CC7F4B4C8F6E /* home-potty.wav in Resources */,
+				5BD978F9FA48CE954B7C117C /* home-rolling-pin.wav in Resources */,
 				E972D62FE2CD43537D9F357E /* home-rubber-duck.wav in Resources */,
+				B4DEAAF8A4651E46352AB728 /* home-rug.wav in Resources */,
 				390AEE39A57F46B3A8FCB895 /* home-scarf.wav in Resources */,
 				3B5FAFCAAC510873261F8DE6 /* home-shampoo.wav in Resources */,
+				1D049D0A6707AC9296935DC6 /* home-shoehorn.wav in Resources */,
 				D9DB82168CF0CB627C1FB96D /* home-shoes.wav in Resources */,
 				79E7D25A9978B7AD8747E369 /* home-sink.wav in Resources */,
 				6371CB30E51A8AB646A233BA /* home-slippers.wav in Resources */,
 				FC421141C310BFB77E67FC01 /* home-soap.wav in Resources */,
+				EA07EA75CB23F4C87D03341F /* home-spatula.wav in Resources */,
 				D5BA97C7A929BC21262ABA05 /* home-sponge.wav in Resources */,
 				10AEBB308F4172393E24F87B /* home-spoon.wav in Resources */,
+				078D76DD44447BAD90CDC1CA /* home-stacking-rings.wav in Resources */,
 				8CB78A9A4E1B6015B9D49136 /* home-stove.wav in Resources */,
 				724EEFEBCDE638D5007E4D71 /* home-strainer.wav in Resources */,
 				8BC3B8B353B6DB5F672456CC /* home-stroller.wav in Resources */,
+				F1892D3668E365E991F4E6F6 /* home-sugar-bowl.wav in Resources */,
 				FAF110DE408BAA60D6B3EAC2 /* home-table.wav in Resources */,
+				25C598F8248C06BBCE7E9E25 /* home-toaster.wav in Resources */,
+				8D99A5D07394C025AB434D29 /* home-toilet-paper.wav in Resources */,
+				14CEEDBA500BB8096F1396A8 /* home-toilet.wav in Resources */,
 				F38D569426715A8934C0F337 /* home-toothbrush.wav in Resources */,
 				CF49FF64D1D86EF0F1890F09 /* home-toothpaste.wav in Resources */,
+				42966FC40D923728BBC8E4C4 /* home-tray.wav in Resources */,
 				D69AA680F954CB173E359CB1 /* home-umbrella.wav in Resources */,
+				8BA67215C61409B0F6768BD6 /* home-vacuum.wav in Resources */,
+				DAC3EED38AB0A10A89C23D1A /* home-wash-basin.wav in Resources */,
 				E1946ECD3AF6D05EFE6ED24B /* home-washing-machine.wav in Resources */,
+				AD86EF090B74233BED13E0B1 /* home-whisk.wav in Resources */,
 				5D9B1CBA058BEB7F505999AF /* letter-0401.wav in Resources */,
 				86B66D84DA6EBC67C9A7F75A /* letter-0410.wav in Resources */,
 				BA686A923A73ED787E3CE390 /* letter-0411.wav in Resources */,

@@ -32,8 +32,8 @@ def main():
             bbox = alpha.point(lambda value: 255 if value >= 16 else 0).getbbox()
             assert bbox and min(bbox[:2]) >= 30 and max(bbox[2:]) <= 482, f'Clipped: {path}'
     counts = Counter(entry['group'] for entry in entries)
-    assert counts == {'animals': 90, 'transport': 50, 'Кухня': 18,
-                      'Ванная': 14, 'Прихожая': 10, 'Комната': 8}, counts
+    assert counts == {'animals': 90, 'transport': 50, 'Кухня': 28,
+                      'Ванная': 19, 'Прихожая': 15, 'Комната': 18}, counts
     print(f'OK: {len(entries)} unique named transparent PNGs, runtime and Xcode resources agree')
     print(dict(counts))
 

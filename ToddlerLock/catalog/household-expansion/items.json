@@ -1,0 +1,212 @@
+[
+  {
+    "asset": "home-ladle",
+    "name": "половник",
+    "group": "Кухня",
+    "subject": "a deep stainless steel soup ladle with a rounded wooden handle",
+    "status": "added"
+  },
+  {
+    "asset": "home-spatula",
+    "name": "лопатка",
+    "group": "Кухня",
+    "subject": "a wooden kitchen spatula with a broad flat blade",
+    "status": "added"
+  },
+  {
+    "asset": "home-whisk",
+    "name": "венчик",
+    "group": "Кухня",
+    "subject": "a stainless steel balloon whisk with a terracotta handle",
+    "status": "added"
+  },
+  {
+    "asset": "home-rolling-pin",
+    "name": "скалка",
+    "group": "Кухня",
+    "subject": "a wooden rolling pin with two handles",
+    "status": "added"
+  },
+  {
+    "asset": "home-grater",
+    "name": "тёрка",
+    "group": "Кухня",
+    "subject": "a four sided metal box grater with a sage green top handle",
+    "status": "added"
+  },
+  {
+    "asset": "home-toaster",
+    "name": "тостер",
+    "group": "Кухня",
+    "subject": "a rounded pastel blue two slot toaster, empty slots, no food",
+    "status": "added"
+  },
+  {
+    "asset": "home-microwave",
+    "name": "микроволновка",
+    "group": "Кухня",
+    "subject": "a cream countertop microwave with a dark glass door and two simple knobs",
+    "status": "added"
+  },
+  {
+    "asset": "home-sugar-bowl",
+    "name": "сахарница",
+    "group": "Кухня",
+    "subject": "a round ceramic sugar bowl with a lid, two small handles, pale blue glaze",
+    "status": "added"
+  },
+  {
+    "asset": "home-bread-box",
+    "name": "хлебница",
+    "group": "Кухня",
+    "subject": "a wooden roll top bread box, closed",
+    "status": "added"
+  },
+  {
+    "asset": "home-tray",
+    "name": "поднос",
+    "group": "Кухня",
+    "subject": "an oval terracotta serving tray with two handles, empty",
+    "status": "added"
+  },
+  {
+    "asset": "home-hair-dryer",
+    "name": "фен",
+    "group": "Ванная",
+    "subject": "a pastel blue hair dryer, curved handle and neatly coiled power cord",
+    "status": "added"
+  },
+  {
+    "asset": "home-mirror",
+    "name": "зеркало",
+    "group": "Ванная",
+    "subject": "an oval mirror with a warm wooden frame and pale blue reflective surface",
+    "status": "added"
+  },
+  {
+    "asset": "home-wash-basin",
+    "name": "таз",
+    "group": "Ванная",
+    "subject": "a round sage green plastic washing basin, empty",
+    "status": "added"
+  },
+  {
+    "asset": "home-toilet-paper",
+    "name": "туалетная бумага",
+    "group": "Ванная",
+    "subject": "one white toilet paper roll with a short loose end and visible cardboard core",
+    "status": "added"
+  },
+  {
+    "asset": "home-toilet",
+    "name": "унитаз",
+    "group": "Ванная",
+    "subject": "a white ceramic toilet with cistern and raised lid, simple clean friendly shape",
+    "status": "added"
+  },
+  {
+    "asset": "home-coat-hanger",
+    "name": "вешалка",
+    "group": "Прихожая",
+    "subject": "one wooden triangular clothes hanger with a metal hook",
+    "status": "added"
+  },
+  {
+    "asset": "home-mittens",
+    "name": "варежки",
+    "group": "Прихожая",
+    "subject": "a matching pair of warm terracotta knitted mittens",
+    "status": "added"
+  },
+  {
+    "asset": "home-bag",
+    "name": "сумка",
+    "group": "Прихожая",
+    "subject": "a sage green fabric tote bag with two handles, upright empty, no logo",
+    "status": "added"
+  },
+  {
+    "asset": "home-cap",
+    "name": "кепка",
+    "group": "Прихожая",
+    "subject": "a pastel blue baseball cap with a curved brim, no logo",
+    "status": "added"
+  },
+  {
+    "asset": "home-shoehorn",
+    "name": "рожок для обуви",
+    "group": "Прихожая",
+    "subject": "a long warm brown wooden shoehorn with a small hanging hole",
+    "status": "added"
+  },
+  {
+    "asset": "home-vacuum",
+    "name": "пылесос",
+    "group": "Комната",
+    "subject": "a compact pastel blue canister vacuum cleaner with a flexible hose, wand and floor head",
+    "status": "added"
+  },
+  {
+    "asset": "home-armchair",
+    "name": "кресло",
+    "group": "Комната",
+    "subject": "a soft sage green upholstered armchair with rounded armrests and wooden feet",
+    "status": "added"
+  },
+  {
+    "asset": "home-dresser",
+    "name": "комод",
+    "group": "Комната",
+    "subject": "a small warm wooden chest of three drawers with round knobs",
+    "status": "added"
+  },
+  {
+    "asset": "home-rug",
+    "name": "ковёр",
+    "group": "Комната",
+    "subject": "an oval woven rug with simple terracotta sage and cream concentric bands, slightly angled top view",
+    "status": "added"
+  },
+  {
+    "asset": "home-curtains",
+    "name": "шторы",
+    "group": "Комната",
+    "subject": "a pair of soft terracotta curtains hanging from one short wooden curtain rod, no window or wall",
+    "status": "added"
+  },
+  {
+    "asset": "home-fan",
+    "name": "вентилятор",
+    "group": "Комната",
+    "subject": "a small pastel blue table fan with circular protective grille and three visible blades",
+    "status": "added"
+  },
+  {
+    "asset": "home-phone",
+    "name": "телефон",
+    "group": "Комната",
+    "subject": "one smartphone with a rounded dark frame and plain pale blue screen, no text or icons",
+    "status": "added"
+  },
+  {
+    "asset": "home-ball",
+    "name": "мяч",
+    "group": "Комната",
+    "subject": "one round toddler play ball with broad terracotta sage and ochre panels",
+    "status": "added"
+  },
+  {
+    "asset": "home-blocks",
+    "name": "кубики",
+    "group": "Комната",
+    "subject": "three wooden toy cubes, one sage one ochre one terracotta, no letters, arranged as a small cluster",
+    "status": "added"
+  },
+  {
+    "asset": "home-stacking-rings",
+    "name": "пирамидка",
+    "group": "Комната",
+    "subject": "a wooden toddler stacking ring toy, five colorful rings on a central peg, largest ring at bottom",
+    "status": "added"
+  }
+]

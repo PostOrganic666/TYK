@@ -1,0 +1,307 @@
+{
+  "id": "household-expansion-2026-10-03",
+  "collection": "household",
+  "method": "built-in image_gen; one isolated image per object",
+  "items": [
+    {
+      "asset": "home-ladle",
+      "name": "половник",
+      "group": "Кухня",
+      "subject": "a deep stainless steel soup ladle with a rounded wooden handle",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a deep stainless steel soup ladle with a rounded wooden handle.",
+      "sourceFile": "originals/home-ladle.png",
+      "sourceSha256": "442d220a8191fda302f2bffdf4c82780d88d8e3ebb1c87f2b4a9ce7a4e65b95f"
+    },
+    {
+      "asset": "home-spatula",
+      "name": "лопатка",
+      "group": "Кухня",
+      "subject": "a wooden kitchen spatula with a broad flat blade",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a wooden kitchen spatula with a broad flat blade.",
+      "sourceFile": "originals/home-spatula.png",
+      "sourceSha256": "810d3a0e7df16b6ded5b8254c22a9006f1de09bcf8c0e66c979f3887146b9fda"
+    },
+    {
+      "asset": "home-whisk",
+      "name": "венчик",
+      "group": "Кухня",
+      "subject": "a stainless steel balloon whisk with a terracotta handle",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a stainless steel balloon whisk with a terracotta handle.",
+      "sourceFile": "originals/home-whisk.png",
+      "sourceSha256": "88109ae71abe084b0195321488b5f64274754a27cd18d88768c19fa60d79ea96"
+    },
+    {
+      "asset": "home-rolling-pin",
+      "name": "скалка",
+      "group": "Кухня",
+      "subject": "a wooden rolling pin with two handles",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a wooden rolling pin with two handles.",
+      "sourceFile": "originals/home-rolling-pin.png",
+      "sourceSha256": "410d25f61fa1ca974c4978a1f606b164c90d4147bfa53e3082c8aab3f496daea"
+    },
+    {
+      "asset": "home-grater",
+      "name": "тёрка",
+      "group": "Кухня",
+      "subject": "a four sided metal box grater with a sage green top handle",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a four sided metal box grater with a sage green top handle.",
+      "sourceFile": "originals/home-grater.png",
+      "sourceSha256": "2c38e8941e47ab055f5c3c4ccb1f27fe4da445c1ddc1d60dfe7947b5e553abd3"
+    },
+    {
+      "asset": "home-toaster",
+      "name": "тостер",
+      "group": "Кухня",
+      "subject": "a rounded pastel blue two slot toaster, empty slots, no food",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a rounded pastel blue two slot toaster, empty slots, no food.",
+      "sourceFile": "originals/home-toaster.png",
+      "sourceSha256": "2208222d5e6140d4116518a7bcef02eda94f093f364304affd394f37fe4a2607"
+    },
+    {
+      "asset": "home-microwave",
+      "name": "микроволновка",
+      "group": "Кухня",
+      "subject": "a cream countertop microwave with a dark glass door and two simple knobs",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a cream countertop microwave with a dark glass door and two simple knobs.",
+      "sourceFile": "originals/home-microwave.png",
+      "sourceSha256": "97deffa0aa45271c4a493ba79332cdb0d10d2acf50c9ddea205623b4cadb0365"
+    },
+    {
+      "asset": "home-sugar-bowl",
+      "name": "сахарница",
+      "group": "Кухня",
+      "subject": "a round ceramic sugar bowl with a lid, two small handles, pale blue glaze",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a round ceramic sugar bowl with a lid, two small handles, pale blue glaze.",
+      "sourceFile": "originals/home-sugar-bowl.png",
+      "sourceSha256": "a7fe63d4db6de90694995c93ad3d9d6f866c2f79659cb0a7146049a347aa5df9"
+    },
+    {
+      "asset": "home-bread-box",
+      "name": "хлебница",
+      "group": "Кухня",
+      "subject": "a wooden roll top bread box, closed",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a wooden roll top bread box, closed.",
+      "sourceFile": "originals/home-bread-box.png",
+      "sourceSha256": "2d14351eaf04abd87a3348014b45e65900b6ee28ffff489a230ff92370b5bfcf"
+    },
+    {
+      "asset": "home-tray",
+      "name": "поднос",
+      "group": "Кухня",
+      "subject": "an oval terracotta serving tray with two handles, empty",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: an oval terracotta serving tray with two handles, empty.",
+      "sourceFile": "originals/home-tray.png",
+      "sourceSha256": "9325a38081bf8498969eef4f322eb106546ccc76fc62e14906c816eda0e9f106"
+    },
+    {
+      "asset": "home-hair-dryer",
+      "name": "фен",
+      "group": "Ванная",
+      "subject": "a pastel blue hair dryer, curved handle and neatly coiled power cord",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a pastel blue hair dryer, curved handle and neatly coiled power cord.",
+      "sourceFile": "originals/home-hair-dryer.png",
+      "sourceSha256": "16b076a96dea9ff31acef72a633b5381449f15f30423cd339a7020208b4a46d4"
+    },
+    {
+      "asset": "home-mirror",
+      "name": "зеркало",
+      "group": "Ванная",
+      "subject": "an oval mirror with a warm wooden frame and pale blue reflective surface",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: an oval mirror with a warm wooden frame and pale blue reflective surface.",
+      "sourceFile": "originals/home-mirror.png",
+      "sourceSha256": "2fbda171a7607b4be7f0406680f85d7d7bc7613a678be3425a70c6428d5f0906"
+    },
+    {
+      "asset": "home-wash-basin",
+      "name": "таз",
+      "group": "Ванная",
+      "subject": "a round sage green plastic washing basin, empty",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a round sage green plastic washing basin, empty.",
+      "sourceFile": "originals/home-wash-basin.png",
+      "sourceSha256": "b528080e282ec95ac8675116aebd76ea8f76ba7f1ff3e6546e4f019c7303f6c1"
+    },
+    {
+      "asset": "home-toilet-paper",
+      "name": "туалетная бумага",
+      "group": "Ванная",
+      "subject": "one white toilet paper roll with a short loose end and visible cardboard core",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: one white toilet paper roll with a short loose end and visible cardboard core.",
+      "sourceFile": "originals/home-toilet-paper.png",
+      "sourceSha256": "285c7caa550c937a30054e693d390d1e48403402ddb543a7f5a05c895ec43149"
+    },
+    {
+      "asset": "home-toilet",
+      "name": "унитаз",
+      "group": "Ванная",
+      "subject": "a white ceramic toilet with cistern and raised lid, simple clean friendly shape",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a white ceramic toilet with cistern and raised lid, simple clean friendly shape.",
+      "sourceFile": "originals/home-toilet.png",
+      "sourceSha256": "6bb0fe3ebbd8951f7c5e94506535745ebecd404bf2c95b80300cf8a4baac4467"
+    },
+    {
+      "asset": "home-coat-hanger",
+      "name": "вешалка",
+      "group": "Прихожая",
+      "subject": "one wooden triangular clothes hanger with a metal hook",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: one wooden triangular clothes hanger with a metal hook.",
+      "sourceFile": "originals/home-coat-hanger.png",
+      "sourceSha256": "32ad2b1e28a841df9c15d6b144c91d457d9f4c26b72c34f16e894e4123fc1877"
+    },
+    {
+      "asset": "home-mittens",
+      "name": "варежки",
+      "group": "Прихожая",
+      "subject": "a matching pair of warm terracotta knitted mittens",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a matching pair of warm terracotta knitted mittens.",
+      "sourceFile": "originals/home-mittens.png",
+      "sourceSha256": "b3da69e9d10845a5f97ee9c01ce024de70f8f48082547b5bee367bf9d9d0c257"
+    },
+    {
+      "asset": "home-bag",
+      "name": "сумка",
+      "group": "Прихожая",
+      "subject": "a sage green fabric tote bag with two handles, upright empty, no logo",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a sage green fabric tote bag with two handles, upright empty, no logo.",
+      "sourceFile": "originals/home-bag.png",
+      "sourceSha256": "4912b2c0f4f91716248dca175d8ab0d1137faf18bf5337de7d97ff41a9045bc6"
+    },
+    {
+      "asset": "home-cap",
+      "name": "кепка",
+      "group": "Прихожая",
+      "subject": "a pastel blue baseball cap with a curved brim, no logo",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a pastel blue baseball cap with a curved brim, no logo.",
+      "sourceFile": "originals/home-cap.png",
+      "sourceSha256": "90ff1f7b7f13f2f02cac5ceb56a95ea9d11d419341d4e9f270b0e7ffb6127d69"
+    },
+    {
+      "asset": "home-shoehorn",
+      "name": "рожок для обуви",
+      "group": "Прихожая",
+      "subject": "a long warm brown wooden shoehorn with a small hanging hole",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a long warm brown wooden shoehorn with a small hanging hole.",
+      "sourceFile": "originals/home-shoehorn.png",
+      "sourceSha256": "e3b9503a45d47fbe8761eccac8559be70ac0eee0927370bdfe1fb29de41b6c6e"
+    },
+    {
+      "asset": "home-vacuum",
+      "name": "пылесос",
+      "group": "Комната",
+      "subject": "a compact pastel blue canister vacuum cleaner with a flexible hose, wand and floor head",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a compact pastel blue canister vacuum cleaner with a flexible hose, wand and floor head.",
+      "sourceFile": "originals/home-vacuum.png",
+      "sourceSha256": "77872a0c77117ffb8c2f67083586f2209a3c9f87dcc6d0ea730e071854d981d5"
+    },
+    {
+      "asset": "home-armchair",
+      "name": "кресло",
+      "group": "Комната",
+      "subject": "a soft sage green upholstered armchair with rounded armrests and wooden feet",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a soft sage green upholstered armchair with rounded armrests and wooden feet.",
+      "sourceFile": "originals/home-armchair.png",
+      "sourceSha256": "b59e200c21aa9f5b1d7d88f7583b418c9c0f282a3e4c34bd7803b03af15e5580"
+    },
+    {
+      "asset": "home-dresser",
+      "name": "комод",
+      "group": "Комната",
+      "subject": "a small warm wooden chest of three drawers with round knobs",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a small warm wooden chest of three drawers with round knobs.",
+      "sourceFile": "originals/home-dresser.png",
+      "sourceSha256": "edb481378d4df583c4f4da3d9be77ee57d6a04ba49a125780347f0da0d85d278"
+    },
+    {
+      "asset": "home-rug",
+      "name": "ковёр",
+      "group": "Комната",
+      "subject": "an oval woven rug with simple terracotta sage and cream concentric bands, slightly angled top view",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: an oval woven rug with simple terracotta sage and cream concentric bands, slightly angled top view.",
+      "sourceFile": "originals/home-rug.png",
+      "sourceSha256": "feeb80eb68ca7ff772313ab508984d6a4caff729236e9156dcbee320376967ab"
+    },
+    {
+      "asset": "home-curtains",
+      "name": "шторы",
+      "group": "Комната",
+      "subject": "a pair of soft terracotta curtains hanging from one short wooden curtain rod, no window or wall",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a pair of soft terracotta curtains hanging from one short wooden curtain rod, no window or wall.",
+      "sourceFile": "originals/home-curtains.png",
+      "sourceSha256": "31ca5ef1f318bd4fbfee7d7174f45a66849d64ec5615a9846248eaaef08434e3"
+    },
+    {
+      "asset": "home-fan",
+      "name": "вентилятор",
+      "group": "Комната",
+      "subject": "a small pastel blue table fan with circular protective grille and three visible blades",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a small pastel blue table fan with circular protective grille and three visible blades.",
+      "sourceFile": "originals/home-fan.png",
+      "sourceSha256": "0ba6d36fbfb72f4ff6ca72f4ed2bb6aadc3a01116d2d8298feda4309284b525c"
+    },
+    {
+      "asset": "home-phone",
+      "name": "телефон",
+      "group": "Комната",
+      "subject": "one smartphone with a rounded dark frame and plain pale blue screen, no text or icons",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: one smartphone with a rounded dark frame and plain pale blue screen, no text or icons.",
+      "sourceFile": "originals/home-phone.png",
+      "sourceSha256": "e4c8934561426470da221b1513811f3314175ede593e5900866ce7816927a1b2"
+    },
+    {
+      "asset": "home-ball",
+      "name": "мяч",
+      "group": "Комната",
+      "subject": "one round toddler play ball with broad terracotta sage and ochre panels",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: one round toddler play ball with broad terracotta sage and ochre panels.",
+      "sourceFile": "originals/home-ball.png",
+      "sourceSha256": "5b4cb38c789d89ae9c7bda7b3eb94bd1d6a54d2cf06c0a0b9f1bf55242d20e63"
+    },
+    {
+      "asset": "home-blocks",
+      "name": "кубики",
+      "group": "Комната",
+      "subject": "three wooden toy cubes, one sage one ochre one terracotta, no letters, arranged as a small cluster",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: three wooden toy cubes, one sage one ochre one terracotta, no letters, arranged as a small cluster.",
+      "sourceFile": "originals/home-blocks.png",
+      "sourceSha256": "9138c6e43a19541a5580e7e4d0dddaa3fdb6b4c735c605a8e2de815652015713"
+    },
+    {
+      "asset": "home-stacking-rings",
+      "name": "пирамидка",
+      "group": "Комната",
+      "subject": "a wooden toddler stacking ring toy, five colorful rings on a central peg, largest ring at bottom",
+      "status": "added",
+      "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate paper texture within the object, rounded recognizable forms, muted pastel cream sage ochre sky blue terracotta, thin natural soft edges. Single named subject centered and fully visible in a square image, generous transparent padding of at least 15% on every side. Correct readable real-world shape. No faces, no scenery, no floor, no cast shadow outside object, no letters, labels, logos, watermark or extra objects. Genuinely transparent background. Subject: a wooden toddler stacking ring toy, five colorful rings on a central peg, largest ring at bottom.",
+      "sourceFile": "originals/home-stacking-rings.png",
+      "sourceSha256": "9ad28d36dbe52a61ddcec5364b686a3f7824222bcbec0c226fb12743d89306e0"
+    }
+  ]
+}

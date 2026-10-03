@@ -35,7 +35,7 @@ final class AlphabetMode: PlayMode {
         scene.addChild(cardsNode)
         showLetter()
         hintNode.text = "Тык — первая картинка"
-        RussianSpeech.shared.speak(progress.letter.spokenName)
+        RussianSpeech.shared.speak(progress.letter.alphabetSpokenName)
     }
 
     func handleKeyDown(keyCode: UInt16, characters: String?) { advance() }
@@ -50,7 +50,7 @@ final class AlphabetMode: PlayMode {
         if progress.stage == 0 {
             cardsNode.removeAllChildren()
             showLetter()
-            RussianSpeech.shared.speak(progress.letter.spokenName)
+            RussianSpeech.shared.speak(progress.letter.alphabetSpokenName)
         } else {
             let picture = AlphabetCards.examples[progress.letterIndex][progress.stage - 1]
             addCard(picture, at: progress.stage - 1)

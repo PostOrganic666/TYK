@@ -1,12 +1,12 @@
 # Каталог «Тык»
 
-Всего 190 картинок: 90 животных, 50 видов транспорта и 50 домашних предметов.
+Всего 220 картинок: 90 животных, 50 видов транспорта и 80 домашних предметов.
 
 Сохранены все 90 прежних изображений. Добавлены только новые файлы; прежние PNG не перегенерированы.
 
 «Было» — картинка до расширения, «Новое» — добавлена в этом расширении.
 
-Обзорные листы с подписями: [новые животные](animals-added.jpg), [новая техника](transport-added.jpg), [все 50 домашних предметов](home-added.jpg).
+Обзорные листы с подписями: [новые животные](animals-added.jpg), [новая техника](transport-added.jpg), [все 80 домашних предметов](home-added.jpg).
 
 ## Животные — 90
 
@@ -158,7 +158,7 @@
 | дирижабль | [transport-airship.png](../ToddlerLock/Resources/Pictures/Transport/transport-airship.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/transport-airship.wav) |
 | луноход | [transport-space-rover.png](../ToddlerLock/Resources/Pictures/Transport/transport-space-rover.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/transport-space-rover.wav) |
 
-## Дома: кухня — 18
+## Дома: кухня — 28
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -180,8 +180,19 @@
 | детский стульчик | [home-high-chair.png](../ToddlerLock/Resources/Pictures/Household/home-high-chair.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-high-chair.wav) |
 | холодильник | [home-fridge.png](../ToddlerLock/Resources/Pictures/Household/home-fridge.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-fridge.wav) |
 | плита | [home-stove.png](../ToddlerLock/Resources/Pictures/Household/home-stove.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-stove.wav) |
+| половник | [home-ladle.png](../ToddlerLock/Resources/Pictures/Household/home-ladle.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-ladle.wav) |
+| лопатка | [home-spatula.png](../ToddlerLock/Resources/Pictures/Household/home-spatula.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-spatula.wav) |
+| венчик | [home-whisk.png](../ToddlerLock/Resources/Pictures/Household/home-whisk.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-whisk.wav) |
+| скалка | [home-rolling-pin.png](../ToddlerLock/Resources/Pictures/Household/home-rolling-pin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-rolling-pin.wav) |
+| тёрка | [home-grater.png](../ToddlerLock/Resources/Pictures/Household/home-grater.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-grater.wav) |
+| тостер | [home-toaster.png](../ToddlerLock/Resources/Pictures/Household/home-toaster.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-toaster.wav) |
+| микроволновка | [home-microwave.png](../ToddlerLock/Resources/Pictures/Household/home-microwave.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-microwave.wav) |
+| сахарница | [home-sugar-bowl.png](../ToddlerLock/Resources/Pictures/Household/home-sugar-bowl.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-sugar-bowl.wav) |
+| хлебница | [home-bread-box.png](../ToddlerLock/Resources/Pictures/Household/home-bread-box.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bread-box.wav) |
+| поднос | [home-tray.png](../ToddlerLock/Resources/Pictures/Household/home-tray.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-tray.wav) |
 
-## Дома: ванная — 14
+
+## Дома: ванная — 19
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -199,8 +210,14 @@
 | стиральная машина | [home-washing-machine.png](../ToddlerLock/Resources/Pictures/Household/home-washing-machine.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-washing-machine.wav) |
 | корзина для белья | [home-laundry-basket.png](../ToddlerLock/Resources/Pictures/Household/home-laundry-basket.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-laundry-basket.wav) |
 | шампунь | [home-shampoo.png](../ToddlerLock/Resources/Pictures/Household/home-shampoo.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-shampoo.wav) |
+| фен | [home-hair-dryer.png](../ToddlerLock/Resources/Pictures/Household/home-hair-dryer.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-hair-dryer.wav) |
+| зеркало | [home-mirror.png](../ToddlerLock/Resources/Pictures/Household/home-mirror.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-mirror.wav) |
+| таз | [home-wash-basin.png](../ToddlerLock/Resources/Pictures/Household/home-wash-basin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-wash-basin.wav) |
+| туалетная бумага | [home-toilet-paper.png](../ToddlerLock/Resources/Pictures/Household/home-toilet-paper.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-toilet-paper.wav) |
+| унитаз | [home-toilet.png](../ToddlerLock/Resources/Pictures/Household/home-toilet.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-toilet.wav) |
 
-## Дома: прихожая — 10
+
+## Дома: прихожая — 15
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -214,8 +231,14 @@
 | зонтик | [home-umbrella.png](../ToddlerLock/Resources/Pictures/Household/home-umbrella.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-umbrella.wav) |
 | рюкзак | [home-backpack.png](../ToddlerLock/Resources/Pictures/Household/home-backpack.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-backpack.wav) |
 | коляска | [home-stroller.png](../ToddlerLock/Resources/Pictures/Household/home-stroller.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-stroller.wav) |
+| вешалка | [home-coat-hanger.png](../ToddlerLock/Resources/Pictures/Household/home-coat-hanger.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-coat-hanger.wav) |
+| варежки | [home-mittens.png](../ToddlerLock/Resources/Pictures/Household/home-mittens.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-mittens.wav) |
+| сумка | [home-bag.png](../ToddlerLock/Resources/Pictures/Household/home-bag.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bag.wav) |
+| кепка | [home-cap.png](../ToddlerLock/Resources/Pictures/Household/home-cap.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-cap.wav) |
+| рожок для обуви | [home-shoehorn.png](../ToddlerLock/Resources/Pictures/Household/home-shoehorn.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-shoehorn.wav) |
 
-## Дома: комната — 8
+
+## Дома: комната — 18
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -227,24 +250,38 @@
 | лампа | [home-lamp.png](../ToddlerLock/Resources/Pictures/Household/home-lamp.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-lamp.wav) |
 | часы | [home-clock.png](../ToddlerLock/Resources/Pictures/Household/home-clock.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-clock.wav) |
 | книга | [home-book.png](../ToddlerLock/Resources/Pictures/Household/home-book.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-book.wav) |
+| пылесос | [home-vacuum.png](../ToddlerLock/Resources/Pictures/Household/home-vacuum.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-vacuum.wav) |
+| кресло | [home-armchair.png](../ToddlerLock/Resources/Pictures/Household/home-armchair.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-armchair.wav) |
+| комод | [home-dresser.png](../ToddlerLock/Resources/Pictures/Household/home-dresser.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-dresser.wav) |
+| ковёр | [home-rug.png](../ToddlerLock/Resources/Pictures/Household/home-rug.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-rug.wav) |
+| шторы | [home-curtains.png](../ToddlerLock/Resources/Pictures/Household/home-curtains.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-curtains.wav) |
+| вентилятор | [home-fan.png](../ToddlerLock/Resources/Pictures/Household/home-fan.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-fan.wav) |
+| телефон | [home-phone.png](../ToddlerLock/Resources/Pictures/Household/home-phone.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-phone.wav) |
+| мяч | [home-ball.png](../ToddlerLock/Resources/Pictures/Household/home-ball.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-ball.wav) |
+| кубики | [home-blocks.png](../ToddlerLock/Resources/Pictures/Household/home-blocks.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-blocks.wav) |
+| пирамидка | [home-stacking-rings.png](../ToddlerLock/Resources/Pictures/Household/home-stacking-rings.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-stacking-rings.wav) |
+
 
 ## Генерация и проверка
 
 Новые листы созданы встроенным imagegen, по десять предметов на лист. Полные промпты и порядок ячеек сохранены в [generation.json](generation.json). Исходные прозрачные листы находятся в `../ToddlerLock/Resources/Illustrations/expansion/`.
 
-После нарезки каждое изображение — прозрачный PNG 512 × 512. Подписи и озвучка берутся из русского названия в игре. Домашние предметы выбраны по знакомым повседневным ситуациям; все четыре комнаты входят в один отдельный режим «Дома».
+Дополнительно созданы 30 отдельных карточек домашних вещей: [обзор](household-expansion/preview.jpg), [предметы и промпты](household-expansion/generation.json). Исходники сохранены в `household-expansion/originals/`; подготовка игровых PNG — `tools/import_household_expansion.py`. Каждая новая карточка озвучена Kore.
+
+После подготовки каждое изображение — прозрачный PNG 512 × 512. Подписи и озвучка берутся из русского названия в игре. Домашние предметы выбраны по знакомым повседневным ситуациям; все четыре комнаты входят в один отдельный режим «Дома».
 
 Проверка ресурсов: `.venv-image-audit/bin/python ToddlerLock/tools/audit_picture_catalog.py` из корня репозитория (или другой Python с Pillow).
 
-Проверка каталога и прозрачных ресурсов пройдена для всех 190 картинок. Файл проекта Xcode прошёл `plutil -lint`. Сборка выполняется в GitHub Actions; на этой машине отсутствуют Xcode и рабочий компилятор Swift.
+Проверка каталога и прозрачных ресурсов пройдена для всех 220 картинок. Файл проекта Xcode прошёл `plutil -lint`. Сборка выполняется в GitHub Actions; на этой машине отсутствуют Xcode и рабочий компилятор Swift.
 
 ## Озвучка Kore
 
 Полная процедура: [пайплайн генерации озвучки](SPEECH_PIPELINE.md).
 
-Все 190 картинок и 33 буквы озвучены по отдельности женским голосом Kore
+Все 220 картинок и 33 буквы озвучены по отдельности женским голосом Kore
 модели `google/gemini-3.8-flash-tts`; также записано «Привет! Давай играть!».
-Слова нового режима «Алфавит» также записаны отдельно; общие названия используют прежние записи.
+Для режима «Алфавит» отдельно записаны 33 фразы «Тэ. Буква тэ.»;
+затяжные внутренние паузы сокращены до 300 мс. Слова карточек используют прежние записи.
 Записи хранятся в `../ToddlerLock/Resources/Speech/` и работают без сети.
 Формат — WAV, PCM 24 кГц / 16 бит / моно; начальная и конечная тишина обрезаны.
 
@@ -308,5 +345,43 @@ python3 ToddlerLock/tools/generate_speech.py --check
 | Э | э | [Готово · Kore](../ToddlerLock/Resources/Speech/letter-042d.wav) |
 | Ю | ю | [Готово · Kore](../ToddlerLock/Resources/Speech/letter-042e.wav) |
 | Я | я | [Готово · Kore](../ToddlerLock/Resources/Speech/letter-042f.wav) |
+
+### Буквы режима «Алфавит»
+
+| Буква | Произносится | Озвучка |
+| --- | --- | --- |
+| А | А. Буква а. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0410.wav) |
+| Б | Бэ. Буква бэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0411.wav) |
+| В | Вэ. Буква вэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0412.wav) |
+| Г | Гэ. Буква гэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0413.wav) |
+| Д | Дэ. Буква дэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0414.wav) |
+| Е | Е. Буква е. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0415.wav) |
+| Ё | Ё. Буква ё. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0401.wav) |
+| Ж | Жэ. Буква жэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0416.wav) |
+| З | Зэ. Буква зэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0417.wav) |
+| И | И. Буква и. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0418.wav) |
+| Й | И краткое. Буква и краткое. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0419.wav) |
+| К | Ка. Буква ка. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-041a.wav) |
+| Л | Эль. Буква эль. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-041b.wav) |
+| М | Эм. Буква эм. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-041c.wav) |
+| Н | Эн. Буква эн. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-041d.wav) |
+| О | О. Буква о. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-041e.wav) |
+| П | Пэ. Буква пэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-041f.wav) |
+| Р | Эр. Буква эр. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0420.wav) |
+| С | Эс. Буква эс. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0421.wav) |
+| Т | Тэ. Буква тэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0422.wav) |
+| У | У. Буква у. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0423.wav) |
+| Ф | Эф. Буква эф. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0424.wav) |
+| Х | Ха. Буква ха. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0425.wav) |
+| Ц | Цэ. Буква цэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0426.wav) |
+| Ч | Чэ. Буква чэ. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0427.wav) |
+| Ш | Ша. Буква ша. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0428.wav) |
+| Щ | Ща. Буква ща. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-0429.wav) |
+| Ъ | Твёрдый знак. Буква твёрдый знак. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-042a.wav) |
+| Ы | Ы. Буква ы. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-042b.wav) |
+| Ь | Мягкий знак. Буква мягкий знак. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-042c.wav) |
+| Э | Э. Буква э. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-042d.wav) |
+| Ю | Ю. Буква ю. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-042e.wav) |
+| Я | Я. Буква я. | [Готово · Kore](../ToddlerLock/Resources/Speech/alphabet-letter-042f.wav) |
 
 Приветствие: [Готово · Kore](../ToddlerLock/Resources/Speech/voice-preview.wav).

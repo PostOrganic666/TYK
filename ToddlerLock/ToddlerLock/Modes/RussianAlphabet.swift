@@ -3,6 +3,10 @@ import Foundation
 struct RussianLetter {
     let glyph: String
     let spokenName: String
+
+    var alphabetSpokenName: String {
+        "\(spokenName.prefix(1).uppercased())\(spokenName.dropFirst()). Буква \(spokenName)."
+    }
 }
 
 enum RussianAlphabet {

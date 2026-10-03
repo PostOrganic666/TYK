@@ -54,6 +54,9 @@ def current_items(root):
     items = [{'id': p['asset'], 'kind': 'picture', 'text': p['name']} for p in pictures]
     letters = re.findall(r'\.init\(glyph: "([^"]+)", spokenName: "([^"]+)"\)', (source / 'Modes/RussianAlphabet.swift').read_text())
     items += [{'id': f'letter-{ord(glyph):04x}', 'kind': 'letter', 'glyph': glyph, 'text': text} for glyph, text in letters]
+    items += [{'id': f'alphabet-letter-{ord(glyph):04x}', 'kind': 'alphabet-letter',
+               'glyph': glyph, 'text': f'{text.capitalize()}. Буква {text}.'}
+              for glyph, text in letters]
     # Reuse existing recordings for shared words, including repeated alphabet examples.
     alphabet_path = root / 'catalog/alphabet.json'
     known_texts = {item['text'] for item in items}
@@ -99,8 +102,32 @@ def trim_pcm(data):
     if sys.byteorder != 'little': clipped.byteswap()
     return clipped.tobytes(), {'leadingTrimSeconds':round(start/RATE,3),'trailingTrimSeconds':round((len(samples)-end)/RATE,3)}
 
+def shorten_letter_pauses(data):
+    """Cap only sustained near-silence; preserve quiet consonants at either edge."""
+    samples = array.array('h', data)
+    if sys.byteorder != 'little': samples.byteswap()
+    frame = RATE // 100
+    quiet = [math.sqrt(sum(s*s for s in samples[i:i+frame])/len(samples[i:i+frame])) < 80
+             for i in range(0, len(samples), frame)]
+    cuts = []
+    start = None
+    for i, is_quiet in enumerate(quiet + [False]):
+        if is_quiet and start is None:
+            start = i
+        elif not is_quiet and start is not None:
+            if start > 0 and i < len(quiet) and i - start > 45:
+                # Keep 150 ms on each side, removing only the middle of the gap.
+                cuts.append(((start + 15) * frame, (i - 15) * frame))
+            start = None
+    for start, end in reversed(cuts):
+        del samples[start:end]
+    removed = (len(data) // 2 - len(samples)) / RATE
+    if sys.byteorder != 'little': samples.byteswap()
+    return samples.tobytes(), {'internalPauseTrimSeconds': round(removed, 3)}
+
+
 def generate(item, root, key):
-    payload = {'model': MODEL, 'voice': VOICE, 'input': item['text'] if item['text'].endswith('!') else item['text']+'.', 'response_format':'pcm'}
+    payload = {'model': MODEL, 'voice': VOICE, 'input': item['text'] if item['text'].endswith(('.', '!', '?')) else item['text']+'.', 'response_format':'pcm'}
     for attempt in range(3):
         try:
             req = urllib.request.Request('https://openrouter.ai/api/v1/audio/speech', data=json.dumps(payload).encode(), headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
@@ -110,6 +137,9 @@ def generate(item, root, key):
                 data = response.read()
             if 'audio/pcm' not in mime or not data or len(data)%2: raise ValueError('Invalid PCM response')
             data, trim = trim_pcm(data)
+            if item['kind'] == 'alphabet-letter':
+                data, pause_trim = shorten_letter_pauses(data)
+                trim.update(pause_trim)
             relative = f'Resources/Speech/{item["id"]}.wav'
             path = root / 'ToddlerLock' / relative
             path.parent.mkdir(parents=True, exist_ok=True)
@@ -179,7 +209,8 @@ def update_readable_catalog(root, items, done):
 
 Все {picture_count} картинок и {letter_count} буквы озвучены по отдельности женским голосом Kore
 модели `google/gemini-3.8-flash-tts`; также записано «Привет! Давай играть!».
-Слова нового режима «Алфавит» также записаны отдельно; общие названия используют прежние записи.
+Для режима «Алфавит» отдельно записаны 33 фразы «Тэ. Буква тэ.»;
+затяжные внутренние паузы сокращены до 300 мс. Слова карточек используют прежние записи.
 Записи хранятся в `../ToddlerLock/Resources/Speech/` и работают без сети.
 Формат — WAV, PCM 24 кГц / 16 бит / моно; начальная и конечная тишина обрезаны.
 
@@ -213,6 +244,10 @@ python3 ToddlerLock/tools/generate_speech.py --check
 """
     for i in items:
         if i['kind']=='letter':
+            text += f"| {i['glyph']} | {i['text']} | [Готово · Kore](../ToddlerLock/{done[i['id']]['file']}) |\n"
+    text += '\n### Буквы режима «Алфавит»\n\n| Буква | Произносится | Озвучка |\n| --- | --- | --- |\n'
+    for i in items:
+        if i['kind'] == 'alphabet-letter':
             text += f"| {i['glyph']} | {i['text']} | [Готово · Kore](../ToddlerLock/{done[i['id']]['file']}) |\n"
     text += '\nПриветствие: [Готово · Kore](../ToddlerLock/Resources/Speech/voice-preview.wav).\n'
     path.write_text(text)
