@@ -1,6 +1,6 @@
 # Каталог «Тык»
 
-Всего 370 картинок: 140 животных, 50 видов транспорта, 130 домашних предметов и 50 продуктов и блюд.
+Всего 320 картинок: 140 животных, 50 видов транспорта и 130 домашних предметов.
 
 Добавлены 50 животных и 50 домашних предметов в октябре 2026 года. Иллюстрация ленивца заменена; остальные прежние картинки сохранены.
 
@@ -376,68 +376,11 @@
 
 Проверка каталога и прозрачных ресурсов пройдена для всех 220 картинок. Файл проекта Xcode прошёл `plutil -lint`. Сборка выполняется в GitHub Actions; на этой машине отсутствуют Xcode и рабочий компилятор Swift.
 
-## Еда — 50
-
-Фрукты, овощи, молочные продукты и знакомые домашние блюда для карточек детей 1,5–3 лет. Обзор: [все карточки еды](food-added.jpg).
-
-| Название для озвучки | Файл | Статус | Озвучка |
-| --- | --- | --- | --- |
-| яблоко | [food-apple.png](../ToddlerLock/Resources/Pictures/Food/food-apple.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-apple.wav) |
-| груша | [food-pear.png](../ToddlerLock/Resources/Pictures/Food/food-pear.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pear.wav) |
-| банан | [food-banana.png](../ToddlerLock/Resources/Pictures/Food/food-banana.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-banana.wav) |
-| апельсин | [food-orange.png](../ToddlerLock/Resources/Pictures/Food/food-orange.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-orange.wav) |
-| мандарин | [food-mandarin.png](../ToddlerLock/Resources/Pictures/Food/food-mandarin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-mandarin.wav) |
-| персик | [food-peach.png](../ToddlerLock/Resources/Pictures/Food/food-peach.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-peach.wav) |
-| абрикос | [food-apricot.png](../ToddlerLock/Resources/Pictures/Food/food-apricot.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-apricot.wav) |
-| слива | [food-plum.png](../ToddlerLock/Resources/Pictures/Food/food-plum.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-plum.wav) |
-| киви | [food-kiwi.png](../ToddlerLock/Resources/Pictures/Food/food-kiwi.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-kiwi.wav) |
-| дыня | [food-melon.png](../ToddlerLock/Resources/Pictures/Food/food-melon.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-melon.wav) |
-| арбуз | [food-watermelon.png](../ToddlerLock/Resources/Pictures/Food/food-watermelon.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-watermelon.wav) |
-| клубника | [food-strawberry.png](../ToddlerLock/Resources/Pictures/Food/food-strawberry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-strawberry.wav) |
-| малина | [food-raspberry.png](../ToddlerLock/Resources/Pictures/Food/food-raspberry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-raspberry.wav) |
-| черника | [food-blueberry.png](../ToddlerLock/Resources/Pictures/Food/food-blueberry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-blueberry.wav) |
-| вишня | [food-cherry.png](../ToddlerLock/Resources/Pictures/Food/food-cherry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cherry.wav) |
-| морковь | [food-carrot.png](../ToddlerLock/Resources/Pictures/Food/food-carrot.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-carrot.wav) |
-| огурец | [food-cucumber.png](../ToddlerLock/Resources/Pictures/Food/food-cucumber.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cucumber.wav) |
-| помидор | [food-tomato.png](../ToddlerLock/Resources/Pictures/Food/food-tomato.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-tomato.wav) |
-| картофель | [food-potato.png](../ToddlerLock/Resources/Pictures/Food/food-potato.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-potato.wav) |
-| тыква | [food-pumpkin.png](../ToddlerLock/Resources/Pictures/Food/food-pumpkin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pumpkin.wav) |
-| кабачок | [food-zucchini.png](../ToddlerLock/Resources/Pictures/Food/food-zucchini.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-zucchini.wav) |
-| брокколи | [food-broccoli.png](../ToddlerLock/Resources/Pictures/Food/food-broccoli.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-broccoli.wav) |
-| цветная капуста | [food-cauliflower.png](../ToddlerLock/Resources/Pictures/Food/food-cauliflower.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cauliflower.wav) |
-| капуста | [food-cabbage.png](../ToddlerLock/Resources/Pictures/Food/food-cabbage.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cabbage.wav) |
-| свёкла | [food-beet.png](../ToddlerLock/Resources/Pictures/Food/food-beet.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-beet.wav) |
-| сладкий перец | [food-pepper.png](../ToddlerLock/Resources/Pictures/Food/food-pepper.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pepper.wav) |
-| горошек | [food-peas.png](../ToddlerLock/Resources/Pictures/Food/food-peas.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-peas.wav) |
-| кукуруза | [food-corn.png](../ToddlerLock/Resources/Pictures/Food/food-corn.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-corn.wav) |
-| авокадо | [food-avocado.png](../ToddlerLock/Resources/Pictures/Food/food-avocado.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-avocado.wav) |
-| молоко | [food-milk.png](../ToddlerLock/Resources/Pictures/Food/food-milk.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-milk.wav) |
-| кефир | [food-kefir.png](../ToddlerLock/Resources/Pictures/Food/food-kefir.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-kefir.wav) |
-| йогурт | [food-yogurt.png](../ToddlerLock/Resources/Pictures/Food/food-yogurt.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-yogurt.wav) |
-| творог | [food-cottage-cheese.png](../ToddlerLock/Resources/Pictures/Food/food-cottage-cheese.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cottage-cheese.wav) |
-| сыр | [food-cheese.png](../ToddlerLock/Resources/Pictures/Food/food-cheese.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cheese.wav) |
-| сливочное масло | [food-butter.png](../ToddlerLock/Resources/Pictures/Food/food-butter.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-butter.wav) |
-| яйцо | [food-egg.png](../ToddlerLock/Resources/Pictures/Food/food-egg.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-egg.wav) |
-| хлеб | [food-bread.png](../ToddlerLock/Resources/Pictures/Food/food-bread.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-bread.wav) |
-| каша | [food-porridge.png](../ToddlerLock/Resources/Pictures/Food/food-porridge.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-porridge.wav) |
-| рис | [food-rice.png](../ToddlerLock/Resources/Pictures/Food/food-rice.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-rice.wav) |
-| гречка | [food-buckwheat.png](../ToddlerLock/Resources/Pictures/Food/food-buckwheat.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-buckwheat.wav) |
-| макароны | [food-pasta.png](../ToddlerLock/Resources/Pictures/Food/food-pasta.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pasta.wav) |
-| суп | [food-soup.png](../ToddlerLock/Resources/Pictures/Food/food-soup.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-soup.wav) |
-| пюре | [food-mashed-potatoes.png](../ToddlerLock/Resources/Pictures/Food/food-mashed-potatoes.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-mashed-potatoes.wav) |
-| котлета | [food-cutlet.png](../ToddlerLock/Resources/Pictures/Food/food-cutlet.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cutlet.wav) |
-| тефтели | [food-meatballs.png](../ToddlerLock/Resources/Pictures/Food/food-meatballs.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-meatballs.wav) |
-| куриное мясо | [food-chicken.png](../ToddlerLock/Resources/Pictures/Food/food-chicken.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-chicken.wav) |
-| рыба | [food-fish.png](../ToddlerLock/Resources/Pictures/Food/food-fish.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-fish.wav) |
-| блины | [food-pancakes.png](../ToddlerLock/Resources/Pictures/Food/food-pancakes.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pancakes.wav) |
-| сырники | [food-syrniki.png](../ToddlerLock/Resources/Pictures/Food/food-syrniki.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-syrniki.wav) |
-| компот | [food-compote.png](../ToddlerLock/Resources/Pictures/Food/food-compote.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-compote.wav) |
-
 ## Озвучка Kore
 
 Полная процедура: [пайплайн генерации озвучки](SPEECH_PIPELINE.md).
 
-Все 370 картинок и 33 буквы озвучены по отдельности женским голосом Kore
+Все 320 картинок и 33 буквы озвучены по отдельности женским голосом Kore
 модели `google/gemini-3.8-flash-tts`; также записано «Привет! Давай играть!».
 Для режима «Алфавит» отдельно записаны 33 фразы «Тэ. Буква тэ.»;
 затяжные внутренние паузы сокращены до 300 мс. Слова карточек используют прежние записи.

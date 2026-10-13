@@ -5,7 +5,6 @@ enum PictureCollection {
     case animals
     case transport
     case household
-    case food
 
     var pictures: [StorybookPicture] {
         switch self {
@@ -205,59 +204,6 @@ enum PictureCollection {
                 .init(name: "дирижабль", assetName: "transport-airship"),
                 .init(name: "луноход", assetName: "transport-space-rover"),
             ]
-        case .food:
-            return [
-                .init(name: "яблоко", assetName: "food-apple"),
-                .init(name: "груша", assetName: "food-pear"),
-                .init(name: "банан", assetName: "food-banana"),
-                .init(name: "апельсин", assetName: "food-orange"),
-                .init(name: "мандарин", assetName: "food-mandarin"),
-                .init(name: "персик", assetName: "food-peach"),
-                .init(name: "абрикос", assetName: "food-apricot"),
-                .init(name: "слива", assetName: "food-plum"),
-                .init(name: "киви", assetName: "food-kiwi"),
-                .init(name: "дыня", assetName: "food-melon"),
-                .init(name: "арбуз", assetName: "food-watermelon"),
-                .init(name: "клубника", assetName: "food-strawberry"),
-                .init(name: "малина", assetName: "food-raspberry"),
-                .init(name: "черника", assetName: "food-blueberry"),
-                .init(name: "вишня", assetName: "food-cherry"),
-                .init(name: "морковь", assetName: "food-carrot"),
-                .init(name: "огурец", assetName: "food-cucumber"),
-                .init(name: "помидор", assetName: "food-tomato"),
-                .init(name: "картофель", assetName: "food-potato"),
-                .init(name: "тыква", assetName: "food-pumpkin"),
-                .init(name: "кабачок", assetName: "food-zucchini"),
-                .init(name: "брокколи", assetName: "food-broccoli"),
-                .init(name: "цветная капуста", assetName: "food-cauliflower"),
-                .init(name: "капуста", assetName: "food-cabbage"),
-                .init(name: "свёкла", assetName: "food-beet"),
-                .init(name: "сладкий перец", assetName: "food-pepper"),
-                .init(name: "горошек", assetName: "food-peas"),
-                .init(name: "кукуруза", assetName: "food-corn"),
-                .init(name: "авокадо", assetName: "food-avocado"),
-                .init(name: "молоко", assetName: "food-milk"),
-                .init(name: "кефир", assetName: "food-kefir"),
-                .init(name: "йогурт", assetName: "food-yogurt"),
-                .init(name: "творог", assetName: "food-cottage-cheese"),
-                .init(name: "сыр", assetName: "food-cheese"),
-                .init(name: "сливочное масло", assetName: "food-butter"),
-                .init(name: "яйцо", assetName: "food-egg"),
-                .init(name: "хлеб", assetName: "food-bread"),
-                .init(name: "каша", assetName: "food-porridge"),
-                .init(name: "рис", assetName: "food-rice"),
-                .init(name: "гречка", assetName: "food-buckwheat"),
-                .init(name: "макароны", assetName: "food-pasta"),
-                .init(name: "суп", assetName: "food-soup"),
-                .init(name: "пюре", assetName: "food-mashed-potatoes"),
-                .init(name: "котлета", assetName: "food-cutlet"),
-                .init(name: "тефтели", assetName: "food-meatballs"),
-                .init(name: "куриное мясо", assetName: "food-chicken"),
-                .init(name: "рыба", assetName: "food-fish"),
-                .init(name: "блины", assetName: "food-pancakes"),
-                .init(name: "сырники", assetName: "food-syrniki"),
-                .init(name: "компот", assetName: "food-compote"),
-            ]
         case .household:
             return [
                 // Кухня
@@ -430,9 +376,6 @@ final class PictureMode: PlayMode {
             colors = (NSColor(calibratedRed: 0.94, green: 0.84, blue: 0.78, alpha: 1),
                       StorybookPalette.cream,
                       NSColor(calibratedRed: 0.73, green: 0.66, blue: 0.55, alpha: 1))
-        case .food:
-            colors = (NSColor(calibratedRed: 0.92, green: 0.86, blue: 0.70, alpha: 1),
-                      StorybookPalette.cream, StorybookPalette.sage)
         }
         StorybookBackdrop.add(to: scene, top: colors.0, bottom: colors.1, ground: colors.2)
 

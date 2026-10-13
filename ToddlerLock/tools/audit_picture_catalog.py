@@ -13,7 +13,7 @@ SOURCE = ROOT / 'ToddlerLock'
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--collection', nargs='+', choices=['animals', 'transport', 'household', 'food'],
+    parser.add_argument('--collection', nargs='+', choices=['animals', 'transport', 'household'],
                         help='Check selected collections; by default check the full catalogue')
     args = parser.parse_args()
     entries = json.loads((ROOT / 'catalog/pictures.json').read_text())
@@ -23,7 +23,7 @@ def main():
     assert Counter(runtime) == Counter(expected), 'Runtime and catalogue differ'
     assert len({entry['asset'] for entry in entries}) == len(entries), 'Duplicate assets'
     assert len({entry['name'] for entry in entries}) == len(entries), 'Duplicate names'
-    prefixes = {'animals': 'animal-', 'transport': 'transport-', 'household': 'home-', 'food': 'food-'}
+    prefixes = {'animals': 'animal-', 'transport': 'transport-', 'household': 'home-'}
     selected = tuple(prefixes[key] for key in args.collection) if args.collection else tuple(prefixes.values())
     entries = [entry for entry in entries if entry['asset'].startswith(selected)]
     files = {path.stem: path for path in (SOURCE / 'Resources/Pictures').rglob('*.png')}
@@ -42,7 +42,7 @@ def main():
             assert bbox and min(bbox[:2]) >= 30 and max(bbox[2:]) <= 482, f'Clipped: {path}'
     counts = Counter(entry['group'] for entry in entries)
     expected_counts = {'animals': 140, 'transport': 50, 'Кухня': 40,
-                       'Ванная': 29, 'Прихожая': 27, 'Комната': 34, 'food': 50}
+                       'Ванная': 29, 'Прихожая': 27, 'Комната': 34}
     group_collection = {'Кухня': 'household', 'Ванная': 'household',
                         'Прихожая': 'household', 'Комната': 'household'}
     if args.collection:

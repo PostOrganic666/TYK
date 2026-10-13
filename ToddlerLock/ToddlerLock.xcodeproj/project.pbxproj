@@ -571,56 +571,6 @@
 		792799C9C08C14C8B439885A /* animal-woodpecker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B7416E446167DB3335529 /* animal-woodpecker.wav */; };
 		C957823817F533CFD50CD9D1 /* animal-yak.wav in Resources */ = {isa = PBXBuildFile; fileRef = 499F959F07A97FC447E3B059 /* animal-yak.wav */; };
 		3507A12D54725D12BC018C76 /* animal-zebra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */; };
-		631B5A7645F95D21D0D1B7D9 /* food-apple.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1587C2366105BDFBE8B2BF8E /* food-apple.wav */; };
-		B6416BF25AFD47B80B536256 /* food-apricot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79D852D65436B57A43FE5C56 /* food-apricot.wav */; };
-		32843D60AD50552BEC3EDC41 /* food-avocado.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37F05028FFF2ABC817E55090 /* food-avocado.wav */; };
-		CB62F6D38DF905866A4F8BFA /* food-banana.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A8D063EA4ACD63F9B36F1 /* food-banana.wav */; };
-		B4DC986450BDAE69BD3272FC /* food-beet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1734BE0DB81A1F426113EEB7 /* food-beet.wav */; };
-		14717CE9CE6A94BC2CC55AA5 /* food-blueberry.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42C0DB376F2C0CF81DB1EDBC /* food-blueberry.wav */; };
-		96CD7112831A47B00CFD6CD3 /* food-bread.wav in Resources */ = {isa = PBXBuildFile; fileRef = CBBAB61F3FC1908784F1A199 /* food-bread.wav */; };
-		4D01AB1D8E334F744D62C5FC /* food-broccoli.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1286B7FE973C7DBC3A2698A /* food-broccoli.wav */; };
-		2314E9E836C9FD1484CB17EB /* food-buckwheat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA5B36D74828E24AC0A5F4 /* food-buckwheat.wav */; };
-		FC410B4B613DF7795378161C /* food-butter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 778AF5269A36351BA9312A1B /* food-butter.wav */; };
-		FAF65AB9D13BB97540FA58A6 /* food-cabbage.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2B40E4991924F2E8A4599B3 /* food-cabbage.wav */; };
-		5139EEB82489EC0D61653738 /* food-carrot.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6F2D6024030942568E80CF2 /* food-carrot.wav */; };
-		7ECD42C8A66CD2356DA75700 /* food-cauliflower.wav in Resources */ = {isa = PBXBuildFile; fileRef = E83D6B43ADD9286FA0C12A9B /* food-cauliflower.wav */; };
-		ED547713D11B07635863D256 /* food-cheese.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74CE3A635F70661C6C0F0B26 /* food-cheese.wav */; };
-		D3CB4324EDD7B3784BA3FB32 /* food-cherry.wav in Resources */ = {isa = PBXBuildFile; fileRef = B207884C427B1855EE8D84E3 /* food-cherry.wav */; };
-		BE41981D3E1979AE08E1DCA7 /* food-chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 155DFFF9E1878ADAEF0828C0 /* food-chicken.wav */; };
-		F4567FE85A5D5A341341AEA3 /* food-compote.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56DEAA20922B92423D795C5E /* food-compote.wav */; };
-		0A76237AE1DC598F4ADB1DED /* food-corn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6444FBABEA0BA11340344E46 /* food-corn.wav */; };
-		722F31A42CD9E92BA009F3A0 /* food-cottage-cheese.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEB6DEB7C5ABB309F56F1D8D /* food-cottage-cheese.wav */; };
-		4E3D4BE34169466B1A9F22C7 /* food-cucumber.wav in Resources */ = {isa = PBXBuildFile; fileRef = 47CC9E2C8F5C3B522F331FBA /* food-cucumber.wav */; };
-		8A990D7ACAA669BC4B60F5BB /* food-cutlet.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD948EE8C6FCD51D5C15C652 /* food-cutlet.wav */; };
-		35F776BC95CC7465C53BFC55 /* food-egg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 595282088154882D71A034AA /* food-egg.wav */; };
-		7B30C0E92CD97C55A30922A7 /* food-fish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00C640C27C297D3C037CBF7A /* food-fish.wav */; };
-		B446023C9443F9C7A26B53AA /* food-kefir.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1CA4C21727300EA444EE7 /* food-kefir.wav */; };
-		6F3E730F1FB91E6093D5350D /* food-kiwi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 209AD55A105CA2EDF9097D6C /* food-kiwi.wav */; };
-		24F639BC00F1E99C323EFB64 /* food-mandarin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2EC401A9C3FF0088AF2248E9 /* food-mandarin.wav */; };
-		257E16B60ACD79E36265AA95 /* food-mashed-potatoes.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3ED8688CDD3F048D2765196 /* food-mashed-potatoes.wav */; };
-		DF7B72F3A7B93E0318963CDA /* food-meatballs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 503B886246D4EDBE4898AEE9 /* food-meatballs.wav */; };
-		EAE7989B71030CE925E1B11B /* food-melon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2637E9BF6E39AE6AAE308020 /* food-melon.wav */; };
-		E1009AB3100E9E319D5DCF7F /* food-milk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 773325914261CAB6A8FC5619 /* food-milk.wav */; };
-		BA5F781CE59DB0DA4CD99110 /* food-orange.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA485CBA94F4B3EFC5E88D /* food-orange.wav */; };
-		4A20B9565FBD6C282FE6DB22 /* food-pancakes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D781B14EE2DD775655AA724 /* food-pancakes.wav */; };
-		5DC5E6FBE7C6C95C8C550ABE /* food-pasta.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D8F3E9929EDA5D425B3BCCF /* food-pasta.wav */; };
-		27348DF9087A923147415B4C /* food-peach.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA7BB17312EA18E282FBD7 /* food-peach.wav */; };
-		AC248C25C4D16D5967DF01EA /* food-pear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F4A307F25925983AB631B9B /* food-pear.wav */; };
-		96C9135B309238B3D34D128E /* food-peas.wav in Resources */ = {isa = PBXBuildFile; fileRef = E56F23C0A6B9180CB0167E42 /* food-peas.wav */; };
-		726096A6CAA39DF803878A45 /* food-pepper.wav in Resources */ = {isa = PBXBuildFile; fileRef = E235C5B581FC73A41C0469B9 /* food-pepper.wav */; };
-		5C4B4F6F0C9791088951AB84 /* food-plum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86E32A4AFE114815275EC607 /* food-plum.wav */; };
-		0283B3CBB8398E45618FCE12 /* food-porridge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7AD9CA68528337030C042 /* food-porridge.wav */; };
-		01A96207AD858E1FBD690269 /* food-potato.wav in Resources */ = {isa = PBXBuildFile; fileRef = B33978DEB96552EFDF1BBA4A /* food-potato.wav */; };
-		3E15DDF8BF5A93B3441A9A74 /* food-pumpkin.wav in Resources */ = {isa = PBXBuildFile; fileRef = B852EE175D13477D704246FB /* food-pumpkin.wav */; };
-		5D88F2387D4CA25B65787B08 /* food-raspberry.wav in Resources */ = {isa = PBXBuildFile; fileRef = F90D91D601283E6ECF7D141F /* food-raspberry.wav */; };
-		93DC78CADD21F615AF4482B0 /* food-rice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0DB694617FAB43CE6D17A /* food-rice.wav */; };
-		087014720D65FB9CC09DCDB3 /* food-soup.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5FA64D3639983A56A0E0E07 /* food-soup.wav */; };
-		FA62E57DBC099C5C72469394 /* food-strawberry.wav in Resources */ = {isa = PBXBuildFile; fileRef = D27C726AAA9532DAF9695991 /* food-strawberry.wav */; };
-		E2F5A6D8B635209302F30C30 /* food-syrniki.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D6217A1FC413204E9DCEC6E /* food-syrniki.wav */; };
-		9C9A17AD5B76DC4F62EA1A14 /* food-tomato.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9409266F2FA66FC829ABFBAC /* food-tomato.wav */; };
-		5DF8C76252D09CBFB0CBA04F /* food-watermelon.wav in Resources */ = {isa = PBXBuildFile; fileRef = E85C6555D97037E47EEBA0C9 /* food-watermelon.wav */; };
-		B67D61B8F27A9D66F229565E /* food-yogurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D22906C61EBDB1D9043B995 /* food-yogurt.wav */; };
-		02FE1F597A9F903906C47A5E /* food-zucchini.wav in Resources */ = {isa = PBXBuildFile; fileRef = B10619349CBD7C77CDBF0397 /* food-zucchini.wav */; };
 		E0854F95AA990F0754670699 /* home-alarm-clock.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9A4438166B435BBD8000F20 /* home-alarm-clock.wav */; };
 		455CF26624FB28812A58B0E3 /* home-apron.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF5D097B8A62B92A260A8A /* home-apron.wav */; };
 		C043C831B294264B00FE6370 /* home-armchair.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE14F367FBF238157CADC5 /* home-armchair.wav */; };
@@ -1445,56 +1395,6 @@
 		4F5B7416E446167DB3335529 /* animal-woodpecker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-woodpecker.wav"; sourceTree = "<group>"; };
 		499F959F07A97FC447E3B059 /* animal-yak.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-yak.wav"; sourceTree = "<group>"; };
 		91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/animal-zebra.wav"; sourceTree = "<group>"; };
-		1587C2366105BDFBE8B2BF8E /* food-apple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-apple.wav"; sourceTree = "<group>"; };
-		79D852D65436B57A43FE5C56 /* food-apricot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-apricot.wav"; sourceTree = "<group>"; };
-		37F05028FFF2ABC817E55090 /* food-avocado.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-avocado.wav"; sourceTree = "<group>"; };
-		7F4A8D063EA4ACD63F9B36F1 /* food-banana.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-banana.wav"; sourceTree = "<group>"; };
-		1734BE0DB81A1F426113EEB7 /* food-beet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-beet.wav"; sourceTree = "<group>"; };
-		42C0DB376F2C0CF81DB1EDBC /* food-blueberry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-blueberry.wav"; sourceTree = "<group>"; };
-		CBBAB61F3FC1908784F1A199 /* food-bread.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-bread.wav"; sourceTree = "<group>"; };
-		B1286B7FE973C7DBC3A2698A /* food-broccoli.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-broccoli.wav"; sourceTree = "<group>"; };
-		3AFA5B36D74828E24AC0A5F4 /* food-buckwheat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-buckwheat.wav"; sourceTree = "<group>"; };
-		778AF5269A36351BA9312A1B /* food-butter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-butter.wav"; sourceTree = "<group>"; };
-		A2B40E4991924F2E8A4599B3 /* food-cabbage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cabbage.wav"; sourceTree = "<group>"; };
-		F6F2D6024030942568E80CF2 /* food-carrot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-carrot.wav"; sourceTree = "<group>"; };
-		E83D6B43ADD9286FA0C12A9B /* food-cauliflower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cauliflower.wav"; sourceTree = "<group>"; };
-		74CE3A635F70661C6C0F0B26 /* food-cheese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cheese.wav"; sourceTree = "<group>"; };
-		B207884C427B1855EE8D84E3 /* food-cherry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cherry.wav"; sourceTree = "<group>"; };
-		155DFFF9E1878ADAEF0828C0 /* food-chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-chicken.wav"; sourceTree = "<group>"; };
-		56DEAA20922B92423D795C5E /* food-compote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-compote.wav"; sourceTree = "<group>"; };
-		6444FBABEA0BA11340344E46 /* food-corn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-corn.wav"; sourceTree = "<group>"; };
-		CEB6DEB7C5ABB309F56F1D8D /* food-cottage-cheese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cottage-cheese.wav"; sourceTree = "<group>"; };
-		47CC9E2C8F5C3B522F331FBA /* food-cucumber.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cucumber.wav"; sourceTree = "<group>"; };
-		FD948EE8C6FCD51D5C15C652 /* food-cutlet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-cutlet.wav"; sourceTree = "<group>"; };
-		595282088154882D71A034AA /* food-egg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-egg.wav"; sourceTree = "<group>"; };
-		00C640C27C297D3C037CBF7A /* food-fish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-fish.wav"; sourceTree = "<group>"; };
-		0FF1CA4C21727300EA444EE7 /* food-kefir.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-kefir.wav"; sourceTree = "<group>"; };
-		209AD55A105CA2EDF9097D6C /* food-kiwi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-kiwi.wav"; sourceTree = "<group>"; };
-		2EC401A9C3FF0088AF2248E9 /* food-mandarin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-mandarin.wav"; sourceTree = "<group>"; };
-		C3ED8688CDD3F048D2765196 /* food-mashed-potatoes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-mashed-potatoes.wav"; sourceTree = "<group>"; };
-		503B886246D4EDBE4898AEE9 /* food-meatballs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-meatballs.wav"; sourceTree = "<group>"; };
-		2637E9BF6E39AE6AAE308020 /* food-melon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-melon.wav"; sourceTree = "<group>"; };
-		773325914261CAB6A8FC5619 /* food-milk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-milk.wav"; sourceTree = "<group>"; };
-		4BEA485CBA94F4B3EFC5E88D /* food-orange.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-orange.wav"; sourceTree = "<group>"; };
-		5D781B14EE2DD775655AA724 /* food-pancakes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-pancakes.wav"; sourceTree = "<group>"; };
-		7D8F3E9929EDA5D425B3BCCF /* food-pasta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-pasta.wav"; sourceTree = "<group>"; };
-		7CCA7BB17312EA18E282FBD7 /* food-peach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-peach.wav"; sourceTree = "<group>"; };
-		8F4A307F25925983AB631B9B /* food-pear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-pear.wav"; sourceTree = "<group>"; };
-		E56F23C0A6B9180CB0167E42 /* food-peas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-peas.wav"; sourceTree = "<group>"; };
-		E235C5B581FC73A41C0469B9 /* food-pepper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-pepper.wav"; sourceTree = "<group>"; };
-		86E32A4AFE114815275EC607 /* food-plum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-plum.wav"; sourceTree = "<group>"; };
-		6BD7AD9CA68528337030C042 /* food-porridge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-porridge.wav"; sourceTree = "<group>"; };
-		B33978DEB96552EFDF1BBA4A /* food-potato.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-potato.wav"; sourceTree = "<group>"; };
-		B852EE175D13477D704246FB /* food-pumpkin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-pumpkin.wav"; sourceTree = "<group>"; };
-		F90D91D601283E6ECF7D141F /* food-raspberry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-raspberry.wav"; sourceTree = "<group>"; };
-		2EF0DB694617FAB43CE6D17A /* food-rice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-rice.wav"; sourceTree = "<group>"; };
-		C5FA64D3639983A56A0E0E07 /* food-soup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-soup.wav"; sourceTree = "<group>"; };
-		D27C726AAA9532DAF9695991 /* food-strawberry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-strawberry.wav"; sourceTree = "<group>"; };
-		7D6217A1FC413204E9DCEC6E /* food-syrniki.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-syrniki.wav"; sourceTree = "<group>"; };
-		9409266F2FA66FC829ABFBAC /* food-tomato.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-tomato.wav"; sourceTree = "<group>"; };
-		E85C6555D97037E47EEBA0C9 /* food-watermelon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-watermelon.wav"; sourceTree = "<group>"; };
-		0D22906C61EBDB1D9043B995 /* food-yogurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-yogurt.wav"; sourceTree = "<group>"; };
-		B10619349CBD7C77CDBF0397 /* food-zucchini.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/food-zucchini.wav"; sourceTree = "<group>"; };
 		B9A4438166B435BBD8000F20 /* home-alarm-clock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-alarm-clock.wav"; sourceTree = "<group>"; };
 		2ABF5D097B8A62B92A260A8A /* home-apron.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-apron.wav"; sourceTree = "<group>"; };
 		5BBE14F367FBF238157CADC5 /* home-armchair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Speech/home-armchair.wav"; sourceTree = "<group>"; };
@@ -2429,56 +2329,6 @@
 				4F5B7416E446167DB3335529 /* animal-woodpecker.wav */,
 				499F959F07A97FC447E3B059 /* animal-yak.wav */,
 				91B50D2D5D7736AFDA564D3C /* animal-zebra.wav */,
-				1587C2366105BDFBE8B2BF8E /* food-apple.wav */,
-				79D852D65436B57A43FE5C56 /* food-apricot.wav */,
-				37F05028FFF2ABC817E55090 /* food-avocado.wav */,
-				7F4A8D063EA4ACD63F9B36F1 /* food-banana.wav */,
-				1734BE0DB81A1F426113EEB7 /* food-beet.wav */,
-				42C0DB376F2C0CF81DB1EDBC /* food-blueberry.wav */,
-				CBBAB61F3FC1908784F1A199 /* food-bread.wav */,
-				B1286B7FE973C7DBC3A2698A /* food-broccoli.wav */,
-				3AFA5B36D74828E24AC0A5F4 /* food-buckwheat.wav */,
-				778AF5269A36351BA9312A1B /* food-butter.wav */,
-				A2B40E4991924F2E8A4599B3 /* food-cabbage.wav */,
-				F6F2D6024030942568E80CF2 /* food-carrot.wav */,
-				E83D6B43ADD9286FA0C12A9B /* food-cauliflower.wav */,
-				74CE3A635F70661C6C0F0B26 /* food-cheese.wav */,
-				B207884C427B1855EE8D84E3 /* food-cherry.wav */,
-				155DFFF9E1878ADAEF0828C0 /* food-chicken.wav */,
-				56DEAA20922B92423D795C5E /* food-compote.wav */,
-				6444FBABEA0BA11340344E46 /* food-corn.wav */,
-				CEB6DEB7C5ABB309F56F1D8D /* food-cottage-cheese.wav */,
-				47CC9E2C8F5C3B522F331FBA /* food-cucumber.wav */,
-				FD948EE8C6FCD51D5C15C652 /* food-cutlet.wav */,
-				595282088154882D71A034AA /* food-egg.wav */,
-				00C640C27C297D3C037CBF7A /* food-fish.wav */,
-				0FF1CA4C21727300EA444EE7 /* food-kefir.wav */,
-				209AD55A105CA2EDF9097D6C /* food-kiwi.wav */,
-				2EC401A9C3FF0088AF2248E9 /* food-mandarin.wav */,
-				C3ED8688CDD3F048D2765196 /* food-mashed-potatoes.wav */,
-				503B886246D4EDBE4898AEE9 /* food-meatballs.wav */,
-				2637E9BF6E39AE6AAE308020 /* food-melon.wav */,
-				773325914261CAB6A8FC5619 /* food-milk.wav */,
-				4BEA485CBA94F4B3EFC5E88D /* food-orange.wav */,
-				5D781B14EE2DD775655AA724 /* food-pancakes.wav */,
-				7D8F3E9929EDA5D425B3BCCF /* food-pasta.wav */,
-				7CCA7BB17312EA18E282FBD7 /* food-peach.wav */,
-				8F4A307F25925983AB631B9B /* food-pear.wav */,
-				E56F23C0A6B9180CB0167E42 /* food-peas.wav */,
-				E235C5B581FC73A41C0469B9 /* food-pepper.wav */,
-				86E32A4AFE114815275EC607 /* food-plum.wav */,
-				6BD7AD9CA68528337030C042 /* food-porridge.wav */,
-				B33978DEB96552EFDF1BBA4A /* food-potato.wav */,
-				B852EE175D13477D704246FB /* food-pumpkin.wav */,
-				F90D91D601283E6ECF7D141F /* food-raspberry.wav */,
-				2EF0DB694617FAB43CE6D17A /* food-rice.wav */,
-				C5FA64D3639983A56A0E0E07 /* food-soup.wav */,
-				D27C726AAA9532DAF9695991 /* food-strawberry.wav */,
-				7D6217A1FC413204E9DCEC6E /* food-syrniki.wav */,
-				9409266F2FA66FC829ABFBAC /* food-tomato.wav */,
-				E85C6555D97037E47EEBA0C9 /* food-watermelon.wav */,
-				0D22906C61EBDB1D9043B995 /* food-yogurt.wav */,
-				B10619349CBD7C77CDBF0397 /* food-zucchini.wav */,
 				B9A4438166B435BBD8000F20 /* home-alarm-clock.wav */,
 				2ABF5D097B8A62B92A260A8A /* home-apron.wav */,
 				5BBE14F367FBF238157CADC5 /* home-armchair.wav */,
@@ -3372,56 +3222,6 @@
 				792799C9C08C14C8B439885A /* animal-woodpecker.wav in Resources */,
 				C957823817F533CFD50CD9D1 /* animal-yak.wav in Resources */,
 				3507A12D54725D12BC018C76 /* animal-zebra.wav in Resources */,
-				631B5A7645F95D21D0D1B7D9 /* food-apple.wav in Resources */,
-				B6416BF25AFD47B80B536256 /* food-apricot.wav in Resources */,
-				32843D60AD50552BEC3EDC41 /* food-avocado.wav in Resources */,
-				CB62F6D38DF905866A4F8BFA /* food-banana.wav in Resources */,
-				B4DC986450BDAE69BD3272FC /* food-beet.wav in Resources */,
-				14717CE9CE6A94BC2CC55AA5 /* food-blueberry.wav in Resources */,
-				96CD7112831A47B00CFD6CD3 /* food-bread.wav in Resources */,
-				4D01AB1D8E334F744D62C5FC /* food-broccoli.wav in Resources */,
-				2314E9E836C9FD1484CB17EB /* food-buckwheat.wav in Resources */,
-				FC410B4B613DF7795378161C /* food-butter.wav in Resources */,
-				FAF65AB9D13BB97540FA58A6 /* food-cabbage.wav in Resources */,
-				5139EEB82489EC0D61653738 /* food-carrot.wav in Resources */,
-				7ECD42C8A66CD2356DA75700 /* food-cauliflower.wav in Resources */,
-				ED547713D11B07635863D256 /* food-cheese.wav in Resources */,
-				D3CB4324EDD7B3784BA3FB32 /* food-cherry.wav in Resources */,
-				BE41981D3E1979AE08E1DCA7 /* food-chicken.wav in Resources */,
-				F4567FE85A5D5A341341AEA3 /* food-compote.wav in Resources */,
-				0A76237AE1DC598F4ADB1DED /* food-corn.wav in Resources */,
-				722F31A42CD9E92BA009F3A0 /* food-cottage-cheese.wav in Resources */,
-				4E3D4BE34169466B1A9F22C7 /* food-cucumber.wav in Resources */,
-				8A990D7ACAA669BC4B60F5BB /* food-cutlet.wav in Resources */,
-				35F776BC95CC7465C53BFC55 /* food-egg.wav in Resources */,
-				7B30C0E92CD97C55A30922A7 /* food-fish.wav in Resources */,
-				B446023C9443F9C7A26B53AA /* food-kefir.wav in Resources */,
-				6F3E730F1FB91E6093D5350D /* food-kiwi.wav in Resources */,
-				24F639BC00F1E99C323EFB64 /* food-mandarin.wav in Resources */,
-				257E16B60ACD79E36265AA95 /* food-mashed-potatoes.wav in Resources */,
-				DF7B72F3A7B93E0318963CDA /* food-meatballs.wav in Resources */,
-				EAE7989B71030CE925E1B11B /* food-melon.wav in Resources */,
-				E1009AB3100E9E319D5DCF7F /* food-milk.wav in Resources */,
-				BA5F781CE59DB0DA4CD99110 /* food-orange.wav in Resources */,
-				4A20B9565FBD6C282FE6DB22 /* food-pancakes.wav in Resources */,
-				5DC5E6FBE7C6C95C8C550ABE /* food-pasta.wav in Resources */,
-				27348DF9087A923147415B4C /* food-peach.wav in Resources */,
-				AC248C25C4D16D5967DF01EA /* food-pear.wav in Resources */,
-				96C9135B309238B3D34D128E /* food-peas.wav in Resources */,
-				726096A6CAA39DF803878A45 /* food-pepper.wav in Resources */,
-				5C4B4F6F0C9791088951AB84 /* food-plum.wav in Resources */,
-				0283B3CBB8398E45618FCE12 /* food-porridge.wav in Resources */,
-				01A96207AD858E1FBD690269 /* food-potato.wav in Resources */,
-				3E15DDF8BF5A93B3441A9A74 /* food-pumpkin.wav in Resources */,
-				5D88F2387D4CA25B65787B08 /* food-raspberry.wav in Resources */,
-				93DC78CADD21F615AF4482B0 /* food-rice.wav in Resources */,
-				087014720D65FB9CC09DCDB3 /* food-soup.wav in Resources */,
-				FA62E57DBC099C5C72469394 /* food-strawberry.wav in Resources */,
-				E2F5A6D8B635209302F30C30 /* food-syrniki.wav in Resources */,
-				9C9A17AD5B76DC4F62EA1A14 /* food-tomato.wav in Resources */,
-				5DF8C76252D09CBFB0CBA04F /* food-watermelon.wav in Resources */,
-				B67D61B8F27A9D66F229565E /* food-yogurt.wav in Resources */,
-				02FE1F597A9F903906C47A5E /* food-zucchini.wav in Resources */,
 				E0854F95AA990F0754670699 /* home-alarm-clock.wav in Resources */,
 				455CF26624FB28812A58B0E3 /* home-apron.wav in Resources */,
 				C043C831B294264B00FE6370 /* home-armchair.wav in Resources */,

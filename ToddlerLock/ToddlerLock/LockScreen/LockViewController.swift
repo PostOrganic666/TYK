@@ -75,7 +75,6 @@ final class LockViewController: NSViewController {
         case .animals: mode = PictureMode(size: size, collection: .animals)
         case .transport: mode = PictureMode(size: size, collection: .transport)
         case .household: mode = PictureMode(size: size, collection: .household)
-        case .food: mode = PictureMode(size: size, collection: .food)
         case .musicStudio: return MusicMode(size: size)
         }
         return PacedPlayMode(mode, startWithPause: type == .alphabet)

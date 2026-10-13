@@ -9,8 +9,7 @@ entries = json.loads((ROOT / 'catalog/pictures.json').read_text())
 font = ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf', 18)
 for category, prefix, folder in [('animals', 'animal-', 'Animals'),
                                  ('transport', 'transport-', 'Transport'),
-                                 ('home', 'home-', 'Household'),
-                                 ('food', 'food-', 'Food')]:
+                                 ('home', 'home-', 'Household')]:
     items = [entry for entry in entries
              if entry['status'] == 'added' and entry['asset'].startswith(prefix)]
     width, height = 240, 245
