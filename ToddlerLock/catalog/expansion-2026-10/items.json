@@ -1,0 +1,802 @@
+[
+  {
+    "asset": "animal-otter",
+    "name": "выдра",
+    "subject": "a brown river otter with long tail",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a brown river otter with long tail."
+  },
+  {
+    "asset": "animal-ferret",
+    "name": "хорёк",
+    "subject": "a cream and brown ferret with dark face mask",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a cream and brown ferret with dark face mask."
+  },
+  {
+    "asset": "animal-meerkat",
+    "name": "сурикат",
+    "subject": "a meerkat standing upright on two hind feet",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a meerkat standing upright on two hind feet."
+  },
+  {
+    "asset": "animal-chinchilla",
+    "name": "шиншилла",
+    "subject": "a fluffy grey chinchilla with round ears",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a fluffy grey chinchilla with round ears."
+  },
+  {
+    "asset": "animal-capybara",
+    "name": "капибара",
+    "subject": "a brown capybara with blunt muzzle and short legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a brown capybara with blunt muzzle and short legs."
+  },
+  {
+    "asset": "animal-wombat",
+    "name": "вомбат",
+    "subject": "a stocky brown wombat",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a stocky brown wombat."
+  },
+  {
+    "asset": "animal-platypus",
+    "name": "утконос",
+    "subject": "a brown platypus with duck bill and flat tail",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a brown platypus with duck bill and flat tail."
+  },
+  {
+    "asset": "animal-armadillo",
+    "name": "броненосец",
+    "subject": "an armadillo with segmented armor shell",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: an armadillo with segmented armor shell."
+  },
+  {
+    "asset": "animal-anteater",
+    "name": "муравьед",
+    "subject": "a giant anteater with long narrow muzzle and bushy tail",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a giant anteater with long narrow muzzle and bushy tail."
+  },
+  {
+    "asset": "animal-tapir",
+    "name": "тапир",
+    "subject": "a black and white Malayan tapir with short trunk",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a black and white Malayan tapir with short trunk."
+  },
+  {
+    "asset": "animal-okapi",
+    "name": "окапи",
+    "subject": "an okapi with brown body and zebra striped legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: an okapi with brown body and zebra striped legs."
+  },
+  {
+    "asset": "animal-moose",
+    "name": "лось",
+    "subject": "a moose with broad palmate antlers",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a moose with broad palmate antlers."
+  },
+  {
+    "asset": "animal-reindeer",
+    "name": "северный олень",
+    "subject": "a reindeer with branching antlers",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a reindeer with branching antlers."
+  },
+  {
+    "asset": "animal-antelope",
+    "name": "антилопа",
+    "subject": "a tan antelope with slender curved horns",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a tan antelope with slender curved horns."
+  },
+  {
+    "asset": "animal-yak",
+    "name": "як",
+    "subject": "a shaggy dark brown yak with horns",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a shaggy dark brown yak with horns."
+  },
+  {
+    "asset": "animal-cheetah",
+    "name": "гепард",
+    "subject": "a slim spotted cheetah with black tear marks",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a slim spotted cheetah with black tear marks."
+  },
+  {
+    "asset": "animal-lynx",
+    "name": "рысь",
+    "subject": "a lynx with tufted ears and short tail",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a lynx with tufted ears and short tail."
+  },
+  {
+    "asset": "animal-snow-leopard",
+    "name": "снежный барс",
+    "subject": "a grey spotted snow leopard with long thick tail",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a grey spotted snow leopard with long thick tail."
+  },
+  {
+    "asset": "animal-polar-bear",
+    "name": "белый медведь",
+    "subject": "a white polar bear",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a white polar bear."
+  },
+  {
+    "asset": "animal-bat",
+    "name": "летучая мышь",
+    "subject": "a friendly brown bat with two spread membrane wings",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a friendly brown bat with two spread membrane wings."
+  },
+  {
+    "asset": "animal-eagle",
+    "name": "орёл",
+    "subject": "a golden eagle with hooked beak",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a golden eagle with hooked beak."
+  },
+  {
+    "asset": "animal-falcon",
+    "name": "сокол",
+    "subject": "a peregrine falcon with slate grey wings",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a peregrine falcon with slate grey wings."
+  },
+  {
+    "asset": "animal-ostrich",
+    "name": "страус",
+    "subject": "an ostrich with long bare neck and long legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: an ostrich with long bare neck and long legs."
+  },
+  {
+    "asset": "animal-pelican",
+    "name": "пеликан",
+    "subject": "a white pelican with large bill and throat pouch",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a white pelican with large bill and throat pouch."
+  },
+  {
+    "asset": "animal-toucan",
+    "name": "тукан",
+    "subject": "a black toucan with large colorful beak",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a black toucan with large colorful beak."
+  },
+  {
+    "asset": "animal-kingfisher",
+    "name": "зимородок",
+    "subject": "a blue orange kingfisher with pointed bill",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a blue orange kingfisher with pointed bill."
+  },
+  {
+    "asset": "animal-hoopoe",
+    "name": "удод",
+    "subject": "a hoopoe with fan shaped orange crest",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a hoopoe with fan shaped orange crest."
+  },
+  {
+    "asset": "animal-crane",
+    "name": "журавль",
+    "subject": "a grey crane with long neck and legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a grey crane with long neck and legs."
+  },
+  {
+    "asset": "animal-heron",
+    "name": "цапля",
+    "subject": "a grey heron with S curved neck",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a grey heron with S curved neck."
+  },
+  {
+    "asset": "animal-quail",
+    "name": "перепёлка",
+    "subject": "a small speckled brown quail",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a small speckled brown quail."
+  },
+  {
+    "asset": "animal-robin",
+    "name": "зарянка",
+    "subject": "a European robin with orange red breast",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a European robin with orange red breast."
+  },
+  {
+    "asset": "animal-canary",
+    "name": "канарейка",
+    "subject": "a yellow canary",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a yellow canary."
+  },
+  {
+    "asset": "animal-wasp",
+    "name": "оса",
+    "subject": "a yellow black wasp with narrow waist and six legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a yellow black wasp with narrow waist and six legs."
+  },
+  {
+    "asset": "animal-bumblebee",
+    "name": "шмель",
+    "subject": "a fluffy black yellow bumblebee with six legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a fluffy black yellow bumblebee with six legs."
+  },
+  {
+    "asset": "animal-praying-mantis",
+    "name": "богомол",
+    "subject": "a green praying mantis with folded grasping forelegs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a green praying mantis with folded grasping forelegs."
+  },
+  {
+    "asset": "animal-firefly",
+    "name": "светлячок",
+    "subject": "a firefly beetle with luminous yellow abdomen",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a firefly beetle with luminous yellow abdomen."
+  },
+  {
+    "asset": "animal-stag-beetle",
+    "name": "жук-олень",
+    "subject": "a brown stag beetle with antler shaped mandibles",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a brown stag beetle with antler shaped mandibles."
+  },
+  {
+    "asset": "animal-cricket",
+    "name": "сверчок",
+    "subject": "a brown cricket with long antennae and large back legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a brown cricket with long antennae and large back legs."
+  },
+  {
+    "asset": "animal-fly",
+    "name": "муха",
+    "subject": "a grey housefly with two wings and six legs",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a grey housefly with two wings and six legs."
+  },
+  {
+    "asset": "animal-silkworm",
+    "name": "шелкопряд",
+    "subject": "a cream silkworm moth with two broad wings",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a cream silkworm moth with two broad wings."
+  },
+  {
+    "asset": "animal-salmon",
+    "name": "лосось",
+    "subject": "a silvery pink salmon fish",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a silvery pink salmon fish."
+  },
+  {
+    "asset": "animal-trout",
+    "name": "форель",
+    "subject": "a speckled rainbow trout fish",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a speckled rainbow trout fish."
+  },
+  {
+    "asset": "animal-carp",
+    "name": "карп",
+    "subject": "a golden brown common carp fish with barbels",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a golden brown common carp fish with barbels."
+  },
+  {
+    "asset": "animal-flounder",
+    "name": "камбала",
+    "subject": "a flat brown flounder fish seen from above",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a flat brown flounder fish seen from above."
+  },
+  {
+    "asset": "animal-pufferfish",
+    "name": "рыба-шар",
+    "subject": "a round pufferfish with small soft spines",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a round pufferfish with small soft spines."
+  },
+  {
+    "asset": "animal-swordfish",
+    "name": "рыба-меч",
+    "subject": "a blue swordfish with long straight sword shaped bill",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a scientifically recognizable swordfish (Xiphias gladius), blue grey stout elongated body, very long broad FLAT sword bill extending straight from upper jaw, short lower jaw, smooth scaleless body, one single modest curved first dorsal fin immediately behind the head and a tiny second dorsal fin near the deeply forked tail. Not a marlin: NO tall sail-like dorsal fin, NO striped body, NO round spear bill."
+  },
+  {
+    "asset": "animal-squid",
+    "name": "кальмар",
+    "subject": "a pink squid with elongated mantle and ten arms",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pink squid with elongated mantle and ten arms."
+  },
+  {
+    "asset": "animal-shrimp",
+    "name": "креветка",
+    "subject": "a pink shrimp with curved body and antennae",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pink shrimp with curved body and antennae."
+  },
+  {
+    "asset": "animal-lobster",
+    "name": "омар",
+    "subject": "a reddish lobster with two large claws",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a reddish lobster with two large claws."
+  },
+  {
+    "asset": "animal-crayfish",
+    "name": "рак",
+    "subject": "a brown freshwater crayfish with two claws",
+    "group": "animals",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a brown freshwater crayfish with two claws."
+  },
+  {
+    "asset": "home-teapot",
+    "name": "заварочный чайник",
+    "subject": "a ceramic teapot with lid handle and spout",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a ceramic teapot with lid handle and spout."
+  },
+  {
+    "asset": "home-saucer",
+    "name": "блюдце",
+    "subject": "a small ceramic saucer",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a small ceramic saucer."
+  },
+  {
+    "asset": "home-salt-shaker",
+    "name": "солонка",
+    "subject": "a salt shaker with perforated lid",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a salt shaker with perforated lid."
+  },
+  {
+    "asset": "home-pepper-shaker",
+    "name": "перечница",
+    "subject": "a pepper shaker with brown pepper inside",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pepper shaker with brown pepper inside."
+  },
+  {
+    "asset": "home-butter-dish",
+    "name": "маслёнка",
+    "subject": "a covered ceramic butter dish",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a covered ceramic butter dish."
+  },
+  {
+    "asset": "home-food-container",
+    "name": "контейнер",
+    "subject": "a rectangular reusable food container with lid",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a rectangular reusable food container with lid."
+  },
+  {
+    "asset": "home-thermos",
+    "name": "термос",
+    "subject": "a metal thermos flask",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a metal thermos flask."
+  },
+  {
+    "asset": "home-oven-mitt",
+    "name": "прихватка",
+    "subject": "a quilted kitchen oven mitt",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a quilted kitchen oven mitt."
+  },
+  {
+    "asset": "home-apron",
+    "name": "фартук",
+    "subject": "a fabric kitchen apron",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a fabric kitchen apron."
+  },
+  {
+    "asset": "home-kitchen-towel",
+    "name": "кухонное полотенце",
+    "subject": "a striped kitchen tea towel",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a striped kitchen tea towel."
+  },
+  {
+    "asset": "home-juicer",
+    "name": "соковыжималка",
+    "subject": "a simple electric citrus juicer",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a simple electric citrus juicer."
+  },
+  {
+    "asset": "home-blender",
+    "name": "блендер",
+    "subject": "a countertop blender with empty transparent jug",
+    "group": "Кухня",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a countertop blender with empty transparent jug."
+  },
+  {
+    "asset": "home-shower-head",
+    "name": "душ",
+    "subject": "a shower head with curved hose",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a shower head with curved hose."
+  },
+  {
+    "asset": "home-bathrobe",
+    "name": "халат",
+    "subject": "a soft bathrobe with belt",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a soft bathrobe with belt."
+  },
+  {
+    "asset": "home-bath-mat",
+    "name": "коврик для ванной",
+    "subject": "a small oval bath mat",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a small oval bath mat."
+  },
+  {
+    "asset": "home-soap-dispenser",
+    "name": "дозатор мыла",
+    "subject": "a liquid soap pump dispenser",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a liquid soap pump dispenser."
+  },
+  {
+    "asset": "home-nail-scissors",
+    "name": "ножницы",
+    "subject": "a pair of small rounded tip scissors",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of small rounded tip scissors."
+  },
+  {
+    "asset": "home-hairbrush",
+    "name": "щётка для волос",
+    "subject": "an oval bristle hairbrush",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: an oval bristle hairbrush."
+  },
+  {
+    "asset": "home-laundry-detergent",
+    "name": "стиральный порошок",
+    "subject": "a laundry detergent box without text",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a laundry detergent box without text."
+  },
+  {
+    "asset": "home-clothespin",
+    "name": "прищепка",
+    "subject": "a wooden spring clothespin",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a wooden spring clothespin."
+  },
+  {
+    "asset": "home-iron",
+    "name": "утюг",
+    "subject": "a household steam iron",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a household steam iron."
+  },
+  {
+    "asset": "home-ironing-board",
+    "name": "гладильная доска",
+    "subject": "a folding ironing board",
+    "group": "Ванная",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a folding ironing board."
+  },
+  {
+    "asset": "home-socks",
+    "name": "носки",
+    "subject": "a pair of striped socks",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of striped socks."
+  },
+  {
+    "asset": "home-tshirt",
+    "name": "футболка",
+    "subject": "a short sleeve cotton T shirt",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a short sleeve cotton T shirt."
+  },
+  {
+    "asset": "home-trousers",
+    "name": "брюки",
+    "subject": "a pair of cotton trousers",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of cotton trousers."
+  },
+  {
+    "asset": "home-dress",
+    "name": "платье",
+    "subject": "a simple toddler dress",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a simple toddler dress."
+  },
+  {
+    "asset": "home-skirt",
+    "name": "юбка",
+    "subject": "a pleated skirt",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pleated skirt."
+  },
+  {
+    "asset": "home-sweater",
+    "name": "свитер",
+    "subject": "a knitted sweater",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a knitted sweater."
+  },
+  {
+    "asset": "home-pajamas",
+    "name": "пижама",
+    "subject": "a folded matching pajama shirt and pants",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a folded matching pajama shirt and pants."
+  },
+  {
+    "asset": "home-sneakers",
+    "name": "кроссовки",
+    "subject": "a pair of sneakers",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of sneakers."
+  },
+  {
+    "asset": "home-sandals",
+    "name": "сандалии",
+    "subject": "a pair of children's sandals",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of children's sandals."
+  },
+  {
+    "asset": "home-rubber-boots",
+    "name": "резиновые сапоги",
+    "subject": "a pair of rubber rain boots",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of rubber rain boots."
+  },
+  {
+    "asset": "home-gloves",
+    "name": "перчатки",
+    "subject": "a pair of five finger gloves",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a pair of five finger gloves."
+  },
+  {
+    "asset": "home-suitcase",
+    "name": "чемодан",
+    "subject": "a small wheeled suitcase",
+    "group": "Прихожая",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a small wheeled suitcase."
+  },
+  {
+    "asset": "home-sofa",
+    "name": "диван",
+    "subject": "a cozy two seat sofa",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a cozy two seat sofa."
+  },
+  {
+    "asset": "home-wardrobe",
+    "name": "шкаф",
+    "subject": "a wooden wardrobe with two doors",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a wooden wardrobe with two doors."
+  },
+  {
+    "asset": "home-bookshelf",
+    "name": "книжная полка",
+    "subject": "a small wall bookshelf with books",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a small wall bookshelf with books."
+  },
+  {
+    "asset": "home-nightstand",
+    "name": "тумбочка",
+    "subject": "a wooden bedside cabinet",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a wooden bedside cabinet."
+  },
+  {
+    "asset": "home-stool",
+    "name": "табурет",
+    "subject": "a wooden stool with four legs",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a wooden stool with four legs."
+  },
+  {
+    "asset": "home-alarm-clock",
+    "name": "будильник",
+    "subject": "a classic twin bell alarm clock",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a classic twin bell alarm clock."
+  },
+  {
+    "asset": "home-flashlight",
+    "name": "фонарик",
+    "subject": "a handheld flashlight",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a handheld flashlight."
+  },
+  {
+    "asset": "home-television",
+    "name": "телевизор",
+    "subject": "a flat screen television on stand",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a flat screen television on stand."
+  },
+  {
+    "asset": "home-remote-control",
+    "name": "пульт",
+    "subject": "a television remote control",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a television remote control."
+  },
+  {
+    "asset": "home-laptop",
+    "name": "ноутбук",
+    "subject": "an open laptop",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: an open laptop."
+  },
+  {
+    "asset": "home-keyboard",
+    "name": "клавиатура",
+    "subject": "a computer keyboard without legible letters",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a computer keyboard without legible letters."
+  },
+  {
+    "asset": "home-computer-mouse",
+    "name": "компьютерная мышь",
+    "subject": "a computer mouse",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a computer mouse."
+  },
+  {
+    "asset": "home-pencil",
+    "name": "карандаш",
+    "subject": "one colored pencil",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: one colored pencil."
+  },
+  {
+    "asset": "home-paintbrush",
+    "name": "кисточка",
+    "subject": "one artist paintbrush",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: one artist paintbrush."
+  },
+  {
+    "asset": "home-notebook",
+    "name": "тетрадь",
+    "subject": "a closed school exercise notebook without text",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a closed school exercise notebook without text."
+  },
+  {
+    "asset": "home-storage-box",
+    "name": "коробка",
+    "subject": "a cardboard storage box",
+    "group": "Комната",
+    "status": "added",
+    "prompt": "Use case: illustration-story. Asset type: one isolated sprite for a toddler picture game. Warm hand-painted watercolor and gouache children's picture-book illustration, delicate texture within the subject, soft natural edges, muted natural pastel colors, rounded but accurate recognizable forms. One subject centered, fully visible in square image with at least 15% transparent padding on every side. Genuinely transparent background. Correct anatomy and shape. No scenery, floor, cast shadow, letters, labels, logos, watermark or extra objects. Household objects have no faces. Subject: a cardboard storage box."
+  }
+]
