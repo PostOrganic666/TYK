@@ -1,0 +1,62 @@
+{
+  "model": "google/gemini-3.8-flash-tts",
+  "voice": "Kore",
+  "entries": [
+    {
+      "id": "sample-a",
+      "glyph": "А",
+      "text": "А. Буква А.",
+      "status": "generated",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "file": "sample-a.wav",
+      "sha256": "54d82ce6543b6db0727d3c3c0e1fec5dc12359723feaf244934cf27161a2427a",
+      "durationSeconds": 1.9,
+      "generationId": "gen-tts-1791034440-iOrZIT0PodPpWtgIcFIm",
+      "leadingTrimSeconds": 0.21,
+      "trailingTrimSeconds": 0.17
+    },
+    {
+      "id": "sample-m",
+      "glyph": "М",
+      "text": "Эм. Буква эм.",
+      "status": "generated",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "file": "sample-m.wav",
+      "sha256": "5ba1e9d2fce8611b4a9b67db34b7917c48bc3f46091d6c27c365c91909aa9054",
+      "durationSeconds": 2.22,
+      "generationId": "gen-tts-1791034440-dfqod3ux4LqY7BCKxZM9",
+      "leadingTrimSeconds": 0.17,
+      "trailingTrimSeconds": 0.13
+    },
+    {
+      "id": "sample-t",
+      "glyph": "Т",
+      "text": "Тэ. Буква тэ.",
+      "status": "generated",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "file": "sample-t.wav",
+      "sha256": "d09aeaa875bc15f2657756a7b3b961da24bd1eeb53fcd6e983ee3b7f1dd9274d",
+      "durationSeconds": 2.87,
+      "generationId": "gen-tts-1791034440-OoGswcoOmFN4O9yJjMmN",
+      "leadingTrimSeconds": 0.31,
+      "trailingTrimSeconds": 0.14
+    },
+    {
+      "id": "sample-sh",
+      "glyph": "Ш",
+      "text": "Ша. Буква ша.",
+      "status": "generated",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "file": "sample-sh.wav",
+      "sha256": "fa9a3c4daeb8805fe8b2cab0608195dd10de5f8074b7dc720e30f1e60774c9a6",
+      "durationSeconds": 2.36,
+      "generationId": "gen-tts-1791034440-iBZrtqP782fu6vPAGH80",
+      "leadingTrimSeconds": 0.06,
+      "trailingTrimSeconds": 0.1
+    }
+  ]
+}

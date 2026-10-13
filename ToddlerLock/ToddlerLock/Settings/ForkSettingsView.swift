@@ -69,7 +69,7 @@ struct SettingsView: View {
     }
 
     private var modeGrid: some View {
-        LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 9), count: 6), spacing: 9) {
+        LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 9), count: PlayModeType.featured.count), spacing: 9) {
             ForEach(PlayModeType.featured, id: \.self) { mode in
                 Button {
                     withAnimation(.easeInOut(duration: 0.16)) { selectedMode = mode }
@@ -252,6 +252,7 @@ private extension PlayModeType {
         case .animals: return "Девяносто рисованных животных, птиц, насекомых и морских обитателей появляются по одному в случайном порядке. Голос произносит название, без очков, таймеров и конфетти."
         case .transport: return "Пятьдесят видов транспорта в том же книжном стиле и случайном порядке. Каждое нажатие меняет объект и называет его."
         case .household: return "Пятьдесят знакомых предметов: кухня, ванная, прихожая и комната. Каждое нажатие показывает одну картинку и произносит её название."
+        case .food: return "Пятьдесят знакомых продуктов и домашних блюд: фрукты, овощи, молочные продукты, каша, суп и многое другое. Каждое нажатие показывает одну картинку и произносит её название голосом Kore."
         case .musicStudio: return "Десять согласованных нот на семплированной челесте из системного банка macOS, с короткой комнатной реверберацией."
         }
     }

@@ -69,6 +69,15 @@ def current_items(root):
                     items.append({'id': word_id, 'kind': 'alphabet-word', 'text': text})
                     known_texts.add(text)
     items += [{'id': 'voice-preview', 'kind': 'preview', 'text': 'Привет! Давай играть!'}]
+    pronunciation_path = root / 'catalog/speech-pronunciation.json'
+    if pronunciation_path.exists():
+        pronunciations = json.loads(pronunciation_path.read_text())
+        unknown = set(pronunciations) - {item['id'] for item in items}
+        if unknown:
+            raise ValueError('Unknown pronunciation IDs: ' + ', '.join(sorted(unknown)))
+        for item in items:
+            if item['id'] in pronunciations:
+                item['inputText'] = pronunciations[item['id']]
     if len({i['id'] for i in items}) != len(items) or len({i['text'] for i in items}) != len(items):
         raise ValueError('Duplicate speech IDs or texts')
     return items
@@ -78,6 +87,7 @@ def digest(path):
 
 def valid(item, entry, root):
     if not entry or any(item.get(k) != entry.get(k) for k in item): return False
+    if item.get('inputText') != entry.get('inputText'): return False
     if entry.get('status') != 'generated' or entry.get('model') != MODEL or entry.get('voice') != VOICE: return False
     path = root / 'ToddlerLock' / entry['file']
     if not path.is_file() or digest(path) != entry.get('sha256'): return False
@@ -127,7 +137,8 @@ def shorten_letter_pauses(data):
 
 
 def generate(item, root, key):
-    payload = {'model': MODEL, 'voice': VOICE, 'input': item['text'] if item['text'].endswith(('.', '!', '?')) else item['text']+'.', 'response_format':'pcm'}
+    spoken_text = item.get('inputText', item['text'])
+    payload = {'model': MODEL, 'voice': VOICE, 'input': spoken_text if spoken_text.endswith(('.', '!', '?')) else spoken_text+'.', 'response_format':'pcm'}
     for attempt in range(3):
         try:
             req = urllib.request.Request('https://openrouter.ai/api/v1/audio/speech', data=json.dumps(payload).encode(), headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})

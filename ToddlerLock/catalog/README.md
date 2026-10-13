@@ -1,14 +1,16 @@
 # Каталог «Тык»
 
-Всего 220 картинок: 90 животных, 50 видов транспорта и 80 домашних предметов.
+Всего 370 картинок: 140 животных, 50 видов транспорта, 130 домашних предметов и 50 продуктов и блюд.
 
-Сохранены все 90 прежних изображений. Добавлены только новые файлы; прежние PNG не перегенерированы.
+Добавлены 50 животных и 50 домашних предметов в октябре 2026 года. Иллюстрация ленивца заменена; остальные прежние картинки сохранены.
 
 «Было» — картинка до расширения, «Новое» — добавлена в этом расширении.
 
-Обзорные листы с подписями: [новые животные](animals-added.jpg), [новая техника](transport-added.jpg), [все 80 домашних предметов](home-added.jpg).
+Обзорные листы с подписями: [новые животные](animals-added.jpg), [новая техника](transport-added.jpg), [все 130 домашних предметов](home-added.jpg).
 
-## Животные — 90
+Октябрьское расширение: [50 новых животных и 50 домашних предметов](expansion-2026-10/README.md); там же обзорные листы и полный набор промптов.
+
+## Животные — 140
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -102,6 +104,56 @@
 | кролик | [animal-rabbit.png](../ToddlerLock/Resources/Pictures/Animals/animal-rabbit.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-rabbit.wav) |
 | морская свинка | [animal-guinea-pig.png](../ToddlerLock/Resources/Pictures/Animals/animal-guinea-pig.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-guinea-pig.wav) |
 | крот | [animal-mole.png](../ToddlerLock/Resources/Pictures/Animals/animal-mole.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-mole.wav) |
+| выдра | [animal-otter.png](../ToddlerLock/Resources/Pictures/Animals/animal-otter.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-otter.wav) |
+| хорёк | [animal-ferret.png](../ToddlerLock/Resources/Pictures/Animals/animal-ferret.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-ferret.wav) |
+| сурикат | [animal-meerkat.png](../ToddlerLock/Resources/Pictures/Animals/animal-meerkat.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-meerkat.wav) |
+| шиншилла | [animal-chinchilla.png](../ToddlerLock/Resources/Pictures/Animals/animal-chinchilla.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-chinchilla.wav) |
+| капибара | [animal-capybara.png](../ToddlerLock/Resources/Pictures/Animals/animal-capybara.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-capybara.wav) |
+| вомбат | [animal-wombat.png](../ToddlerLock/Resources/Pictures/Animals/animal-wombat.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-wombat.wav) |
+| утконос | [animal-platypus.png](../ToddlerLock/Resources/Pictures/Animals/animal-platypus.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-platypus.wav) |
+| броненосец | [animal-armadillo.png](../ToddlerLock/Resources/Pictures/Animals/animal-armadillo.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-armadillo.wav) |
+| муравьед | [animal-anteater.png](../ToddlerLock/Resources/Pictures/Animals/animal-anteater.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-anteater.wav) |
+| тапир | [animal-tapir.png](../ToddlerLock/Resources/Pictures/Animals/animal-tapir.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-tapir.wav) |
+| окапи | [animal-okapi.png](../ToddlerLock/Resources/Pictures/Animals/animal-okapi.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-okapi.wav) |
+| лось | [animal-moose.png](../ToddlerLock/Resources/Pictures/Animals/animal-moose.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-moose.wav) |
+| северный олень | [animal-reindeer.png](../ToddlerLock/Resources/Pictures/Animals/animal-reindeer.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-reindeer.wav) |
+| антилопа | [animal-antelope.png](../ToddlerLock/Resources/Pictures/Animals/animal-antelope.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-antelope.wav) |
+| як | [animal-yak.png](../ToddlerLock/Resources/Pictures/Animals/animal-yak.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-yak.wav) |
+| гепард | [animal-cheetah.png](../ToddlerLock/Resources/Pictures/Animals/animal-cheetah.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-cheetah.wav) |
+| рысь | [animal-lynx.png](../ToddlerLock/Resources/Pictures/Animals/animal-lynx.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-lynx.wav) |
+| снежный барс | [animal-snow-leopard.png](../ToddlerLock/Resources/Pictures/Animals/animal-snow-leopard.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-snow-leopard.wav) |
+| белый медведь | [animal-polar-bear.png](../ToddlerLock/Resources/Pictures/Animals/animal-polar-bear.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-polar-bear.wav) |
+| летучая мышь | [animal-bat.png](../ToddlerLock/Resources/Pictures/Animals/animal-bat.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-bat.wav) |
+| орёл | [animal-eagle.png](../ToddlerLock/Resources/Pictures/Animals/animal-eagle.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-eagle.wav) |
+| сокол | [animal-falcon.png](../ToddlerLock/Resources/Pictures/Animals/animal-falcon.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-falcon.wav) |
+| страус | [animal-ostrich.png](../ToddlerLock/Resources/Pictures/Animals/animal-ostrich.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-ostrich.wav) |
+| пеликан | [animal-pelican.png](../ToddlerLock/Resources/Pictures/Animals/animal-pelican.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-pelican.wav) |
+| тукан | [animal-toucan.png](../ToddlerLock/Resources/Pictures/Animals/animal-toucan.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-toucan.wav) |
+| зимородок | [animal-kingfisher.png](../ToddlerLock/Resources/Pictures/Animals/animal-kingfisher.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-kingfisher.wav) |
+| удод | [animal-hoopoe.png](../ToddlerLock/Resources/Pictures/Animals/animal-hoopoe.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-hoopoe.wav) |
+| журавль | [animal-crane.png](../ToddlerLock/Resources/Pictures/Animals/animal-crane.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-crane.wav) |
+| цапля | [animal-heron.png](../ToddlerLock/Resources/Pictures/Animals/animal-heron.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-heron.wav) |
+| перепёлка | [animal-quail.png](../ToddlerLock/Resources/Pictures/Animals/animal-quail.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-quail.wav) |
+| зарянка | [animal-robin.png](../ToddlerLock/Resources/Pictures/Animals/animal-robin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-robin.wav) |
+| канарейка | [animal-canary.png](../ToddlerLock/Resources/Pictures/Animals/animal-canary.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-canary.wav) |
+| оса | [animal-wasp.png](../ToddlerLock/Resources/Pictures/Animals/animal-wasp.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-wasp.wav) |
+| шмель | [animal-bumblebee.png](../ToddlerLock/Resources/Pictures/Animals/animal-bumblebee.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-bumblebee.wav) |
+| богомол | [animal-praying-mantis.png](../ToddlerLock/Resources/Pictures/Animals/animal-praying-mantis.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-praying-mantis.wav) |
+| светлячок | [animal-firefly.png](../ToddlerLock/Resources/Pictures/Animals/animal-firefly.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-firefly.wav) |
+| жук-олень | [animal-stag-beetle.png](../ToddlerLock/Resources/Pictures/Animals/animal-stag-beetle.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-stag-beetle.wav) |
+| сверчок | [animal-cricket.png](../ToddlerLock/Resources/Pictures/Animals/animal-cricket.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-cricket.wav) |
+| муха | [animal-fly.png](../ToddlerLock/Resources/Pictures/Animals/animal-fly.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-fly.wav) |
+| шелкопряд | [animal-silkworm.png](../ToddlerLock/Resources/Pictures/Animals/animal-silkworm.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-silkworm.wav) |
+| лосось | [animal-salmon.png](../ToddlerLock/Resources/Pictures/Animals/animal-salmon.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-salmon.wav) |
+| форель | [animal-trout.png](../ToddlerLock/Resources/Pictures/Animals/animal-trout.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-trout.wav) |
+| карп | [animal-carp.png](../ToddlerLock/Resources/Pictures/Animals/animal-carp.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-carp.wav) |
+| камбала | [animal-flounder.png](../ToddlerLock/Resources/Pictures/Animals/animal-flounder.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-flounder.wav) |
+| рыба-шар | [animal-pufferfish.png](../ToddlerLock/Resources/Pictures/Animals/animal-pufferfish.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-pufferfish.wav) |
+| рыба-меч | [animal-swordfish.png](../ToddlerLock/Resources/Pictures/Animals/animal-swordfish.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-swordfish.wav) |
+| кальмар | [animal-squid.png](../ToddlerLock/Resources/Pictures/Animals/animal-squid.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-squid.wav) |
+| креветка | [animal-shrimp.png](../ToddlerLock/Resources/Pictures/Animals/animal-shrimp.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-shrimp.wav) |
+| омар | [animal-lobster.png](../ToddlerLock/Resources/Pictures/Animals/animal-lobster.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-lobster.wav) |
+| рак | [animal-crayfish.png](../ToddlerLock/Resources/Pictures/Animals/animal-crayfish.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/animal-crayfish.wav) |
 
 ## Транспорт — 50
 
@@ -158,7 +210,7 @@
 | дирижабль | [transport-airship.png](../ToddlerLock/Resources/Pictures/Transport/transport-airship.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/transport-airship.wav) |
 | луноход | [transport-space-rover.png](../ToddlerLock/Resources/Pictures/Transport/transport-space-rover.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/transport-space-rover.wav) |
 
-## Дома: кухня — 28
+## Дома: кухня — 40
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -190,9 +242,21 @@
 | сахарница | [home-sugar-bowl.png](../ToddlerLock/Resources/Pictures/Household/home-sugar-bowl.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-sugar-bowl.wav) |
 | хлебница | [home-bread-box.png](../ToddlerLock/Resources/Pictures/Household/home-bread-box.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bread-box.wav) |
 | поднос | [home-tray.png](../ToddlerLock/Resources/Pictures/Household/home-tray.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-tray.wav) |
+| заварочный чайник | [home-teapot.png](../ToddlerLock/Resources/Pictures/Household/home-teapot.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-teapot.wav) |
+| блюдце | [home-saucer.png](../ToddlerLock/Resources/Pictures/Household/home-saucer.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-saucer.wav) |
+| солонка | [home-salt-shaker.png](../ToddlerLock/Resources/Pictures/Household/home-salt-shaker.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-salt-shaker.wav) |
+| перечница | [home-pepper-shaker.png](../ToddlerLock/Resources/Pictures/Household/home-pepper-shaker.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-pepper-shaker.wav) |
+| маслёнка | [home-butter-dish.png](../ToddlerLock/Resources/Pictures/Household/home-butter-dish.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-butter-dish.wav) |
+| контейнер | [home-food-container.png](../ToddlerLock/Resources/Pictures/Household/home-food-container.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-food-container.wav) |
+| термос | [home-thermos.png](../ToddlerLock/Resources/Pictures/Household/home-thermos.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-thermos.wav) |
+| прихватка | [home-oven-mitt.png](../ToddlerLock/Resources/Pictures/Household/home-oven-mitt.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-oven-mitt.wav) |
+| фартук | [home-apron.png](../ToddlerLock/Resources/Pictures/Household/home-apron.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-apron.wav) |
+| кухонное полотенце | [home-kitchen-towel.png](../ToddlerLock/Resources/Pictures/Household/home-kitchen-towel.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-kitchen-towel.wav) |
+| соковыжималка | [home-juicer.png](../ToddlerLock/Resources/Pictures/Household/home-juicer.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-juicer.wav) |
+| блендер | [home-blender.png](../ToddlerLock/Resources/Pictures/Household/home-blender.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-blender.wav) |
 
 
-## Дома: ванная — 19
+## Дома: ванная — 29
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -215,9 +279,19 @@
 | таз | [home-wash-basin.png](../ToddlerLock/Resources/Pictures/Household/home-wash-basin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-wash-basin.wav) |
 | туалетная бумага | [home-toilet-paper.png](../ToddlerLock/Resources/Pictures/Household/home-toilet-paper.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-toilet-paper.wav) |
 | унитаз | [home-toilet.png](../ToddlerLock/Resources/Pictures/Household/home-toilet.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-toilet.wav) |
+| душ | [home-shower-head.png](../ToddlerLock/Resources/Pictures/Household/home-shower-head.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-shower-head.wav) |
+| халат | [home-bathrobe.png](../ToddlerLock/Resources/Pictures/Household/home-bathrobe.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bathrobe.wav) |
+| коврик для ванной | [home-bath-mat.png](../ToddlerLock/Resources/Pictures/Household/home-bath-mat.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bath-mat.wav) |
+| дозатор мыла | [home-soap-dispenser.png](../ToddlerLock/Resources/Pictures/Household/home-soap-dispenser.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-soap-dispenser.wav) |
+| ножницы | [home-nail-scissors.png](../ToddlerLock/Resources/Pictures/Household/home-nail-scissors.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-nail-scissors.wav) |
+| щётка для волос | [home-hairbrush.png](../ToddlerLock/Resources/Pictures/Household/home-hairbrush.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-hairbrush.wav) |
+| стиральный порошок | [home-laundry-detergent.png](../ToddlerLock/Resources/Pictures/Household/home-laundry-detergent.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-laundry-detergent.wav) |
+| прищепка | [home-clothespin.png](../ToddlerLock/Resources/Pictures/Household/home-clothespin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-clothespin.wav) |
+| утюг | [home-iron.png](../ToddlerLock/Resources/Pictures/Household/home-iron.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-iron.wav) |
+| гладильная доска | [home-ironing-board.png](../ToddlerLock/Resources/Pictures/Household/home-ironing-board.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-ironing-board.wav) |
 
 
-## Дома: прихожая — 15
+## Дома: прихожая — 27
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -236,9 +310,21 @@
 | сумка | [home-bag.png](../ToddlerLock/Resources/Pictures/Household/home-bag.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bag.wav) |
 | кепка | [home-cap.png](../ToddlerLock/Resources/Pictures/Household/home-cap.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-cap.wav) |
 | рожок для обуви | [home-shoehorn.png](../ToddlerLock/Resources/Pictures/Household/home-shoehorn.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-shoehorn.wav) |
+| носки | [home-socks.png](../ToddlerLock/Resources/Pictures/Household/home-socks.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-socks.wav) |
+| футболка | [home-tshirt.png](../ToddlerLock/Resources/Pictures/Household/home-tshirt.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-tshirt.wav) |
+| брюки | [home-trousers.png](../ToddlerLock/Resources/Pictures/Household/home-trousers.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-trousers.wav) |
+| платье | [home-dress.png](../ToddlerLock/Resources/Pictures/Household/home-dress.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-dress.wav) |
+| юбка | [home-skirt.png](../ToddlerLock/Resources/Pictures/Household/home-skirt.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-skirt.wav) |
+| свитер | [home-sweater.png](../ToddlerLock/Resources/Pictures/Household/home-sweater.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-sweater.wav) |
+| пижама | [home-pajamas.png](../ToddlerLock/Resources/Pictures/Household/home-pajamas.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-pajamas.wav) |
+| кроссовки | [home-sneakers.png](../ToddlerLock/Resources/Pictures/Household/home-sneakers.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-sneakers.wav) |
+| сандалии | [home-sandals.png](../ToddlerLock/Resources/Pictures/Household/home-sandals.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-sandals.wav) |
+| резиновые сапоги | [home-rubber-boots.png](../ToddlerLock/Resources/Pictures/Household/home-rubber-boots.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-rubber-boots.wav) |
+| перчатки | [home-gloves.png](../ToddlerLock/Resources/Pictures/Household/home-gloves.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-gloves.wav) |
+| чемодан | [home-suitcase.png](../ToddlerLock/Resources/Pictures/Household/home-suitcase.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-suitcase.wav) |
 
 
-## Дома: комната — 18
+## Дома: комната — 34
 
 | Название для озвучки | Файл | Статус | Озвучка |
 | --- | --- | --- | --- |
@@ -260,6 +346,22 @@
 | мяч | [home-ball.png](../ToddlerLock/Resources/Pictures/Household/home-ball.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-ball.wav) |
 | кубики | [home-blocks.png](../ToddlerLock/Resources/Pictures/Household/home-blocks.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-blocks.wav) |
 | пирамидка | [home-stacking-rings.png](../ToddlerLock/Resources/Pictures/Household/home-stacking-rings.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-stacking-rings.wav) |
+| диван | [home-sofa.png](../ToddlerLock/Resources/Pictures/Household/home-sofa.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-sofa.wav) |
+| шкаф | [home-wardrobe.png](../ToddlerLock/Resources/Pictures/Household/home-wardrobe.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-wardrobe.wav) |
+| книжная полка | [home-bookshelf.png](../ToddlerLock/Resources/Pictures/Household/home-bookshelf.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-bookshelf.wav) |
+| тумбочка | [home-nightstand.png](../ToddlerLock/Resources/Pictures/Household/home-nightstand.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-nightstand.wav) |
+| табурет | [home-stool.png](../ToddlerLock/Resources/Pictures/Household/home-stool.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-stool.wav) |
+| будильник | [home-alarm-clock.png](../ToddlerLock/Resources/Pictures/Household/home-alarm-clock.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-alarm-clock.wav) |
+| фонарик | [home-flashlight.png](../ToddlerLock/Resources/Pictures/Household/home-flashlight.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-flashlight.wav) |
+| телевизор | [home-television.png](../ToddlerLock/Resources/Pictures/Household/home-television.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-television.wav) |
+| пульт | [home-remote-control.png](../ToddlerLock/Resources/Pictures/Household/home-remote-control.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-remote-control.wav) |
+| ноутбук | [home-laptop.png](../ToddlerLock/Resources/Pictures/Household/home-laptop.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-laptop.wav) |
+| клавиатура | [home-keyboard.png](../ToddlerLock/Resources/Pictures/Household/home-keyboard.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-keyboard.wav) |
+| компьютерная мышь | [home-computer-mouse.png](../ToddlerLock/Resources/Pictures/Household/home-computer-mouse.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-computer-mouse.wav) |
+| карандаш | [home-pencil.png](../ToddlerLock/Resources/Pictures/Household/home-pencil.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-pencil.wav) |
+| кисточка | [home-paintbrush.png](../ToddlerLock/Resources/Pictures/Household/home-paintbrush.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-paintbrush.wav) |
+| тетрадь | [home-notebook.png](../ToddlerLock/Resources/Pictures/Household/home-notebook.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-notebook.wav) |
+| коробка | [home-storage-box.png](../ToddlerLock/Resources/Pictures/Household/home-storage-box.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/home-storage-box.wav) |
 
 
 ## Генерация и проверка
@@ -274,11 +376,68 @@
 
 Проверка каталога и прозрачных ресурсов пройдена для всех 220 картинок. Файл проекта Xcode прошёл `plutil -lint`. Сборка выполняется в GitHub Actions; на этой машине отсутствуют Xcode и рабочий компилятор Swift.
 
+## Еда — 50
+
+Фрукты, овощи, молочные продукты и знакомые домашние блюда для карточек детей 1,5–3 лет. Обзор: [все карточки еды](food-added.jpg).
+
+| Название для озвучки | Файл | Статус | Озвучка |
+| --- | --- | --- | --- |
+| яблоко | [food-apple.png](../ToddlerLock/Resources/Pictures/Food/food-apple.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-apple.wav) |
+| груша | [food-pear.png](../ToddlerLock/Resources/Pictures/Food/food-pear.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pear.wav) |
+| банан | [food-banana.png](../ToddlerLock/Resources/Pictures/Food/food-banana.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-banana.wav) |
+| апельсин | [food-orange.png](../ToddlerLock/Resources/Pictures/Food/food-orange.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-orange.wav) |
+| мандарин | [food-mandarin.png](../ToddlerLock/Resources/Pictures/Food/food-mandarin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-mandarin.wav) |
+| персик | [food-peach.png](../ToddlerLock/Resources/Pictures/Food/food-peach.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-peach.wav) |
+| абрикос | [food-apricot.png](../ToddlerLock/Resources/Pictures/Food/food-apricot.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-apricot.wav) |
+| слива | [food-plum.png](../ToddlerLock/Resources/Pictures/Food/food-plum.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-plum.wav) |
+| киви | [food-kiwi.png](../ToddlerLock/Resources/Pictures/Food/food-kiwi.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-kiwi.wav) |
+| дыня | [food-melon.png](../ToddlerLock/Resources/Pictures/Food/food-melon.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-melon.wav) |
+| арбуз | [food-watermelon.png](../ToddlerLock/Resources/Pictures/Food/food-watermelon.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-watermelon.wav) |
+| клубника | [food-strawberry.png](../ToddlerLock/Resources/Pictures/Food/food-strawberry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-strawberry.wav) |
+| малина | [food-raspberry.png](../ToddlerLock/Resources/Pictures/Food/food-raspberry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-raspberry.wav) |
+| черника | [food-blueberry.png](../ToddlerLock/Resources/Pictures/Food/food-blueberry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-blueberry.wav) |
+| вишня | [food-cherry.png](../ToddlerLock/Resources/Pictures/Food/food-cherry.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cherry.wav) |
+| морковь | [food-carrot.png](../ToddlerLock/Resources/Pictures/Food/food-carrot.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-carrot.wav) |
+| огурец | [food-cucumber.png](../ToddlerLock/Resources/Pictures/Food/food-cucumber.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cucumber.wav) |
+| помидор | [food-tomato.png](../ToddlerLock/Resources/Pictures/Food/food-tomato.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-tomato.wav) |
+| картофель | [food-potato.png](../ToddlerLock/Resources/Pictures/Food/food-potato.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-potato.wav) |
+| тыква | [food-pumpkin.png](../ToddlerLock/Resources/Pictures/Food/food-pumpkin.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pumpkin.wav) |
+| кабачок | [food-zucchini.png](../ToddlerLock/Resources/Pictures/Food/food-zucchini.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-zucchini.wav) |
+| брокколи | [food-broccoli.png](../ToddlerLock/Resources/Pictures/Food/food-broccoli.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-broccoli.wav) |
+| цветная капуста | [food-cauliflower.png](../ToddlerLock/Resources/Pictures/Food/food-cauliflower.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cauliflower.wav) |
+| капуста | [food-cabbage.png](../ToddlerLock/Resources/Pictures/Food/food-cabbage.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cabbage.wav) |
+| свёкла | [food-beet.png](../ToddlerLock/Resources/Pictures/Food/food-beet.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-beet.wav) |
+| сладкий перец | [food-pepper.png](../ToddlerLock/Resources/Pictures/Food/food-pepper.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pepper.wav) |
+| горошек | [food-peas.png](../ToddlerLock/Resources/Pictures/Food/food-peas.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-peas.wav) |
+| кукуруза | [food-corn.png](../ToddlerLock/Resources/Pictures/Food/food-corn.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-corn.wav) |
+| авокадо | [food-avocado.png](../ToddlerLock/Resources/Pictures/Food/food-avocado.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-avocado.wav) |
+| молоко | [food-milk.png](../ToddlerLock/Resources/Pictures/Food/food-milk.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-milk.wav) |
+| кефир | [food-kefir.png](../ToddlerLock/Resources/Pictures/Food/food-kefir.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-kefir.wav) |
+| йогурт | [food-yogurt.png](../ToddlerLock/Resources/Pictures/Food/food-yogurt.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-yogurt.wav) |
+| творог | [food-cottage-cheese.png](../ToddlerLock/Resources/Pictures/Food/food-cottage-cheese.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cottage-cheese.wav) |
+| сыр | [food-cheese.png](../ToddlerLock/Resources/Pictures/Food/food-cheese.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cheese.wav) |
+| сливочное масло | [food-butter.png](../ToddlerLock/Resources/Pictures/Food/food-butter.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-butter.wav) |
+| яйцо | [food-egg.png](../ToddlerLock/Resources/Pictures/Food/food-egg.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-egg.wav) |
+| хлеб | [food-bread.png](../ToddlerLock/Resources/Pictures/Food/food-bread.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-bread.wav) |
+| каша | [food-porridge.png](../ToddlerLock/Resources/Pictures/Food/food-porridge.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-porridge.wav) |
+| рис | [food-rice.png](../ToddlerLock/Resources/Pictures/Food/food-rice.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-rice.wav) |
+| гречка | [food-buckwheat.png](../ToddlerLock/Resources/Pictures/Food/food-buckwheat.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-buckwheat.wav) |
+| макароны | [food-pasta.png](../ToddlerLock/Resources/Pictures/Food/food-pasta.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pasta.wav) |
+| суп | [food-soup.png](../ToddlerLock/Resources/Pictures/Food/food-soup.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-soup.wav) |
+| пюре | [food-mashed-potatoes.png](../ToddlerLock/Resources/Pictures/Food/food-mashed-potatoes.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-mashed-potatoes.wav) |
+| котлета | [food-cutlet.png](../ToddlerLock/Resources/Pictures/Food/food-cutlet.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-cutlet.wav) |
+| тефтели | [food-meatballs.png](../ToddlerLock/Resources/Pictures/Food/food-meatballs.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-meatballs.wav) |
+| куриное мясо | [food-chicken.png](../ToddlerLock/Resources/Pictures/Food/food-chicken.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-chicken.wav) |
+| рыба | [food-fish.png](../ToddlerLock/Resources/Pictures/Food/food-fish.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-fish.wav) |
+| блины | [food-pancakes.png](../ToddlerLock/Resources/Pictures/Food/food-pancakes.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-pancakes.wav) |
+| сырники | [food-syrniki.png](../ToddlerLock/Resources/Pictures/Food/food-syrniki.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-syrniki.wav) |
+| компот | [food-compote.png](../ToddlerLock/Resources/Pictures/Food/food-compote.png) | Новое | [Готово · Kore](../ToddlerLock/Resources/Speech/food-compote.wav) |
+
 ## Озвучка Kore
 
 Полная процедура: [пайплайн генерации озвучки](SPEECH_PIPELINE.md).
 
-Все 220 картинок и 33 буквы озвучены по отдельности женским голосом Kore
+Все 370 картинок и 33 буквы озвучены по отдельности женским голосом Kore
 модели `google/gemini-3.8-flash-tts`; также записано «Привет! Давай играть!».
 Для режима «Алфавит» отдельно записаны 33 фразы «Тэ. Буква тэ.»;
 затяжные внутренние паузы сокращены до 300 мс. Слова карточек используют прежние записи.
