@@ -376,9 +376,6 @@ final class PictureMode: PlayMode {
             colors = (NSColor(calibratedRed: 0.94, green: 0.84, blue: 0.78, alpha: 1),
                       StorybookPalette.cream,
                       NSColor(calibratedRed: 0.73, green: 0.66, blue: 0.55, alpha: 1))
-        case .food:
-            colors = (NSColor(calibratedRed: 0.92, green: 0.86, blue: 0.70, alpha: 1),
-                      StorybookPalette.cream, StorybookPalette.sage)
         }
         StorybookBackdrop.add(to: scene, top: colors.0, bottom: colors.1, ground: colors.2)
 
