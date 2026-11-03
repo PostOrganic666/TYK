@@ -1,0 +1,562 @@
+[
+  {
+    "name": "бурундук",
+    "asset": "animal-chipmunk",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small chipmunk, reddish brown fur and five dark stripes along its back, bushy tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "песец",
+    "asset": "animal-arctic-fox",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly arctic fox in fluffy white winter fur, small rounded ears, thick bushy tail, exactly four legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "росомаха",
+    "asset": "animal-wolverine",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a stocky wolverine, brown fur with a pale golden stripe along each flank, rounded ears and bushy tail, exactly four legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "мангуст",
+    "asset": "animal-mongoose",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a slender brown mongoose, small round ears, pointed snout, long tapered tail, exactly four short legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "дикобраз",
+    "asset": "animal-porcupine",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a crested porcupine with long black and cream quills, rounded body, small face and exactly four short legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "тушканчик",
+    "asset": "animal-jerboa",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small sandy jerboa with very long hind legs, tiny front paws, large ears and a long thin tail with a dark tuft. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "соня",
+    "asset": "animal-dormouse",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small golden hazel dormouse with round ears, large dark eyes and a fluffy tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "землеройка",
+    "asset": "animal-shrew",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small grey-brown shrew with a long pointed flexible snout, tiny ears, small eyes and a thin tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "горностай",
+    "asset": "animal-stoat",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a winter white stoat, long slender body, tiny rounded ears and a clearly black tip on its tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ласка",
+    "asset": "animal-weasel",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small least weasel, slender chestnut-brown body, white belly, short brown tail with no black tip, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "норка",
+    "asset": "animal-mink",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a dark chocolate-brown mink with a small white chin, sleek long body, rounded ears and a tapered furry tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "нутрия",
+    "asset": "animal-coypu",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly brown coypu rodent, large orange front teeth, pale whiskers, small rounded ears, thick long round tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ондатра",
+    "asset": "animal-muskrat",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small brown muskrat rodent, compact body, small rounded ears and a long dark slightly flattened tail, exactly four paws. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "енотовидная собака",
+    "asset": "animal-raccoon-dog",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a raccoon dog, stocky canid body, shaggy brown-grey fur, dark eye mask, short legs and fluffy unringed tail, exactly four legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "гиббон",
+    "asset": "animal-gibbon",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly cream-furred gibbon sitting naturally, dark face, two long arms and two short bent legs, no tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "горилла",
+    "asset": "animal-gorilla",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly adult gorilla sitting, dark grey fur, broad gentle face, two arms and two bent legs, no tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "орангутан",
+    "asset": "animal-orangutan",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly orangutan sitting, shaggy orange fur, long arms and gentle face, exactly two arms and two bent legs, no tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "шимпанзе",
+    "asset": "animal-chimpanzee",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly chimpanzee sitting, black fur, pale tan face and prominent rounded ears, exactly two arms and two bent legs, no tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "носуха",
+    "asset": "animal-coati",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a brown coati, long flexible pointed snout, very long ringed tail held upward, exactly four legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "лемур",
+    "asset": "animal-lemur",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a ring-tailed lemur, grey body, white face with dark eye patches and a very long black-and-white ringed tail, exactly four limbs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "квокка",
+    "asset": "animal-quokka",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a smiling small quokka, round brown body, rounded ears, small front paws, strong hind legs and a short thin tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "валлаби",
+    "asset": "animal-wallaby",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a small red-necked wallaby, grey-brown fur with rusty shoulders, long thick tail, two short forearms and two large hind legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "дюгонь",
+    "asset": "animal-dugong",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly dugong, smooth light grey body, rounded downturned snout, two front flippers and a broad whale-like tail with two pointed flukes. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ламантин",
+    "asset": "animal-manatee",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly manatee, rounded grey body, broad whiskered snout, two front flippers and a large rounded paddle-shaped tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "нарвал",
+    "asset": "animal-narwhal",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly narwhal, speckled grey body, one long straight spiralled tusk projecting from its snout, two flippers and a horizontal fluked tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "белуха",
+    "asset": "animal-beluga",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly white beluga whale, rounded forehead, small flippers and horizontal fluked tail, no dorsal fin. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "кашалот",
+    "asset": "animal-sperm-whale",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly dark grey sperm whale, large rectangular head occupying one third of its body, small lower jaw, two flippers and horizontal fluked tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "косатка",
+    "asset": "animal-orca",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly black and white orca, white oval eye patch, white belly, tall dorsal fin, two flippers and horizontal fluked tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "сойка",
+    "asset": "animal-jay",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a Eurasian jay bird, pinkish brown body, black moustache markings and bright blue barred wing patches, perched with both feet visible. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "чайка",
+    "asset": "animal-seagull",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly white and pale grey seagull, yellow beak and webbed feet, standing with wings folded. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "баклан",
+    "asset": "animal-cormorant",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a black cormorant with a long neck, slender hooked beak, pale yellow throat patch and webbed feet, standing with wings folded. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "фазан",
+    "asset": "animal-pheasant",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a male pheasant, green head, red face patch, narrow white neck ring, copper patterned body and long striped tail, both feet visible. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "цесарка",
+    "asset": "animal-guineafowl",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a helmeted guineafowl, round dark grey body covered in small white spots, tiny blue face, red wattles and brown head casque, both feet visible. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "глухарь",
+    "asset": "animal-capercaillie",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a male capercaillie, large dark grouse with a glossy green chest, red eyebrow patch and broad fanned black tail, both feet visible. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "колибри",
+    "asset": "animal-hummingbird",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small emerald green hummingbird hovering, long thin beak, two outstretched wings, tiny feet, complete body visible. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "саламандра",
+    "asset": "animal-salamander",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a fire salamander, glossy black body with clear bright yellow patches, exactly four short legs and one long tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "тритон",
+    "asset": "animal-newt",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a smooth newt, small brown amphibian, orange speckled belly, modest wavy crest along back and tail, exactly four legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "хамелеон",
+    "asset": "animal-chameleon",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly green chameleon, bulging eyes, small casque, curled prehensile tail and exactly four bent legs, standing without a branch. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "игуана",
+    "asset": "animal-iguana",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly green iguana with a small dewlap, row of soft dorsal spines, very long striped tail and exactly four legs. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "аксолотль",
+    "asset": "animal-axolotl",
+    "group": "animals",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: a friendly pale pink axolotl, three feathery external gill branches on each side of its smiling face, exactly four legs and a long finned tail. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "кофеварка",
+    "asset": "home-coffee-maker",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one simple drip coffee maker with a glass carafe, cream and teal body, no logo. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "вафельница",
+    "asset": "home-waffle-maker",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one open round waffle maker showing two square-grid cooking plates, warm cream body, no food or cord. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "мультиварка",
+    "asset": "home-multicooker",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one closed electric multicooker with a rounded cream body, simple blank controls, handle and dark lid. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "подставка под горячее",
+    "asset": "home-trivet",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one round cork trivet with a subtle natural cork texture. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "сито",
+    "asset": "home-sieve",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small fine-mesh metal kitchen sieve with a long wooden handle, mesh clearly visible. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "противень",
+    "asset": "home-baking-tray",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one empty rectangular dark metal baking tray with a shallow rim, three-quarter view. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "форма для выпечки",
+    "asset": "home-baking-tin",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one round fluted bundt cake baking tin, empty, warm grey metal, three-quarter view. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "кухонные весы",
+    "asset": "home-kitchen-scales",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one simple kitchen scale with a cream base and a shallow stainless bowl, blank dial face without text or numbers. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "кухонные щипцы",
+    "asset": "home-kitchen-tongs",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one pair of metal kitchen tongs with wooden grips and scalloped tips, slightly open. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "сушилка для посуды",
+    "asset": "home-dish-rack",
+    "group": "Кухня",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one empty compact wooden dish drying rack with parallel slots, no dishes. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ковшик",
+    "asset": "home-bath-dipper",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small pale blue plastic bath dipper, round bowl and a single short handle. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "мыльница",
+    "asset": "home-soap-dish",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one empty oval cream ceramic soap dish with shallow drainage grooves. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "стакан для щёток",
+    "asset": "home-toothbrush-holder",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one ceramic toothbrush cup holding two simple toothbrushes, one blue and one yellow. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "шапочка для душа",
+    "asset": "home-shower-cap",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one soft pink shower cap with an elastic gathered edge and small cream polka dots, no person. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "полотенцесушитель",
+    "asset": "home-towel-warmer",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one compact chrome ladder-shaped heated towel rail, empty, fully visible, no wall. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "пемза",
+    "asset": "home-pumice",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one oval light beige pumice stone with visible porous texture and a small cotton hanging loop. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ватные палочки",
+    "asset": "home-cotton-swabs",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small clear unlabeled jar holding a neat bundle of white cotton swabs with rounded cotton tips. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ватные диски",
+    "asset": "home-cotton-pads",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one short neat stack of round white cotton pads, clearly visible soft layered edges. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "детская ступенька",
+    "asset": "home-step-stool",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one low two-step pale blue child bathroom step stool with cream nonslip treads. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ёршик",
+    "asset": "home-toilet-brush",
+    "group": "Ванная",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one clean white toilet brush standing in a pale blue open holder, bristles visible above the rim. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "валенки",
+    "asset": "home-felt-boots",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one matching pair of traditional grey felt winter boots, rounded toes, no laces, warm wool texture. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "пальто",
+    "asset": "home-overcoat",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one camel brown child wool overcoat with collar, buttons and two pockets, no person or hanger. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "комбинезон",
+    "asset": "home-snowsuit",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one pale blue child winter snowsuit, hood, two sleeves and two trouser legs, no person or hanger. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "панама",
+    "asset": "home-bucket-hat",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one soft yellow cotton bucket hat with a downward brim, no logo. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "шляпа",
+    "asset": "home-straw-hat",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one natural straw sun hat with a broad brim and a plain muted blue ribbon. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ремень",
+    "asset": "home-belt",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one brown leather belt gently coiled, simple silver buckle and clearly visible punched holes. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "кошелёк",
+    "asset": "home-wallet",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small brown leather wallet slightly open, empty, no money or cards. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "обувная щётка",
+    "asset": "home-shoe-brush",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one wooden shoe polishing brush with dense dark bristles, three-quarter view. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ключница",
+    "asset": "home-key-cabinet",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small wooden wall key cabinet with its little door open and three keys hanging on interior hooks, no wall. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "коврик у двери",
+    "asset": "home-doormat",
+    "group": "Прихожая",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one rectangular tan coir doormat with a simple dark border, no writing, three-quarter view. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "календарь",
+    "asset": "home-calendar",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one standing desk calendar, cream paper on a wooden triangle stand, simple faint empty grid with absolutely no text or numbers. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "глобус",
+    "asset": "home-globe",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small classroom globe on a wooden stand, blue oceans and simple accurate green continent shapes, no labels. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "фоторамка",
+    "asset": "home-photo-frame",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small wooden tabletop photo frame containing a simple watercolor flower picture, three-quarter view. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "магнитная доска",
+    "asset": "home-magnetic-board",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small blank white magnetic board with a wooden border and three colorful round magnets in one corner, no writing or letters. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "пенал",
+    "asset": "home-pencil-case",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one blue fabric pencil case partly unzipped showing two pencils, no writing or logos. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "ластик",
+    "asset": "home-eraser",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one simple pink and cream rectangular pencil eraser with softly rounded corners, no paper sleeve or writing. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "точилка",
+    "asset": "home-pencil-sharpener",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one small blue enclosed pencil sharpener with a visible round pencil hole and metal blade, no pencil or shavings. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "линейка",
+    "asset": "home-ruler",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one wooden school ruler with short measurement tick marks but absolutely no numbers or letters. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "пазл",
+    "asset": "home-jigsaw-puzzle",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one simple four-piece wooden jigsaw puzzle forming a red apple on a cream backing tray, one puzzle piece slightly raised. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  },
+  {
+    "name": "копилка",
+    "asset": "home-piggy-bank",
+    "group": "Комната",
+    "status": "new",
+    "prompt": "Use case: illustration-story. Asset type: offline toddler picture card in a Russian picture dictionary. Subject: one pink ceramic piggy bank, coin slot on its back, four short legs, no coins. Warm hand-painted watercolor and gouache children's picture-book illustration, softly textured surfaces, muted natural colors, gentle friendly shapes, readable silhouette. Single isolated main subject centered in a square, completely visible with generous 15 percent empty padding on every side. Genuinely transparent background with alpha. No scene, ground, frame, labels, text, numbers, logos, watermark, extra objects, cropped extremities or extra limbs."
+  }
+]

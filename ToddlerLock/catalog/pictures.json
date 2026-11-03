@@ -3968,5 +3968,965 @@
       "file": "Resources/Speech/home-storage-box.wav",
       "voice": "Kore"
     }
+  },
+  {
+    "asset": "animal-chipmunk",
+    "name": "бурундук",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "бурундук",
+      "file": "Resources/Speech/animal-chipmunk.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-arctic-fox",
+    "name": "песец",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "песец",
+      "file": "Resources/Speech/animal-arctic-fox.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-wolverine",
+    "name": "росомаха",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "росомаха",
+      "file": "Resources/Speech/animal-wolverine.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-mongoose",
+    "name": "мангуст",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "мангуст",
+      "file": "Resources/Speech/animal-mongoose.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-porcupine",
+    "name": "дикобраз",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "дикобраз",
+      "file": "Resources/Speech/animal-porcupine.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-jerboa",
+    "name": "тушканчик",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "тушканчик",
+      "file": "Resources/Speech/animal-jerboa.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-dormouse",
+    "name": "соня",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "соня",
+      "file": "Resources/Speech/animal-dormouse.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-shrew",
+    "name": "землеройка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "землеройка",
+      "file": "Resources/Speech/animal-shrew.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-stoat",
+    "name": "горностай",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "горностай",
+      "file": "Resources/Speech/animal-stoat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-weasel",
+    "name": "ласка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ласка",
+      "file": "Resources/Speech/animal-weasel.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-mink",
+    "name": "норка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "норка",
+      "file": "Resources/Speech/animal-mink.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-coypu",
+    "name": "нутрия",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "нутрия",
+      "file": "Resources/Speech/animal-coypu.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-muskrat",
+    "name": "ондатра",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ондатра",
+      "file": "Resources/Speech/animal-muskrat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-raccoon-dog",
+    "name": "енотовидная собака",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "енотовидная собака",
+      "file": "Resources/Speech/animal-raccoon-dog.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-gibbon",
+    "name": "гиббон",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "гиббон",
+      "file": "Resources/Speech/animal-gibbon.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-gorilla",
+    "name": "горилла",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "горилла",
+      "file": "Resources/Speech/animal-gorilla.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-orangutan",
+    "name": "орангутан",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "орангутан",
+      "file": "Resources/Speech/animal-orangutan.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-chimpanzee",
+    "name": "шимпанзе",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "шимпанзе",
+      "file": "Resources/Speech/animal-chimpanzee.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-coati",
+    "name": "носуха",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "носуха",
+      "file": "Resources/Speech/animal-coati.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-lemur",
+    "name": "лемур",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "лемур",
+      "file": "Resources/Speech/animal-lemur.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-quokka",
+    "name": "квокка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "квокка",
+      "file": "Resources/Speech/animal-quokka.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-wallaby",
+    "name": "валлаби",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "валлаби",
+      "file": "Resources/Speech/animal-wallaby.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-dugong",
+    "name": "дюгонь",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "дюгонь",
+      "file": "Resources/Speech/animal-dugong.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-manatee",
+    "name": "ламантин",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ламантин",
+      "file": "Resources/Speech/animal-manatee.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-narwhal",
+    "name": "нарвал",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "нарвал",
+      "file": "Resources/Speech/animal-narwhal.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-beluga",
+    "name": "белуха",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "белуха",
+      "file": "Resources/Speech/animal-beluga.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-sperm-whale",
+    "name": "кашалот",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "кашалот",
+      "file": "Resources/Speech/animal-sperm-whale.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-orca",
+    "name": "косатка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "косатка",
+      "file": "Resources/Speech/animal-orca.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-jay",
+    "name": "сойка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "сойка",
+      "file": "Resources/Speech/animal-jay.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-seagull",
+    "name": "чайка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "чайка",
+      "file": "Resources/Speech/animal-seagull.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-cormorant",
+    "name": "баклан",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "баклан",
+      "file": "Resources/Speech/animal-cormorant.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-pheasant",
+    "name": "фазан",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "фазан",
+      "file": "Resources/Speech/animal-pheasant.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-guineafowl",
+    "name": "цесарка",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "цесарка",
+      "file": "Resources/Speech/animal-guineafowl.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-capercaillie",
+    "name": "глухарь",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "глухарь",
+      "file": "Resources/Speech/animal-capercaillie.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-hummingbird",
+    "name": "колибри",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "колибри",
+      "file": "Resources/Speech/animal-hummingbird.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-salamander",
+    "name": "саламандра",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "саламандра",
+      "file": "Resources/Speech/animal-salamander.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-newt",
+    "name": "тритон",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "тритон",
+      "file": "Resources/Speech/animal-newt.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-chameleon",
+    "name": "хамелеон",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "хамелеон",
+      "file": "Resources/Speech/animal-chameleon.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-iguana",
+    "name": "игуана",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "игуана",
+      "file": "Resources/Speech/animal-iguana.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "animal-axolotl",
+    "name": "аксолотль",
+    "group": "animals",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "аксолотль",
+      "file": "Resources/Speech/animal-axolotl.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-coffee-maker",
+    "name": "кофеварка",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "кофеварка",
+      "file": "Resources/Speech/home-coffee-maker.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-waffle-maker",
+    "name": "вафельница",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "вафельница",
+      "file": "Resources/Speech/home-waffle-maker.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-multicooker",
+    "name": "мультиварка",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "мультиварка",
+      "file": "Resources/Speech/home-multicooker.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-trivet",
+    "name": "подставка под горячее",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "подставка под горячее",
+      "file": "Resources/Speech/home-trivet.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-sieve",
+    "name": "сито",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "сито",
+      "file": "Resources/Speech/home-sieve.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-baking-tray",
+    "name": "противень",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "противень",
+      "file": "Resources/Speech/home-baking-tray.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-baking-tin",
+    "name": "форма для выпечки",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "форма для выпечки",
+      "file": "Resources/Speech/home-baking-tin.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-kitchen-scales",
+    "name": "кухонные весы",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "кухонные весы",
+      "file": "Resources/Speech/home-kitchen-scales.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-kitchen-tongs",
+    "name": "кухонные щипцы",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "кухонные щипцы",
+      "file": "Resources/Speech/home-kitchen-tongs.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-dish-rack",
+    "name": "сушилка для посуды",
+    "group": "Кухня",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "сушилка для посуды",
+      "file": "Resources/Speech/home-dish-rack.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bath-dipper",
+    "name": "ковшик",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ковшик",
+      "file": "Resources/Speech/home-bath-dipper.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-soap-dish",
+    "name": "мыльница",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "мыльница",
+      "file": "Resources/Speech/home-soap-dish.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-toothbrush-holder",
+    "name": "стакан для щёток",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "стакан для щёток",
+      "file": "Resources/Speech/home-toothbrush-holder.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-shower-cap",
+    "name": "шапочка для душа",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "шапочка для душа",
+      "file": "Resources/Speech/home-shower-cap.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-towel-warmer",
+    "name": "полотенцесушитель",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "полотенцесушитель",
+      "file": "Resources/Speech/home-towel-warmer.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-pumice",
+    "name": "пемза",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "пемза",
+      "file": "Resources/Speech/home-pumice.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-cotton-swabs",
+    "name": "ватные палочки",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ватные палочки",
+      "file": "Resources/Speech/home-cotton-swabs.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-cotton-pads",
+    "name": "ватные диски",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ватные диски",
+      "file": "Resources/Speech/home-cotton-pads.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-step-stool",
+    "name": "детская ступенька",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "детская ступенька",
+      "file": "Resources/Speech/home-step-stool.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-toilet-brush",
+    "name": "ёршик",
+    "group": "Ванная",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ёршик",
+      "file": "Resources/Speech/home-toilet-brush.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-felt-boots",
+    "name": "валенки",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "валенки",
+      "file": "Resources/Speech/home-felt-boots.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-overcoat",
+    "name": "пальто",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "пальто",
+      "file": "Resources/Speech/home-overcoat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-snowsuit",
+    "name": "комбинезон",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "комбинезон",
+      "file": "Resources/Speech/home-snowsuit.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-bucket-hat",
+    "name": "панама",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "панама",
+      "file": "Resources/Speech/home-bucket-hat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-straw-hat",
+    "name": "шляпа",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "шляпа",
+      "file": "Resources/Speech/home-straw-hat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-belt",
+    "name": "ремень",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ремень",
+      "file": "Resources/Speech/home-belt.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-wallet",
+    "name": "кошелёк",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "кошелёк",
+      "file": "Resources/Speech/home-wallet.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-shoe-brush",
+    "name": "обувная щётка",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "обувная щётка",
+      "file": "Resources/Speech/home-shoe-brush.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-key-cabinet",
+    "name": "ключница",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ключница",
+      "file": "Resources/Speech/home-key-cabinet.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-doormat",
+    "name": "коврик у двери",
+    "group": "Прихожая",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "коврик у двери",
+      "file": "Resources/Speech/home-doormat.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-calendar",
+    "name": "календарь",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "календарь",
+      "file": "Resources/Speech/home-calendar.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-globe",
+    "name": "глобус",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "глобус",
+      "file": "Resources/Speech/home-globe.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-photo-frame",
+    "name": "фоторамка",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "фоторамка",
+      "file": "Resources/Speech/home-photo-frame.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-magnetic-board",
+    "name": "магнитная доска",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "магнитная доска",
+      "file": "Resources/Speech/home-magnetic-board.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-pencil-case",
+    "name": "пенал",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "пенал",
+      "file": "Resources/Speech/home-pencil-case.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-eraser",
+    "name": "ластик",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "ластик",
+      "file": "Resources/Speech/home-eraser.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-pencil-sharpener",
+    "name": "точилка",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "точилка",
+      "file": "Resources/Speech/home-pencil-sharpener.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-ruler",
+    "name": "линейка",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "линейка",
+      "file": "Resources/Speech/home-ruler.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-jigsaw-puzzle",
+    "name": "пазл",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "пазл",
+      "file": "Resources/Speech/home-jigsaw-puzzle.wav",
+      "voice": "Kore"
+    }
+  },
+  {
+    "asset": "home-piggy-bank",
+    "name": "копилка",
+    "group": "Комната",
+    "status": "new",
+    "speech": {
+      "status": "generated",
+      "text": "копилка",
+      "file": "Resources/Speech/home-piggy-bank.wav",
+      "voice": "Kore"
+    }
   }
 ]

@@ -13,6 +13,18 @@
       {
         "name": "аист",
         "assetName": "animal-stork"
+      },
+      {
+        "name": "акула",
+        "assetName": "animal-shark"
+      },
+      {
+        "name": "альпака",
+        "assetName": "animal-alpaca"
+      },
+      {
+        "name": "автоцистерна",
+        "assetName": "transport-tanker"
       }
     ]
   },
@@ -30,6 +42,18 @@
       {
         "name": "банан",
         "assetName": "alphabet-banana"
+      },
+      {
+        "name": "бобр",
+        "assetName": "animal-beaver"
+      },
+      {
+        "name": "барсук",
+        "assetName": "animal-badger"
+      },
+      {
+        "name": "бегемот",
+        "assetName": "animal-hippopotamus"
       }
     ]
   },
@@ -47,6 +71,18 @@
       {
         "name": "велосипед",
         "assetName": "transport-bicycle"
+      },
+      {
+        "name": "волк",
+        "assetName": "animal-wolf"
+      },
+      {
+        "name": "верблюд",
+        "assetName": "animal-camel"
+      },
+      {
+        "name": "ворона",
+        "assetName": "animal-crow"
       }
     ]
   },
@@ -64,6 +100,18 @@
       {
         "name": "грузовик",
         "assetName": "transport-truck"
+      },
+      {
+        "name": "голубь",
+        "assetName": "animal-pigeon"
+      },
+      {
+        "name": "гусеница",
+        "assetName": "animal-caterpillar"
+      },
+      {
+        "name": "горшок",
+        "assetName": "home-potty"
       }
     ]
   },
@@ -81,6 +129,18 @@
       {
         "name": "диван",
         "assetName": "alphabet-sofa"
+      },
+      {
+        "name": "дельфин",
+        "assetName": "animal-dolphin"
+      },
+      {
+        "name": "дирижабль",
+        "assetName": "transport-airship"
+      },
+      {
+        "name": "душ",
+        "assetName": "home-shower-head"
       }
     ]
   },
@@ -98,6 +158,18 @@
       {
         "name": "ежевика",
         "assetName": "alphabet-blackberry"
+      },
+      {
+        "name": "единорог",
+        "assetName": "alphabet-unicorn"
+      },
+      {
+        "name": "ехидна",
+        "assetName": "alphabet-echidna"
+      },
+      {
+        "name": "еда",
+        "assetName": "alphabet-food"
       }
     ]
   },
@@ -115,6 +187,18 @@
       {
         "name": "ёрш",
         "assetName": "alphabet-ruffe"
+      },
+      {
+        "name": "мёд",
+        "assetName": "alphabet-honey"
+      },
+      {
+        "name": "свёкла",
+        "assetName": "alphabet-beetroot"
+      },
+      {
+        "name": "самолёт",
+        "assetName": "transport-airplane"
       }
     ]
   },
@@ -132,6 +216,18 @@
       {
         "name": "жаба",
         "assetName": "alphabet-toad"
+      },
+      {
+        "name": "журавль",
+        "assetName": "animal-crane"
+      },
+      {
+        "name": "жук-олень",
+        "assetName": "animal-stag-beetle"
+      },
+      {
+        "name": "жилет",
+        "assetName": "alphabet-vest"
       }
     ]
   },
@@ -149,6 +245,18 @@
       {
         "name": "зонтик",
         "assetName": "home-umbrella"
+      },
+      {
+        "name": "зеркало",
+        "assetName": "home-mirror"
+      },
+      {
+        "name": "зимородок",
+        "assetName": "animal-kingfisher"
+      },
+      {
+        "name": "зарянка",
+        "assetName": "animal-robin"
       }
     ]
   },
@@ -166,6 +274,18 @@
       {
         "name": "изюм",
         "assetName": "alphabet-raisins"
+      },
+      {
+        "name": "игла",
+        "assetName": "alphabet-needle"
+      },
+      {
+        "name": "ирис",
+        "assetName": "alphabet-iris"
+      },
+      {
+        "name": "иволга",
+        "assetName": "alphabet-oriole"
       }
     ]
   },
@@ -183,6 +303,18 @@
       {
         "name": "трамвай",
         "assetName": "transport-tram"
+      },
+      {
+        "name": "канарейка",
+        "assetName": "animal-canary"
+      },
+      {
+        "name": "попугай",
+        "assetName": "animal-parrot"
+      },
+      {
+        "name": "воробей",
+        "assetName": "animal-sparrow"
       }
     ]
   },
@@ -200,6 +332,18 @@
       {
         "name": "корабль",
         "assetName": "transport-ship"
+      },
+      {
+        "name": "кит",
+        "assetName": "animal-whale"
+      },
+      {
+        "name": "коза",
+        "assetName": "animal-goat"
+      },
+      {
+        "name": "кролик",
+        "assetName": "animal-rabbit"
       }
     ]
   },
@@ -217,6 +361,18 @@
       {
         "name": "ложка",
         "assetName": "home-spoon"
+      },
+      {
+        "name": "лось",
+        "assetName": "animal-moose"
+      },
+      {
+        "name": "лама",
+        "assetName": "animal-llama"
+      },
+      {
+        "name": "лягушка",
+        "assetName": "animal-frog"
       }
     ]
   },
@@ -234,6 +390,18 @@
       {
         "name": "медведь",
         "assetName": "animal-bear"
+      },
+      {
+        "name": "муравей",
+        "assetName": "animal-ant"
+      },
+      {
+        "name": "морж",
+        "assetName": "animal-walrus"
+      },
+      {
+        "name": "медуза",
+        "assetName": "animal-jellyfish"
       }
     ]
   },
@@ -251,6 +419,18 @@
       {
         "name": "носки",
         "assetName": "alphabet-socks"
+      },
+      {
+        "name": "ноутбук",
+        "assetName": "home-laptop"
+      },
+      {
+        "name": "наушники",
+        "assetName": "alphabet-headphones"
+      },
+      {
+        "name": "нитки",
+        "assetName": "alphabet-thread"
       }
     ]
   },
@@ -268,6 +448,18 @@
       {
         "name": "огурец",
         "assetName": "alphabet-cucumber"
+      },
+      {
+        "name": "осьминог",
+        "assetName": "animal-octopus"
+      },
+      {
+        "name": "орёл",
+        "assetName": "animal-eagle"
+      },
+      {
+        "name": "обезьяна",
+        "assetName": "animal-monkey"
       }
     ]
   },
@@ -285,6 +477,18 @@
       {
         "name": "подушка",
         "assetName": "home-pillow"
+      },
+      {
+        "name": "петух",
+        "assetName": "animal-rooster"
+      },
+      {
+        "name": "пингвин",
+        "assetName": "animal-penguin"
+      },
+      {
+        "name": "паук",
+        "assetName": "animal-spider"
       }
     ]
   },
@@ -302,6 +506,18 @@
       {
         "name": "расчёска",
         "assetName": "home-comb"
+      },
+      {
+        "name": "рак",
+        "assetName": "animal-crayfish"
+      },
+      {
+        "name": "рысь",
+        "assetName": "animal-lynx"
+      },
+      {
+        "name": "раковина",
+        "assetName": "home-sink"
       }
     ]
   },
@@ -319,6 +535,18 @@
       {
         "name": "самокат",
         "assetName": "transport-scooter"
+      },
+      {
+        "name": "сова",
+        "assetName": "animal-owl"
+      },
+      {
+        "name": "сорока",
+        "assetName": "animal-magpie"
+      },
+      {
+        "name": "стакан",
+        "assetName": "home-glass"
       }
     ]
   },
@@ -336,6 +564,18 @@
       {
         "name": "тарелка",
         "assetName": "home-plate"
+      },
+      {
+        "name": "такси",
+        "assetName": "transport-taxi"
+      },
+      {
+        "name": "термос",
+        "assetName": "home-thermos"
+      },
+      {
+        "name": "тетрадь",
+        "assetName": "home-notebook"
       }
     ]
   },
@@ -353,6 +593,18 @@
       {
         "name": "утюг",
         "assetName": "alphabet-iron"
+      },
+      {
+        "name": "удод",
+        "assetName": "animal-hoopoe"
+      },
+      {
+        "name": "утконос",
+        "assetName": "animal-platypus"
+      },
+      {
+        "name": "унитаз",
+        "assetName": "home-toilet"
       }
     ]
   },
@@ -370,6 +622,18 @@
       {
         "name": "фонарь",
         "assetName": "alphabet-lantern"
+      },
+      {
+        "name": "фартук",
+        "assetName": "home-apron"
+      },
+      {
+        "name": "фен",
+        "assetName": "home-hair-dryer"
+      },
+      {
+        "name": "футболка",
+        "assetName": "home-tshirt"
       }
     ]
   },
@@ -387,6 +651,18 @@
       {
         "name": "холодильник",
         "assetName": "home-fridge"
+      },
+      {
+        "name": "халат",
+        "assetName": "home-bathrobe"
+      },
+      {
+        "name": "хорёк",
+        "assetName": "animal-ferret"
+      },
+      {
+        "name": "хлебница",
+        "assetName": "home-bread-box"
       }
     ]
   },
@@ -404,6 +680,18 @@
       {
         "name": "цирк",
         "assetName": "alphabet-circus"
+      },
+      {
+        "name": "цапля",
+        "assetName": "animal-heron"
+      },
+      {
+        "name": "цепочка",
+        "assetName": "alphabet-chain"
+      },
+      {
+        "name": "цукини",
+        "assetName": "alphabet-zucchini"
       }
     ]
   },
@@ -421,6 +709,18 @@
       {
         "name": "черепаха",
         "assetName": "animal-turtle"
+      },
+      {
+        "name": "чайник",
+        "assetName": "home-kettle"
+      },
+      {
+        "name": "чемодан",
+        "assetName": "home-suitcase"
+      },
+      {
+        "name": "черпак",
+        "assetName": "home-ladle"
       }
     ]
   },
@@ -438,6 +738,18 @@
       {
         "name": "шкаф",
         "assetName": "alphabet-wardrobe"
+      },
+      {
+        "name": "шмель",
+        "assetName": "animal-bumblebee"
+      },
+      {
+        "name": "шиншилла",
+        "assetName": "animal-chinchilla"
+      },
+      {
+        "name": "шторы",
+        "assetName": "home-curtains"
       }
     ]
   },
@@ -455,6 +767,18 @@
       {
         "name": "щенок",
         "assetName": "alphabet-puppy"
+      },
+      {
+        "name": "прищепка",
+        "assetName": "home-clothespin"
+      },
+      {
+        "name": "плащ",
+        "assetName": "alphabet-raincoat"
+      },
+      {
+        "name": "щётка для волос",
+        "assetName": "home-hairbrush"
       }
     ]
   },
@@ -472,6 +796,18 @@
       {
         "name": "подъёмный кран",
         "assetName": "transport-crane-truck"
+      },
+      {
+        "name": "съёмка",
+        "assetName": "alphabet-photography"
+      },
+      {
+        "name": "объятия",
+        "assetName": "alphabet-hug"
+      },
+      {
+        "name": "съедобный гриб",
+        "assetName": "alphabet-mushroom"
       }
     ]
   },
@@ -489,6 +825,18 @@
       {
         "name": "рыба",
         "assetName": "animal-goldfish"
+      },
+      {
+        "name": "выдра",
+        "assetName": "animal-otter"
+      },
+      {
+        "name": "мыло",
+        "assetName": "home-soap"
+      },
+      {
+        "name": "тыква",
+        "assetName": "alphabet-pumpkin"
       }
     ]
   },
@@ -506,6 +854,18 @@
       {
         "name": "тюлень",
         "assetName": "animal-seal"
+      },
+      {
+        "name": "лось",
+        "assetName": "animal-moose"
+      },
+      {
+        "name": "северный олень",
+        "assetName": "animal-reindeer"
+      },
+      {
+        "name": "шмель",
+        "assetName": "animal-bumblebee"
       }
     ]
   },
@@ -523,6 +883,18 @@
       {
         "name": "эскимо",
         "assetName": "alphabet-ice-cream"
+      },
+      {
+        "name": "эму",
+        "assetName": "alphabet-emu"
+      },
+      {
+        "name": "эвакуатор",
+        "assetName": "transport-tow-truck"
+      },
+      {
+        "name": "электричка",
+        "assetName": "transport-subway-train"
       }
     ]
   },
@@ -540,6 +912,18 @@
       {
         "name": "юрта",
         "assetName": "alphabet-yurt"
+      },
+      {
+        "name": "изюм",
+        "assetName": "alphabet-raisins"
+      },
+      {
+        "name": "люстра",
+        "assetName": "alphabet-chandelier"
+      },
+      {
+        "name": "верблюд",
+        "assetName": "animal-camel"
       }
     ]
   },
@@ -557,6 +941,18 @@
       {
         "name": "ягоды",
         "assetName": "alphabet-berries"
+      },
+      {
+        "name": "як",
+        "assetName": "animal-yak"
+      },
+      {
+        "name": "ящерица",
+        "assetName": "alphabet-lizard"
+      },
+      {
+        "name": "ящик",
+        "assetName": "alphabet-box"
       }
     ]
   }

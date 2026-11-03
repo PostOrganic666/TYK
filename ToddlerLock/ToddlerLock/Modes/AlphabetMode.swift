@@ -7,7 +7,7 @@ final class AlphabetMode: PlayMode {
     var spriteScene: SKScene? { scene }
     var contentView: NSView? { nil }
 
-    private var progress = AlphabetProgress()
+    private var progress = AlphabetProgress(exampleCounts: AlphabetCards.examples.map { $0.count })
     private let letterNode = SKLabelNode(fontNamed: "AvenirNext-Heavy")
     private let noteNode = SKLabelNode(fontNamed: "AvenirNext-Medium")
     private let hintNode = SKLabelNode(fontNamed: "AvenirNext-Medium")
@@ -52,7 +52,7 @@ final class AlphabetMode: PlayMode {
             showLetter()
             RussianSpeech.shared.speak(progress.letter.alphabetSpokenName)
         } else {
-            let picture = AlphabetCards.examples[progress.letterIndex][progress.stage - 1]
+            let picture = AlphabetCards.examples[progress.letterIndex][progress.pictureIndices[progress.stage - 1]]
             addCard(picture, at: progress.stage - 1)
             RussianSpeech.shared.speak(picture.name)
         }
@@ -66,9 +66,11 @@ final class AlphabetMode: PlayMode {
         letterNode.removeAllActions()
         letterNode.alpha = 0
         letterNode.run(.fadeIn(withDuration: 0.22))
+        let examples = progress.pictureIndices.map { AlphabetCards.examples[progress.letterIndex][$0] }
         noteNode.text = ["Ъ", "Ь", "Ы"].contains(glyph)
             ? "Находим букву внутри слова"
-            : glyph == "Й" ? "В начале и внутри слова" : nil
+            : examples.contains { !$0.name.uppercased().hasPrefix(glyph) }
+                ? "В начале и внутри слова" : nil
     }
 
     private func addCard(_ picture: StorybookPicture, at index: Int) {

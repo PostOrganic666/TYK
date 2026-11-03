@@ -178,5 +178,110 @@
     "name": "ягоды",
     "asset": "alphabet-berries",
     "subject": "a cluster of strawberries raspberries and blueberries with one leaf"
+  },
+  {
+    "name": "единорог",
+    "asset": "alphabet-unicorn",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one friendly little white unicorn, full body, short golden horn, soft pastel mane. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "ехидна",
+    "asset": "alphabet-echidna",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one friendly echidna, short beige spines, long narrow snout, four short legs, full body. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "еда",
+    "asset": "alphabet-food",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one simple ceramic plate holding a wholesome meal of mashed potato, carrot and peas; plate is the single main subject. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "мёд",
+    "asset": "alphabet-honey",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one open clear glass jar filled with golden honey, with a wooden honey dipper resting across its rim; no label. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "свёкла",
+    "asset": "alphabet-beetroot",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one fresh round dark red beetroot with a small attached bunch of green leaves. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "игла",
+    "asset": "alphabet-needle",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one large blunt sewing needle with a wide clearly visible eye and a small loop of red thread. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "ирис",
+    "asset": "alphabet-iris",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one purple iris flower on a green stem with two leaves. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "иволга",
+    "asset": "alphabet-oriole",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one golden oriole bird, bright golden yellow body and black wings, perched with feet visible, full body. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "жилет",
+    "asset": "alphabet-vest",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one sleeveless quilted teal vest, front view, zipper and two pockets, no body or hanger. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "наушники",
+    "asset": "alphabet-headphones",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one pair of simple padded over-ear headphones in muted blue. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "нитки",
+    "asset": "alphabet-thread",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one wooden spool wound with red sewing thread, short loose end. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "цепочка",
+    "asset": "alphabet-chain",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one simple golden chain in a loose oval, large clearly visible interlocking oval links, no pendant. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "цукини",
+    "asset": "alphabet-zucchini",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one fresh dark green zucchini with a short stem. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "плащ",
+    "asset": "alphabet-raincoat",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one yellow hooded raincoat, front view with sleeves and buttons, no person or hanger. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "съёмка",
+    "asset": "alphabet-photography",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one friendly simple camera on a small three-legged tripod, lens pointing slightly left; camera is the single main subject. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "объятия",
+    "asset": "alphabet-hug",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: two friendly small teddy bears warmly hugging each other, paws visibly wrapped around each other, full bodies visible as one connected subject. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "тыква",
+    "asset": "alphabet-pumpkin",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one round orange pumpkin with a short green stem, no carved face. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "эму",
+    "asset": "alphabet-emu",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one friendly emu bird, fluffy brown plumage, long slender neck and two long legs, full body. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "люстра",
+    "asset": "alphabet-chandelier",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one simple warm brass hanging chandelier with three small cream lampshades, short hanging chain, fully visible. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "ящерица",
+    "asset": "alphabet-lizard",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one friendly small green lizard with exactly four legs and a long curved tail, full body. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
+  },
+  {
+    "name": "ящик",
+    "asset": "alphabet-box",
+    "prompt": "Use case: illustration-story. Asset type: offline Russian alphabet picture card for toddlers. Subject: one open wooden storage crate with slatted sides and two hand holes, three-quarter view, empty. Warm hand-painted watercolor and gouache children's picture-book illustration, textured natural surfaces, muted colors, gentle shapes matching a classic animal picture dictionary. Single isolated subject centered in square composition, fully visible with 15 percent empty padding on all sides. Truly transparent background with alpha. No scenery, frame, text, letters, numbers, watermark, or extra objects."
   }
 ]

@@ -22,8 +22,9 @@ def validate_alphabet(root, require_resources=False):
         raise ValueError('Alphabet catalogue must contain all 33 letters in order')
     expected = []
     for card in cards:
-        if len(card['pictures']) != 3 or len({p['name'] for p in card['pictures']}) != 3:
-            raise ValueError('Each letter needs three distinct examples')
+        if (len(card['pictures']) != 6 or len({p['name'] for p in card['pictures']}) != 6
+                or len({p['assetName'] for p in card['pictures']}) != 6):
+            raise ValueError('Each letter needs six distinct examples and pictures')
         for picture in card['pictures']:
             if card['glyph'].lower() not in picture['name'].lower():
                 raise ValueError('Example does not contain its letter: ' + picture['name'])

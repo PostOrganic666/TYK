@@ -8,7 +8,7 @@ from generate_speech import validate_alphabet
 root = Path(__file__).resolve().parents[1]
 validate_alphabet(root, require_resources=True)
 assets = json.loads((root / 'catalog/alphabet-assets.json').read_text())
-assert len(assets) == 36 and len({item['asset'] for item in assets}) == 36
+assert len(assets) == 57 and len({item['asset'] for item in assets}) == 57
 files = list((root / 'ToddlerLock/Resources/Alphabet').glob('*.png'))
 assert {path.stem for path in files} == {item['asset'] for item in assets}
 for path in files:
@@ -23,4 +23,4 @@ index = json.loads((root / 'ToddlerLock/Resources/Speech/speech-index.json').rea
 for card in json.loads((root / 'catalog/alphabet.json').read_text()):
     for picture in card['pictures']:
         assert picture['name'] in index, picture
-print('OK: 33 letters, 99 examples, 36 new transparent images, all words have Kore recordings')
+print('OK: 33 letters, 198 examples, 57 transparent alphabet images, all words have Kore recordings')

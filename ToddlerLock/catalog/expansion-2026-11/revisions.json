@@ -1,0 +1,119 @@
+[
+  {
+    "asset": "animal-orca",
+    "name": "косатка",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-orca-v2.png",
+    "originalFile": "originals/animal-orca.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult killer whale, long powerful streamlined black and white body, small natural eye, white eye patch behind eye, grey saddle behind tall dorsal fin, rounded pectoral paddles and horizontal tail flukes, adult proportions, closed natural jaw. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-narwhal",
+    "name": "нарвал",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-narwhal-v2.png",
+    "originalFile": "originals/animal-narwhal.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult male narwhal in horizontal side profile, elongated grey-white mottled body, rounded forehead, small eye, short flippers, no dorsal fin, horizontal tail flukes; one long ivory spiral tusk emerging from the left upper JAW at the mouth and pointing straight FORWARD along the body axis, not upward from the forehead; include the entire tusk with empty space beyond its tip. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-seal",
+    "name": "тюлень",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-seal-v2.png",
+    "originalFile": "revisions/before-animal-seal.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult harbor seal lying naturally on its belly in a low resting pose, elongated spotted grey body, small round head, whiskered short muzzle, small dark natural eyes, no external ear flaps, two SHORT foreflippers at the sides and paired rear flippers extending backward; not a sea lion standing on long forelimbs. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-dugong",
+    "name": "дюгонь",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-dugong-v2.png",
+    "originalFile": "originals/animal-dugong.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult dugong swimming in side profile, long grey fusiform body, strongly downturned blunt grazing muzzle, tiny eye, two short paddle foreflippers, no dorsal fin, narrow tail stock with horizontal whale-like pointed flukes; tail fully visible. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-manatee",
+    "name": "ламантин",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-manatee-v2.png",
+    "originalFile": "originals/animal-manatee.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult manatee swimming in horizontal side profile, long broad grey barrel-shaped body, small head with almost no neck, bristly broad divided upper lip, tiny natural eye, two short foreflippers and a large ROUND paddle-shaped tail, not whale flukes; full tail visible. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-beluga",
+    "name": "белуха",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-beluga-v2.png",
+    "originalFile": "originals/animal-beluga.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult white beluga whale swimming in side profile, long supple body, prominent rounded melon forehead, small dark eye, short broad pectoral flippers, no dorsal fin, low dorsal ridge, narrow tail stock and horizontal flukes; natural closed mouth, no baby face. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-sperm-whale",
+    "name": "кашалот",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-sperm-whale-v2.png",
+    "originalFile": "originals/animal-sperm-whale.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult sperm whale in horizontal side profile, long dark slate-grey wrinkled body, large rectangular head about one third of full body length, small narrow lower jaw, small eye low near rear of head, two short foreflippers, low dorsal hump and horizontal tail flukes; natural closed mouth. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-dolphin",
+    "name": "дельфин",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-dolphin-v2.png",
+    "originalFile": "revisions/before-animal-dolphin.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult bottlenose dolphin swimming in side profile, sleek long grey body and lighter underside, narrow defined beak and rounded forehead, small dark natural eye, curved dorsal fin, swept-back pectoral flippers, narrow tail stock and horizontal tail flukes; subtle closed mouth line without tongue or grin. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-whale",
+    "name": "кит",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-whale-v2.png",
+    "originalFile": "revisions/before-animal-whale.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult blue whale in horizontal side profile, very long blue-grey mottled body, broad flat gently rounded head, small dark eye, pale underside with subtle throat pleats, two slender pectoral flippers, very small dorsal fin far back and horizontal tail flukes; no water spout or baby proportions. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-manta-ray",
+    "name": "скат",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-manta-ray-v2.png",
+    "originalFile": "revisions/before-animal-manta-ray.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: adult manta ray in slight three-quarter DORSAL view, flat broad diamond-shaped dark grey back and two long pointed wing-like pectoral fins spread symmetrically, small eyes on outer sides near front of head, two short forward cephalic lobes curled slightly outward, long thin whip tail, no sting barb; no human face on belly. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-chameleon",
+    "name": "хамелеон",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-chameleon-v2.png",
+    "originalFile": "originals/animal-chameleon.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: real chameleon in side view, elongated arched green body with subtle yellow bands, small angular head and modest casque, turret-shaped eyes with tiny pupils, exactly four slender bent legs with opposed gripping toe bundles, long tail coiled in clear spiral, neutral closed mouth, no branch. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-axolotl",
+    "name": "аксолотль",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-axolotl-v2.png",
+    "originalFile": "originals/animal-axolotl.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: pale pink axolotl swimming in side-three-quarter view, elongated slender body, broad flat head with small simple black eyes, THREE feathery external gill stalks on EACH side, exactly four delicate short legs and long flattened finned tail, natural nearly straight closed mouth. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  },
+  {
+    "asset": "animal-dormouse",
+    "name": "соня",
+    "group": "animals",
+    "status": "revised",
+    "sourceFile": "revisions/animal-dormouse-v2.png",
+    "originalFile": "originals/animal-dormouse.png",
+    "prompt": "Use case: illustration-story. Create a new replacement picture card for a Russian toddler natural-history dictionary. Subject: golden hazel dormouse in side-three-quarter view standing on exactly four small paws, SLENDER golden-brown mouse-like body, naturally sized rounded ears and dark eyes, whiskers, LONG FLUFFY TAIL extended left away from torso with a clear transparent gap, distinguishable from a round hamster, neutral closed mouth. Style: carefully observed watercolor and gouache natural-history book illustration, warm gentle mood, softly textured natural surfaces and authentic muted colors. Anatomically plausible adult proportions, instantly recognizable silhouette, calm animal rather than a toy. Small natural eyes and natural expression. Entire animal, every tail, limb, flipper and tusk completely inside the image with at least 12 percent empty transparent padding beyond ALL extremities; use landscape composition for long animals. Genuinely transparent background with alpha and clean edges. No background wash, glow, shadow haze, scene, water, splashes, ground, text, labels, numbers, logos, watermark, oversized eyes, rosy cheeks, eyebrows, human smiles, exposed tongue, extra limbs or cropping."
+  }
+]

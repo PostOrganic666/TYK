@@ -41,8 +41,8 @@ def main():
             bbox = alpha.point(lambda value: 255 if value >= 16 else 0).getbbox()
             assert bbox and min(bbox[:2]) >= 30 and max(bbox[2:]) <= 482, f'Clipped: {path}'
     counts = Counter(entry['group'] for entry in entries)
-    expected_counts = {'animals': 140, 'transport': 50, 'Кухня': 40,
-                       'Ванная': 29, 'Прихожая': 27, 'Комната': 34}
+    expected_counts = {'animals': 180, 'transport': 50, 'Кухня': 50,
+                       'Ванная': 39, 'Прихожая': 37, 'Комната': 44}
     group_collection = {'Кухня': 'household', 'Ванная': 'household',
                         'Прихожая': 'household', 'Комната': 'household'}
     if args.collection:
